@@ -20,21 +20,12 @@
   <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
   
     
-      <script type="text/javascript">
-          var DOCUMENTATION_OPTIONS = {
-              URL_ROOT:'../',
-              VERSION:'5.0',
-              LANGUAGE:'None',
-              COLLAPSE_INDEX:false,
-              FILE_SUFFIX:'.html',
-              HAS_SOURCE:  true,
-              SOURCELINK_SUFFIX: '.txt'
-          };
-      </script>
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
         <script type="text/javascript" src="../_static/jquery.js"></script>
         <script type="text/javascript" src="../_static/underscore.js"></script>
         <script type="text/javascript" src="../_static/doctools.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
     <script type="text/javascript" src="../_static/js/theme.js"></script>
 
@@ -202,13 +193,13 @@
             
   <div class="section" id="sampling-problem">
 <span id="id1"></span><h1>Sampling problem<a class="headerlink" href="#sampling-problem" title="Permalink to this headline">¶</a></h1>
-<p>The sampling problem (<code class="docutils literal"><span class="pre">SamplingProblem</span></code>) defines a class of kinematic problems that do not require any cost function. Each state is evaluated for validity but not for quality.
+<p>The sampling problem (<code class="docutils literal notranslate"><span class="pre">SamplingProblem</span></code>) defines a class of kinematic problems that do not require any cost function. Each state is evaluated for validity but not for quality.
 This is formalised as:</p>
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\underset{\boldsymbol{x}}{\arg}~f(\boldsymbol{x})=\text{True}\]</div>
 <p>We refer to a problem with binary variables as a sampling problem because randomized or another type of sampling is required to solve them. These types of problems often cannot be easily solved by numerical optimization because their constraints are not differentiable.</p>
 <p>In EXOTica, we support both equality (task maps that evaluate to zero for validity) and inequality (task maps that have to evaluate to less than zero for validity) constraints for sampling problems. As sampling on constraint manifolds is a problem, we support setting tolerances for equality and inequality constraints in sampling problems.</p>
-<p>This type of problem also requires a goal configuration <span class="math">\(\boldsymbol{x}^*\)</span>. The objective of the solvers is to compute a valid (feasible) trajectory from the start state to the goal state. The validity of each state (and the itermediate states) is checked by applying a threshold <span class="math">\(\epsilon\)</span> on the output of the task map: <span class="math">\(\rho_i(\Phi_i(\boldsymbol{x})-\boldsymbol{y}^*_i)&lt;\epsilon\)</span>. The output trajectory is not indexed on time and the number of configurations may vary between solutions. This type of planning problem is used with sampling-based motion solvers.</p>
+<p>This type of problem also requires a goal configuration <span class="math notranslate nohighlight">\(\boldsymbol{x}^*\)</span>. The objective of the solvers is to compute a valid (feasible) trajectory from the start state to the goal state. The validity of each state (and the itermediate states) is checked by applying a threshold <span class="math notranslate nohighlight">\(\epsilon\)</span> on the output of the task map: <span class="math notranslate nohighlight">\(\rho_i(\Phi_i(\boldsymbol{x})-\boldsymbol{y}^*_i)&lt;\epsilon\)</span>. The output trajectory is not indexed on time and the number of configurations may vary between solutions. This type of planning problem is used with sampling-based motion solvers.</p>
 </div>
 
 
@@ -231,7 +222,7 @@ This is formalised as:</p>
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2018, Vladimir Ivan, Yiming Yang, Wolfgang Merkt, Michael Camilleri, Sethu Vijayakumar - and contributors
+        &copy; Copyright 2019, Vladimir Ivan, Yiming Yang, Wolfgang Merkt, Michael Camilleri, Sethu Vijayakumar - and contributors
 
     </p>
   </div>

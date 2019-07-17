@@ -20,21 +20,12 @@
   <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
   
     
-      <script type="text/javascript">
-          var DOCUMENTATION_OPTIONS = {
-              URL_ROOT:'../',
-              VERSION:'5.0',
-              LANGUAGE:'None',
-              COLLAPSE_INDEX:false,
-              FILE_SUFFIX:'.html',
-              HAS_SOURCE:  true,
-              SOURCELINK_SUFFIX: '.txt'
-          };
-      </script>
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
         <script type="text/javascript" src="../_static/jquery.js"></script>
         <script type="text/javascript" src="../_static/underscore.js"></script>
         <script type="text/javascript" src="../_static/doctools.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
     <script type="text/javascript" src="../_static/js/theme.js"></script>
 
@@ -208,9 +199,9 @@
   <div class="section" id="center-of-mass">
 <span id="com"></span><h1>Center of mass<a class="headerlink" href="#center-of-mass" title="Permalink to this headline">¶</a></h1>
 <p>Center of mass task map computes the center-of-mass of all of the robot links defined in the system model:</p>
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\Phi_\text{CoM}(\boldsymbol{x}) = \sum_i(\boldsymbol{P}_{\text{CoM}_i}^\text{world}m_i),\]</div>
-<p>where <span class="math">\(\boldsymbol{P}_{\text{CoM}_i}^\text{world}\)</span> is the position of the center-of-mass of the <span class="math">\(i\)</span>-th link w.r.t. the world frame, and <span class="math">\(m_i\)</span> is mass of the <span class="math">\(i\)</span>-th body. The Jacobian is computed using the chain rule. This task map can also be initialized to compute the projection of the center-of-mass on the <span class="math">\(xy\)</span>-plane. In this case, the <span class="math">\(z\)</span>-component is removed.</p>
+<p>where <span class="math notranslate nohighlight">\(\boldsymbol{P}_{\text{CoM}_i}^\text{world}\)</span> is the position of the center-of-mass of the <span class="math notranslate nohighlight">\(i\)</span>-th link w.r.t. the world frame, and <span class="math notranslate nohighlight">\(m_i\)</span> is mass of the <span class="math notranslate nohighlight">\(i\)</span>-th body. The Jacobian is computed using the chain rule. This task map can also be initialized to compute the projection of the center-of-mass on the <span class="math notranslate nohighlight">\(xy\)</span>-plane. In this case, the <span class="math notranslate nohighlight">\(z\)</span>-component is removed.</p>
 </div>
 
 
@@ -233,7 +224,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2018, Vladimir Ivan, Yiming Yang, Wolfgang Merkt, Michael Camilleri, Sethu Vijayakumar - and contributors
+        &copy; Copyright 2019, Vladimir Ivan, Yiming Yang, Wolfgang Merkt, Michael Camilleri, Sethu Vijayakumar - and contributors
 
     </p>
   </div>

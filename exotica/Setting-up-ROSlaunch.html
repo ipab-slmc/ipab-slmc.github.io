@@ -20,21 +20,12 @@
   <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
   
     
-      <script type="text/javascript">
-          var DOCUMENTATION_OPTIONS = {
-              URL_ROOT:'./',
-              VERSION:'5.0',
-              LANGUAGE:'None',
-              COLLAPSE_INDEX:false,
-              FILE_SUFFIX:'.html',
-              HAS_SOURCE:  true,
-              SOURCELINK_SUFFIX: '.txt'
-          };
-      </script>
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
         <script type="text/javascript" src="_static/jquery.js"></script>
         <script type="text/javascript" src="_static/underscore.js"></script>
         <script type="text/javascript" src="_static/doctools.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
@@ -204,7 +195,7 @@ your URDF and SRDF files and keeping everything together much easier.</p>
 <a class="reference external" href="https://github.com/ipab-slmc/exotica/blob/master/exotica_examples/launch/cpp_init_generic.launch">here</a>
 and seen below, there are a few essential elements to constructing an EXOTica
 ROSlaunch file.</p>
-<div class="highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;launch&gt;</span>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;launch&gt;</span>
 
     <span class="nt">&lt;arg</span> <span class="na">name=</span><span class="s">&quot;debug&quot;</span> <span class="na">default=</span><span class="s">&quot;false&quot;</span> <span class="nt">/&gt;</span>
     <span class="nt">&lt;arg</span> <span class="na">unless=</span><span class="s">&quot;$(arg debug)&quot;</span> <span class="na">name=</span><span class="s">&quot;launch_prefix&quot;</span> <span class="na">value=</span><span class="s">&quot;&quot;</span> <span class="nt">/&gt;</span>
@@ -225,15 +216,15 @@ ROSlaunch file.</p>
 <h2>Debug Param<a class="headerlink" href="#debug-param" title="Permalink to this headline">¶</a></h2>
 <p>EXOTica looks for the “debug” rosparam. Here we set the default
 value to false. This can be changed according to your needs.</p>
-<div class="highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;arg</span> <span class="na">name=</span><span class="s">&quot;debug&quot;</span> <span class="na">default=</span><span class="s">&quot;false&quot;</span> <span class="nt">/&gt;</span>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;arg</span> <span class="na">name=</span><span class="s">&quot;debug&quot;</span> <span class="na">default=</span><span class="s">&quot;false&quot;</span> <span class="nt">/&gt;</span>
 <span class="nt">&lt;arg</span> <span class="na">unless=</span><span class="s">&quot;$(arg debug)&quot;</span> <span class="na">name=</span><span class="s">&quot;launch_prefix&quot;</span> <span class="na">value=</span><span class="s">&quot;&quot;</span> <span class="nt">/&gt;</span>
 <span class="nt">&lt;arg</span> <span class="na">if=</span><span class="s">&quot;$(arg debug)&quot;</span> <span class="na">name=</span><span class="s">&quot;launch_prefix&quot;</span> <span class="na">value=</span><span class="s">&quot;xterm -e gdb --args&quot;</span> <span class="nt">/&gt;</span>
 </pre></div>
 </div>
 <p>The line after instructs ROSlaunch to change the value of debug if we
-specify the arg name <code class="docutils literal"><span class="pre">debug</span></code> when launching the file in the terminal.
+specify the arg name <code class="docutils literal notranslate"><span class="pre">debug</span></code> when launching the file in the terminal.
 This will look like this:</p>
-<div class="highlight-shell"><div class="highlight"><pre><span></span>roslaunch exotica_examples ManualInitialization.launch debug:<span class="o">=</span><span class="nb">true</span>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>roslaunch exotica_examples ManualInitialization.launch debug:<span class="o">=</span><span class="nb">true</span>
 </pre></div>
 </div>
 <p>Finally, we specify the debug terminal to be launched. Here we use
@@ -242,38 +233,38 @@ xterm, but can be changed accordingly.</p>
 <div class="section" id="urdf-and-srdf-specification">
 <h2>URDF and SRDF specification<a class="headerlink" href="#urdf-and-srdf-specification" title="Permalink to this headline">¶</a></h2>
 <p>In the example launch file, we see two parameters specified:
-<code class="docutils literal"><span class="pre">robot_description</span></code> and <code class="docutils literal"><span class="pre">robot_description_semantic</span></code>. These are the
+<code class="docutils literal notranslate"><span class="pre">robot_description</span></code> and <code class="docutils literal notranslate"><span class="pre">robot_description_semantic</span></code>. These are the
 locations from which EXOTica reads the file names for the URDF and SRDF
 files respectively. These parameter names are fixed and the file names
 should be attached to these exact names.</p>
-<div class="highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">&quot;robot_description&quot;</span> <span class="na">textfile=</span><span class="s">&quot;$(find exotica_examples)/resources/lwr_simplified.urdf&quot;</span> <span class="nt">/&gt;</span>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">&quot;robot_description&quot;</span> <span class="na">textfile=</span><span class="s">&quot;$(find exotica_examples)/resources/lwr_simplified.urdf&quot;</span> <span class="nt">/&gt;</span>
 <span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">&quot;robot_description_semantic&quot;</span> <span class="na">textfile=</span><span class="s">&quot;$(find exotica_examples)/resources/lwr_simplified.srdf&quot;</span> <span class="nt">/&gt;</span>
 </pre></div>
 </div>
-<p>Here the file names are expressed via ROS packages (<code class="docutils literal"><span class="pre">$(find</span> <span class="pre">exotica_examples)</span></code>).
+<p>Here the file names are expressed via ROS packages (<code class="docutils literal notranslate"><span class="pre">$(find</span> <span class="pre">exotica_examples)</span></code>).
 If your robot description files are not stored in ROS package, the
-absolute file name can also be used <code class="docutils literal"><span class="pre">&quot;file:///home/username/path/path/robot_name.srdf&quot;</span></code>
+absolute file name can also be used <code class="docutils literal notranslate"><span class="pre">&quot;file:///home/username/path/path/robot_name.srdf&quot;</span></code>
 though this is not recommended</p>
 </div>
 <div class="section" id="specify-exotica-code-location">
 <h2>Specify EXOTica code location<a class="headerlink" href="#specify-exotica-code-location" title="Permalink to this headline">¶</a></h2>
 <p>We must then direct the ROSlaunch file to EXOTica code that we made
 earlier in the tutorial.</p>
-<div class="highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;node</span> <span class="na">launch-prefix=</span><span class="s">&quot;$(arg launch_prefix)&quot;</span> <span class="na">pkg=</span><span class="s">&quot;exotica_examples&quot;</span> <span class="na">type=</span><span class="s">&quot;ManualInitialization&quot;</span> <span class="na">name=</span><span class="s">&quot;ExoticaManualInitializationExampleNode&quot;</span> <span class="na">output=</span><span class="s">&quot;screen&quot;</span> <span class="nt">/&gt;</span>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;node</span> <span class="na">launch-prefix=</span><span class="s">&quot;$(arg launch_prefix)&quot;</span> <span class="na">pkg=</span><span class="s">&quot;exotica_examples&quot;</span> <span class="na">type=</span><span class="s">&quot;ManualInitialization&quot;</span> <span class="na">name=</span><span class="s">&quot;ExoticaManualInitializationExampleNode&quot;</span> <span class="na">output=</span><span class="s">&quot;screen&quot;</span> <span class="nt">/&gt;</span>
 </pre></div>
 </div>
 <p>To do this, we specify the package in which you put your
-EXOTica code. Here we stored it in the <code class="docutils literal"><span class="pre">exotica_examples</span></code> package. In
-the <code class="docutils literal"><span class="pre">type</span></code> argument, we specify the name of the EXOTica code that we
-assigned to it in the <code class="docutils literal"><span class="pre">CMakeLists.txt</span></code> file. Here, we saved it under
-<code class="docutils literal"><span class="pre">ManualInitialization</span></code>, so that’s what we specify here.</p>
+EXOTica code. Here we stored it in the <code class="docutils literal notranslate"><span class="pre">exotica_examples</span></code> package. In
+the <code class="docutils literal notranslate"><span class="pre">type</span></code> argument, we specify the name of the EXOTica code that we
+assigned to it in the <code class="docutils literal notranslate"><span class="pre">CMakeLists.txt</span></code> file. Here, we saved it under
+<code class="docutils literal notranslate"><span class="pre">ManualInitialization</span></code>, so that’s what we specify here.</p>
 <p>Finally, give your code a rosnode name; here we use “ExoticaManualInitializationExampleNode”</p>
 </div>
 <div class="section" id="starting-rviz">
 <h2>Starting RVIZ<a class="headerlink" href="#starting-rviz" title="Permalink to this headline">¶</a></h2>
 <p>We can also start RVIZ from here and direct it to a specific .rviz save
 file:</p>
-<div class="highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;node</span> <span class="na">name=</span><span class="s">&quot;rviz&quot;</span> <span class="na">pkg=</span><span class="s">&quot;rviz&quot;</span> <span class="na">type=</span><span class="s">&quot;rviz&quot;</span> <span class="na">respawn=</span><span class="s">&quot;false&quot;</span>    <span class="na">args=</span><span class="s">&quot;-d $(find exotica_examples)/resources/rviz.rviz&quot;</span> <span class="nt">/&gt;</span>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;node</span> <span class="na">name=</span><span class="s">&quot;rviz&quot;</span> <span class="na">pkg=</span><span class="s">&quot;rviz&quot;</span> <span class="na">type=</span><span class="s">&quot;rviz&quot;</span> <span class="na">respawn=</span><span class="s">&quot;false&quot;</span>    <span class="na">args=</span><span class="s">&quot;-d $(find exotica_examples)/resources/rviz.rviz&quot;</span> <span class="nt">/&gt;</span>
 </pre></div>
 </div>
 </div>
@@ -281,13 +272,13 @@ file:</p>
 <h2>XML Parameters<a class="headerlink" href="#xml-parameters" title="Permalink to this headline">¶</a></h2>
 <p>When initializing with XML, ROSlaunch needs to broadcast a ROSparam
 specifying the name of the configuration file (Here we’re looking at the <a class="reference external" href="https://github.com/ipab-slmc/exotica/blob/master/exotica_examples/launch/cpp_init_generic.launch">XML launch file</a>):</p>
-<div class="highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;node</span> <span class="na">launch-prefix=</span><span class="s">&quot;$(arg launch_prefix)&quot;</span> <span class="na">pkg=</span><span class="s">&quot;exotica_examples&quot;</span> <span class="na">type=</span><span class="s">&quot;XMLInitialization&quot;</span> <span class="na">name=</span><span class="s">&quot;ExoticaXMLInitializationExampleNode&quot;</span> <span class="na">output=</span><span class="s">&quot;screen&quot;</span><span class="nt">&gt;</span>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;node</span> <span class="na">launch-prefix=</span><span class="s">&quot;$(arg launch_prefix)&quot;</span> <span class="na">pkg=</span><span class="s">&quot;exotica_examples&quot;</span> <span class="na">type=</span><span class="s">&quot;XMLInitialization&quot;</span> <span class="na">name=</span><span class="s">&quot;ExoticaXMLInitializationExampleNode&quot;</span> <span class="na">output=</span><span class="s">&quot;screen&quot;</span><span class="nt">&gt;</span>
     <span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">&quot;ConfigurationFile&quot;</span> <span class="na">type=</span><span class="s">&quot;string&quot;</span> <span class="na">value=</span><span class="s">&quot;$(find exotica_examples)/resources/configs/ik_solver_demo.xml&quot;</span> <span class="nt">/&gt;</span>
 <span class="nt">&lt;/node&gt;</span>
 </pre></div>
 </div>
 <p>Which will then be read by the XML initializer in your script. Simply
-change the value of the <code class="docutils literal"><span class="pre">ConfigurationFile</span></code> parameter to set the
+change the value of the <code class="docutils literal notranslate"><span class="pre">ConfigurationFile</span></code> parameter to set the
 filename.</p>
 </div>
 </div>
@@ -312,7 +303,7 @@ filename.</p>
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2018, Vladimir Ivan, Yiming Yang, Wolfgang Merkt, Michael Camilleri, Sethu Vijayakumar - and contributors
+        &copy; Copyright 2019, Vladimir Ivan, Yiming Yang, Wolfgang Merkt, Michael Camilleri, Sethu Vijayakumar - and contributors
 
     </p>
   </div>

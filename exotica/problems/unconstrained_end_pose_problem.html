@@ -20,21 +20,12 @@
   <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
   
     
-      <script type="text/javascript">
-          var DOCUMENTATION_OPTIONS = {
-              URL_ROOT:'../',
-              VERSION:'5.0',
-              LANGUAGE:'None',
-              COLLAPSE_INDEX:false,
-              FILE_SUFFIX:'.html',
-              HAS_SOURCE:  true,
-              SOURCELINK_SUFFIX: '.txt'
-          };
-      </script>
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
         <script type="text/javascript" src="../_static/jquery.js"></script>
         <script type="text/javascript" src="../_static/underscore.js"></script>
         <script type="text/javascript" src="../_static/doctools.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
     <script type="text/javascript" src="../_static/js/theme.js"></script>
 
@@ -202,16 +193,16 @@
             
   <div class="section" id="unconstrained-end-pose-problem">
 <span id="id1"></span><h1>Unconstrained end-pose problem<a class="headerlink" href="#unconstrained-end-pose-problem" title="Permalink to this headline">¶</a></h1>
-<p>The unconstrained end-pose problem (<code class="docutils literal"><span class="pre">UnconstrainedEndPoseProblem</span></code>) defines a problem minimizing the quadratic cost using a kinematic system. The state is represented by joint configurations and the output is a single configuration. The problem is formulated as:</p>
-<div class="math">
+<p>The unconstrained end-pose problem (<code class="docutils literal notranslate"><span class="pre">UnconstrainedEndPoseProblem</span></code>) defines a problem minimizing the quadratic cost using a kinematic system. The state is represented by joint configurations and the output is a single configuration. The problem is formulated as:</p>
+<div class="math notranslate nohighlight">
 \[\underset{\boldsymbol{x}}{\text{argmin}} (f(\boldsymbol{x})^\top Q f(\boldsymbol{x})).\]</div>
 <p>The cost function is composed of weighted components:</p>
-<div class="math">
+<div class="math notranslate nohighlight">
 \[f(\boldsymbol{x})=\sum_i \rho_i||\Phi_i(\boldsymbol{x})-\boldsymbol{y}^*_i||,\]</div>
-<p>where <span class="math">\(\Phi_i(\boldsymbol{x})\)</span> is the mapping function of the <span class="math">\(i\)</span>-th task map, <span class="math">\(\boldsymbol{y}^*_i\)</span> is the reference or goal in the task space, and <span class="math">\(\rho_i\)</span> is the relative weighting of the task. By definition, This problem provides the first derivative of the quadratic cost function. The derivatives of the task terms are provided by the <cite>task map</cite>. Additionally, configuration space weighting <span class="math">\(W\)</span> is specified. This allows us to scale the cost of moving each joint (or control variable) individually. Optionally, a nominal pose <span class="math">\(\boldsymbol{x}_\text{nominal}\)</span> is provided as a reference often used to minimize secondary cost in case of redundancies.
+<p>where <span class="math notranslate nohighlight">\(\Phi_i(\boldsymbol{x})\)</span> is the mapping function of the <span class="math notranslate nohighlight">\(i\)</span>-th task map, <span class="math notranslate nohighlight">\(\boldsymbol{y}^*_i\)</span> is the reference or goal in the task space, and <span class="math notranslate nohighlight">\(\rho_i\)</span> is the relative weighting of the task. By definition, This problem provides the first derivative of the quadratic cost function. The derivatives of the task terms are provided by the <cite>task map</cite>. Additionally, configuration space weighting <span class="math notranslate nohighlight">\(W\)</span> is specified. This allows us to scale the cost of moving each joint (or control variable) individually. Optionally, a nominal pose <span class="math notranslate nohighlight">\(\boldsymbol{x}_\text{nominal}\)</span> is provided as a reference often used to minimize secondary cost in case of redundancies.
 This type of problem can be used for solving inverse kinematics or to implement operational space control.</p>
-<p>The example inverse kinematics problem is using this formulation. The full problem definition contains the definition of the <cite>planning scene</cite> and the <cite>task map</cite> as discussed previously. We also set the configuration space weighting <span class="math">\(W\)</span>. The problem is then fully defined using the following XML string:</p>
-<div class="highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;UnconstrainedEndPoseProblem</span> <span class="na">Name=</span><span class="s">&quot;MyProblem&quot;</span><span class="nt">&gt;</span>
+<p>The example inverse kinematics problem is using this formulation. The full problem definition contains the definition of the <cite>planning scene</cite> and the <cite>task map</cite> as discussed previously. We also set the configuration space weighting <span class="math notranslate nohighlight">\(W\)</span>. The problem is then fully defined using the following XML string:</p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;UnconstrainedEndPoseProblem</span> <span class="na">Name=</span><span class="s">&quot;MyProblem&quot;</span><span class="nt">&gt;</span>
   <span class="nt">&lt;PlanningScene&gt;</span>
     <span class="nt">&lt;Scene&gt;</span>
       <span class="nt">&lt;JointGroup&gt;</span>arm<span class="nt">&lt;/JointGroup&gt;</span>
@@ -232,7 +223,7 @@ This type of problem can be used for solving inverse kinematics or to implement 
 <span class="nt">&lt;/UnconstrainedEndPoseProblem&gt;</span>
 </pre></div>
 </div>
-<p>The weighting <span class="math">\(W\)</span> is set to reduce movement of the joints closer to the root (root joint weight <span class="math">\(7\)</span> to tip joint weight <span class="math">\(1\)</span>). We set the start and the nominal configuration, or state, to a zero vector. This problem is now complete and we can use it to compute the robot configuration which moves the top of the robot to coordinates <span class="math">\((0.5, 0, 0.5)\)</span>. EXOTica provides several useful tools that make defining problems using XML more versatile. All strings are automatically parsed as the required data types. Furthermore, file paths containing curly bracket macros will be replaced with catkin package paths, e.g. <code class="docutils literal"><span class="pre">{exotica_examples}</span></code> will get replaced with the absolute path to the EXOTica package. This feature combines regular expressions with the rospack library to parse catkin package paths.</p>
+<p>The weighting <span class="math notranslate nohighlight">\(W\)</span> is set to reduce movement of the joints closer to the root (root joint weight <span class="math notranslate nohighlight">\(7\)</span> to tip joint weight <span class="math notranslate nohighlight">\(1\)</span>). We set the start and the nominal configuration, or state, to a zero vector. This problem is now complete and we can use it to compute the robot configuration which moves the top of the robot to coordinates <span class="math notranslate nohighlight">\((0.5, 0, 0.5)\)</span>. EXOTica provides several useful tools that make defining problems using XML more versatile. All strings are automatically parsed as the required data types. Furthermore, file paths containing curly bracket macros will be replaced with catkin package paths, e.g. <code class="docutils literal notranslate"><span class="pre">{exotica_examples}</span></code> will get replaced with the absolute path to the EXOTica package. This feature combines regular expressions with the rospack library to parse catkin package paths.</p>
 </div>
 
 
@@ -255,7 +246,7 @@ This type of problem can be used for solving inverse kinematics or to implement 
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2018, Vladimir Ivan, Yiming Yang, Wolfgang Merkt, Michael Camilleri, Sethu Vijayakumar - and contributors
+        &copy; Copyright 2019, Vladimir Ivan, Yiming Yang, Wolfgang Merkt, Michael Camilleri, Sethu Vijayakumar - and contributors
 
     </p>
   </div>

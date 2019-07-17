@@ -20,21 +20,12 @@
   <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
   
     
-      <script type="text/javascript">
-          var DOCUMENTATION_OPTIONS = {
-              URL_ROOT:'./',
-              VERSION:'5.0',
-              LANGUAGE:'None',
-              COLLAPSE_INDEX:false,
-              FILE_SUFFIX:'.html',
-              HAS_SOURCE:  true,
-              SOURCELINK_SUFFIX: '.txt'
-          };
-      </script>
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
         <script type="text/javascript" src="_static/jquery.js"></script>
         <script type="text/javascript" src="_static/underscore.js"></script>
         <script type="text/javascript" src="_static/doctools.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
@@ -204,7 +195,7 @@ solvers and solving for motion plans. If you prefer to initialize using XML,
 skip to the problem setup part of the tutorial.</p>
 <p>For this tutorial, we will use the <a class="reference external" href="https://github.com/ipab-slmc/exotica/blob/master/exotica_examples/src/generic.cpp">generic.cpp</a>
 example file as a guide. The code is displayed below.</p>
-<div class="highlight-cpp"><div class="highlight"><pre><span></span><span class="cp">#include</span> <span class="cpf">&lt;exotica_core/exotica_core.h&gt;</span><span class="cp"></span>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span> <span class="cpf">&lt;exotica_core/exotica_core.h&gt;</span><span class="cp"></span>
 
 <span class="c1">// Manual initialization requires dependency on specific solvers and task maps:</span>
 <span class="cp">#include</span> <span class="cpf">&lt;exotica_ik_solver/IKSolver_initializer.h&gt;</span><span class="cp"></span>
@@ -298,35 +289,35 @@ example file as a guide. The code is displayed below.</p>
 <p class="rubric">CODE EXPLAINED</p>
 <div class="section" id="including-solvers-and-task-maps">
 <h2>Including Solvers and Task Maps<a class="headerlink" href="#including-solvers-and-task-maps" title="Permalink to this headline">¶</a></h2>
-<p>In this tutorial we will be setting up an <code class="docutils literal"><span class="pre">UnconstrainedEndPoseProblem</span></code> and
-solving it using an IKSolver using the <code class="docutils literal"><span class="pre">EffFrame</span></code> task map. To do this we
+<p>In this tutorial we will be setting up an <code class="docutils literal notranslate"><span class="pre">UnconstrainedEndPoseProblem</span></code> and
+solving it using an IKSolver using the <code class="docutils literal notranslate"><span class="pre">EffFrame</span></code> task map. To do this we
 need to include the correct header files:</p>
-<div class="highlight-cpp"><div class="highlight"><pre><span></span><span class="cp">#include</span> <span class="cpf">&lt;exotica_core/exotica_core.h&gt;</span><span class="cp"></span>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span> <span class="cpf">&lt;exotica_core/exotica_core.h&gt;</span><span class="cp"></span>
 
 <span class="c1">// Manual initialization requires dependency on specific solvers and task maps:</span>
 <span class="cp">#include</span> <span class="cpf">&lt;exotica_ik_solver/IKSolver_initializer.h&gt;</span><span class="cp"></span>
 <span class="cp">#include</span> <span class="cpf">&lt;task_map/EffFrame_initializer.h&gt;</span><span class="cp"></span>
 </pre></div>
 </div>
-<p>Problem definitions are handled in the <code class="docutils literal"><span class="pre">exotica/Exotica.h</span></code> header, so we only need to
-include the <code class="docutils literal"><span class="pre">IKSolverInitializer</span></code> and <code class="docutils literal"><span class="pre">EffFrameInitializer</span></code>.</p>
+<p>Problem definitions are handled in the <code class="docutils literal notranslate"><span class="pre">exotica/Exotica.h</span></code> header, so we only need to
+include the <code class="docutils literal notranslate"><span class="pre">IKSolverInitializer</span></code> and <code class="docutils literal notranslate"><span class="pre">EffFrameInitializer</span></code>.</p>
 <p>To use other solvers and task maps just include the appropriate headers in the same
 format.</p>
 </div>
 <div class="section" id="ros-initialization">
 <h2>ROS Initialization<a class="headerlink" href="#ros-initialization" title="Permalink to this headline">¶</a></h2>
 <p>ROS can either be set up manually or you can use the EXOTica Server.</p>
-<p>To use the EXOTica Server, it needs to be setup using the <code class="docutils literal"><span class="pre">InitRos</span></code>:</p>
-<div class="highlight-cpp"><div class="highlight"><pre><span></span><span class="n">Server</span><span class="o">::</span><span class="n">InitRos</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">sharedPtr</span><span class="o">&lt;</span><span class="n">ros</span><span class="o">::</span><span class="n">NodeHandle</span><span class="o">&gt;</span><span class="p">(</span><span class="k">new</span> <span class="n">ros</span><span class="o">::</span><span class="n">NodeHandle</span><span class="p">(</span><span class="s">&quot;~&quot;</span><span class="p">)));</span>
+<p>To use the EXOTica Server, it needs to be setup using the <code class="docutils literal notranslate"><span class="pre">InitRos</span></code>:</p>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="n">Server</span><span class="o">::</span><span class="n">InitRos</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">sharedPtr</span><span class="o">&lt;</span><span class="n">ros</span><span class="o">::</span><span class="n">NodeHandle</span><span class="o">&gt;</span><span class="p">(</span><span class="k">new</span> <span class="n">ros</span><span class="o">::</span><span class="n">NodeHandle</span><span class="p">(</span><span class="s">&quot;~&quot;</span><span class="p">)));</span>
 </pre></div>
 </div>
 <p>Where we provide a name for the ROS node (here we give the name “~”)</p>
 </div>
 <div class="section" id="scene-setup">
 <h2>Scene Setup<a class="headerlink" href="#scene-setup" title="Permalink to this headline">¶</a></h2>
-<p>To construct a problem, we first need a <code class="docutils literal"><span class="pre">Scene</span></code>, a <code class="docutils literal"><span class="pre">map</span></code> and parameters.</p>
+<p>To construct a problem, we first need a <code class="docutils literal notranslate"><span class="pre">Scene</span></code>, a <code class="docutils literal notranslate"><span class="pre">map</span></code> and parameters.</p>
 <p>Here we set up the Scene:</p>
-<div class="highlight-cpp"><div class="highlight"><pre><span></span><span class="c1">// Scene using joint group &#39;arm&#39;</span>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="c1">// Scene using joint group &#39;arm&#39;</span>
 <span class="n">SceneInitializer</span> <span class="n">scene</span><span class="p">(</span><span class="s">&quot;MyScene&quot;</span><span class="p">,</span> <span class="s">&quot;arm&quot;</span><span class="p">,</span> <span class="nb">false</span><span class="p">,</span> <span class="s">&quot;&quot;</span><span class="p">,</span> <span class="s">&quot;{exotica_examples}/resources/robots/lwr_simplified.urdf&quot;</span><span class="p">,</span> <span class="s">&quot;</span>
 </pre></div>
 </div>
@@ -343,7 +334,7 @@ using the EffPositionInitializer, the orientation of the end effector using the
 EffOrientationInitializer or both, using the EffFrameInitializer. Let’s try the
 EffFrame map, where specify a goal for both the position and orientation of the
 end effector</p>
-<div class="highlight-cpp"><div class="highlight"><pre><span></span><span class="n">EffFrameInitializer</span> <span class="nf">map</span><span class="p">(</span><span class="s">&quot;Position&quot;</span><span class="p">,</span> <span class="nb">false</span><span class="p">,</span> <span class="p">{</span><span class="n">FrameInitializer</span><span class="p">(</span><span class="s">&quot;lwr_arm_6_link&quot;</span><span class="p">,</span> <span class="n">Eigen</span><span class="o">::</span><span class="n">VectorTransform</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">0.7071067811865476</span><span class="p">,</span> <span class="o">-</span><span class="mf">4.3297802811774664e-17</span><span class="p">,</span> <span class="mf">0.7071067811865475</span><span class="p">,</span> <span class="mf">4.3297802811774664e-17</span><span class="p">))});</span>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="n">EffFrameInitializer</span> <span class="nf">map</span><span class="p">(</span><span class="s">&quot;Position&quot;</span><span class="p">,</span> <span class="nb">false</span><span class="p">,</span> <span class="p">{</span><span class="n">FrameInitializer</span><span class="p">(</span><span class="s">&quot;lwr_arm_6_link&quot;</span><span class="p">,</span> <span class="n">Eigen</span><span class="o">::</span><span class="n">VectorTransform</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">0.7071067811865476</span><span class="p">,</span> <span class="o">-</span><span class="mf">4.3297802811774664e-17</span><span class="p">,</span> <span class="mf">0.7071067811865475</span><span class="p">,</span> <span class="mf">4.3297802811774664e-17</span><span class="p">))});</span>
 </pre></div>
 </div>
 <p>Where we pass in:</p>
@@ -365,7 +356,7 @@ end effector</p>
 <h2>Problem and Solver Initialization<a class="headerlink" href="#problem-and-solver-initialization" title="Permalink to this headline">¶</a></h2>
 <p>Now we have the Scene and Map(s) (multiple maps can be added) initialized, we can set up the
 problem. First we need to create an initializer:</p>
-<div class="highlight-cpp"><div class="highlight"><pre><span></span><span class="n">UnconstrainedEndPoseProblemInitializer</span> <span class="nf">problem</span><span class="p">(</span><span class="s">&quot;MyProblem&quot;</span><span class="p">,</span> <span class="n">scene</span><span class="p">,</span> <span class="nb">false</span><span class="p">,</span> <span class="p">{</span><span class="n">map</span><span class="p">},</span> <span class="n">W</span><span class="p">);</span>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="n">UnconstrainedEndPoseProblemInitializer</span> <span class="nf">problem</span><span class="p">(</span><span class="s">&quot;MyProblem&quot;</span><span class="p">,</span> <span class="n">scene</span><span class="p">,</span> <span class="nb">false</span><span class="p">,</span> <span class="p">{</span><span class="n">map</span><span class="p">},</span> <span class="n">W</span><span class="p">);</span>
 </pre></div>
 </div>
 <p>To do this, we simply call the initializer for the problem we want, giving the initializer a name
@@ -374,7 +365,7 @@ a debug argument, the map and the parameter (here: “W” as a cost cost weight
 each joint).</p>
 <p>We can then create the initializer for the solver. To do this, we can simply name (“solver”) and
 create an initializer, give the solver itself a name (“MySolver”) then set the parameters later:</p>
-<div class="highlight-cpp"><div class="highlight"><pre><span></span><span class="n">IKSolverInitializer</span> <span class="nf">solver</span><span class="p">(</span><span class="s">&quot;MySolver&quot;</span><span class="p">);</span>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="n">IKSolverInitializer</span> <span class="nf">solver</span><span class="p">(</span><span class="s">&quot;MySolver&quot;</span><span class="p">);</span>
 <span class="n">solver</span><span class="p">.</span><span class="n">C</span> <span class="o">=</span> <span class="mf">1e-3</span><span class="p">;</span>
 <span class="n">solver</span><span class="p">.</span><span class="n">MaxIterations</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
 <span class="n">solver</span><span class="p">.</span><span class="n">MaxStep</span> <span class="o">=</span> <span class="mf">0.1</span><span class="p">;</span>
@@ -385,7 +376,7 @@ create an initializer, give the solver itself a name (“MySolver”) then set t
 details of each solver’s options.</p>
 <p>The next step is to send the problem and solver to the Planning and Motion Solver pointer
 containers. Here use the name of the initializer, not the names of the problems and solvers.</p>
-<div class="highlight-cpp"><div class="highlight"><pre><span></span><span class="n">PlanningProblemPtr</span> <span class="n">any_problem</span> <span class="o">=</span> <span class="n">Setup</span><span class="o">::</span><span class="n">CreateProblem</span><span class="p">(</span><span class="n">problem</span><span class="p">);</span>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="n">PlanningProblemPtr</span> <span class="n">any_problem</span> <span class="o">=</span> <span class="n">Setup</span><span class="o">::</span><span class="n">CreateProblem</span><span class="p">(</span><span class="n">problem</span><span class="p">);</span>
 <span class="n">MotionSolverPtr</span> <span class="n">any_solver</span> <span class="o">=</span> <span class="n">Setup</span><span class="o">::</span><span class="n">CreateSolver</span><span class="p">(</span><span class="n">solver</span><span class="p">);</span>
 </pre></div>
 </div>
@@ -395,17 +386,17 @@ containers. Here use the name of the initializer, not the names of the problems 
 <p>We now have our problem set up, containing all the information about the robot, task etc.
 and we have a solver setup, waiting to solve some motion plans, but they don’t know about
 each other. Let’s now send the problem to the solver:</p>
-<div class="highlight-cpp"><div class="highlight"><pre><span></span><span class="n">any_solver</span><span class="o">-&gt;</span><span class="n">SpecifyProblem</span><span class="p">(</span><span class="n">any_problem</span><span class="p">);</span>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="n">any_solver</span><span class="o">-&gt;</span><span class="n">SpecifyProblem</span><span class="p">(</span><span class="n">any_problem</span><span class="p">);</span>
 <span class="n">UnconstrainedEndPoseProblemPtr</span> <span class="n">my_problem</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">static_pointer_cast</span><span class="o">&lt;</span><span class="n">UnconstrainedEndPoseProblem</span><span class="o">&gt;</span><span class="p">(</span><span class="n">any_problem</span><span class="p">);</span>
 </pre></div>
 </div>
 <p>When sending the problem to the solver, we use the pointers we created in the last step, named: “any_problem” and
 “any_solver”:</p>
-<div class="highlight-cpp"><div class="highlight"><pre><span></span><span class="n">any_solver</span><span class="o">-&gt;</span><span class="n">SpecifyProblem</span><span class="p">(</span><span class="n">any_problem</span><span class="p">);</span>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="n">any_solver</span><span class="o">-&gt;</span><span class="n">SpecifyProblem</span><span class="p">(</span><span class="n">any_problem</span><span class="p">);</span>
 </pre></div>
 </div>
 <p>Finally, we pop the problem back into a specific problem pointer to be used later:</p>
-<div class="highlight-cpp"><div class="highlight"><pre><span></span><span class="n">UnconstrainedEndPoseProblemPtr</span> <span class="n">my_problem</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">static_pointer_cast</span><span class="o">&lt;</span><span class="n">UnconstrainedEndPoseProblem</span><span class="o">&gt;</span><span class="p">(</span><span class="n">any_problem</span><span class="p">);</span>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="n">UnconstrainedEndPoseProblemPtr</span> <span class="n">my_problem</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">static_pointer_cast</span><span class="o">&lt;</span><span class="n">UnconstrainedEndPoseProblem</span><span class="o">&gt;</span><span class="p">(</span><span class="n">any_problem</span><span class="p">);</span>
 </pre></div>
 </div>
 <p>This procedure applies to all problems and solvers, but the parameters for each will vary.
@@ -438,7 +429,7 @@ at in the next tutorial.</p>
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2018, Vladimir Ivan, Yiming Yang, Wolfgang Merkt, Michael Camilleri, Sethu Vijayakumar - and contributors
+        &copy; Copyright 2019, Vladimir Ivan, Yiming Yang, Wolfgang Merkt, Michael Camilleri, Sethu Vijayakumar - and contributors
 
     </p>
   </div>

@@ -20,21 +20,12 @@
   <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
   
     
-      <script type="text/javascript">
-          var DOCUMENTATION_OPTIONS = {
-              URL_ROOT:'../',
-              VERSION:'5.0',
-              LANGUAGE:'None',
-              COLLAPSE_INDEX:false,
-              FILE_SUFFIX:'.html',
-              HAS_SOURCE:  true,
-              SOURCELINK_SUFFIX: '.txt'
-          };
-      </script>
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
         <script type="text/javascript" src="../_static/jquery.js"></script>
         <script type="text/javascript" src="../_static/underscore.js"></script>
         <script type="text/javascript" src="../_static/doctools.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
     <script type="text/javascript" src="../_static/js/theme.js"></script>
 
@@ -208,14 +199,14 @@
   <div class="section" id="joint-limits">
 <span id="id1"></span><h1>Joint limits<a class="headerlink" href="#joint-limits" title="Permalink to this headline">¶</a></h1>
 <p>Joint limits task map assigns a cost for violating joint limits. The joint limits are loaded from the robot model. The mapping is calculated as:</p>
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\begin{split}\Phi_\text{Bound}(x) =
 \begin{cases}
 x - x_\text{min} - \epsilon, &amp; \text{if } x &lt; x_\text{min}+\epsilon \\
 x - x_\text{max} + \epsilon, &amp; \text{if } x &gt; x_\text{max}-\epsilon \\
 0,                       &amp; \text{otherwise}
 \end{cases},\end{split}\]</div>
-<p>where <span class="math">\(x_\text{min}\)</span> and <span class="math">\(x_\text{max}\)</span> are lower and upper joint limits respectively, and <span class="math">\(\epsilon\geq0\)</span> is a safety margin. The Jacobian and Jacobian derivative are identity matrices.</p>
+<p>where <span class="math notranslate nohighlight">\(x_\text{min}\)</span> and <span class="math notranslate nohighlight">\(x_\text{max}\)</span> are lower and upper joint limits respectively, and <span class="math notranslate nohighlight">\(\epsilon\geq0\)</span> is a safety margin. The Jacobian and Jacobian derivative are identity matrices.</p>
 </div>
 
 
@@ -238,7 +229,7 @@ x - x_\text{max} + \epsilon, &amp; \text{if } x &gt; x_\text{max}-\epsilon \\
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2018, Vladimir Ivan, Yiming Yang, Wolfgang Merkt, Michael Camilleri, Sethu Vijayakumar - and contributors
+        &copy; Copyright 2019, Vladimir Ivan, Yiming Yang, Wolfgang Merkt, Michael Camilleri, Sethu Vijayakumar - and contributors
 
     </p>
   </div>

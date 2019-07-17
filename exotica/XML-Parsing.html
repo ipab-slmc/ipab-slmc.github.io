@@ -20,21 +20,12 @@
   <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
   
     
-      <script type="text/javascript">
-          var DOCUMENTATION_OPTIONS = {
-              URL_ROOT:'./',
-              VERSION:'5.0',
-              LANGUAGE:'None',
-              COLLAPSE_INDEX:false,
-              FILE_SUFFIX:'.html',
-              HAS_SOURCE:  true,
-              SOURCELINK_SUFFIX: '.txt'
-          };
-      </script>
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
         <script type="text/javascript" src="_static/jquery.js"></script>
         <script type="text/javascript" src="_static/underscore.js"></script>
         <script type="text/javascript" src="_static/doctools.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
@@ -201,7 +192,7 @@ to the <a class="reference external" href="https://github.com/ipab-slmc/exotica/
 <p>This snippet of code shows how this is implemented in the
 <a class="reference external" href="https://github.com/ipab-slmc/exotica/blob/master/exotica_examples/src/xml.cpp">xml.cpp</a>
 file in the EXOTica examples:</p>
-<div class="highlight-c++"><div class="highlight"><pre><span></span><span class="cp">#include</span> <span class="cpf">&lt;exotica_core/exotica_core.h&gt;</span><span class="cp"></span>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span> <span class="cpf">&lt;exotica_core/exotica_core.h&gt;</span><span class="cp"></span>
 <span class="cp">#include</span> <span class="cpf">&lt;exotica_core/problems/unconstrained_end_pose_problem.h&gt;</span><span class="cp"></span>
 
 <span class="k">using</span> <span class="k">namespace</span> <span class="n">exotica</span><span class="p">;</span>
@@ -224,18 +215,18 @@ file in the EXOTica examples:</p>
 <p class="rubric">CODE EXPLAINED</p>
 <div class="section" id="exotica-server">
 <h2>EXOTica Server<a class="headerlink" href="#exotica-server" title="Permalink to this headline">¶</a></h2>
-<p>Firstly we use the exotica <code class="docutils literal"><span class="pre">Server</span></code> class to initialize the ROS node we will be using from now on.
-This <code class="docutils literal"><span class="pre">Server</span></code> class will handle a lot of our ROS dealings from here on.</p>
-<p>We next get the filename of the <code class="docutils literal"><span class="pre">Configuration</span> <span class="pre">File</span></code> we need to parse. This argument is the name
+<p>Firstly we use the exotica <code class="docutils literal notranslate"><span class="pre">Server</span></code> class to initialize the ROS node we will be using from now on.
+This <code class="docutils literal notranslate"><span class="pre">Server</span></code> class will handle a lot of our ROS dealings from here on.</p>
+<p>We next get the filename of the <code class="docutils literal notranslate"><span class="pre">Configuration</span> <span class="pre">File</span></code> we need to parse. This argument is the name
 of the XML file which we set up previously, which will have been specified in the roslaunch file under
-the parameter name <code class="docutils literal"><span class="pre">ConfigurationFile</span></code>.</p>
+the parameter name <code class="docutils literal notranslate"><span class="pre">ConfigurationFile</span></code>.</p>
 <p>We will look at setting up our roslaunch files in more detail <a class="reference external" href="Setting-up-ROSlaunch.html">later</a>.</p>
 </div>
 <div class="section" id="xml-loader">
 <h2>XML Loader<a class="headerlink" href="#xml-loader" title="Permalink to this headline">¶</a></h2>
-<p>Now we have the file name and have created some initializers in which to hold the <code class="docutils literal"><span class="pre">solver</span></code> and the <code class="docutils literal"><span class="pre">problem</span></code>,
+<p>Now we have the file name and have created some initializers in which to hold the <code class="docutils literal notranslate"><span class="pre">solver</span></code> and the <code class="docutils literal notranslate"><span class="pre">problem</span></code>,
 we can now do the actual XML loading. This is done with the XMLLoader:</p>
-<div class="highlight-c++"><div class="highlight"><pre><span></span><span class="n">XMLLoader</span><span class="o">::</span><span class="n">load</span><span class="p">(</span><span class="n">file_name</span><span class="p">,</span><span class="n">solver</span><span class="p">,</span> <span class="n">problem</span><span class="p">);</span>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="n">XMLLoader</span><span class="o">::</span><span class="n">load</span><span class="p">(</span><span class="n">file_name</span><span class="p">,</span><span class="n">solver</span><span class="p">,</span> <span class="n">problem</span><span class="p">);</span>
 </pre></div>
 </div>
 <p>To which we pass the filename which we filled earlier and the two empty initializers. When these initializers
@@ -264,7 +255,7 @@ next <a class="reference external" href="Common-Initialization-Step.html">step</
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2018, Vladimir Ivan, Yiming Yang, Wolfgang Merkt, Michael Camilleri, Sethu Vijayakumar - and contributors
+        &copy; Copyright 2019, Vladimir Ivan, Yiming Yang, Wolfgang Merkt, Michael Camilleri, Sethu Vijayakumar - and contributors
 
     </p>
   </div>

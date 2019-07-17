@@ -20,21 +20,12 @@
   <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
   
     
-      <script type="text/javascript">
-          var DOCUMENTATION_OPTIONS = {
-              URL_ROOT:'./',
-              VERSION:'5.0',
-              LANGUAGE:'None',
-              COLLAPSE_INDEX:false,
-              FILE_SUFFIX:'.html',
-              HAS_SOURCE:  true,
-              SOURCELINK_SUFFIX: '.txt'
-          };
-      </script>
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
         <script type="text/javascript" src="_static/jquery.js"></script>
         <script type="text/javascript" src="_static/underscore.js"></script>
         <script type="text/javascript" src="_static/doctools.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
@@ -201,9 +192,9 @@ initialization</a>, please complete those first.</p>
 <p>If you have done this, the robot properties have been set up, either through
 XML or within your C++ or Python code. The completed initializers now need to used to create the problem/solver objects and the problem specified to the solver.</p>
 <p>In both our XML and manually coded initializers, we created a problem
-initializer in the <code class="docutils literal"><span class="pre">problem</span></code> variable and the solver in the <code class="docutils literal"><span class="pre">solver</span></code>
+initializer in the <code class="docutils literal notranslate"><span class="pre">problem</span></code> variable and the solver in the <code class="docutils literal notranslate"><span class="pre">solver</span></code>
 variable. These now need to be sent to generic problem and solver holders:</p>
-<div class="highlight-c++"><div class="highlight"><pre><span></span><span class="c1">//... continued from XML or hardcoded initialization</span>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="c1">//... continued from XML or hardcoded initialization</span>
 
 <span class="c1">// Initialize</span>
 
@@ -219,17 +210,17 @@ variable. These now need to be sent to generic problem and solver holders:</p>
 </div>
 <div class="section" id="sending-problems-to-solvers">
 <h2>Sending Problems to Solvers<a class="headerlink" href="#sending-problems-to-solvers" title="Permalink to this headline">¶</a></h2>
-<p>Once we have the problem in a generic holder pointer (<code class="docutils literal"><span class="pre">any_problem</span></code>),
-we can send it to the solver (<code class="docutils literal"><span class="pre">any_solver</span></code>). Internally, this assigns a pointer to the problem within the solver such that the solver can use/solve the problem (by repeatedly updating the problem and evaluating cost/constraints etc.).</p>
-<div class="highlight-c++"><div class="highlight"><pre><span></span><span class="n">any_solver</span><span class="o">-&gt;</span><span class="n">SpecifyProblem</span><span class="p">(</span><span class="n">any_problem</span><span class="p">);</span>
+<p>Once we have the problem in a generic holder pointer (<code class="docutils literal notranslate"><span class="pre">any_problem</span></code>),
+we can send it to the solver (<code class="docutils literal notranslate"><span class="pre">any_solver</span></code>). Internally, this assigns a pointer to the problem within the solver such that the solver can use/solve the problem (by repeatedly updating the problem and evaluating cost/constraints etc.).</p>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="n">any_solver</span><span class="o">-&gt;</span><span class="n">SpecifyProblem</span><span class="p">(</span><span class="n">any_problem</span><span class="p">);</span>
 </pre></div>
 </div>
 </div>
 <div class="section" id="problem-pointer-setup">
 <h2>Problem Pointer Setup<a class="headerlink" href="#problem-pointer-setup" title="Permalink to this headline">¶</a></h2>
-<p>In order to call problem-specific methods, we need to create a problem-specific holder from the generic pointer to the <code class="docutils literal"><span class="pre">PlanningProblem</span></code> – this will allow us to access the specific properties of these
+<p>In order to call problem-specific methods, we need to create a problem-specific holder from the generic pointer to the <code class="docutils literal notranslate"><span class="pre">PlanningProblem</span></code> – this will allow us to access the specific properties of these
 problems later on:</p>
-<div class="highlight-c++"><div class="highlight"><pre><span></span><span class="n">UnconstrainedEndPoseProblemPtr</span> <span class="n">my_problem</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">static_pointer_cast</span><span class="o">&lt;</span><span class="n">UnconstrainedEndPoseProblem</span><span class="o">&gt;</span><span class="p">(</span><span class="n">any_problem</span><span class="p">);</span>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="n">UnconstrainedEndPoseProblemPtr</span> <span class="n">my_problem</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">static_pointer_cast</span><span class="o">&lt;</span><span class="n">UnconstrainedEndPoseProblem</span><span class="o">&gt;</span><span class="p">(</span><span class="n">any_problem</span><span class="p">);</span>
 </pre></div>
 </div>
 <p>After these steps, EXOTica is fully initialized. We can move on to using
@@ -257,7 +248,7 @@ EXOTica’s functionality in the <a class="reference external" href="using_exoti
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2018, Vladimir Ivan, Yiming Yang, Wolfgang Merkt, Michael Camilleri, Sethu Vijayakumar - and contributors
+        &copy; Copyright 2019, Vladimir Ivan, Yiming Yang, Wolfgang Merkt, Michael Camilleri, Sethu Vijayakumar - and contributors
 
     </p>
   </div>

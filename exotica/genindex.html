@@ -21,21 +21,12 @@
   <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
   
     
-      <script type="text/javascript">
-          var DOCUMENTATION_OPTIONS = {
-              URL_ROOT:'./',
-              VERSION:'5.0',
-              LANGUAGE:'None',
-              COLLAPSE_INDEX:false,
-              FILE_SUFFIX:'.html',
-              HAS_SOURCE:  true,
-              SOURCELINK_SUFFIX: '.txt'
-          };
-      </script>
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
         <script type="text/javascript" src="_static/jquery.js"></script>
         <script type="text/javascript" src="_static/underscore.js"></script>
         <script type="text/javascript" src="_static/doctools.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
@@ -228,11 +219,13 @@
 </li>
       <li><a href="Python-API.html#pyexotica.Scene.add_trajectory">add_trajectory() (pyexotica.Scene method)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="Python-API.html#pyexotica.Scene.add_trajectory_from_file">add_trajectory_from_file() (pyexotica.Scene method)</a>
 </li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="Python-API.html#pyexotica.CollisionScene.always_externally_updated_collision_scene">always_externally_updated_collision_scene (pyexotica.CollisionScene attribute)</a>
+</li>
+      <li><a href="Python-API.html#exotica_ddp_solver_py.AnalyticDDPSolver">AnalyticDDPSolver (class in exotica_ddp_solver_py)</a>
 </li>
       <li><a href="Python-API.html#pyexotica.RotationType.AngleAxis">AngleAxis (pyexotica.RotationType attribute)</a>
 </li>
@@ -300,10 +293,10 @@
 </li>
       <li><a href="Python-API.html#exotica_core_task_maps_py.InteractionMesh.compute_laplace">compute_laplace() (exotica_core_task_maps_py.InteractionMesh method)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="Python-API.html#pyexotica.Cone">Cone (class in pyexotica)</a>
 </li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="Python-API.html#pyexotica.ShapeType.CONE">CONE (pyexotica.ShapeType attribute)</a>
 </li>
       <li><a href="Python-API.html#pyexotica.CollisionProxy.contact_1">contact_1 (pyexotica.CollisionProxy attribute)</a>
@@ -319,6 +312,8 @@
       <li><a href="Python-API.html#pyexotica.ContinuousCollisionProxy">ContinuousCollisionProxy (class in pyexotica)</a>
 </li>
       <li><a href="Python-API.html#pyexotica.Scene.controlled_link_to_collision_link_map">controlled_link_to_collision_link_map (pyexotica.Scene attribute)</a>
+</li>
+      <li><a href="Python-API.html#exotica_ddp_solver_py.ControlLimitedDDPSolver">ControlLimitedDDPSolver (class in exotica_ddp_solver_py)</a>
 </li>
       <li><a href="Python-API.html#pyexotica.Setup.create_problem">create_problem() (pyexotica.Setup method)</a>
 </li>
@@ -378,15 +373,23 @@
 </li>
       <li><a href="Python-API.html#exotica_core_task_maps_py.EffPosition">EffPosition (class in exotica_core_task_maps_py)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="Python-API.html#exotica_core_task_maps_py.PointToLine.end_point">end_point (exotica_core_task_maps_py.PointToLine attribute)</a>
 </li>
       <li><a href="Python-API.html#pyexotica.EndPoseTask">EndPoseTask (class in pyexotica)</a>
 </li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="Python-API.html#exotica_ompl_solver_py.ESTSolver">ESTSolver (class in exotica_ompl_solver_py)</a>
 </li>
       <li><a href="Python-API.html#module-exotica_core_task_maps_py">exotica_core_task_maps_py (module)</a>
+</li>
+      <li><a href="Python-API.html#module-exotica_ddp_solver_py">exotica_ddp_solver_py (module)</a>
+</li>
+      <li><a href="Python-API.html#module-exotica_examples_py">exotica_examples_py (module)</a>
+</li>
+      <li><a href="Python-API.html#module-exotica_ilqg_solver_py">exotica_ilqg_solver_py (module)</a>
+</li>
+      <li><a href="Python-API.html#module-exotica_ilqr_solver_py">exotica_ilqr_solver_py (module)</a>
 </li>
       <li><a href="Python-API.html#module-exotica_ompl_solver_py">exotica_ompl_solver_py (module)</a>
 </li>
@@ -578,6 +581,10 @@
         <li><a href="Python-API.html#pyexotica.TaskMap.id">(pyexotica.TaskMap attribute)</a>
 </li>
       </ul></li>
+      <li><a href="Python-API.html#exotica_ilqg_solver_py.ILQGSolver">ILQGSolver (class in exotica_ilqg_solver_py)</a>
+</li>
+      <li><a href="Python-API.html#exotica_ilqr_solver_py.ILQRSolver">ILQRSolver (class in exotica_ilqr_solver_py)</a>
+</li>
       <li><a href="Python-API.html#pyexotica.ContinuousCollisionProxy.in_collision">in_collision (pyexotica.ContinuousCollisionProxy attribute)</a>
 </li>
       <li><a href="Python-API.html#pyexotica.TimeIndexedTask.indexing">indexing (pyexotica.TimeIndexedTask attribute)</a>
@@ -588,10 +595,10 @@
 </li>
       <li><a href="Python-API.html#pyexotica.InteractiveCostTuning">InteractiveCostTuning (class in pyexotica)</a>
 </li>
-      <li><a href="Python-API.html#pyexotica.KDLFrame.interpolate">interpolate() (pyexotica.KDLFrame method)</a>
-</li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="Python-API.html#pyexotica.KDLFrame.interpolate">interpolate() (pyexotica.KDLFrame method)</a>
+</li>
       <li><a href="Python-API.html#pyexotica.KDLFrame.inverse">inverse() (pyexotica.KDLFrame method)</a>
 </li>
       <li><a href="Python-API.html#pyexotica.Scene.is_allowed_to_collide">is_allowed_to_collide() (pyexotica.Scene method)</a>
@@ -1241,7 +1248,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2018, Vladimir Ivan, Yiming Yang, Wolfgang Merkt, Michael Camilleri, Sethu Vijayakumar - and contributors
+        &copy; Copyright 2019, Vladimir Ivan, Yiming Yang, Wolfgang Merkt, Michael Camilleri, Sethu Vijayakumar - and contributors
 
     </p>
   </div>

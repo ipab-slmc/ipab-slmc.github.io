@@ -20,21 +20,12 @@
   <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
   
     
-      <script type="text/javascript">
-          var DOCUMENTATION_OPTIONS = {
-              URL_ROOT:'../',
-              VERSION:'5.0',
-              LANGUAGE:'None',
-              COLLAPSE_INDEX:false,
-              FILE_SUFFIX:'.html',
-              HAS_SOURCE:  true,
-              SOURCELINK_SUFFIX: '.txt'
-          };
-      </script>
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
         <script type="text/javascript" src="../_static/jquery.js"></script>
         <script type="text/javascript" src="../_static/underscore.js"></script>
         <script type="text/javascript" src="../_static/doctools.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
     <script type="text/javascript" src="../_static/js/theme.js"></script>
 
@@ -202,13 +193,13 @@
             
   <div class="section" id="unconstrained-time-indexed-problem">
 <span id="id1"></span><h1>Unconstrained time-indexed problem<a class="headerlink" href="#unconstrained-time-indexed-problem" title="Permalink to this headline">¶</a></h1>
-<p>The unconstrained time-indexed problem (<code class="docutils literal"><span class="pre">UnconstrainedTimeIndexedProblem</span></code>) defines a problem minimizing the quadratic cost over a trajectory using a linearized model of the system. The trajectory is uniformly discretized in time. The state is represented by the combined vector of joint configurations for each time step. The problem is formulated as:</p>
-<div class="math">
+<p>The unconstrained time-indexed problem (<code class="docutils literal notranslate"><span class="pre">UnconstrainedTimeIndexedProblem</span></code>) defines a problem minimizing the quadratic cost over a trajectory using a linearized model of the system. The trajectory is uniformly discretized in time. The state is represented by the combined vector of joint configurations for each time step. The problem is formulated as:</p>
+<div class="math notranslate nohighlight">
 \[\underset{\boldsymbol{x}}{\text{argmin}} (f(\boldsymbol{x})^\top Q f(\boldsymbol{x})).\]</div>
-<p>The time step duration <span class="math">\(\vartriangle\!\!t\)</span> and number of time steps <span class="math">\(T\)</span> are specified. Additionally, configuration space weighting <span class="math">\(W\)</span> is specified. This allows us to scale the cost of moving each joint (or control variable) individually (analogous to the weighting <span class="math">\(W\)</span> used in the <a class="reference internal" href="unconstrained_end_pose_problem.html#unconstrained-end-pose-problem"><span class="std std-ref">Unconstrained end-pose problem</span></a>). The cost function is then defined as:</p>
-<div class="math">
+<p>The time step duration <span class="math notranslate nohighlight">\(\vartriangle\!\!t\)</span> and number of time steps <span class="math notranslate nohighlight">\(T\)</span> are specified. Additionally, configuration space weighting <span class="math notranslate nohighlight">\(W\)</span> is specified. This allows us to scale the cost of moving each joint (or control variable) individually (analogous to the weighting <span class="math notranslate nohighlight">\(W\)</span> used in the <a class="reference internal" href="unconstrained_end_pose_problem.html#unconstrained-end-pose-problem"><span class="std std-ref">Unconstrained end-pose problem</span></a>). The cost function is then defined as:</p>
+<div class="math notranslate nohighlight">
 \[f(\boldsymbol{x})=\sum_t \sum_i \rho_{i,t}||\Phi_{i,t}(\boldsymbol{x})-\boldsymbol{y}^*_{i,t}||,\]</div>
-<p>where <span class="math">\(t\in(1, ..., T)\)</span> is the time index.</p>
+<p>where <span class="math notranslate nohighlight">\(t\in(1, ..., T)\)</span> is the time index.</p>
 </div>
 
 
@@ -231,7 +222,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2018, Vladimir Ivan, Yiming Yang, Wolfgang Merkt, Michael Camilleri, Sethu Vijayakumar - and contributors
+        &copy; Copyright 2019, Vladimir Ivan, Yiming Yang, Wolfgang Merkt, Michael Camilleri, Sethu Vijayakumar - and contributors
 
     </p>
   </div>

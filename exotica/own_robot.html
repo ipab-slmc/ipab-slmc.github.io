@@ -20,21 +20,12 @@
   <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
   
     
-      <script type="text/javascript">
-          var DOCUMENTATION_OPTIONS = {
-              URL_ROOT:'./',
-              VERSION:'5.0',
-              LANGUAGE:'None',
-              COLLAPSE_INDEX:false,
-              FILE_SUFFIX:'.html',
-              HAS_SOURCE:  true,
-              SOURCELINK_SUFFIX: '.txt'
-          };
-      </script>
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
         <script type="text/javascript" src="_static/jquery.js"></script>
         <script type="text/javascript" src="_static/underscore.js"></script>
         <script type="text/javascript" src="_static/doctools.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
@@ -217,17 +208,17 @@ tutorials.</p>
 <div class="section" id="cmakelists-txt-package-xml">
 <h2>CMakeLists.txt &amp; package.xml<a class="headerlink" href="#cmakelists-txt-package-xml" title="Permalink to this headline">¶</a></h2>
 <p>Add the following lines to the CMakeLists.txt file of any package that uses EXOTica.
-In the <code class="docutils literal"><span class="pre">find_package(catkin</span> <span class="pre">REQUIRED</span> <span class="pre">COMPONENTS)</span></code> section,
+In the <code class="docutils literal notranslate"><span class="pre">find_package(catkin</span> <span class="pre">REQUIRED</span> <span class="pre">COMPONENTS)</span></code> section,
 add</p>
-<div class="highlight-cmake"><div class="highlight"><pre><span></span><span class="nb">find_package</span><span class="p">(</span><span class="s">catkin</span> <span class="s">REQUIRED</span> <span class="s">COMPONENTS</span> <span class="s">exotica_core</span><span class="p">)</span>
+<div class="highlight-cmake notranslate"><div class="highlight"><pre><span></span><span class="nb">find_package</span><span class="p">(</span><span class="s">catkin</span> <span class="s">REQUIRED</span> <span class="s">COMPONENTS</span> <span class="s">exotica_core</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>Also, add the following to <code class="docutils literal"><span class="pre">package.xml</span></code> for a c++ package:</p>
-<div class="highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;depend&gt;</span>exotica_core<span class="nt">&lt;/depend&gt;</span>
+<p>Also, add the following to <code class="docutils literal notranslate"><span class="pre">package.xml</span></code> for a c++ package:</p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;depend&gt;</span>exotica_core<span class="nt">&lt;/depend&gt;</span>
 </pre></div>
 </div>
 <p>or the following for a python package:</p>
-<div class="highlight-xml"><div class="highlight"><pre><span></span><span class="nt">&lt;depend&gt;</span>exotica_python<span class="nt">&lt;/depend&gt;</span>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;depend&gt;</span>exotica_python<span class="nt">&lt;/depend&gt;</span>
 </pre></div>
 </div>
 </div>
@@ -253,7 +244,7 @@ add</p>
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2018, Vladimir Ivan, Yiming Yang, Wolfgang Merkt, Michael Camilleri, Sethu Vijayakumar - and contributors
+        &copy; Copyright 2019, Vladimir Ivan, Yiming Yang, Wolfgang Merkt, Michael Camilleri, Sethu Vijayakumar - and contributors
 
     </p>
   </div>

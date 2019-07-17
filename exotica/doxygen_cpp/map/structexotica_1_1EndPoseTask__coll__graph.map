@@ -1,0 +1,4 @@
+<map id="exotica::EndPoseTask" name="exotica::EndPoseTask">
+<area shape="rect" id="node2" href="$structexotica_1_1Task.html" title="{exotica::Task\n|+ task_maps\l+ tasks\l+ indexing\l+ length_Phi\l+ length_jacobian\l+ num_tasks\l+ tolerance\l# task_initializers_\l|+ Initialize()\l}" alt="" coords="5,5,136,185"/>
+<area shape="rect" id="node3" href="$structexotica_1_1TaskSpaceVector.html" title="{exotica::TaskSpaceVector\n|+ data\l+ map\l|+ TaskSpaceVector()\l+ ~TaskSpaceVector()\l+ operator=()\l+ operator&#45;()\l+ SetZero()\l}" alt="" coords="160,20,336,171"/>
+</map>
