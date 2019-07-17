@@ -1,0 +1,9 @@
+<map id="exotica::AbstractTimeIndexedProblem" name="exotica::AbstractTimeIndexedProblem">
+<area shape="rect" id="node7" href="$classexotica_1_1BoundedTimeIndexedProblem.html" title="Bound constrained time&#45;indexed problem. " alt="" coords="5,1349,229,1603"/>
+<area shape="rect" id="node8" href="$classexotica_1_1TimeIndexedProblem.html" title="Time&#45;indexed problem with bound, joint velocity, and general equality/inequality constraints. " alt="" coords="253,1415,448,1537"/>
+<area shape="rect" id="node9" href="$classexotica_1_1UnconstrainedTimeIndexedProblem.html" title="Unconstrained time&#45;indexed problem. " alt="" coords="473,1335,674,1617"/>
+<area shape="rect" id="node2" href="$classexotica_1_1PlanningProblem.html" title="{exotica::PlanningProblem\n|+ t_start\l+ termination_criterion\l+ N\l# num_positions_\l# num_velocities_\l# num_controls_\l# scene_\l# task_maps_\l# tasks_\l# flags_\l# start_state_\l# number_of_problem_updates_\l# cost_evolution_\l|+ PlanningProblem()\l+ ~PlanningProblem()\l+ InstantiateBase()\l+ GetTaskMaps()\l+ GetTasks()\l+ GetScene()\l+ Print()\l+ SetStartState()\l+ GetStartState()\l+ ApplyStartState()\land 15 more...\l# UpdateTaskKinematics()\l# UpdateMultipleTaskKinematics()\l}" alt="" coords="239,233,462,663"/>
+<area shape="rect" id="node3" href="$classexotica_1_1Object.html" title="{exotica::Object\n|+ ns_\l+ object_name_\l+ debug_\l|+ Object()\l+ ~Object()\l+ type()\l+ GetObjectName()\l+ InstantiateObject()\l+ Print()\l}" alt="" coords="25,5,167,185"/>
+<area shape="rect" id="node4" href="$classexotica_1_1Uncopyable.html" title="{exotica::Uncopyable\n||+ Uncopyable()\l+ ~Uncopyable()\l&#45; Uncopyable()\l&#45; operator=()\l}" alt="" coords="191,35,332,156"/>
+<area shape="rect" id="node5" href="$classexotica_1_1InstantiableBase.html" title="{exotica::InstantiableBase\n||+ GetInitializerTemplate()\l+ InstantiateInternal()\l+ InstantiateBase()\l+ GetAllTemplates()\l}" alt="" coords="357,35,526,156"/>
+</map>

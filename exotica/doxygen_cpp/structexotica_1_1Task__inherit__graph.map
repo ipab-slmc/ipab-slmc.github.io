@@ -1,0 +1,5 @@
+<map id="exotica::Task" name="exotica::Task">
+<area shape="rect" id="node2" href="$structexotica_1_1EndPoseTask.html" title="{exotica::EndPoseTask\n|+ rho\l+ y\l+ ydiff\l+ Phi\l+ jacobian\l+ hessian\l+ S\l|+ Initialize()\l+ UpdateS()\l+ Update()\l+ Update()\l+ Update()\l+ SetGoal()\l+ GetGoal()\l+ SetRho()\l+ GetRho()\l+ GetTaskError()\l}" alt="" coords="5,248,160,545"/>
+<area shape="rect" id="node3" href="$structexotica_1_1SamplingTask.html" title="{exotica::SamplingTask\n|+ rho\l+ y\l+ ydiff\l+ Phi\l+ S\l|+ Initialize()\l+ UpdateS()\l+ Update()\l+ SetGoal()\l+ GetGoal()\l+ SetRho()\l+ GetRho()\l}" alt="" coords="184,285,339,509"/>
+<area shape="rect" id="node4" href="$structexotica_1_1TimeIndexedTask.html" title="{exotica::TimeIndexedTask\n|+ rho\l+ y\l+ ydiff\l+ Phi\l+ hessian\l+ jacobian\l+ S\l+ T\l|+ Initialize()\l+ UpdateS()\l+ Update()\l+ Update()\l+ Update()\l+ ReinitializeVariables()\l+ ValidateTimeIndex()\l+ SetGoal()\l+ GetGoal()\l+ SetRho()\l+ GetRho()\l}" alt="" coords="363,233,539,560"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="exotica::FeedbackMotionSolver" name="exotica::FeedbackMotionSolver">
+<area shape="rect" id="node2" href="$classexotica_1_1MotionSolver.html" title="{exotica::MotionSolver\n|# problem_\l# planning_time_\l# max_iterations_\l|+ MotionSolver()\l+ ~MotionSolver()\l+ InstantiateBase()\l+ SpecifyProblem()\l+ Solve()\l+ GetProblem()\l+ Print()\l+ SetNumberOfMaxIterations()\l+ GetNumberOfMaxIterations()\l+ GetPlanningTime()\l}" alt="" coords="140,233,343,472"/>
+<area shape="rect" id="node3" href="$classexotica_1_1Object.html" title="{exotica::Object\n|+ ns_\l+ object_name_\l+ debug_\l|+ Object()\l+ ~Object()\l+ type()\l+ GetObjectName()\l+ InstantiateObject()\l+ Print()\l}" alt="" coords="5,5,147,185"/>
+<area shape="rect" id="node4" href="$classexotica_1_1Uncopyable.html" title="{exotica::Uncopyable\n||+ Uncopyable()\l+ ~Uncopyable()\l&#45; Uncopyable()\l&#45; operator=()\l}" alt="" coords="171,35,312,156"/>
+<area shape="rect" id="node5" href="$classexotica_1_1InstantiableBase.html" title="{exotica::InstantiableBase\n||+ GetInitializerTemplate()\l+ InstantiateInternal()\l+ InstantiateBase()\l+ GetAllTemplates()\l}" alt="" coords="337,35,506,156"/>
+</map>

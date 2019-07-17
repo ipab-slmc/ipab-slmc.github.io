@@ -1,0 +1,38 @@
+\form#0:$o\in\mathbb{R}^3$
+\form#1:$0<r\in\mathbb{R}$
+\form#2:\[ \Phi_i(x) := \begin{cases}(1 - \frac{d_i^2}{r_i^2})^2 & d_i<r_i\\0 & \text{otherwise}\end{cases} \]
+\form#3:$i=1{:}N$
+\form#4:$N$
+\form#5:$d$
+\form#6:\[ \Phi_i(x) = r_i^2 - d_i^2 \]
+\form#7:$p = (x, y, z)^T\in\mathbb{R}^3$
+\form#8:$p$
+\form#9:\[ \Phi = \begin{bmatrix}x^2 + y^2 - \tan(\theta)^2z^2\\-z\end{bmatrix}. \]
+\form#10:$\theta$
+\form#11:\[ \Phi = \vec{d} \]
+\form#12:$\vec{d}:=p - a$
+\form#13:$a$
+\form#14:$L$
+\form#15:\[ L:=\{\alpha c : \alpha\in\mathbb{R}\} \]
+\form#16:$c$
+\form#17:\[ m(x) = \sqrt{J(x)J(x)^T} \]
+\form#18:$J(x)$
+\form#19:\[ \phi(x) := -m(x). \]
+\form#20:$\phi$
+\form#21:$\rho$
+\form#22:$\Phi$
+\form#23:$T$
+\form#24:$x_0$
+\form#25:$ \mu_{x_{t-1}\rightarrow x_t}(x)=\mathcal{N}(x_t|s_t,S_t) $
+\form#26:$ s_t=a_{t-1}\!+\!A_{t-1}(S_{t-1}^{-1}\!+\!R_{t-1})^{-1}(S_{t-1}^{-1}s_{t-1}\!+\!r_{t-1}) $
+\form#27:$ S_t=Q+B_tH^{-1}B_t^{\!\top\!} + A_{t-1}(S_{t-1}^{-1}+R_{t-1})^{-1}A_{t-1}^{\!\top\!} $
+\form#28:$ \mu_{x_{t+1}\rightarrow x_t}(x)=\mathcal{N}(x_t|v_t,V_t) $
+\form#29:$ v_t=-A_{t}^{-1}a_{t}\!\!+\!\!A_{t}^{-1}(V_{t+1}^{-1}\!\!+\!\!R_{t+1})^{-1}(V_{t+1}^{-1}v_{t+1}\!\!+\!\!r_{t+1}) $
+\form#30:$ V_t=A_{t}^{-1}[Q+B_tH^{-1}B_t^{\!\top\!} + (V_{t+1}^{-1}+R_{t+1})^{-1}]A_{t}^{-{\!\top\!}} $
+\form#31:$ \mu_{z_t\rightarrow x_t}(x)=\mathcal{N}[x_t|r_t,R_t] $
+\form#32:$ b_t(X_t)=\mu_{x_{t-1}\rightarrow x_t}(x) \mu_{x_{t+1}\rightarrow x_t}(x) \mu_{z_t\rightarrow x_t}(x) $
+\form#33:$ b_t(X_t)=\mathcal{N}\left(x_t|(S_t^{-1}+V_t^{-1}+R_t)^{-1}(S_t^{-1}s_t+V_t^{-1}v_t+r_t),S_t^{-1}+V_t^{-1}+R_t \right) $
+\form#34:$ R, r, \hat{r} $
+\form#35:$t$
+\form#36:$x=Ab$
+\form#37:\[ (SJW)x=y \]
