@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['l_5f',['L_',['../classexotica_1_1QuadrotorDynamicsSolver.html#a8678f25fb4602e78c0e524316555804f',1,'exotica::QuadrotorDynamicsSolver::L_()'],['../classexotica_1_1CartpoleDynamicsSolver.html#ab47b2d09753fcf16961ebec41506264d',1,'exotica::CartpoleDynamicsSolver::l_()']]],
-  ['l_5fgains_5f',['l_gains_',['../classexotica_1_1ILQGSolver.html#aef222c074113ebadf52e33223e573482',1,'exotica::ILQGSolver::l_gains_()'],['../classexotica_1_1ILQGSolver.html#a4d26b4c2ce6d2f5b0efa5aef42f4d9d1',1,'exotica::ILQGSolver::L_gains_()']]],
+  ['l_5f',['L_',['../classexotica_1_1QuadrotorDynamicsSolver.html#a8678f25fb4602e78c0e524316555804f',1,'exotica::QuadrotorDynamicsSolver::L_()'],['../classexotica_1_1CartpoleDynamicsSolver.html#ab47b2d09753fcf16961ebec41506264d',1,'exotica::CartpoleDynamicsSolver::l_()'],['../classexotica_1_1PendulumDynamicsSolver.html#a83d709cf342c1c1b2d2b42be86b188af',1,'exotica::PendulumDynamicsSolver::l_()']]],
+  ['l_5fgains_5f',['L_gains_',['../classexotica_1_1ILQGSolver.html#a4d26b4c2ce6d2f5b0efa5aef42f4d9d1',1,'exotica::ILQGSolver::L_gains_()'],['../classexotica_1_1ILQGSolver.html#aef222c074113ebadf52e33223e573482',1,'exotica::ILQGSolver::l_gains_()']]],
   ['lambda_5f',['lambda_',['../classexotica_1_1LevenbergMarquardtSolver.html#a8dd7436e6330087cafbe296876293910',1,'exotica::LevenbergMarquardtSolver']]],
   ['last_5ft_5f',['last_T_',['../classexotica_1_1AICOSolver.html#a7bb4457c5e68388fc3303414c9bebd76',1,'exotica::AICOSolver']]],
   ['length',['length',['../classexotica_1_1KinematicSolution.html#af2bb483d73568df5064012dd8710436b',1,'exotica::KinematicSolution::length()'],['../classexotica_1_1TaskMap.html#a6546f1b091c85a65152dfefd3bb49ac7',1,'exotica::TaskMap::length()'],['../structexotica_1_1TaskIndexing.html#a5ac40335443f9cf87cc7a4124ba64287',1,'exotica::TaskIndexing::length()']]],

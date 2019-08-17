@@ -1,13 +1,15 @@
 var searchData=
 [
   ['abstractddpsolver',['AbstractDDPSolver',['../classexotica_1_1AbstractDDPSolver.html',1,'exotica']]],
-  ['abstractddpsolver_3c_20analyticddpsolverinitializer_20_3e',['AbstractDDPSolver&lt; AnalyticDDPSolverInitializer &gt;',['../classexotica_1_1AbstractDDPSolver.html',1,'exotica']]],
-  ['abstractddpsolver_3c_20controllimitedddpsolverinitializer_20_3e',['AbstractDDPSolver&lt; ControlLimitedDDPSolverInitializer &gt;',['../classexotica_1_1AbstractDDPSolver.html',1,'exotica']]],
   ['abstractdynamicssolver',['AbstractDynamicsSolver',['../classexotica_1_1AbstractDynamicsSolver.html',1,'exotica']]],
   ['abstracttimeindexedproblem',['AbstractTimeIndexedProblem',['../classexotica_1_1AbstractTimeIndexedProblem.html',1,'exotica']]],
   ['aicosolver',['AICOSolver',['../classexotica_1_1AICOSolver.html',1,'exotica']]],
   ['allowedcollisionmatrix',['AllowedCollisionMatrix',['../classexotica_1_1AllowedCollisionMatrix.html',1,'exotica']]],
   ['analyticddpsolver',['AnalyticDDPSolver',['../classexotica_1_1AnalyticDDPSolver.html',1,'exotica']]],
+  ['animation',['Animation',['../structexotica_1_1visualization_1_1Animation.html',1,'exotica::visualization']]],
+  ['animationoption',['AnimationOption',['../structexotica_1_1visualization_1_1AnimationOption.html',1,'exotica::visualization']]],
+  ['arrayfloat',['ArrayFloat',['../structexotica_1_1visualization_1_1ArrayFloat.html',1,'exotica::visualization']]],
+  ['arrayint',['ArrayInt',['../structexotica_1_1visualization_1_1ArrayInt.html',1,'exotica::visualization']]],
   ['attachedobject',['AttachedObject',['../structexotica_1_1AttachedObject.html',1,'exotica']]],
   ['auto_5fdiff_5fspecial_5fop',['auto_diff_special_op',['../structEigen_1_1internal_1_1auto__diff__special__op.html',1,'Eigen::internal']]],
   ['auto_5fdiff_5fspecial_5fop_3c_20_5fdertype_2c_20false_20_3e',['auto_diff_special_op&lt; _DerType, false &gt;',['../structEigen_1_1internal_1_1auto__diff__special__op_3_01__DerType_00_01false_01_4.html',1,'Eigen::internal']]],

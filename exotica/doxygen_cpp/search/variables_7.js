@@ -1,6 +1,8 @@
 var searchData=
 [
   ['h_5f',['h_',['../classexotica_1_1JointTorqueMinimizationProxy.html#ab1da4aab742f3eb8b33cff81601537d5',1,'exotica::JointTorqueMinimizationProxy']]],
+  ['height',['height',['../structexotica_1_1visualization_1_1GeometryBox.html#a6799c56b8c9ad7eff1908c4df55cdc99',1,'exotica::visualization::GeometryBox::height()'],['../structexotica_1_1visualization_1_1GeometryCylinder.html#a4c1a444a9c8df97e3122701200fa36e3',1,'exotica::visualization::GeometryCylinder::height()']]],
+  ['heightsegments',['heightSegments',['../structexotica_1_1visualization_1_1GeometrySphere.html#a485f38e2f589712dad9085d7ed4a07df',1,'exotica::visualization::GeometrySphere']]],
   ['hessian',['hessian',['../classexotica_1_1AbstractTimeIndexedProblem.html#abb4e843ee76ec29901ad7284f68d4b2c',1,'exotica::AbstractTimeIndexedProblem::hessian()'],['../classexotica_1_1BoundedEndPoseProblem.html#a34627cfc0809520e7bc86af2344656fd',1,'exotica::BoundedEndPoseProblem::hessian()'],['../classexotica_1_1DynamicTimeIndexedShootingProblem.html#a870e0ceebe66b42362a4c02d60b1d653',1,'exotica::DynamicTimeIndexedShootingProblem::hessian()'],['../classexotica_1_1EndPoseProblem.html#ac0af03b258e94f32e7970b300e2708ca',1,'exotica::EndPoseProblem::hessian()'],['../classexotica_1_1UnconstrainedEndPoseProblem.html#af8f0418bca7aeeefd7c499debe478b4b',1,'exotica::UnconstrainedEndPoseProblem::hessian()'],['../structexotica_1_1TimeIndexedTask.html#ab354f08f2da52c7ccecafc76541d2dc1',1,'exotica::TimeIndexedTask::hessian()'],['../structexotica_1_1EndPoseTask.html#ae5313d236216d374450a7164f3bed10c',1,'exotica::EndPoseTask::hessian()']]],
   ['hff_5finv',['Hff_inv',['../structexotica_1_1BoxQPSolution.html#a548159143d9367da222c76e113e19eb8',1,'exotica::BoxQPSolution']]]
 ];

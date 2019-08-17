@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['warning',['WARNING',['../printable_8h.html#a9e1796fdadec0df60e8d280ee783b85c',1,'printable.h']]],
-  ['warning_5fnamed',['WARNING_NAMED',['../printable_8h.html#a3c040b5bc6e340359024ed693de31b69',1,'printable.h']]]
+  ['thrownamed',['ThrowNamed',['../exception_8h.html#a054d2c60ba59c0bd6aec5b69fcbdaab4',1,'exception.h']]],
+  ['throwpretty',['ThrowPretty',['../exception_8h.html#aa0194201536ac563da059d6afac51015',1,'exception.h']]]
 ];

@@ -1,0 +1,7 @@
+<map id="exotica::visualization::Geometry" name="exotica::visualization::Geometry">
+<area shape="rect" id="node2" href="$structexotica_1_1visualization_1_1GeometryBox.html" title="{exotica::visualization\l::GeometryBox\n|+ width\l+ height\l+ depth\l|+ GeometryBox()\l+ GeometryBox()\l}" alt="" coords="5,211,149,347"/>
+<area shape="rect" id="node3" href="$structexotica_1_1visualization_1_1GeometryCylinder.html" title="{exotica::visualization\l::GeometryCylinder\n|+ height\l+ radiusTop\l+ radiusBottom\l+ radialSegments\l|+ GeometryCylinder()\l+ GeometryCylinder()\l}" alt="" coords="173,204,320,355"/>
+<area shape="rect" id="node4" href="$structexotica_1_1visualization_1_1GeometryMesh.html" title="{exotica::visualization\l::GeometryMesh\n|+ buffer\l+ file_name\l+ format\l+ data\l+ url\l+ resources\l+ matrix\l|+ GeometryMesh()\l+ GeometryMesh()\l+ GeometryMesh()\l}" alt="" coords="344,175,488,384"/>
+<area shape="rect" id="node5" href="$structexotica_1_1visualization_1_1GeometryMeshBuffer.html" title="{exotica::visualization\l::GeometryMeshBuffer\n|+ data\l+ matrix\l|+ GeometryMeshBuffer()\l+ GeometryMeshBuffer()\l}" alt="" coords="513,219,679,340"/>
+<area shape="rect" id="node6" href="$structexotica_1_1visualization_1_1GeometrySphere.html" title="{exotica::visualization\l::GeometrySphere\n|+ radius\l+ widthSegments\l+ heightSegments\l|+ GeometrySphere()\l+ GeometrySphere()\l}" alt="" coords="704,211,848,347"/>
+</map>

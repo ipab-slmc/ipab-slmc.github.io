@@ -6,12 +6,15 @@ var searchData=
   ['scalarbinaryoptraits_3c_20typename_20dertype_3a_3ascalar_2c_20autodiffscalar_3c_20dertype_20_3e_2c_20binop_20_3e',['ScalarBinaryOpTraits&lt; typename DerType::Scalar, AutoDiffScalar&lt; DerType &gt;, BinOp &gt;',['../structEigen_1_1ScalarBinaryOpTraits_3_01typename_01DerType_1_1Scalar_00_01AutoDiffScalar_3_01DerType_01_4_00_01BinOp_01_4.html',1,'Eigen']]],
   ['scene',['Scene',['../classexotica_1_1Scene.html',1,'exotica']]],
   ['server',['Server',['../classexotica_1_1Server.html',1,'exotica']]],
+  ['setanimation',['SetAnimation',['../structexotica_1_1visualization_1_1SetAnimation.html',1,'exotica::visualization']]],
+  ['setobjecttype',['SetObjectType',['../structexotica_1_1visualization_1_1SetObjectType.html',1,'exotica::visualization']]],
+  ['settransform',['SetTransform',['../structexotica_1_1visualization_1_1SetTransform.html',1,'exotica::visualization']]],
   ['setup',['Setup',['../classexotica_1_1Setup.html',1,'exotica']]],
   ['singlepassmeancovariance',['SinglePassMeanCovariance',['../classexotica_1_1SinglePassMeanCovariance.html',1,'exotica']]],
   ['solveexception',['SolveException',['../classexotica_1_1SolveException.html',1,'exotica']]],
   ['spherecollision',['SphereCollision',['../classexotica_1_1SphereCollision.html',1,'exotica']]],
-  ['statetype',['StateType',['../classexotica_1_1OMPLTimeIndexedRNStateSpace_1_1StateType.html',1,'exotica::OMPLTimeIndexedRNStateSpace']]],
+  ['statetype',['StateType',['../classexotica_1_1OMPLRNStateSpace_1_1StateType.html',1,'exotica::OMPLRNStateSpace']]],
   ['statetype',['StateType',['../classexotica_1_1OMPLSE3RNStateSpace_1_1StateType.html',1,'exotica::OMPLSE3RNStateSpace']]],
   ['statetype',['StateType',['../classexotica_1_1OMPLSE2RNStateSpace_1_1StateType.html',1,'exotica::OMPLSE2RNStateSpace']]],
-  ['statetype',['StateType',['../classexotica_1_1OMPLRNStateSpace_1_1StateType.html',1,'exotica::OMPLRNStateSpace']]]
+  ['statetype',['StateType',['../classexotica_1_1OMPLTimeIndexedRNStateSpace_1_1StateType.html',1,'exotica::OMPLTimeIndexedRNStateSpace']]]
 ];

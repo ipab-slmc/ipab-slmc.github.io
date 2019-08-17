@@ -128,8 +128,8 @@ Collaboration diagram for exotica::JointJerkBackwardDifference:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9a5d9d13e5f48ae186ce61903b54a4ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1JointJerkBackwardDifference.html#a9a5d9d13e5f48ae186ce61903b54a4ff">AssignScene</a> (<a class="el" href="namespaceexotica.html#a40b1efc13b2dddc8a9addac2dc0aa11d">ScenePtr</a> scene) override</td></tr>
-<tr class="separator:a9a5d9d13e5f48ae186ce61903b54a4ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea6f0ca2e4095d246143e50c72d38290"><td class="memItemLeft" align="right" valign="top">EIGEN_MAKE_ALIGNED_OPERATOR_NEW void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1JointJerkBackwardDifference.html#aea6f0ca2e4095d246143e50c72d38290">AssignScene</a> (<a class="el" href="namespaceexotica.html#a40b1efc13b2dddc8a9addac2dc0aa11d">ScenePtr</a> scene) override</td></tr>
+<tr class="separator:aea6f0ca2e4095d246143e50c72d38290"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a966d262d6c6851d6e29a72ea39d02f9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1JointJerkBackwardDifference.html#a966d262d6c6851d6e29a72ea39d02f9c">SetPreviousJointState</a> (<a class="el" href="namespaceEigen.html#ad6c86a9df4dd2627a995a39eab0f9010">Eigen::VectorXdRefConst</a> joint_state)</td></tr>
 <tr class="memdesc:a966d262d6c6851d6e29a72ea39d02f9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Logs previous joint state. SetPreviousJointState must be called after solve is called in a Python/C++ script is called to ensure the time-derivatives are appropriately approximated. Each previous joint state is pushed back by collumn and the given joint_state is placed in q_.col(0). Finally, we compute the new qbd_.  <a href="#a966d262d6c6851d6e29a72ea39d02f9c">More...</a><br /></td></tr>
 <tr class="separator:a966d262d6c6851d6e29a72ea39d02f9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -237,7 +237,7 @@ Additional Inherited Members</h2></td></tr>
 <p>For more information see: <a href="http://mathworld.wolfram.com/BackwardDifference.html">http://mathworld.wolfram.com/BackwardDifference.html</a></p>
 <p>Here, x+qbd_ represents the simplified estimate of the third time derivative. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a9a5d9d13e5f48ae186ce61903b54a4ff"></a>
+<a class="anchor" id="aea6f0ca2e4095d246143e50c72d38290"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -245,7 +245,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void exotica::JointJerkBackwardDifference::AssignScene </td>
+          <td class="memname">EIGEN_MAKE_ALIGNED_OPERATOR_NEW void exotica::JointJerkBackwardDifference::AssignScene </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceexotica.html#a40b1efc13b2dddc8a9addac2dc0aa11d">ScenePtr</a>&#160;</td>
           <td class="paramname"><em>scene</em></td><td>)</td>
@@ -523,7 +523,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 17 2019 13:37:34 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Aug 17 2019 17:36:29 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

@@ -1,4 +1,6 @@
-<map id="exotica::AbstractDDPSolver&lt; Initializer &gt;" name="exotica::AbstractDDPSolver&lt; Initializer &gt;">
+<map id="exotica::AbstractDDPSolver" name="exotica::AbstractDDPSolver">
+<area shape="rect" id="node7" href="$classexotica_1_1AnalyticDDPSolver.html" title="{exotica::AnalyticDDPSolver\n||+ Instantiate()\l&#45; BackwardPass()\l}" alt="" coords="35,917,221,1009"/>
+<area shape="rect" id="node8" href="$classexotica_1_1ControlLimitedDDPSolver.html" title="{exotica::ControlLimitedDDPSolver\n||+ Instantiate()\l&#45; BackwardPass()\l}" alt="" coords="245,917,467,1009"/>
 <area shape="rect" id="node2" href="$classexotica_1_1FeedbackMotionSolver.html" title="{exotica::FeedbackMotionSolver\n||+ GetFeedbackControl()\l}" alt="" coords="139,520,344,597"/>
 <area shape="rect" id="node3" href="$classexotica_1_1MotionSolver.html" title="{exotica::MotionSolver\n|# problem_\l# planning_time_\l# max_iterations_\l|+ MotionSolver()\l+ ~MotionSolver()\l+ InstantiateBase()\l+ SpecifyProblem()\l+ Solve()\l+ GetProblem()\l+ Print()\l+ SetNumberOfMaxIterations()\l+ GetNumberOfMaxIterations()\l+ GetPlanningTime()\l}" alt="" coords="140,233,343,472"/>
 <area shape="rect" id="node4" href="$classexotica_1_1Object.html" title="{exotica::Object\n|+ ns_\l+ object_name_\l+ debug_\l|+ Object()\l+ ~Object()\l+ type()\l+ GetObjectName()\l+ InstantiateObject()\l+ Print()\l}" alt="" coords="5,5,147,185"/>

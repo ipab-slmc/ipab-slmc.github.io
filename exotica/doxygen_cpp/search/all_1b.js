@@ -50,6 +50,7 @@ var searchData=
   ['_7eunconstrainedendposeproblem',['~UnconstrainedEndPoseProblem',['../classexotica_1_1UnconstrainedEndPoseProblem.html#a65a14763a1c8f653603289aac3e05e93',1,'exotica::UnconstrainedEndPoseProblem']]],
   ['_7eunconstrainedtimeindexedproblem',['~UnconstrainedTimeIndexedProblem',['../classexotica_1_1UnconstrainedTimeIndexedProblem.html#a87e21110afa14f27aaeff6f33b214bf8',1,'exotica::UnconstrainedTimeIndexedProblem']]],
   ['_7euncopyable',['~Uncopyable',['../classexotica_1_1Uncopyable.html#a68fa8c2df86f824529e2d510b28b9015',1,'exotica::Uncopyable']]],
-  ['_7evisualization',['~Visualization',['../classexotica_1_1Visualization.html#a471a839c0a69bf5141dda610160ff7eb',1,'exotica::Visualization']]],
+  ['_7evisualizationmeshcat',['~VisualizationMeshcat',['../classexotica_1_1VisualizationMeshcat.html#a2b44c9d34f1c1c6e5da7857e64ed5a46',1,'exotica::VisualizationMeshcat']]],
+  ['_7evisualizationmoveit',['~VisualizationMoveIt',['../classexotica_1_1VisualizationMoveIt.html#afdd3a25a96a22b4ac58ea33362807655',1,'exotica::VisualizationMoveIt']]],
   ['_7exmlloader',['~XMLLoader',['../classexotica_1_1XMLLoader.html#acd79c2239b9d17f91614e3d1c21287fd',1,'exotica::XMLLoader']]]
 ];

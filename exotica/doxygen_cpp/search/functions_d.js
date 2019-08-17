@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['object',['Object',['../classexotica_1_1Object.html#aef47459dab7f2c4dcb140ed3308b6a23',1,'exotica::Object']]],
+  ['object',['Object',['../classexotica_1_1Object.html#aef47459dab7f2c4dcb140ed3308b6a23',1,'exotica::Object::Object()'],['../structexotica_1_1visualization_1_1Object.html#af3286fafe72dbba4e49512590c9d5eef',1,'exotica::visualization::Object::Object()']]],
+  ['objectdata',['ObjectData',['../structexotica_1_1visualization_1_1ObjectData.html#ad61bc1114b272e228d2155a8faa8ca21',1,'exotica::visualization::ObjectData::ObjectData()=default'],['../structexotica_1_1visualization_1_1ObjectData.html#a3e3dd861784a268bf919222928fde8f2',1,'exotica::visualization::ObjectData::ObjectData(const std::string &amp;type_in, const std::string &amp;uuid_in, const std::string &amp;geometry_in, const std::string &amp;material_in)']]],
   ['ompl_5fcast',['ompl_cast',['../ompl__solver_8h.html#aca2a62fb3a95315cdf0d1c59a55fa194',1,'ompl_solver.h']]],
   ['omplrnprojection',['OMPLRNProjection',['../classexotica_1_1OMPLRNProjection.html#a42a14937a24f3d3b03612a4abfbfa3eb',1,'exotica::OMPLRNProjection']]],
   ['omplrnstatespace',['OMPLRNStateSpace',['../classexotica_1_1OMPLRNStateSpace.html#af905e7787fc482a05a71ae559da058d8',1,'exotica::OMPLRNStateSpace']]],
@@ -9,6 +10,7 @@ var searchData=
   ['omplse3rnprojection',['OMPLSE3RNProjection',['../classexotica_1_1OMPLSE3RNProjection.html#affb4861ce95b9e8725b6b4bf20b63749',1,'exotica::OMPLSE3RNProjection']]],
   ['omplse3rnstatespace',['OMPLSE3RNStateSpace',['../classexotica_1_1OMPLSE3RNStateSpace.html#abb32d2c8ed4a312d710c4d701f8d7e4b',1,'exotica::OMPLSE3RNStateSpace']]],
   ['omplsolver',['OMPLSolver',['../classexotica_1_1OMPLSolver.html#a74b747fe8475e5e17f9525c9bea49790',1,'exotica::OMPLSolver']]],
+  ['omplstatepropagator',['OMPLStatePropagator',['../classexotica_1_1OMPLStatePropagator.html#aee237dcd962a9214cfd9b6628ccdfc61',1,'exotica::OMPLStatePropagator']]],
   ['omplstatespace',['OMPLStateSpace',['../classexotica_1_1OMPLStateSpace.html#a8060f4eb1729ccfa59438937ca16f845',1,'exotica::OMPLStateSpace']]],
   ['omplstatevaliditychecker',['OMPLStateValidityChecker',['../classexotica_1_1OMPLStateValidityChecker.html#a88b1f06c2bf82b6b876ee7f3d4f4e991',1,'exotica::OMPLStateValidityChecker']]],
   ['ompltimeindexedrnstatespace',['OMPLTimeIndexedRNStateSpace',['../classexotica_1_1OMPLTimeIndexedRNStateSpace.html#a2582cc3259435ace35437e13cac3859e',1,'exotica::OMPLTimeIndexedRNStateSpace']]],

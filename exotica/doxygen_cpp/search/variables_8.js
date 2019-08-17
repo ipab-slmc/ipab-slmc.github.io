@@ -5,11 +5,12 @@ var searchData=
   ['imesh_5fmark_5f',['imesh_mark_',['../classexotica_1_1InteractionMesh.html#ac38bdd630eb1ce2cce19af9b5989e18e',1,'exotica::InteractionMesh']]],
   ['imesh_5fmark_5fpub_5f',['imesh_mark_pub_',['../classexotica_1_1InteractionMesh.html#a14e54b1d0585f1919d0256a75ef08552',1,'exotica::InteractionMesh']]],
   ['in_5fcollision',['in_collision',['../structexotica_1_1ContinuousCollisionProxy.html#a8ac476dc994d283f96c307c64a4f2199',1,'exotica::ContinuousCollisionProxy']]],
+  ['index',['index',['../structexotica_1_1visualization_1_1GeometryMeshBufferData.html#a585d4c6925e7e96ed598be22f2a9a956',1,'exotica::visualization::GeometryMeshBufferData']]],
   ['indexing',['indexing',['../structexotica_1_1Task.html#ad8f5bfc556396f742f581aaca19661bc',1,'exotica::Task']]],
   ['inequality',['inequality',['../classexotica_1_1AbstractTimeIndexedProblem.html#a469ef217d1712b7726ef29ccc92cbaa9',1,'exotica::AbstractTimeIndexedProblem::inequality()'],['../classexotica_1_1EndPoseProblem.html#a3d6022f84494316e2228c7b8dd6e2bf4',1,'exotica::EndPoseProblem::inequality()'],['../classexotica_1_1SamplingProblem.html#a072d2f0a4bbf63b618f34321c2b4559b',1,'exotica::SamplingProblem::inequality()'],['../classexotica_1_1TimeIndexedSamplingProblem.html#a67fe84360465ac66860ae3d58bb5e258',1,'exotica::TimeIndexedSamplingProblem::inequality()']]],
   ['inequality_5fphi',['inequality_Phi',['../classexotica_1_1AbstractTimeIndexedProblem.html#aed8a3300727082846a88cd8785fc1f4d',1,'exotica::AbstractTimeIndexedProblem']]],
   ['infinite_5f',['infinite_',['../classexotica_1_1PointToLine.html#afe6590376845e5c72ba123825886847a',1,'exotica::PointToLine']]],
-  ['init_5f',['init_',['../classexotica_1_1OMPLStateSpace.html#acd6e3f915afce7cb097a40cbe9cc402b',1,'exotica::OMPLStateSpace::init_()'],['../classexotica_1_1OMPLSolver.html#ac92fdb9cddab9907bb70d03bf97c3058',1,'exotica::OMPLSolver::init_()']]],
+  ['init_5f',['init_',['../classexotica_1_1OMPLControlSolver.html#a44aa2f5a8126d5a2260738aa809fba21',1,'exotica::OMPLControlSolver::init_()'],['../classexotica_1_1OMPLStateSpace.html#acd6e3f915afce7cb097a40cbe9cc402b',1,'exotica::OMPLStateSpace::init_()'],['../classexotica_1_1OMPLSolver.html#ac92fdb9cddab9907bb70d03bf97c3058',1,'exotica::OMPLSolver::init_()']]],
   ['initial_5ftrajectory_5f',['initial_trajectory_',['../classexotica_1_1AbstractTimeIndexedProblem.html#abdaf450e9e9bea267e3c04fcb1a9968e',1,'exotica::AbstractTimeIndexedProblem']]],
   ['instance_5f',['instance_',['../classexotica_1_1XMLLoader.html#abd43f201cabf01ddb15eb4f10bb7d350',1,'exotica::XMLLoader']]],
   ['integrator_5f',['integrator_',['../classexotica_1_1AbstractDynamicsSolver.html#a48a9ec504639a8801dab3afbcda0affa',1,'exotica::AbstractDynamicsSolver']]],
@@ -17,5 +18,6 @@ var searchData=
   ['is_5frobot_5flink',['is_robot_link',['../classexotica_1_1KinematicElement.html#af9cc9b43a4d38757491c823537241465',1,'exotica::KinematicElement']]],
   ['is_5ftrajectory_5fgenerated',['is_trajectory_generated',['../classexotica_1_1KinematicElement.html#a20872d70704d4d548a638add49a71d6e',1,'exotica::KinematicElement']]],
   ['is_5fused',['is_used',['../classexotica_1_1TaskMap.html#a0296145e2feed1cc745e320793260e1e',1,'exotica::TaskMap']]],
+  ['itemsize',['itemSize',['../structexotica_1_1visualization_1_1ArrayFloat.html#a332a26b875831f774f4f7f28594d407c',1,'exotica::visualization::ArrayFloat::itemSize()'],['../structexotica_1_1visualization_1_1ArrayInt.html#a7e215173559085963b803291d816e4b8',1,'exotica::visualization::ArrayInt::itemSize()']]],
   ['iteration_5fcount_5f',['iteration_count_',['../classexotica_1_1AICOSolver.html#a13405203ba0533ae5f3095d1af5ecdf8',1,'exotica::AICOSolver::iteration_count_()'],['../classexotica_1_1BayesianIKSolver.html#ab67a8fdd240f4c61ec6733ab20aac304',1,'exotica::BayesianIKSolver::iteration_count_()']]]
 ];

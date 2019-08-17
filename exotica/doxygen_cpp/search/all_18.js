@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['x',['x',['../structexotica_1_1KinematicResponse.html#a563503ddfd0667524b43b3769b87c644',1,'exotica::KinematicResponse::x()'],['../classexotica_1_1AbstractTimeIndexedProblem.html#a05bb075dee326bf38035376e2831ca37',1,'exotica::AbstractTimeIndexedProblem::x()'],['../structexotica_1_1BoxQPSolution.html#a24ff0a740da2a51257c41b5503955b8b',1,'exotica::BoxQPSolution::x()'],['../classexotica_1_1KinematicSolution.html#a8702462df478617694e92d1569836715',1,'exotica::KinematicSolution::X()']]],
+  ['x',['X',['../classexotica_1_1KinematicSolution.html#a8702462df478617694e92d1569836715',1,'exotica::KinematicSolution::X()'],['../structexotica_1_1KinematicResponse.html#a563503ddfd0667524b43b3769b87c644',1,'exotica::KinematicResponse::x()'],['../classexotica_1_1AbstractTimeIndexedProblem.html#a05bb075dee326bf38035376e2831ca37',1,'exotica::AbstractTimeIndexedProblem::x()'],['../structexotica_1_1BoxQPSolution.html#a24ff0a740da2a51257c41b5503955b8b',1,'exotica::BoxQPSolution::x()']]],
   ['x_5f',['X_',['../classexotica_1_1DynamicTimeIndexedShootingProblem.html#a711c293478e568c13e9048f36126f415',1,'exotica::DynamicTimeIndexedShootingProblem']]],
   ['x_5fstar_5f',['X_star_',['../classexotica_1_1DynamicTimeIndexedShootingProblem.html#a57bcc0cd8080e36b00c0c2e2fb3bf2da',1,'exotica::DynamicTimeIndexedShootingProblem']]],
   ['xdiff',['xdiff',['../classexotica_1_1AbstractTimeIndexedProblem.html#afbcd0817a990fcbdd273092e5d067400',1,'exotica::AbstractTimeIndexedProblem']]],

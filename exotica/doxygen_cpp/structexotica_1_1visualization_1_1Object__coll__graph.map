@@ -1,0 +1,4 @@
+<map id="exotica::visualization::Object&lt; T &gt;" name="exotica::visualization::Object&lt; T &gt;">
+<area shape="rect" id="node2" href="$structexotica_1_1visualization_1_1MetaData.html" title="{exotica::visualization\l::MetaData\n|+ version\l+ type\l|+ MetaData()\l+ MetaData()\l+ MSGPACK_DEFINE()\l}" alt="" coords="5,27,172,163"/>
+<area shape="rect" id="node3" href="$structexotica_1_1visualization_1_1ObjectData.html" title="{exotica::visualization\l::ObjectData\n|+ type\l+ uuid\l+ geometry\l+ material\l+ matrix\l|+ ObjectData()\l+ ObjectData()\l+ MSGPACK_DEFINE()\l}" alt="" coords="196,5,363,185"/>
+</map>

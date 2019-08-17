@@ -2,7 +2,10 @@ var searchData=
 [
   ['e1',['e1',['../structexotica_1_1ContinuousCollisionProxy.html#a92349bf258370340f0c095b285462332',1,'exotica::ContinuousCollisionProxy::e1()'],['../structexotica_1_1CollisionProxy.html#a8bee99c1874db590f96300728a51e4f1',1,'exotica::CollisionProxy::e1()']]],
   ['e2',['e2',['../structexotica_1_1ContinuousCollisionProxy.html#af0fa9ca4114595a6257694c1101baf4b',1,'exotica::ContinuousCollisionProxy::e2()'],['../structexotica_1_1CollisionProxy.html#a80054c3e9efeb635098072c2c88b5f21',1,'exotica::CollisionProxy::e2()']]],
+  ['eff_5flower_5f',['eff_lower_',['../classexotica_1_1EffBox.html#aac8c53da3523f6acd5d27c855b15d163',1,'exotica::EffBox']]],
   ['eff_5fsize_5f',['eff_size_',['../classexotica_1_1InteractionMesh.html#a8b609c877c7bc997a7ab9157f51ab226',1,'exotica::InteractionMesh']]],
+  ['eff_5fupper_5f',['eff_upper_',['../classexotica_1_1EffBox.html#a18f7d95c3345864560185a59b733818e',1,'exotica::EffBox']]],
+  ['emissive',['emissive',['../structexotica_1_1visualization_1_1Material.html#a4e05f3858ec1153ff33517db7fc1ff4a',1,'exotica::visualization::Material']]],
   ['enable_5fz_5f',['enable_z_',['../classexotica_1_1CenterOfMass.html#a82edb246ddb9faf890fa9140518c5c65',1,'exotica::CenterOfMass']]],
   ['entries_5f',['entries_',['../classexotica_1_1AllowedCollisionMatrix.html#afc490fc7c5360712ff6a5ebdca184f2f',1,'exotica::AllowedCollisionMatrix']]],
   ['environment_5ftree_5f',['environment_tree_',['../classexotica_1_1KinematicTree.html#a9371316815c505a626642526415defb8',1,'exotica::KinematicTree']]],

@@ -10,6 +10,7 @@ var searchData=
   ['timeindexedsamplingproblem',['TimeIndexedSamplingProblem',['../classexotica_1_1TimeIndexedSamplingProblem.html',1,'exotica']]],
   ['timeindexedtask',['TimeIndexedTask',['../structexotica_1_1TimeIndexedTask.html',1,'exotica']]],
   ['timer',['Timer',['../classexotica_1_1Timer.html',1,'exotica']]],
+  ['track',['Track',['../structexotica_1_1visualization_1_1Track.html',1,'exotica::visualization']]],
   ['trajectory',['Trajectory',['../classexotica_1_1Trajectory.html',1,'exotica']]],
   ['treegrowinginfo',['TreeGrowingInfo',['../structexotica_1_1OMPLTimeIndexedRRTConnect_1_1TreeGrowingInfo.html',1,'exotica::OMPLTimeIndexedRRTConnect']]]
 ];

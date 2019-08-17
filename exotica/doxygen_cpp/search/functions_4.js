@@ -1,7 +1,7 @@
 var searchData=
 [
   ['edgecount',['EdgeCount',['../classexotica_1_1PRMSolver.html#aeb6f40c38fd05e0e43523b46c0d13449',1,'exotica::PRMSolver::EdgeCount()'],['../classexotica_1_1LazyPRMSolver.html#af6aa7106bd3fb85f0122989d717bf702',1,'exotica::LazyPRMSolver::EdgeCount()']]],
-  ['effaxisalignment',['EffAxisAlignment',['../classexotica_1_1EffAxisAlignment.html#aef08308a78273470ceb1ab8838eae49e',1,'exotica::EffAxisAlignment']]],
+  ['effaxisalignment',['EffAxisAlignment',['../classexotica_1_1EffAxisAlignment.html#ae7d93806ab0968c274f915a225450bb7',1,'exotica::EffAxisAlignment']]],
   ['effframe',['EffFrame',['../classexotica_1_1EffFrame.html#a07a43da6aa6f0e9135fd713b551fbfc8',1,'exotica::EffFrame']]],
   ['efforientation',['EffOrientation',['../classexotica_1_1EffOrientation.html#ab5da3b2395ca65c6e60018256079ab4c',1,'exotica::EffOrientation']]],
   ['effposition',['EffPosition',['../classexotica_1_1EffPosition.html#a01f483cf7912c57adeb3d0fe032839cf',1,'exotica::EffPosition']]],

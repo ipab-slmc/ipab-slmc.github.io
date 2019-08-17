@@ -96,33 +96,33 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="textblock"><code>#include &lt;<a class="el" href="feedback__motion__solver_8h_source.html">exotica_core/feedback_motion_solver.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="dynamic__time__indexed__shooting__problem_8h_source.html">exotica_core/problems/dynamic_time_indexed_shooting_problem.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="conversions_8h_source.html">exotica_core/tools/conversions.h</a>&gt;</code><br />
+<code>#include &lt;exotica_ddp_solver/abstract_ddp_solver_initializer.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for abstract_ddp_solver.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="abstract__ddp__solver_8h__incl.png" border="0" usemap="#_2home_2wxm_2dev_2exotica__ws_2src_2exotica_2exotations_2solvers_2exotica__ddp__solver_2include_2exotica__ddp__solver_2abstract__ddp__solver_8h" alt=""/></div>
 <map name="_2home_2wxm_2dev_2exotica__ws_2src_2exotica_2exotations_2solvers_2exotica__ddp__solver_2include_2exotica__ddp__solver_2abstract__ddp__solver_8h" id="_2home_2wxm_2dev_2exotica__ws_2src_2exotica_2exotations_2solvers_2exotica__ddp__solver_2include_2exotica__ddp__solver_2abstract__ddp__solver_8h">
-<area shape="rect" id="node2" href="feedback__motion__solver_8h.html" title="exotica_core/feedback\l_motion_solver.h" alt="" coords="182,146,335,187"/>
-<area shape="rect" id="node13" href="conversions_8h.html" title="exotica_core/tools\l/conversions.h" alt="" coords="1244,943,1372,984"/>
-<area shape="rect" id="node46" href="dynamic__time__indexed__shooting__problem_8h.html" title="exotica_core/problems\l/dynamic_time_indexed\l_shooting_problem.h" alt="" coords="467,139,626,195"/>
-<area shape="rect" id="node3" href="motion__solver_8h.html" title="exotica_core/motion\l_solver.h" alt="" coords="189,250,328,291"/>
-<area shape="rect" id="node4" href="factory_8h.html" title="exotica_core/factory.h" alt="" coords="195,682,346,709"/>
-<area shape="rect" id="node8" href="object_8h.html" title="exotica_core/object.h" alt="" coords="956,771,1103,798"/>
-<area shape="rect" id="node29" href="property_8h.html" title="exotica_core/property.h" alt="" coords="478,861,637,887"/>
-<area shape="rect" id="node33" href="planning__problem_8h.html" title="exotica_core/planning\l_problem.h" alt="" coords="1250,347,1398,388"/>
-<area shape="rect" id="node9" href="tools_8h.html" title="exotica_core/tools.h" alt="" coords="952,861,1091,887"/>
-<area shape="rect" id="node17" href="exception_8h.html" title="exotica_core/tools\l/exception.h" alt="" coords="1656,1032,1784,1073"/>
-<area shape="rect" id="node20" href="printable_8h.html" title="exotica_core/tools\l/printable.h" alt="" coords="1504,1032,1632,1073"/>
-<area shape="rect" id="node24" href="timer_8h.html" title="exotica_core/tools\l/timer.h" alt="" coords="1625,943,1753,984"/>
-<area shape="rect" id="node26" href="uncopyable_8h.html" title="exotica_core/tools\l/uncopyable.h" alt="" coords="2083,943,2211,984"/>
-<area shape="rect" id="node27" href="version_8h.html" title="exotica_core/version.h" alt="" coords="914,950,1067,977"/>
-<area shape="rect" id="node34" href="scene_8h.html" title="exotica_core/scene.h" alt="" coords="1556,511,1703,537"/>
-<area shape="rect" id="node44" href="task__map_8h.html" title="exotica_core/task_map.h" alt="" coords="1525,436,1693,463"/>
-<area shape="rect" id="node45" href="task__space__vector_8h.html" title="exotica_core/task_space\l_vector.h" alt="" coords="1427,853,1594,895"/>
-<area shape="rect" id="node40" href="collision__scene_8h.html" title="exotica_core/collision\l_scene.h" alt="" coords="2331,585,2477,627"/>
-<area shape="rect" id="node41" href="kinematic__tree_8h.html" title="exotica_core/kinematic\l_tree.h" alt="" coords="2641,853,2797,895"/>
-<area shape="rect" id="node42" href="trajectory_8h.html" title="exotica_core/trajectory.h" alt="" coords="763,861,928,887"/>
-<area shape="rect" id="node47" href="dynamics__solver_8h.html" title="exotica_core/dynamics\l_solver.h" alt="" coords="382,585,538,627"/>
-<area shape="rect" id="node49" href="tasks_8h.html" title="exotica_core/tasks.h" alt="" coords="682,257,825,284"/>
+<area shape="rect" id="node2" href="feedback__motion__solver_8h.html" title="exotica_core/feedback\l_motion_solver.h" alt="" coords="962,146,1115,187"/>
+<area shape="rect" id="node13" href="conversions_8h.html" title="exotica_core/tools\l/conversions.h" alt="" coords="967,943,1095,984"/>
+<area shape="rect" id="node45" href="dynamic__time__indexed__shooting__problem_8h.html" title="exotica_core/problems\l/dynamic_time_indexed\l_shooting_problem.h" alt="" coords="779,139,938,195"/>
+<area shape="rect" id="node3" href="motion__solver_8h.html" title="exotica_core/motion\l_solver.h" alt="" coords="1056,250,1195,291"/>
+<area shape="rect" id="node4" href="factory_8h.html" title="exotica_core/factory.h" alt="" coords="935,682,1086,709"/>
+<area shape="rect" id="node8" href="object_8h.html" title="exotica_core/object.h" alt="" coords="1425,771,1572,798"/>
+<area shape="rect" id="node28" href="property_8h.html" title="exotica_core/property.h" alt="" coords="2557,861,2715,887"/>
+<area shape="rect" id="node32" href="planning__problem_8h.html" title="exotica_core/planning\l_problem.h" alt="" coords="463,347,611,388"/>
+<area shape="rect" id="node9" href="tools_8h.html" title="exotica_core/tools.h" alt="" coords="695,861,833,887"/>
+<area shape="rect" id="node17" href="exception_8h.html" title="exotica_core/tools\l/exception.h" alt="" coords="1223,1032,1351,1073"/>
+<area shape="rect" id="node20" href="printable_8h.html" title="exotica_core/tools\l/printable.h" alt="" coords="545,1032,673,1073"/>
+<area shape="rect" id="node24" href="timer_8h.html" title="exotica_core/tools\l/timer.h" alt="" coords="612,943,740,984"/>
+<area shape="rect" id="node26" href="uncopyable_8h.html" title="exotica_core/tools\l/uncopyable.h" alt="" coords="460,943,588,984"/>
+<area shape="rect" id="node33" href="scene_8h.html" title="exotica_core/scene.h" alt="" coords="1700,511,1847,537"/>
+<area shape="rect" id="node43" href="task__map_8h.html" title="exotica_core/task_map.h" alt="" coords="687,436,855,463"/>
+<area shape="rect" id="node44" href="task__space__vector_8h.html" title="exotica_core/task_space\l_vector.h" alt="" coords="309,853,475,895"/>
+<area shape="rect" id="node39" href="collision__scene_8h.html" title="exotica_core/collision\l_scene.h" alt="" coords="1644,585,1791,627"/>
+<area shape="rect" id="node40" href="kinematic__tree_8h.html" title="exotica_core/kinematic\l_tree.h" alt="" coords="1638,853,1794,895"/>
+<area shape="rect" id="node41" href="trajectory_8h.html" title="exotica_core/trajectory.h" alt="" coords="1187,861,1352,887"/>
+<area shape="rect" id="node46" href="dynamics__solver_8h.html" title="exotica_core/dynamics\l_solver.h" alt="" coords="2835,585,2991,627"/>
+<area shape="rect" id="node48" href="tasks_8h.html" title="exotica_core/tasks.h" alt="" coords="702,257,845,284"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -139,7 +139,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html">exotica::AbstractDDPSolver&lt; Initializer &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html">exotica::AbstractDDPSolver</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -150,7 +150,7 @@ Namespaces</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 17 2019 13:37:34 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Aug 17 2019 17:36:29 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

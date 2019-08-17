@@ -1,3 +1,148 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classexotica_1_1XMLLoader.html" title="exotica::XMLLoader" alt="" coords="5,5,144,32"/>
+<area shape="rect" id="node2" href="$classexotica_1_1PlanningProblem.html" title="exotica::PlanningProblem" alt="" coords="264,632,435,659"/>
+<area shape="rect" id="node13" href="$classexotica_1_1Scene.html" title="The class of EXOTica Scene. " alt="" coords="583,204,692,231"/>
+<area shape="rect" id="node3" href="$classexotica_1_1AbstractTimeIndexedProblem.html" title="exotica::AbstractTimeIndexed\lProblem" alt="" coords="539,625,735,666"/>
+<area shape="rect" id="node7" href="$classexotica_1_1BoundedEndPoseProblem.html" title="Bound constrained end&#45;pose problem implementation. " alt="" coords="525,414,749,440"/>
+<area shape="rect" id="node8" href="$classexotica_1_1DynamicTimeIndexedShootingProblem.html" title="exotica::DynamicTimeIndexed\lShootingProblem" alt="" coords="538,501,737,542"/>
+<area shape="rect" id="node9" href="$classexotica_1_1EndPoseProblem.html" title="Arbitrarily constrained end&#45;pose problem implementation. " alt="" coords="551,574,724,600"/>
+<area shape="rect" id="node10" href="$classexotica_1_1SamplingProblem.html" title="exotica::SamplingProblem" alt="" coords="550,691,725,718"/>
+<area shape="rect" id="node11" href="$classexotica_1_1TimeIndexedSamplingProblem.html" title="exotica::TimeIndexedSampling\lProblem" alt="" coords="537,744,738,785"/>
+<area shape="rect" id="node12" href="$classexotica_1_1UnconstrainedEndPoseProblem.html" title="exotica::UnconstrainedEnd\lPoseProblem" alt="" coords="548,810,727,852"/>
+<area shape="rect" id="node4" href="$classexotica_1_1BoundedTimeIndexedProblem.html" title="Bound constrained time&#45;indexed problem. " alt="" coords="823,705,1022,746"/>
+<area shape="rect" id="node5" href="$classexotica_1_1TimeIndexedProblem.html" title="Time&#45;indexed problem with bound, joint velocity, and general equality/inequality constraints. " alt="" coords="825,995,1020,1022"/>
+<area shape="rect" id="node6" href="$classexotica_1_1UnconstrainedTimeIndexedProblem.html" title="Unconstrained time&#45;indexed problem. " alt="" coords="830,545,1015,586"/>
+<area shape="rect" id="node14" href="$classexotica_1_1InstantiableBase.html" title="exotica::InstantiableBase" alt="" coords="5,2372,175,2399"/>
+<area shape="rect" id="node15" href="$classexotica_1_1AbstractDynamicsSolver.html" title="exotica::AbstractDynamics\lSolver\&lt; T, NX, NU \&gt;" alt="" coords="259,1104,439,1145"/>
+<area shape="rect" id="node21" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; C, typename \&gt;" alt="" coords="280,1533,419,1574"/>
+<area shape="rect" id="node22" href="$classexotica_1_1MotionSolver.html" title="exotica::MotionSolver" alt="" coords="275,1934,423,1960"/>
+<area shape="rect" id="node48" href="$classexotica_1_1TaskMap.html" title="exotica::TaskMap" alt="" coords="286,3624,413,3651"/>
+<area shape="rect" id="node75" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; AICOSolverInitializer \&gt;" alt="" coords="265,1650,433,1692"/>
+<area shape="rect" id="node76" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; AnalyticDDPSolverInitializer \&gt;" alt="" coords="817,1438,1028,1480"/>
+<area shape="rect" id="node77" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; AvoidLookAtSphereInitializer \&gt;" alt="" coords="243,4292,456,4333"/>
+<area shape="rect" id="node78" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; BayesianIKSolverInitializer \&gt;" alt="" coords="248,1716,451,1757"/>
+<area shape="rect" id="node79" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; BKPIECESolverInitializer \&gt;" alt="" coords="540,2246,735,2288"/>
+<area shape="rect" id="node80" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; BoundedEndPoseProblemInitializer \&gt;" alt="" coords="224,370,475,412"/>
+<area shape="rect" id="node81" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; BoundedTimeIndexedProblem\lInitializer \&gt;" alt="" coords="533,879,741,935"/>
+<area shape="rect" id="node82" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; CartpoleDynamicsSolverInitializer \&gt;" alt="" coords="228,960,471,1001"/>
+<area shape="rect" id="node83" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; CenterOfMassInitializer \&gt;" alt="" coords="258,4357,441,4398"/>
+<area shape="rect" id="node84" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; CollisionCheckInitializer \&gt;" alt="" coords="256,4422,443,4464"/>
+<area shape="rect" id="node85" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; ContinuousJointPoseInitializer \&gt;" alt="" coords="238,4488,461,4529"/>
+<area shape="rect" id="node86" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; ControlKPIECESolverInitializer \&gt;" alt="" coords="524,1817,751,1858"/>
+<area shape="rect" id="node87" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; ControlLimitedDDPSolverInitializer \&gt;" alt="" coords="799,1758,1047,1800"/>
+<area shape="rect" id="node88" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; ControlRRTSolverInitializer \&gt;" alt="" coords="535,2181,740,2222"/>
+<area shape="rect" id="node89" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; DistanceInitializer \&gt;" alt="" coords="274,2746,425,2788"/>
+<area shape="rect" id="node90" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; DoubleIntegratorDynamicsSolver\lInitializer \&gt;" alt="" coords="236,1024,463,1080"/>
+<area shape="rect" id="node91" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; DynamicTimeIndexedShooting\lProblemInitializer \&gt;" alt="" coords="243,487,455,543"/>
+<area shape="rect" id="node92" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; EffAxisAlignmentInitializer \&gt;" alt="" coords="250,2812,449,2853"/>
+<area shape="rect" id="node93" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; EffBoxInitializer \&gt;" alt="" coords="280,2877,419,2918"/>
+<area shape="rect" id="node94" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; EffFrameInitializer \&gt;" alt="" coords="273,2942,425,2984"/>
+<area shape="rect" id="node95" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; EffOrientationInitializer \&gt;" alt="" coords="260,3008,439,3049"/>
+<area shape="rect" id="node96" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; EffPositionInitializer \&gt;" alt="" coords="268,3073,431,3114"/>
+<area shape="rect" id="node97" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; EffVelocityInitializer \&gt;" alt="" coords="268,3138,431,3180"/>
+<area shape="rect" id="node98" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; EndPoseProblemInitializer \&gt;" alt="" coords="250,566,449,608"/>
+<area shape="rect" id="node99" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; ESTSolverInitializer \&gt;" alt="" coords="557,2312,718,2353"/>
+<area shape="rect" id="node100" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; GazeAtConstraintInitializer \&gt;" alt="" coords="248,3204,451,3245"/>
+<area shape="rect" id="node101" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; IKSolverInitializer \&gt;" alt="" coords="275,1985,423,2026"/>
+<area shape="rect" id="node102" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; ILQGSolverInitializer \&gt;" alt="" coords="554,1482,721,1524"/>
+<area shape="rect" id="node103" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; ILQRSolverInitializer \&gt;" alt="" coords="554,1548,721,1589"/>
+<area shape="rect" id="node104" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; InteractionMeshInitializer \&gt;" alt="" coords="254,3269,445,3310"/>
+<area shape="rect" id="node105" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; JointAccelerationBackward\lDifferenceInitializer \&gt;" alt="" coords="253,3334,445,3390"/>
+<area shape="rect" id="node106" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; JointJerkBackwardDifference\lInitializer \&gt;" alt="" coords="247,3414,452,3470"/>
+<area shape="rect" id="node107" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; JointLimitInitializer \&gt;" alt="" coords="272,3493,427,3534"/>
+<area shape="rect" id="node108" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; JointPoseInitializer \&gt;" alt="" coords="271,3558,427,3600"/>
+<area shape="rect" id="node109" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; JointTorqueMinimizationProxy\lInitializer \&gt;" alt="" coords="245,3675,454,3731"/>
+<area shape="rect" id="node110" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; JointVelocityBackwardDifference\lInitializer \&gt;" alt="" coords="236,3755,463,3811"/>
+<area shape="rect" id="node111" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; JointVelocityLimitInitializer \&gt;" alt="" coords="249,3834,450,3876"/>
+<area shape="rect" id="node112" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; KPIECESolverInitializer \&gt;" alt="" coords="545,2377,730,2418"/>
+<area shape="rect" id="node113" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; LazyPRMSolverInitializer \&gt;" alt="" coords="541,2442,734,2484"/>
+<area shape="rect" id="node114" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; LBTRRTSolverInitializer \&gt;" alt="" coords="544,2573,731,2614"/>
+<area shape="rect" id="node115" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; LevenbergMarquardtSolverInitializer \&gt;" alt="" coords="223,2050,476,2092"/>
+<area shape="rect" id="node116" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; LookAtInitializer \&gt;" alt="" coords="280,3900,419,3941"/>
+<area shape="rect" id="node117" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; ManipulabilityInitializer \&gt;" alt="" coords="261,3965,438,4006"/>
+<area shape="rect" id="node118" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; PendulumDynamicsSolverInitializer \&gt;" alt="" coords="223,1169,475,1210"/>
+<area shape="rect" id="node119" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; PinocchioDynamicsSolverInitializer \&gt;" alt="" coords="224,1234,475,1276"/>
+<area shape="rect" id="node120" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; PointToLineInitializer \&gt;" alt="" coords="266,4030,433,4072"/>
+<area shape="rect" id="node121" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; PointToPlaneInitializer \&gt;" alt="" coords="261,4096,437,4137"/>
+<area shape="rect" id="node122" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; PRMSolverInitializer \&gt;" alt="" coords="555,2638,720,2680"/>
+<area shape="rect" id="node123" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; QuadrotorDynamicsSolverInitializer \&gt;" alt="" coords="224,1300,475,1341"/>
+<area shape="rect" id="node124" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; QuasiStaticInitializer \&gt;" alt="" coords="266,4161,433,4202"/>
+<area shape="rect" id="node125" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; RRTConnectSolverInitializer \&gt;" alt="" coords="243,2550,455,2592"/>
+<area shape="rect" id="node126" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; RRTSolverInitializer \&gt;" alt="" coords="268,2616,431,2657"/>
+<area shape="rect" id="node127" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; RRTStarSolverInitializer \&gt;" alt="" coords="256,2681,443,2722"/>
+<area shape="rect" id="node128" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; SamplingProblemInitializer \&gt;" alt="" coords="249,684,449,725"/>
+<area shape="rect" id="node129" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; SceneInitializer \&gt;" alt="" coords="280,226,419,268"/>
+<area shape="rect" id="node130" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; SphereCollisionInitializer \&gt;" alt="" coords="255,4226,444,4268"/>
+<area shape="rect" id="node131" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; TimeIndexedProblemInitializer \&gt;" alt="" coords="239,1365,460,1406"/>
+<area shape="rect" id="node132" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; TimeIndexedRRTConnectSolver\lInitializer \&gt;" alt="" coords="238,2115,461,2171"/>
+<area shape="rect" id="node133" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; TimeIndexedSamplingProblem\lInitializer \&gt;" alt="" coords="244,748,455,804"/>
+<area shape="rect" id="node134" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; UnconstrainedEndPoseProblem\lInitializer \&gt;" alt="" coords="240,828,459,884"/>
+<area shape="rect" id="node135" href="$classexotica_1_1Instantiable.html" title="exotica::Instantiable\l\&lt; UnconstrainedTimeIndexedProblem\lInitializer \&gt;" alt="" coords="229,291,470,347"/>
+<area shape="rect" id="node16" href="$classexotica_1_1CartpoleDynamicsSolver.html" title="exotica::CartpoleDynamics\lSolver" alt="" coords="547,965,727,1006"/>
+<area shape="rect" id="node17" href="$classexotica_1_1DoubleIntegratorDynamicsSolver.html" title="exotica::DoubleIntegrator\lDynamicsSolver" alt="" coords="553,1052,721,1093"/>
+<area shape="rect" id="node18" href="$classexotica_1_1PendulumDynamicsSolver.html" title="exotica::PendulumDynamics\lSolver" alt="" coords="543,1120,732,1161"/>
+<area shape="rect" id="node19" href="$classexotica_1_1PinocchioDynamicsSolver.html" title="exotica::PinocchioDynamics\lSolver" alt="" coords="543,1217,731,1258"/>
+<area shape="rect" id="node20" href="$classexotica_1_1QuadrotorDynamicsSolver.html" title="Quadrotor dynamics with quaternion representation Based on D. Mellinger, N. Michael, and V. Kumar, &quot;Trajectory generation and control for precise aggressive maneuvers with quadrotors&quot;, Proceedings of the 12th International Symposium on Experimental Robotics (ISER 2010), 2010. Cf. https://journals.sagepub.com/doi/abs/10.1177/0278364911434236. " alt="" coords="543,1290,731,1332"/>
+<area shape="rect" id="node23" href="$classexotica_1_1AICOSolver.html" title="Solves motion planning problem using Approximate Inference Control method. " alt="" coords="566,1614,709,1640"/>
+<area shape="rect" id="node24" href="$classexotica_1_1BayesianIKSolver.html" title="Solves motion planning problem using Approximate Inference Control method. " alt="" coords="549,1664,725,1691"/>
+<area shape="rect" id="node25" href="$classexotica_1_1FeedbackMotionSolver.html" title="exotica::FeedbackMotionSolver" alt="" coords="535,1715,740,1742"/>
+<area shape="rect" id="node31" href="$classexotica_1_1IKSolver.html" title="IK position solver The solver constructs and solves a linear program of the following form: &#160;Where S ..." alt="" coords="576,1999,699,2026"/>
+<area shape="rect" id="node32" href="$classexotica_1_1LevenbergMarquardtSolver.html" title="exotica::LevenbergMarquardt\lSolver" alt="" coords="542,2050,733,2092"/>
+<area shape="rect" id="node33" href="$classexotica_1_1OMPLControlSolver.html" title="exotica::OMPLControlSolver" alt="" coords="543,1948,731,1975"/>
+<area shape="rect" id="node36" href="$classexotica_1_1OMPLSolver.html" title="exotica::OMPLSolver\l\&lt; ProblemType \&gt;" alt="" coords="564,1882,711,1924"/>
+<area shape="rect" id="node37" href="$classexotica_1_1TimeIndexedRRTConnectSolver.html" title="exotica::TimeIndexedRRTConnect\lSolver" alt="" coords="525,2116,749,2157"/>
+<area shape="rect" id="node38" href="$classexotica_1_1OMPLSolver.html" title="exotica::OMPLSolver\l\&lt; SamplingProblem \&gt;" alt="" coords="563,2508,711,2549"/>
+<area shape="rect" id="node26" href="$classexotica_1_1AbstractDDPSolver.html" title="exotica::AbstractDDPSolver" alt="" coords="829,1707,1016,1734"/>
+<area shape="rect" id="node29" href="$classexotica_1_1ILQGSolver.html" title="exotica::ILQGSolver" alt="" coords="853,1562,993,1588"/>
+<area shape="rect" id="node30" href="$classexotica_1_1ILQRSolver.html" title="exotica::ILQRSolver" alt="" coords="853,1642,993,1668"/>
+<area shape="rect" id="node27" href="$classexotica_1_1AnalyticDDPSolver.html" title="exotica::AnalyticDDPSolver" alt="" coords="1113,1680,1299,1707"/>
+<area shape="rect" id="node28" href="$classexotica_1_1ControlLimitedDDPSolver.html" title="exotica::ControlLimitedDDPSolver" alt="" coords="1095,1735,1317,1762"/>
+<area shape="rect" id="node34" href="$classexotica_1_1ControlKPIECESolver.html" title="exotica::ControlKPIECESolver" alt="" coords="822,1887,1023,1914"/>
+<area shape="rect" id="node35" href="$classexotica_1_1ControlRRTSolver.html" title="exotica::ControlRRTSolver" alt="" coords="833,2094,1012,2120"/>
+<area shape="rect" id="node39" href="$classexotica_1_1BKPIECESolver.html" title="exotica::BKPIECESolver" alt="" coords="839,2262,1007,2288"/>
+<area shape="rect" id="node40" href="$classexotica_1_1ESTSolver.html" title="exotica::ESTSolver" alt="" coords="855,2367,990,2394"/>
+<area shape="rect" id="node41" href="$classexotica_1_1KPIECESolver.html" title="exotica::KPIECESolver" alt="" coords="843,2444,1002,2471"/>
+<area shape="rect" id="node42" href="$classexotica_1_1LazyPRMSolver.html" title="exotica::LazyPRMSolver" alt="" coords="839,2508,1006,2535"/>
+<area shape="rect" id="node43" href="$classexotica_1_1LBTRRTSolver.html" title="exotica::LBTRRTSolver" alt="" coords="842,2574,1003,2600"/>
+<area shape="rect" id="node44" href="$classexotica_1_1PRMSolver.html" title="exotica::PRMSolver" alt="" coords="853,2639,992,2666"/>
+<area shape="rect" id="node45" href="$classexotica_1_1RRTConnectSolver.html" title="exotica::RRTConnectSolver" alt="" coords="829,2698,1016,2724"/>
+<area shape="rect" id="node46" href="$classexotica_1_1RRTSolver.html" title="exotica::RRTSolver" alt="" coords="854,2752,991,2779"/>
+<area shape="rect" id="node47" href="$classexotica_1_1RRTStarSolver.html" title="exotica::RRTStarSolver" alt="" coords="842,2804,1003,2831"/>
+<area shape="rect" id="node49" href="$classexotica_1_1AvoidLookAtSphere.html" title="Avoids pointing end&#45;effector at a given spherical object. " alt="" coords="544,4292,731,4319"/>
+<area shape="rect" id="node50" href="$classexotica_1_1CenterOfMass.html" title="exotica::CenterOfMass" alt="" coords="559,4358,716,4384"/>
+<area shape="rect" id="node51" href="$classexotica_1_1CollisionCheck.html" title="exotica::CollisionCheck" alt="" coords="557,4423,717,4450"/>
+<area shape="rect" id="node52" href="$classexotica_1_1ContinuousJointPose.html" title="exotica::ContinuousJointPose" alt="" coords="539,4488,735,4515"/>
+<area shape="rect" id="node53" href="$classexotica_1_1Distance.html" title="exotica::Distance" alt="" coords="575,2858,699,2884"/>
+<area shape="rect" id="node54" href="$classexotica_1_1EffAxisAlignment.html" title="exotica::EffAxisAlignment" alt="" coords="551,2972,724,2999"/>
+<area shape="rect" id="node55" href="$classexotica_1_1EffBox.html" title="Limits every given end&#45;effector motion to a box in some reference frame. " alt="" coords="581,3055,693,3082"/>
+<area shape="rect" id="node56" href="$classexotica_1_1EffFrame.html" title="exotica::EffFrame" alt="" coords="574,3122,701,3148"/>
+<area shape="rect" id="node57" href="$classexotica_1_1EffOrientation.html" title="exotica::EffOrientation" alt="" coords="561,3180,713,3207"/>
+<area shape="rect" id="node58" href="$classexotica_1_1EffPosition.html" title="exotica::EffPosition" alt="" coords="569,3235,705,3262"/>
+<area shape="rect" id="node59" href="$classexotica_1_1EffVelocity.html" title="exotica::EffVelocity" alt="" coords="569,3288,705,3315"/>
+<area shape="rect" id="node60" href="$classexotica_1_1GazeAtConstraint.html" title="Keeps a given point within field of view of the end&#45;effector. " alt="" coords="549,3340,725,3367"/>
+<area shape="rect" id="node61" href="$classexotica_1_1InteractionMesh.html" title="exotica::InteractionMesh" alt="" coords="555,3391,720,3418"/>
+<area shape="rect" id="node62" href="$classexotica_1_1JointAccelerationBackwardDifference.html" title="Time&#45;derivative estimation by backward differencing. JointAccelerationBackwardDifference uses backwar..." alt="" coords="551,3442,723,3484"/>
+<area shape="rect" id="node63" href="$classexotica_1_1JointJerkBackwardDifference.html" title="Time&#45;derivative estimation by backward differencing. JointJerkBackwardDifference uses backward differ..." alt="" coords="546,3508,729,3549"/>
+<area shape="rect" id="node64" href="$classexotica_1_1JointLimit.html" title="Implementation of joint limits task map. Note: we dont want to always stay at the centre of the joint..." alt="" coords="573,3574,701,3600"/>
+<area shape="rect" id="node65" href="$classexotica_1_1JointPose.html" title="exotica::JointPose" alt="" coords="572,3624,703,3651"/>
+<area shape="rect" id="node66" href="$classexotica_1_1JointTorqueMinimizationProxy.html" title="exotica::JointTorqueMinimization\lProxy" alt="" coords="531,3680,744,3721"/>
+<area shape="rect" id="node67" href="$classexotica_1_1JointVelocityBackwardDifference.html" title="Time&#45;derivative estimation by backward differencing. JointVelocityBackwardDifference uses backward di..." alt="" coords="535,3756,740,3797"/>
+<area shape="rect" id="node68" href="$classexotica_1_1JointVelocityLimit.html" title="Joint Velocity Limit taskmap for time&#45;indexed problems. Penalisations of joint velocity limit violati..." alt="" coords="550,3835,725,3862"/>
+<area shape="rect" id="node69" href="$classexotica_1_1LookAt.html" title="Points end&#45;effector to look at a given target by aligning end&#45;effector z&#45;axis with the target..." alt="" coords="581,3900,694,3927"/>
+<area shape="rect" id="node70" href="$classexotica_1_1Manipulability.html" title="Manipulability measure. The manipulability measure for a robot at a given joint configuration indicat..." alt="" coords="562,3958,713,3984"/>
+<area shape="rect" id="node71" href="$classexotica_1_1PointToLine.html" title="exotica::PointToLine" alt="" coords="567,4027,708,4054"/>
+<area shape="rect" id="node72" href="$classexotica_1_1PointToPlane.html" title="exotica::PointToPlane" alt="" coords="562,4096,713,4123"/>
+<area shape="rect" id="node73" href="$classexotica_1_1QuasiStatic.html" title="exotica::QuasiStatic" alt="" coords="567,4162,707,4188"/>
+<area shape="rect" id="node74" href="$classexotica_1_1SphereCollision.html" title="exotica::SphereCollision" alt="" coords="556,4227,719,4254"/>
+<area shape="rect" id="node136" href="$classexotica_1_1Object.html" title="exotica::Object" alt="" coords="35,872,145,899"/>
+<area shape="rect" id="node137" href="$classexotica_1_1Factory.html" title="Templated Object factory for Default&#45;constructible classes. The Factory is itself a singleton..." alt="" coords="247,58,451,84"/>
+<area shape="rect" id="node138" href="$classexotica_1_1Setup.html" title="exotica::Setup" alt="" coords="296,1883,403,1910"/>
+<area shape="rect" id="node139" href="$classexotica_1_1Factory.html" title="exotica::Factory\&lt; Planning\lProblem \&gt;" alt="" coords="260,109,439,150"/>
+<area shape="rect" id="node140" href="$classexotica_1_1Uncopyable.html" title="exotica::Uncopyable" alt="" coords="19,3624,161,3651"/>
+<area shape="rect" id="node141" href="$classexotica_1_1CollisionScene.html" title="The class of collision scene. " alt="" coords="270,4756,429,4783"/>
+<area shape="rect" id="node144" href="$classexotica_1_1KinematicTree.html" title="exotica::KinematicTree" alt="" coords="271,4655,427,4682"/>
+<area shape="rect" id="node145" href="$classexotica_1_1Server.html" title="exotica::Server" alt="" coords="294,4706,405,4732"/>
+<area shape="rect" id="node146" href="$classexotica_1_1VisualizationMeshcat.html" title="exotica::VisualizationMeshcat" alt="" coords="251,4554,447,4580"/>
+<area shape="rect" id="node147" href="$classexotica_1_1VisualizationMoveIt.html" title="exotica::VisualizationMoveIt" alt="" coords="256,4604,443,4631"/>
+<area shape="rect" id="node142" href="$classexotica_1_1CollisionSceneFCL.html" title="exotica::CollisionSceneFCL" alt="" coords="545,4731,729,4758"/>
+<area shape="rect" id="node143" href="$classexotica_1_1CollisionSceneFCLLatest.html" title="exotica::CollisionSceneFCLLatest" alt="" coords="527,4782,747,4808"/>
 </map>

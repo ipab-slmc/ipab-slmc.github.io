@@ -1,6 +1,7 @@
 var searchData=
 [
   ['eff_5faxis_5falignment_2eh',['eff_axis_alignment.h',['../eff__axis__alignment_8h.html',1,'']]],
+  ['eff_5fbox_2eh',['eff_box.h',['../eff__box_8h.html',1,'']]],
   ['eff_5fframe_2eh',['eff_frame.h',['../eff__frame_8h.html',1,'']]],
   ['eff_5forientation_2eh',['eff_orientation.h',['../eff__orientation_8h.html',1,'']]],
   ['eff_5fposition_2eh',['eff_position.h',['../eff__position_8h.html',1,'']]],

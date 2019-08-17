@@ -8,6 +8,9 @@ var searchData=
   ['make_5fcoherent_5fimpl_3c_20sparsevector_3c_20a_5fscalar_2c_20a_5foptions_2c_20a_5findex_20_3e_2c_20b_20_3e',['make_coherent_impl&lt; SparseVector&lt; A_Scalar, A_Options, A_Index &gt;, B &gt;',['../structEigen_1_1internal_1_1make__coherent__impl_3_01SparseVector_3_01A__Scalar_00_01A__Options_00_01A__Index_01_4_00_01B_01_4.html',1,'Eigen::internal']]],
   ['make_5fcoherent_5fimpl_3c_20sparsevector_3c_20a_5fscalar_2c_20a_5foptions_2c_20a_5findex_20_3e_2c_20sparsevector_3c_20b_5fscalar_2c_20b_5foptions_2c_20b_5findex_20_3e_20_3e',['make_coherent_impl&lt; SparseVector&lt; A_Scalar, A_Options, A_Index &gt;, SparseVector&lt; B_Scalar, B_Options, B_Index &gt; &gt;',['../structEigen_1_1internal_1_1make__coherent__impl_3_01SparseVector_3_01A__Scalar_00_01A__Options_07bc2f677685d52b03dad1903999fe19e.html',1,'Eigen::internal']]],
   ['manipulability',['Manipulability',['../classexotica_1_1Manipulability.html',1,'exotica']]],
+  ['material',['Material',['../structexotica_1_1visualization_1_1Material.html',1,'exotica::visualization']]],
+  ['meshobject',['MeshObject',['../structexotica_1_1visualization_1_1MeshObject.html',1,'exotica::visualization']]],
+  ['metadata',['MetaData',['../structexotica_1_1visualization_1_1MetaData.html',1,'exotica::visualization']]],
   ['motion',['Motion',['../classexotica_1_1OMPLTimeIndexedRRTConnect_1_1Motion.html',1,'exotica::OMPLTimeIndexedRRTConnect']]],
   ['motionsolver',['MotionSolver',['../classexotica_1_1MotionSolver.html',1,'exotica']]]
 ];
