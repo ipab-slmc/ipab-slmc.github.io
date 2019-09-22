@@ -6,5 +6,6 @@ var searchData=
   ['jointpose',['JointPose',['../classexotica_1_1JointPose.html',1,'exotica']]],
   ['jointtorqueminimizationproxy',['JointTorqueMinimizationProxy',['../classexotica_1_1JointTorqueMinimizationProxy.html',1,'exotica']]],
   ['jointvelocitybackwarddifference',['JointVelocityBackwardDifference',['../classexotica_1_1JointVelocityBackwardDifference.html',1,'exotica']]],
-  ['jointvelocitylimit',['JointVelocityLimit',['../classexotica_1_1JointVelocityLimit.html',1,'exotica']]]
+  ['jointvelocitylimit',['JointVelocityLimit',['../classexotica_1_1JointVelocityLimit.html',1,'exotica']]],
+  ['jointvelocitylimitconstraint',['JointVelocityLimitConstraint',['../classexotica_1_1JointVelocityLimitConstraint.html',1,'exotica']]]
 ];

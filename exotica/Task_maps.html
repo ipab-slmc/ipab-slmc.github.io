@@ -17,37 +17,42 @@
   
 
   
-  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
-  
-    
-      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-        <script type="text/javascript" src="_static/jquery.js"></script>
-        <script type="text/javascript" src="_static/underscore.js"></script>
-        <script type="text/javascript" src="_static/doctools.js"></script>
-        <script type="text/javascript" src="_static/language_data.js"></script>
-        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    
-    <script type="text/javascript" src="_static/js/theme.js"></script>
 
+  
+  
     
 
   
-  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Code Formatting" href="Code-Formatting.html" />
-    <link rel="prev" title="Initializers" href="Initializers.html" /> 
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="EXOTica 5.0 documentation" href="index.html"/>
+        <link rel="next" title="Code Formatting" href="Code-Formatting.html"/>
+        <link rel="prev" title="Initializers" href="Initializers.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
 </head>
 
-<body class="wy-body-for-nav">
+<body class="wy-body-for-nav" role="document">
 
    
   <div class="wy-grid-for-nav">
+
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search" >
+        <div class="wy-side-nav-search">
           
 
           
@@ -141,7 +146,7 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" aria-label="top navigation">
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="index.html">EXOTica</a>
@@ -149,10 +154,9 @@
       </nav>
 
 
+      
       <div class="wy-nav-content">
-        
         <div class="rst-content">
-        
           
 
 
@@ -210,14 +214,14 @@ CoM
 —</p>
 <p>Specify the CoM for a link</p>
 <p>Initialization:</p>
-<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Name_</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">Debug_</span> <span class="o">=</span>  <span class="nb">false</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span> <span class="n">EndEffector_</span> <span class="o">=</span>  <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span><span class="p">(),</span> <span class="kt">bool</span> <span class="n">EnableZ_</span> <span class="o">=</span>  <span class="nb">true</span><span class="p">)</span>
+<div class="highlight-cpp"><div class="highlight"><pre><span></span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Name_</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">Debug_</span> <span class="o">=</span>  <span class="nb">false</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span> <span class="n">EndEffector_</span> <span class="o">=</span>  <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span><span class="p">(),</span> <span class="kt">bool</span> <span class="n">EnableZ_</span> <span class="o">=</span>  <span class="nb">true</span><span class="p">)</span>
 </pre></div>
 </div>
 <div class="section" id="distance">
 <h3>Distance<a class="headerlink" href="#distance" title="Permalink to this headline">¶</a></h3>
 <p>Returns the distance between two frames, either an end effector frame or a point frame.</p>
 <p>Initialization:</p>
-<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="p">(</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Name_</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">Debug_</span> <span class="o">=</span>  <span class="nb">false</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span> <span class="n">EndEffector_</span> <span class="o">=</span>  <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span><span class="p">())</span>
+<div class="highlight-cpp"><div class="highlight"><pre><span></span><span class="p">(</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Name_</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">Debug_</span> <span class="o">=</span>  <span class="nb">false</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span> <span class="n">EndEffector_</span> <span class="o">=</span>  <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span><span class="p">())</span>
 </pre></div>
 </div>
 </div>
@@ -225,7 +229,7 @@ CoM
 <h3>EffOrientation<a class="headerlink" href="#efforientation" title="Permalink to this headline">¶</a></h3>
 <p>Specifies an end effector orientation in task space</p>
 <p>Initialization:</p>
-<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="p">(</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Name_</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">Debug_</span> <span class="o">=</span>  <span class="nb">false</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span> <span class="n">EndEffector_</span> <span class="o">=</span>  <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span><span class="p">(),</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span>       <span class="n">Type_</span> <span class="o">=</span>  <span class="s">&quot;RPY&quot;</span><span class="p">)</span>
+<div class="highlight-cpp"><div class="highlight"><pre><span></span><span class="p">(</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Name_</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">Debug_</span> <span class="o">=</span>  <span class="nb">false</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span> <span class="n">EndEffector_</span> <span class="o">=</span>  <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span><span class="p">(),</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span>       <span class="n">Type_</span> <span class="o">=</span>  <span class="s">&quot;RPY&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -233,7 +237,7 @@ CoM
 <h3>EffPosition<a class="headerlink" href="#effposition" title="Permalink to this headline">¶</a></h3>
 <p>Specifies an end effector position in task space</p>
 <p>Initialization:</p>
-<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="p">(</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Name_</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">Debug_</span> <span class="o">=</span>  <span class="nb">false</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span> <span class="n">EndEffector_</span> <span class="o">=</span>  <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span><span class="p">())</span>
+<div class="highlight-cpp"><div class="highlight"><pre><span></span><span class="p">(</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Name_</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">Debug_</span> <span class="o">=</span>  <span class="nb">false</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span> <span class="n">EndEffector_</span> <span class="o">=</span>  <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span><span class="p">())</span>
 </pre></div>
 </div>
 </div>
@@ -241,7 +245,7 @@ CoM
 <h3>EffFrame<a class="headerlink" href="#effframe" title="Permalink to this headline">¶</a></h3>
 <p>Specifies an end effector pose in task space</p>
 <p>Initialization:</p>
-<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="p">(</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Name_</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">Debug_</span> <span class="o">=</span>  <span class="nb">false</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span> <span class="n">EndEffector_</span> <span class="o">=</span>  <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span><span class="p">(),</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Type_</span> <span class="o">=</span>  <span class="s">&quot;RPY&quot;</span><span class="p">)</span>
+<div class="highlight-cpp"><div class="highlight"><pre><span></span><span class="p">(</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Name_</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">Debug_</span> <span class="o">=</span>  <span class="nb">false</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span> <span class="n">EndEffector_</span> <span class="o">=</span>  <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span><span class="p">(),</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Type_</span> <span class="o">=</span>  <span class="s">&quot;RPY&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -249,7 +253,7 @@ CoM
 <h3>InteractionMesh<a class="headerlink" href="#interactionmesh" title="Permalink to this headline">¶</a></h3>
 <p>See <a class="reference external" href="http://homepages.inf.ed.ac.uk/svijayak/publications/ivan-IJRR2013.pdf">http://homepages.inf.ed.ac.uk/svijayak/publications/ivan-IJRR2013.pdf</a> for details about iMesh</p>
 <p>Initialization:</p>
-<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="p">(</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Name_</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">Debug_</span> <span class="o">=</span>  <span class="nb">false</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span> <span class="n">EndEffector_</span> <span class="o">=</span>  <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span><span class="p">(),</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">ReferenceFrame_</span> <span class="o">=</span>  <span class="s">&quot;/world&quot;</span><span class="p">,</span> <span class="n">Eigen</span><span class="o">::</span><span class="n">VectorXd</span> <span class="n">Weights_</span> <span class="o">=</span>  <span class="n">Eigen</span><span class="o">::</span><span class="n">VectorXd</span><span class="p">())</span>
+<div class="highlight-cpp"><div class="highlight"><pre><span></span><span class="p">(</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Name_</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">Debug_</span> <span class="o">=</span>  <span class="nb">false</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span> <span class="n">EndEffector_</span> <span class="o">=</span>  <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span><span class="p">(),</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">ReferenceFrame_</span> <span class="o">=</span>  <span class="s">&quot;/world&quot;</span><span class="p">,</span> <span class="n">Eigen</span><span class="o">::</span><span class="n">VectorXd</span> <span class="n">Weights_</span> <span class="o">=</span>  <span class="n">Eigen</span><span class="o">::</span><span class="n">VectorXd</span><span class="p">())</span>
 </pre></div>
 </div>
 </div>
@@ -257,7 +261,7 @@ CoM
 <h3>JointPose<a class="headerlink" href="#jointpose" title="Permalink to this headline">¶</a></h3>
 <p>The position of a joint. Useful if you want to avoid a certain position.</p>
 <p>Initialization:</p>
-<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="p">(</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Name_</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">Debug_</span> <span class="o">=</span>  <span class="nb">false</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span> <span class="n">EndEffector_</span> <span class="o">=</span>  <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span><span class="p">(),</span> <span class="n">Eigen</span><span class="o">::</span><span class="n">VectorXd</span> <span class="n">JointRef_</span><span class="o">=</span><span class="p">{},</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">JointMap_</span><span class="o">=</span><span class="p">{})</span>
+<div class="highlight-cpp"><div class="highlight"><pre><span></span><span class="p">(</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Name_</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">Debug_</span> <span class="o">=</span>  <span class="nb">false</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span> <span class="n">EndEffector_</span> <span class="o">=</span>  <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span><span class="p">(),</span> <span class="n">Eigen</span><span class="o">::</span><span class="n">VectorXd</span> <span class="n">JointRef_</span><span class="o">=</span><span class="p">{},</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">JointMap_</span><span class="o">=</span><span class="p">{})</span>
 </pre></div>
 </div>
 </div>
@@ -265,7 +269,7 @@ CoM
 <h3>JointLimit<a class="headerlink" href="#jointlimit" title="Permalink to this headline">¶</a></h3>
 <p>Map to keep joints away from limits. Use options to set penalties for nearing joint limits</p>
 <p>Initialization:</p>
-<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="p">(</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Name_</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">Debug_</span> <span class="o">=</span>  <span class="nb">false</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span> <span class="n">EndEffector_</span> <span class="o">=</span>  <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span><span class="p">(),</span> <span class="kt">double</span> <span class="n">SafePercentage_</span> <span class="o">=</span>  <span class="mf">0.0</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">RobotDescription_</span> <span class="o">=</span>  <span class="s">&quot;robot_description&quot;</span><span class="p">)</span>
+<div class="highlight-cpp"><div class="highlight"><pre><span></span><span class="p">(</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Name_</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">Debug_</span> <span class="o">=</span>  <span class="nb">false</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span> <span class="n">EndEffector_</span> <span class="o">=</span>  <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span><span class="p">(),</span> <span class="kt">double</span> <span class="n">SafePercentage_</span> <span class="o">=</span>  <span class="mf">0.0</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">RobotDescription_</span> <span class="o">=</span>  <span class="s">&quot;robot_description&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -273,7 +277,7 @@ CoM
 <h3>Sphere<a class="headerlink" href="#sphere" title="Permalink to this headline">¶</a></h3>
 <p>Initiates a sphere object in relation to a named link with an offset - acts as a primitive for collision SphereCollision</p>
 <p>Initialization:</p>
-<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="p">(</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Link_</span><span class="p">,</span> <span class="kt">double</span> <span class="n">Radius_</span><span class="p">,</span> <span class="n">Eigen</span><span class="o">::</span><span class="n">VectorXd</span> <span class="n">LinkOffset_</span> <span class="o">=</span>  <span class="n">Eigen</span><span class="o">::</span><span class="n">IdentityTransform</span><span class="p">(),</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Base_</span> <span class="o">=</span>  <span class="s">&quot;&quot;</span><span class="p">,</span> <span class="n">Eigen</span><span class="o">::</span><span class="n">VectorXd</span> <span class="n">BaseOffset_</span> <span class="o">=</span>  <span class="n">Eigen</span><span class="o">::</span><span class="n">IdentityTransform</span><span class="p">(),</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Group_</span> <span class="o">=</span>  <span class="s">&quot;default&quot;</span><span class="p">)</span>
+<div class="highlight-cpp"><div class="highlight"><pre><span></span><span class="p">(</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Link_</span><span class="p">,</span> <span class="kt">double</span> <span class="n">Radius_</span><span class="p">,</span> <span class="n">Eigen</span><span class="o">::</span><span class="n">VectorXd</span> <span class="n">LinkOffset_</span> <span class="o">=</span>  <span class="n">Eigen</span><span class="o">::</span><span class="n">IdentityTransform</span><span class="p">(),</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Base_</span> <span class="o">=</span>  <span class="s">&quot;&quot;</span><span class="p">,</span> <span class="n">Eigen</span><span class="o">::</span><span class="n">VectorXd</span> <span class="n">BaseOffset_</span> <span class="o">=</span>  <span class="n">Eigen</span><span class="o">::</span><span class="n">IdentityTransform</span><span class="p">(),</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Group_</span> <span class="o">=</span>  <span class="s">&quot;default&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -282,7 +286,7 @@ CoM
 <p>Used in collision detection. Groups of spheres (seen in previous bullet point) are attached to the robot and environment.
 Spheres within the same group will not detect collisions within each other , but collisions between different groups are detected.</p>
 <p>Initialization:</p>
-<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="p">(</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Name_</span><span class="p">,</span> <span class="kt">double</span> <span class="n">Precision_</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">Debug_</span> <span class="o">=</span>  <span class="nb">false</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span> <span class="n">EndEffector_</span> <span class="o">=</span>  <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span><span class="p">(),</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">ReferenceFrame_</span> <span class="o">=</span>  <span class="s">&quot;/world&quot;</span><span class="p">,</span> <span class="kt">double</span> <span class="n">Alpha_</span> <span class="o">=</span>  <span class="mf">1.0</span><span class="p">)</span>
+<div class="highlight-cpp"><div class="highlight"><pre><span></span><span class="p">(</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">Name_</span><span class="p">,</span> <span class="kt">double</span> <span class="n">Precision_</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">Debug_</span> <span class="o">=</span>  <span class="nb">false</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span> <span class="n">EndEffector_</span> <span class="o">=</span>  <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">exotica</span><span class="o">::</span><span class="n">Initializer</span><span class="o">&gt;</span><span class="p">(),</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">ReferenceFrame_</span> <span class="o">=</span>  <span class="s">&quot;/world&quot;</span><span class="p">,</span> <span class="kt">double</span> <span class="n">Alpha_</span> <span class="o">=</span>  <span class="mf">1.0</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -294,9 +298,9 @@ consideration when producing a motion plan. Each problem can handle one of many 
 <p>.._using-task-maps-cpp:
 C++
 —</p>
-<p>In the snippet below, we see that we have created a task map named <code class="docutils literal notranslate"><span class="pre">map</span></code> , which is an end effector frame map. We send this to the problem in the appropriate argument place using
-the curly brackets <code class="docutils literal notranslate"><span class="pre">{map}</span></code>. In this snippet we assume you have already created a <code class="docutils literal notranslate"><span class="pre">scene</span></code> and <code class="docutils literal notranslate"><span class="pre">W</span></code> initializer:</p>
-<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="n">EffFrameInitializer</span> <span class="nf">map</span><span class="p">(</span><span class="s">&quot;Position&quot;</span><span class="p">,</span> <span class="nb">false</span><span class="p">,</span>
+<p>In the snippet below, we see that we have created a task map named <code class="docutils literal"><span class="pre">map</span></code> , which is an end effector frame map. We send this to the problem in the appropriate argument place using
+the curly brackets <code class="docutils literal"><span class="pre">{map}</span></code>. In this snippet we assume you have already created a <code class="docutils literal"><span class="pre">scene</span></code> and <code class="docutils literal"><span class="pre">W</span></code> initializer:</p>
+<div class="highlight-cpp"><div class="highlight"><pre><span></span><span class="n">EffFrameInitializer</span> <span class="nf">map</span><span class="p">(</span><span class="s">&quot;Position&quot;</span><span class="p">,</span> <span class="nb">false</span><span class="p">,</span>
                         <span class="p">{</span><span class="n">FrameInitializer</span><span class="p">(</span><span class="s">&quot;lwr_arm_6_link&quot;</span><span class="p">,</span> <span class="n">Eigen</span><span class="o">::</span><span class="n">VectorTransform</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">0.7071067811865476</span><span class="p">,</span> <span class="o">-</span><span class="mf">4.3297802811774664e-17</span><span class="p">,</span> <span class="mf">0.7071067811865475</span><span class="p">,</span> <span class="mf">4.3297802811774664e-17</span><span class="p">))});</span>
 
 <span class="n">UnconstrainedEndPoseProblemInitializer</span> <span class="nf">problem</span><span class="p">(</span><span class="s">&quot;MyProblem&quot;</span><span class="p">,</span> <span class="n">scene</span><span class="p">,</span> <span class="nb">false</span><span class="p">,</span> <span class="p">{</span><span class="n">map</span><span class="p">},</span> <span class="n">W</span><span class="p">);</span>
@@ -304,7 +308,7 @@ the curly brackets <code class="docutils literal notranslate"><span class="pre">
 </div>
 <p>By placing multiple map variable names inside these curly brackets, we can specify several maps to be sent to the same problem (this sets joint limits for the
 <a class="reference external" href="https://github.com/ipab-slmc/exotica/blob/master/exotica_examples/resources/robots/lwr_simplified.urdf">LWR_simplified</a>  arm in the examples):</p>
-<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="kt">void</span> <span class="nf">get_joint_limits</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">Initializer</span><span class="o">&gt;</span> <span class="n">joint_store</span><span class="p">)</span>
+<div class="highlight-cpp"><div class="highlight"><pre><span></span><span class="kt">void</span> <span class="nf">get_joint_limits</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">Initializer</span><span class="o">&gt;</span> <span class="n">joint_store</span><span class="p">)</span>
 <span class="p">{</span>
     <span class="n">joint_store</span><span class="p">.</span><span class="n">push_back</span><span class="p">({</span><span class="n">EffFrameInitializer</span><span class="p">(</span><span class="s">&quot;Position&quot;</span><span class="p">,</span><span class="nb">false</span><span class="p">,{</span><span class="n">FrameInitializer</span><span class="p">(</span><span class="s">&quot;lwr_arm_0_link&quot;</span><span class="p">)})});</span>
     <span class="n">joint_store</span><span class="p">.</span><span class="n">push_back</span><span class="p">({</span><span class="n">EffFrameInitializer</span><span class="p">(</span><span class="s">&quot;Position&quot;</span><span class="p">,</span><span class="nb">false</span><span class="p">,{</span><span class="n">FrameInitializer</span><span class="p">(</span><span class="s">&quot;lwr_arm_1_link&quot;</span><span class="p">)})});</span>
@@ -332,7 +336,9 @@ the curly brackets <code class="docutils literal notranslate"><span class="pre">
 
 
            </div>
-           
+           <div class="articleComments">
+            
+           </div>
           </div>
           <footer>
   
@@ -341,7 +347,7 @@ the curly brackets <code class="docutils literal notranslate"><span class="pre">
         <a href="Code-Formatting.html" class="btn btn-neutral float-right" title="Code Formatting" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="Initializers.html" class="btn btn-neutral float-left" title="Initializers" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="Initializers.html" class="btn btn-neutral" title="Initializers" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -350,11 +356,11 @@ the curly brackets <code class="docutils literal notranslate"><span class="pre">
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2019, Vladimir Ivan, Yiming Yang, Wolfgang Merkt, Michael Camilleri, Sethu Vijayakumar - and contributors
+        &copy; Copyright 2019, Vladimir Ivan, Yiming Yang, Wolfgang Merkt, Michael Camilleri, Sethu Vijayakumar - and contributors.
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -367,15 +373,37 @@ the curly brackets <code class="docutils literal notranslate"><span class="pre">
   
 
 
-  <script type="text/javascript">
-      jQuery(function () {
-          SphinxRtdTheme.Navigation.enable(true);
-      });
-  </script>
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'5.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
 
   
   
-    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
    
 
 </body>

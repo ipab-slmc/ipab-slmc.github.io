@@ -1,24 +1,22 @@
-<map id="/home/wxm/dev/exotica_ws/src/exotica/exotations/solvers/exotica_ilqr_solver/include/exotica_ilqr_solver/ilqr_solver.h" name="/home/wxm/dev/exotica_ws/src/exotica/exotations/solvers/exotica_ilqr_solver/include/exotica_ilqr_solver/ilqr_solver.h">
-<area shape="rect" id="node2" href="$feedback__motion__solver_8h.html" title="exotica_core/feedback\l_motion_solver.h" alt="" coords="1131,146,1285,187"/>
-<area shape="rect" id="node45" href="$dynamic__time__indexed__shooting__problem_8h.html" title="exotica_core/problems\l/dynamic_time_indexed\l_shooting_problem.h" alt="" coords="1642,139,1801,195"/>
-<area shape="rect" id="node3" href="$motion__solver_8h.html" title="exotica_core/motion\l_solver.h" alt="" coords="472,250,611,291"/>
-<area shape="rect" id="node4" href="$factory_8h.html" title="exotica_core/factory.h" alt="" coords="145,682,295,709"/>
-<area shape="rect" id="node8" href="$object_8h.html" title="exotica_core/object.h" alt="" coords="753,771,900,798"/>
-<area shape="rect" id="node27" href="$property_8h.html" title="exotica_core/property.h" alt="" coords="951,861,1110,887"/>
-<area shape="rect" id="node31" href="$planning__problem_8h.html" title="exotica_core/planning\l_problem.h" alt="" coords="1979,347,2127,388"/>
-<area shape="rect" id="node9" href="$tools_8h.html" title="exotica_core/tools.h" alt="" coords="737,861,876,887"/>
-<area shape="rect" id="node13" href="$conversions_8h.html" title="exotica_core/tools\l/conversions.h" alt="" coords="1739,943,1867,984"/>
-<area shape="rect" id="node17" href="$exception_8h.html" title="exotica_core/tools\l/exception.h" alt="" coords="1120,1032,1248,1073"/>
-<area shape="rect" id="node19" href="$printable_8h.html" title="exotica_core/tools\l/printable.h" alt="" coords="1272,1032,1400,1073"/>
-<area shape="rect" id="node21" href="$timer_8h.html" title="exotica_core/tools\l/timer.h" alt="" coords="344,943,472,984"/>
-<area shape="rect" id="node23" href="$uncopyable_8h.html" title="exotica_core/tools\l/uncopyable.h" alt="" coords="192,943,320,984"/>
-<area shape="rect" id="node24" href="$version_8h.html" title="exotica_core/version.h" alt="" coords="547,950,701,977"/>
-<area shape="rect" id="node32" href="$scene_8h.html" title="exotica_core/scene.h" alt="" coords="1501,511,1648,537"/>
-<area shape="rect" id="node43" href="$task__map_8h.html" title="exotica_core/task_map.h" alt="" coords="2091,436,2259,463"/>
-<area shape="rect" id="node44" href="$task__space__vector_8h.html" title="exotica_core/task_space\l_vector.h" alt="" coords="2214,853,2381,895"/>
-<area shape="rect" id="node38" href="$collision__scene_8h.html" title="exotica_core/collision\l_scene.h" alt="" coords="1852,585,1999,627"/>
-<area shape="rect" id="node40" href="$kinematic__tree_8h.html" title="exotica_core/kinematic\l_tree.h" alt="" coords="2507,853,2663,895"/>
-<area shape="rect" id="node41" href="$trajectory_8h.html" title="exotica_core/trajectory.h" alt="" coords="1669,861,1835,887"/>
-<area shape="rect" id="node46" href="$dynamics__solver_8h.html" title="exotica_core/dynamics\l_solver.h" alt="" coords="246,585,402,627"/>
-<area shape="rect" id="node48" href="$tasks_8h.html" title="exotica_core/tasks.h" alt="" coords="2503,257,2646,284"/>
+<map id="/home/wxm/tmp/exotica/exotations/solvers/exotica_ilqr_solver/include/exotica_ilqr_solver/ilqr_solver.h" name="/home/wxm/tmp/exotica/exotations/solvers/exotica_ilqr_solver/include/exotica_ilqr_solver/ilqr_solver.h">
+<area shape="rect" id="node2" href="$feedback__motion__solver_8h.html" title="exotica_core/feedback\l_motion_solver.h" alt="" coords="2214,131,2367,173"/>
+<area shape="rect" id="node41" href="$dynamic__time__indexed__shooting__problem_8h.html" title="exotica_core/problems\l/dynamic_time_indexed\l_shooting_problem.h" alt="" coords="2447,124,2606,180"/>
+<area shape="rect" id="node46" href="$server_8h.html" title="exotica_core/server.h" alt="" coords="3221,846,3368,873"/>
+<area shape="rect" id="node3" href="$motion__solver_8h.html" title="exotica_core/motion\l_solver.h" alt="" coords="2164,235,2303,277"/>
+<area shape="rect" id="node4" href="$factory_8h.html" title="exotica_core/factory.h" alt="" coords="1995,667,2146,694"/>
+<area shape="rect" id="node8" href="$object_8h.html" title="exotica_core/object.h" alt="" coords="1025,757,1172,783"/>
+<area shape="rect" id="node22" href="$property_8h.html" title="exotica_core/property.h" alt="" coords="407,846,566,873"/>
+<area shape="rect" id="node26" href="$planning__problem_8h.html" title="exotica_core/planning\l_problem.h" alt="" coords="2453,332,2601,373"/>
+<area shape="rect" id="node9" href="$tools_8h.html" title="exotica_core/tools.h" alt="" coords="1939,846,2077,873"/>
+<area shape="rect" id="node13" href="$conversions_8h.html" title="exotica_core/tools\l/conversions.h" alt="" coords="2121,935,2249,977"/>
+<area shape="rect" id="node17" href="$exception_8h.html" title="exotica_core/tools\l/exception.h" alt="" coords="2049,1032,2177,1073"/>
+<area shape="rect" id="node20" href="$uncopyable_8h.html" title="exotica_core/tools\l/uncopyable.h" alt="" coords="2796,935,2924,977"/>
+<area shape="rect" id="node28" href="$scene_8h.html" title="exotica_core/scene.h" alt="" coords="1337,496,1484,523"/>
+<area shape="rect" id="node39" href="$task__map_8h.html" title="exotica_core/task_map.h" alt="" coords="2197,421,2365,448"/>
+<area shape="rect" id="node40" href="$task__space__vector_8h.html" title="exotica_core/task_space\l_vector.h" alt="" coords="2254,839,2421,880"/>
+<area shape="rect" id="node35" href="$collision__scene_8h.html" title="exotica_core/collision\l_scene.h" alt="" coords="781,571,928,612"/>
+<area shape="rect" id="node36" href="$kinematic__tree_8h.html" title="exotica_core/kinematic\l_tree.h" alt="" coords="2497,839,2653,880"/>
+<area shape="rect" id="node37" href="$trajectory_8h.html" title="exotica_core/trajectory.h" alt="" coords="217,846,383,873"/>
+<area shape="rect" id="node42" href="$dynamics__solver_8h.html" title="exotica_core/dynamics\l_solver.h" alt="" coords="449,571,605,612"/>
+<area shape="rect" id="node44" href="$tasks_8h.html" title="exotica_core/tasks.h" alt="" coords="2565,243,2707,269"/>
 </map>

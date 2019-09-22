@@ -1,5 +1,5 @@
 <map id="exotica::Setup" name="exotica::Setup">
 <area shape="rect" id="node2" href="$classexotica_1_1Object.html" title="{exotica::Object\n|+ ns_\l+ object_name_\l+ debug_\l|+ Object()\l+ ~Object()\l+ type()\l+ GetObjectName()\l+ InstantiateObject()\l+ Print()\l}" alt="" coords="5,5,147,185"/>
-<area shape="rect" id="node4" href="$classexotica_1_1Factory.html" title="{exotica::Factory\&lt; Planning\lProblem \&gt;\n|&#45; type_registry_\l&#45; base_type_\l|+ RegisterType()\l+ CreateInstance()\l+ GetDeclaredClasses()\l+ Instance()\l&#45; Factory()\l}" alt="" coords="73,235,252,400"/>
-<area shape="rect" id="node3" href="$classexotica_1_1Uncopyable.html" title="{exotica::Uncopyable\n||+ Uncopyable()\l+ ~Uncopyable()\l&#45; Uncopyable()\l&#45; operator=()\l}" alt="" coords="276,257,417,378"/>
+<area shape="rect" id="node4" href="$classexotica_1_1Factory.html" title="{exotica::Factory\&lt; Planning\lProblem \&gt;\n|&#45; type_registry_\l&#45; base_type_\l|+ RegisterType()\l+ CreateInstance()\l+ GetDeclaredClasses()\l+ Instance()\l&#45; Factory()\l}" alt="" coords="97,235,276,400"/>
+<area shape="rect" id="node3" href="$classexotica_1_1Uncopyable.html" title="{exotica::Uncopyable\n||+ Uncopyable()\l+ ~Uncopyable()\l&#45; Uncopyable()\l&#45; operator=()\l}" alt="" coords="300,257,441,378"/>
 </map>

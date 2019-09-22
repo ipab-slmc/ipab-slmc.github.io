@@ -1,7 +1,7 @@
 var searchData=
 [
   ['l_5f',['L_',['../classexotica_1_1QuadrotorDynamicsSolver.html#a8678f25fb4602e78c0e524316555804f',1,'exotica::QuadrotorDynamicsSolver::L_()'],['../classexotica_1_1CartpoleDynamicsSolver.html#ab47b2d09753fcf16961ebec41506264d',1,'exotica::CartpoleDynamicsSolver::l_()'],['../classexotica_1_1PendulumDynamicsSolver.html#a83d709cf342c1c1b2d2b42be86b188af',1,'exotica::PendulumDynamicsSolver::l_()']]],
-  ['l_5fgains_5f',['L_gains_',['../classexotica_1_1ILQGSolver.html#a4d26b4c2ce6d2f5b0efa5aef42f4d9d1',1,'exotica::ILQGSolver::L_gains_()'],['../classexotica_1_1ILQGSolver.html#aef222c074113ebadf52e33223e573482',1,'exotica::ILQGSolver::l_gains_()']]],
+  ['l_5fgains_5f',['l_gains_',['../classexotica_1_1ILQGSolver.html#aef222c074113ebadf52e33223e573482',1,'exotica::ILQGSolver::l_gains_()'],['../classexotica_1_1ILQGSolver.html#a4d26b4c2ce6d2f5b0efa5aef42f4d9d1',1,'exotica::ILQGSolver::L_gains_()']]],
   ['lambda_5f',['lambda_',['../classexotica_1_1LevenbergMarquardtSolver.html#a8dd7436e6330087cafbe296876293910',1,'exotica::LevenbergMarquardtSolver']]],
   ['last_5ft_5f',['last_T_',['../classexotica_1_1AICOSolver.html#a7bb4457c5e68388fc3303414c9bebd76',1,'exotica::AICOSolver']]],
   ['length',['length',['../classexotica_1_1KinematicSolution.html#af2bb483d73568df5064012dd8710436b',1,'exotica::KinematicSolution::length()'],['../classexotica_1_1TaskMap.html#a6546f1b091c85a65152dfefd3bb49ac7',1,'exotica::TaskMap::length()'],['../structexotica_1_1TaskIndexing.html#a5ac40335443f9cf87cc7a4124ba64287',1,'exotica::TaskIndexing::length()']]],
@@ -11,6 +11,7 @@ var searchData=
   ['line_5f',['line_',['../classexotica_1_1PointToLine.html#a4764baa470ae2b9e7d37d6f7118e6ab0',1,'exotica::PointToLine']]],
   ['line_5fend_5f',['line_end_',['../classexotica_1_1PointToLine.html#a42a0e61d45bc215086d7d9de68b23655',1,'exotica::PointToLine']]],
   ['line_5fstart_5f',['line_start_',['../classexotica_1_1PointToLine.html#a396634e8c8722fe9ee5773791dc81ea2',1,'exotica::PointToLine']]],
+  ['linear_5f',['linear_',['../classexotica_1_1SmoothCollisionDistance.html#a76bb77fd5c68faf12c9123c46c2de06c',1,'exotica::SmoothCollisionDistance']]],
   ['link_5faxis_5fposition_5fin_5fbase_5f',['link_axis_position_in_base_',['../classexotica_1_1EffAxisAlignment.html#a9b17f8e84f55bd26c5e84e130c645b47',1,'exotica::EffAxisAlignment']]],
   ['link_5fname_5f',['link_name_',['../classexotica_1_1PointToLine.html#ac8c80a9560f3134f859fbe3806af9d24',1,'exotica::PointToLine']]],
   ['link_5fposition_5fin_5fbase_5f',['link_position_in_base_',['../classexotica_1_1EffAxisAlignment.html#aa13712f1f913c5441300699ad063ecfa',1,'exotica::EffAxisAlignment']]]

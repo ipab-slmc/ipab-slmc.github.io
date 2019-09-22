@@ -1,5 +1,0 @@
-<map id="exotica::CollisionSceneFCL" name="exotica::CollisionSceneFCL">
-<area shape="rect" id="node2" href="$classexotica_1_1CollisionScene.html" title="The class of collision scene. " alt="" coords="71,263,262,663"/>
-<area shape="rect" id="node3" href="$classexotica_1_1Uncopyable.html" title="{exotica::Uncopyable\n||+ Uncopyable()\l+ ~Uncopyable()\l&#45; Uncopyable()\l&#45; operator=()\l}" alt="" coords="5,42,147,163"/>
-<area shape="rect" id="node4" href="$classexotica_1_1AllowedCollisionMatrix.html" title="{exotica::AllowedCollision\lMatrix\n|&#45; entries_\l|+ AllowedCollisionMatrix()\l+ AllowedCollisionMatrix()\l+ clear()\l+ hasEntry()\l+ setEntry()\l+ getAllEntryNames()\l+ getNumberOfEntries()\l+ getAllowedCollision()\l}" alt="" coords="171,5,346,200"/>
-</map>

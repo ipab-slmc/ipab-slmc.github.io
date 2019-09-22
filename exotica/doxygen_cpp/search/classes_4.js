@@ -5,6 +5,7 @@ var searchData=
   ['effframe',['EffFrame',['../classexotica_1_1EffFrame.html',1,'exotica']]],
   ['efforientation',['EffOrientation',['../classexotica_1_1EffOrientation.html',1,'exotica']]],
   ['effposition',['EffPosition',['../classexotica_1_1EffPosition.html',1,'exotica']]],
+  ['effpositionxy',['EffPositionXY',['../classexotica_1_1EffPositionXY.html',1,'exotica']]],
   ['effvelocity',['EffVelocity',['../classexotica_1_1EffVelocity.html',1,'exotica']]],
   ['endposeproblem',['EndPoseProblem',['../classexotica_1_1EndPoseProblem.html',1,'exotica']]],
   ['endposetask',['EndPoseTask',['../structexotica_1_1EndPoseTask.html',1,'exotica']]],

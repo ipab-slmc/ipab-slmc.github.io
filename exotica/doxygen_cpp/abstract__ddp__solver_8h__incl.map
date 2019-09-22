@@ -1,23 +1,21 @@
-<map id="/home/wxm/dev/exotica_ws/src/exotica/exotations/solvers/exotica_ddp_solver/include/exotica_ddp_solver/abstract_ddp_solver.h" name="/home/wxm/dev/exotica_ws/src/exotica/exotations/solvers/exotica_ddp_solver/include/exotica_ddp_solver/abstract_ddp_solver.h">
-<area shape="rect" id="node2" href="$feedback__motion__solver_8h.html" title="exotica_core/feedback\l_motion_solver.h" alt="" coords="962,146,1115,187"/>
-<area shape="rect" id="node13" href="$conversions_8h.html" title="exotica_core/tools\l/conversions.h" alt="" coords="967,943,1095,984"/>
-<area shape="rect" id="node45" href="$dynamic__time__indexed__shooting__problem_8h.html" title="exotica_core/problems\l/dynamic_time_indexed\l_shooting_problem.h" alt="" coords="779,139,938,195"/>
-<area shape="rect" id="node3" href="$motion__solver_8h.html" title="exotica_core/motion\l_solver.h" alt="" coords="1056,250,1195,291"/>
-<area shape="rect" id="node4" href="$factory_8h.html" title="exotica_core/factory.h" alt="" coords="935,682,1086,709"/>
-<area shape="rect" id="node8" href="$object_8h.html" title="exotica_core/object.h" alt="" coords="1425,771,1572,798"/>
-<area shape="rect" id="node28" href="$property_8h.html" title="exotica_core/property.h" alt="" coords="2557,861,2715,887"/>
-<area shape="rect" id="node32" href="$planning__problem_8h.html" title="exotica_core/planning\l_problem.h" alt="" coords="463,347,611,388"/>
-<area shape="rect" id="node9" href="$tools_8h.html" title="exotica_core/tools.h" alt="" coords="695,861,833,887"/>
-<area shape="rect" id="node17" href="$exception_8h.html" title="exotica_core/tools\l/exception.h" alt="" coords="1223,1032,1351,1073"/>
-<area shape="rect" id="node20" href="$printable_8h.html" title="exotica_core/tools\l/printable.h" alt="" coords="545,1032,673,1073"/>
-<area shape="rect" id="node24" href="$timer_8h.html" title="exotica_core/tools\l/timer.h" alt="" coords="612,943,740,984"/>
-<area shape="rect" id="node26" href="$uncopyable_8h.html" title="exotica_core/tools\l/uncopyable.h" alt="" coords="460,943,588,984"/>
-<area shape="rect" id="node33" href="$scene_8h.html" title="exotica_core/scene.h" alt="" coords="1700,511,1847,537"/>
-<area shape="rect" id="node43" href="$task__map_8h.html" title="exotica_core/task_map.h" alt="" coords="687,436,855,463"/>
-<area shape="rect" id="node44" href="$task__space__vector_8h.html" title="exotica_core/task_space\l_vector.h" alt="" coords="309,853,475,895"/>
-<area shape="rect" id="node39" href="$collision__scene_8h.html" title="exotica_core/collision\l_scene.h" alt="" coords="1644,585,1791,627"/>
-<area shape="rect" id="node40" href="$kinematic__tree_8h.html" title="exotica_core/kinematic\l_tree.h" alt="" coords="1638,853,1794,895"/>
-<area shape="rect" id="node41" href="$trajectory_8h.html" title="exotica_core/trajectory.h" alt="" coords="1187,861,1352,887"/>
-<area shape="rect" id="node46" href="$dynamics__solver_8h.html" title="exotica_core/dynamics\l_solver.h" alt="" coords="2835,585,2991,627"/>
-<area shape="rect" id="node48" href="$tasks_8h.html" title="exotica_core/tasks.h" alt="" coords="702,257,845,284"/>
+<map id="/home/wxm/tmp/exotica/exotations/solvers/exotica_ddp_solver/include/exotica_ddp_solver/abstract_ddp_solver.h" name="/home/wxm/tmp/exotica/exotations/solvers/exotica_ddp_solver/include/exotica_ddp_solver/abstract_ddp_solver.h">
+<area shape="rect" id="node2" href="$feedback__motion__solver_8h.html" title="exotica_core/feedback\l_motion_solver.h" alt="" coords="1787,131,1941,173"/>
+<area shape="rect" id="node13" href="$conversions_8h.html" title="exotica_core/tools\l/conversions.h" alt="" coords="1920,935,2048,977"/>
+<area shape="rect" id="node41" href="$dynamic__time__indexed__shooting__problem_8h.html" title="exotica_core/problems\l/dynamic_time_indexed\l_shooting_problem.h" alt="" coords="649,124,807,180"/>
+<area shape="rect" id="node46" href="$server_8h.html" title="exotica_core/server.h" alt="" coords="2775,846,2921,873"/>
+<area shape="rect" id="node3" href="$motion__solver_8h.html" title="exotica_core/motion\l_solver.h" alt="" coords="1137,235,1276,277"/>
+<area shape="rect" id="node4" href="$factory_8h.html" title="exotica_core/factory.h" alt="" coords="1035,667,1186,694"/>
+<area shape="rect" id="node8" href="$object_8h.html" title="exotica_core/object.h" alt="" coords="1381,757,1528,783"/>
+<area shape="rect" id="node26" href="$property_8h.html" title="exotica_core/property.h" alt="" coords="446,846,605,873"/>
+<area shape="rect" id="node30" href="$planning__problem_8h.html" title="exotica_core/planning\l_problem.h" alt="" coords="1133,332,1281,373"/>
+<area shape="rect" id="node9" href="$tools_8h.html" title="exotica_core/tools.h" alt="" coords="1468,846,1607,873"/>
+<area shape="rect" id="node17" href="$exception_8h.html" title="exotica_core/tools\l/exception.h" alt="" coords="2820,1032,2948,1073"/>
+<area shape="rect" id="node20" href="$printable_8h.html" title="exotica_core/tools\l/printable.h" alt="" coords="1567,1032,1695,1073"/>
+<area shape="rect" id="node24" href="$uncopyable_8h.html" title="exotica_core/tools\l/uncopyable.h" alt="" coords="2516,935,2644,977"/>
+<area shape="rect" id="node32" href="$scene_8h.html" title="exotica_core/scene.h" alt="" coords="1267,496,1413,523"/>
+<area shape="rect" id="node39" href="$task__map_8h.html" title="exotica_core/task_map.h" alt="" coords="871,421,1039,448"/>
+<area shape="rect" id="node40" href="$task__space__vector_8h.html" title="exotica_core/task_space\l_vector.h" alt="" coords="2099,839,2266,880"/>
+<area shape="rect" id="node38" href="$collision__scene_8h.html" title="exotica_core/collision\l_scene.h" alt="" coords="984,571,1131,612"/>
+<area shape="rect" id="node42" href="$dynamics__solver_8h.html" title="exotica_core/dynamics\l_solver.h" alt="" coords="550,571,706,612"/>
+<area shape="rect" id="node44" href="$tasks_8h.html" title="exotica_core/tasks.h" alt="" coords="285,243,427,269"/>
 </map>

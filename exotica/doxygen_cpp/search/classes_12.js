@@ -11,10 +11,9 @@ var searchData=
   ['settransform',['SetTransform',['../structexotica_1_1visualization_1_1SetTransform.html',1,'exotica::visualization']]],
   ['setup',['Setup',['../classexotica_1_1Setup.html',1,'exotica']]],
   ['singlepassmeancovariance',['SinglePassMeanCovariance',['../classexotica_1_1SinglePassMeanCovariance.html',1,'exotica']]],
+  ['smoothcollisiondistance',['SmoothCollisionDistance',['../classexotica_1_1SmoothCollisionDistance.html',1,'exotica']]],
   ['solveexception',['SolveException',['../classexotica_1_1SolveException.html',1,'exotica']]],
   ['spherecollision',['SphereCollision',['../classexotica_1_1SphereCollision.html',1,'exotica']]],
-  ['statetype',['StateType',['../classexotica_1_1OMPLRNStateSpace_1_1StateType.html',1,'exotica::OMPLRNStateSpace']]],
-  ['statetype',['StateType',['../classexotica_1_1OMPLSE3RNStateSpace_1_1StateType.html',1,'exotica::OMPLSE3RNStateSpace']]],
-  ['statetype',['StateType',['../classexotica_1_1OMPLSE2RNStateSpace_1_1StateType.html',1,'exotica::OMPLSE2RNStateSpace']]],
-  ['statetype',['StateType',['../classexotica_1_1OMPLTimeIndexedRNStateSpace_1_1StateType.html',1,'exotica::OMPLTimeIndexedRNStateSpace']]]
+  ['statetype',['StateType',['../classexotica_1_1OMPLSE3RNStateSpace_1_1StateType.html',1,'exotica::OMPLSE3RNStateSpace::StateType'],['../classexotica_1_1OMPLTimeIndexedRNStateSpace_1_1StateType.html',1,'exotica::OMPLTimeIndexedRNStateSpace::StateType'],['../classexotica_1_1OMPLSE2RNStateSpace_1_1StateType.html',1,'exotica::OMPLSE2RNStateSpace::StateType'],['../classexotica_1_1OMPLRNStateSpace_1_1StateType.html',1,'exotica::OMPLRNStateSpace::StateType']]],
+  ['sumofpenetrations',['SumOfPenetrations',['../classexotica_1_1SumOfPenetrations.html',1,'exotica']]]
 ];

@@ -4,7 +4,7 @@ var searchData=
   ['makeautodiffscalar',['MakeAutoDiffScalar',['../namespaceEigen.html#af2ab563fb98de79fa59e7f78e37591ab',1,'Eigen']]],
   ['maptovec',['MapToVec',['../namespaceexotica.html#ae00a5b28dd47ce98605d36a7f91e91c4',1,'exotica']]],
   ['material',['Material',['../structexotica_1_1visualization_1_1Material.html#a3ef8a92fdc097b41313ead0c553a54f2',1,'exotica::visualization::Material::Material(long color_in, double opacity_in=1.0, const std::string &amp;type_in=&quot;MeshPhongMaterial&quot;, const std::string &amp;uuid_in=&quot;&quot;)'],['../structexotica_1_1visualization_1_1Material.html#ab7d99c72a599d98090bd1f7b991a85d1',1,'exotica::visualization::Material::Material()']]],
-  ['matrixtotensor',['MatrixToTensor',['../namespaceEigen.html#ac027f85c91eae7f286699331bf088cad',1,'Eigen']]],
+  ['matrixtotensor',['MatrixToTensor',['../namespaceEigen.html#a7dd6b5787a4079b531c8b68c12542780',1,'Eigen']]],
   ['mean',['mean',['../classexotica_1_1SinglePassMeanCovariance.html#a3ceafce8bf04d53c8bbc8b96f0ab3440',1,'exotica::SinglePassMeanCovariance']]],
   ['meshobject',['MeshObject',['../structexotica_1_1visualization_1_1MeshObject.html#a773dcf4e2e737dd2821d507914a7a8fc',1,'exotica::visualization::MeshObject']]],
   ['metadata',['MetaData',['../structexotica_1_1visualization_1_1MetaData.html#ab5647fd625392734eb9f84e2f38cc98b',1,'exotica::visualization::MetaData::MetaData()=default'],['../structexotica_1_1visualization_1_1MetaData.html#ab6304d77ccdec232739e65da62657b67',1,'exotica::visualization::MetaData::MetaData(double version_in, const std::string &amp;type_in)']]],

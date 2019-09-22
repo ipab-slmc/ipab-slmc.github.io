@@ -1,3 +1,8 @@
-<map id="/home/wxm/dev/exotica_ws/src/exotica/exotica_core/include/exotica_core/server.h" name="/home/wxm/dev/exotica_ws/src/exotica/exotica_core/include/exotica_core/server.h">
-<area shape="rect" id="node2" href="$exotica__core_8h.html" title="/home/wxm/dev/exotica\l_ws/src/exotica/exotica\l_core/include/exotica_core\l/exotica_core.h" alt="" coords="5,124,183,195"/>
+<map id="/home/wxm/tmp/exotica/exotica_core/include/exotica_core/server.h" name="/home/wxm/tmp/exotica/exotica_core/include/exotica_core/server.h">
+<area shape="rect" id="node2" href="$abstract__ddp__solver_8h.html" title="/home/wxm/tmp/exotica\l/exotations/solvers/exotica\l_ddp_solver/include/exotica\l_ddp_solver/abstract_ddp_solver.h" alt="" coords="118,109,342,180"/>
+<area shape="rect" id="node5" href="$ilqg__solver_8h.html" title="/home/wxm/tmp/exotica\l/exotations/solvers/exotica\l_ilqg_solver/include/exotica\l_ilqg_solver/ilqg_solver.h" alt="" coords="367,109,549,180"/>
+<area shape="rect" id="node6" href="$ilqr__solver_8h.html" title="/home/wxm/tmp/exotica\l/exotations/solvers/exotica\l_ilqr_solver/include/exotica\l_ilqr_solver/ilqr_solver.h" alt="" coords="574,109,753,180"/>
+<area shape="rect" id="node7" href="$exotica__core_8h.html" title="/home/wxm/tmp/exotica\l/exotica_core/include\l/exotica_core/exotica\l_core.h" alt="" coords="777,109,939,180"/>
+<area shape="rect" id="node3" href="$analytic__ddp__solver_8h.html" title="/home/wxm/tmp/exotica\l/exotations/solvers/exotica\l_ddp_solver/include/exotica\l_ddp_solver/analytic_ddp_solver.h" alt="" coords="5,235,228,306"/>
+<area shape="rect" id="node4" href="$control__limited__ddp__solver_8h.html" title="/home/wxm/tmp/exotica\l/exotations/solvers/exotica\l_ddp_solver/include/exotica\l_ddp_solver/control_limited\l_ddp_solver.h" alt="" coords="252,228,435,313"/>
 </map>

@@ -5,8 +5,6 @@ var searchData=
   ['_7eaicosolver',['~AICOSolver',['../classexotica_1_1AICOSolver.html#a3972e697fd21f7f3953d67b117e1b576',1,'exotica::AICOSolver']]],
   ['_7eboundedendposeproblem',['~BoundedEndPoseProblem',['../classexotica_1_1BoundedEndPoseProblem.html#a44fe84936e45634dd7b9a16f599d0444',1,'exotica::BoundedEndPoseProblem']]],
   ['_7eboundedtimeindexedproblem',['~BoundedTimeIndexedProblem',['../classexotica_1_1BoundedTimeIndexedProblem.html#a4217902d32e9051e0c72f5836d3daa3e',1,'exotica::BoundedTimeIndexedProblem']]],
-  ['_7ecenterofmass',['~CenterOfMass',['../classexotica_1_1CenterOfMass.html#adf19a762b43617d39e7c38421276767b',1,'exotica::CenterOfMass']]],
-  ['_7ecollisioncheck',['~CollisionCheck',['../classexotica_1_1CollisionCheck.html#ac01b69efb7733b4cc39aaeea850bac2d',1,'exotica::CollisionCheck']]],
   ['_7ecollisionscene',['~CollisionScene',['../classexotica_1_1CollisionScene.html#a751ead4209d28c9c7867b312c1e3a5c1',1,'exotica::CollisionScene']]],
   ['_7ecollisionscenefcl',['~CollisionSceneFCL',['../classexotica_1_1CollisionSceneFCL.html#a300f93a78d4a895182cb26a01dcdec65',1,'exotica::CollisionSceneFCL']]],
   ['_7ecollisionscenefcllatest',['~CollisionSceneFCLLatest',['../classexotica_1_1CollisionSceneFCLLatest.html#a83d3b8b7d792a7a58d168b81da4b6b8b',1,'exotica::CollisionSceneFCLLatest']]],

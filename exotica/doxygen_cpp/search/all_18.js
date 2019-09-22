@@ -6,8 +6,7 @@ var searchData=
   ['xdiff',['xdiff',['../classexotica_1_1AbstractTimeIndexedProblem.html#afbcd0817a990fcbdd273092e5d067400',1,'exotica::AbstractTimeIndexedProblem']]],
   ['xdiff_5fmax_5f',['xdiff_max_',['../classexotica_1_1AbstractTimeIndexedProblem.html#a7825898281219d4791d6ccc30666d50a',1,'exotica::AbstractTimeIndexedProblem']]],
   ['xml_5floader_2eh',['xml_loader.h',['../xml__loader_8h.html',1,'']]],
-  ['xmlloader',['XMLLoader',['../classexotica_1_1XMLLoader.html',1,'exotica']]],
-  ['xmlloader',['XMLLoader',['../classexotica_1_1XMLLoader.html#ae753ef96f124e097b31afcb27fa54813',1,'exotica::XMLLoader']]],
+  ['xmlloader',['XMLLoader',['../classexotica_1_1XMLLoader.html',1,'exotica::XMLLoader'],['../classexotica_1_1XMLLoader.html#ae753ef96f124e097b31afcb27fa54813',1,'exotica::XMLLoader::XMLLoader()']]],
   ['xmotion',['xmotion',['../structexotica_1_1OMPLTimeIndexedRRTConnect_1_1TreeGrowingInfo.html#ab1eb3ecd7a83dcf93c150fad2206959d',1,'exotica::OMPLTimeIndexedRRTConnect::TreeGrowingInfo']]],
   ['xstate',['xstate',['../structexotica_1_1OMPLTimeIndexedRRTConnect_1_1TreeGrowingInfo.html#a9e996a73f7a98372aacd004c813a42f1',1,'exotica::OMPLTimeIndexedRRTConnect::TreeGrowingInfo']]]
 ];

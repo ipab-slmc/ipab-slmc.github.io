@@ -1,10 +1,12 @@
 var searchData=
 [
   ['c_5f',['C_',['../classexotica_1_1IKSolver.html#a4f2d447f30cc93660727cb65abe9e2be',1,'exotica::IKSolver']]],
+  ['check_5fself_5fcollision_5f',['check_self_collision_',['../classexotica_1_1CollisionDistance.html#a08436ba354621c31185b81eb40286e65',1,'exotica::CollisionDistance::check_self_collision_()'],['../classexotica_1_1SmoothCollisionDistance.html#afc384af252c8ae1f60ee1e251d99aafa',1,'exotica::SmoothCollisionDistance::check_self_collision_()'],['../classexotica_1_1SumOfPenetrations.html#a3888c9cf2cfb7bf6b1760d722ba5624a',1,'exotica::SumOfPenetrations::check_self_collision_()']]],
   ['children',['children',['../classexotica_1_1KinematicElement.html#aacccfa9964eb280cc4d534e11d176956',1,'exotica::KinematicElement']]],
   ['ci_5f',['Ci_',['../classexotica_1_1DynamicTimeIndexedShootingProblem.html#a01326a7d97274a439b35291a4b586586',1,'exotica::DynamicTimeIndexedShootingProblem']]],
   ['clamped_5fidx',['clamped_idx',['../structexotica_1_1BoxQPSolution.html#ad92dc8efe0b9d70ffe33093db6e6bac6',1,'exotica::BoxQPSolution']]],
   ['clip',['clip',['../structexotica_1_1visualization_1_1Animation.html#afdb97061af8ca0143cdcee1175e48511',1,'exotica::visualization::Animation']]],
+  ['closest_5fproxies_5f',['closest_proxies_',['../classexotica_1_1CollisionDistance.html#a21f30b1fbf9d061f1b7d1f614968f1af',1,'exotica::CollisionDistance']]],
   ['closest_5frobot_5flink',['closest_robot_link',['../classexotica_1_1KinematicElement.html#a106c55b24cefd5168f62efe6b8299445',1,'exotica::KinematicElement']]],
   ['collision_5fscene_5f',['collision_scene_',['../classexotica_1_1Scene.html#ae7f3e54a7fad60f960c025830ab76151',1,'exotica::Scene']]],
   ['collision_5fscenes_5f',['collision_scenes_',['../classexotica_1_1Setup.html#ade6834caa52d4bb2f19d0f4515a5105f',1,'exotica::Setup']]],
@@ -28,11 +30,11 @@ var searchData=
   ['control_5flimits_5f',['control_limits_',['../classexotica_1_1AbstractDynamicsSolver.html#a39fb80f18fdb45cb133a7210f5a63c99',1,'exotica::AbstractDynamicsSolver']]],
   ['control_5flimits_5finitialized_5f',['control_limits_initialized_',['../classexotica_1_1AbstractDynamicsSolver.html#ade34648fbab4f8e99b48b89ba0304ed9',1,'exotica::AbstractDynamicsSolver']]],
   ['controlled_5fbase_5ftype_5f',['controlled_base_type_',['../classexotica_1_1KinematicTree.html#af041135261db3e0fe3ef8927a368833f',1,'exotica::KinematicTree']]],
+  ['controlled_5fjoint_5fto_5fcollision_5flink_5fmap_5f',['controlled_joint_to_collision_link_map_',['../classexotica_1_1CollisionDistance.html#ad33a8e55261fb05f190a177f34a8d07f',1,'exotica::CollisionDistance::controlled_joint_to_collision_link_map_()'],['../classexotica_1_1SmoothCollisionDistance.html#aa6ff32298b2a42690bb4839df5919c3a',1,'exotica::SmoothCollisionDistance::controlled_joint_to_collision_link_map_()'],['../classexotica_1_1Scene.html#ab584a2eaf5cce3ecc802c03f0e423e43',1,'exotica::Scene::controlled_joint_to_collision_link_map_()']]],
   ['controlled_5fjoints_5f',['controlled_joints_',['../classexotica_1_1KinematicTree.html#a5c6513f74b1e64c8deb69557a02f66cf',1,'exotica::KinematicTree']]],
   ['controlled_5fjoints_5fmap_5f',['controlled_joints_map_',['../classexotica_1_1KinematicTree.html#a184670492b7f0271e2fe2d4079ef2005',1,'exotica::KinematicTree']]],
   ['controlled_5fjoints_5fnames_5f',['controlled_joints_names_',['../classexotica_1_1KinematicTree.html#abe3b014e73c99ec40c5c6197c53b5c3a',1,'exotica::KinematicTree']]],
   ['controlled_5flink_5fnames_5f',['controlled_link_names_',['../classexotica_1_1KinematicTree.html#a1c7ebcc6f3c3cfae9c4b67861e4d3ea5',1,'exotica::KinematicTree']]],
-  ['controlled_5flink_5fto_5fcollision_5flink_5fmap_5f',['controlled_link_to_collision_link_map_',['../classexotica_1_1Scene.html#a4a936700b0e4781185a17c24da2db9c7',1,'exotica::Scene']]],
   ['correct_5ftime',['correct_time',['../structexotica_1_1OMPLTimeIndexedRRTConnect_1_1TreeGrowingInfo.html#a7e703d25ac8d347a73c3597fb4ffefd0',1,'exotica::OMPLTimeIndexedRRTConnect::TreeGrowingInfo']]],
   ['cost',['cost',['../classexotica_1_1AbstractTimeIndexedProblem.html#ac7d119b0b82c87a98039fcf13c8d86aa',1,'exotica::AbstractTimeIndexedProblem::cost()'],['../classexotica_1_1BoundedEndPoseProblem.html#a67240d148c0ea5746edf99f4e9d71aad',1,'exotica::BoundedEndPoseProblem::cost()'],['../classexotica_1_1DynamicTimeIndexedShootingProblem.html#a2da98c1100674f555a02ce9543db7ee6',1,'exotica::DynamicTimeIndexedShootingProblem::cost()'],['../classexotica_1_1EndPoseProblem.html#aab6dd60073bc70ccf29bd28bc1980c6b',1,'exotica::EndPoseProblem::cost()'],['../classexotica_1_1UnconstrainedEndPoseProblem.html#a45252a5c38166827957e94677a27a08f',1,'exotica::UnconstrainedEndPoseProblem::cost()']]],
   ['cost_5f',['cost_',['../classexotica_1_1AICOSolver.html#a6aec3e177b528c5dd7d5ec3d169c886f',1,'exotica::AICOSolver::cost_()'],['../classexotica_1_1BayesianIKSolver.html#a03d49e2c61bc9963ca75f84bc5278cfc',1,'exotica::BayesianIKSolver::cost_()']]],
@@ -44,8 +46,9 @@ var searchData=
   ['cost_5fprev_5f',['cost_prev_',['../classexotica_1_1AICOSolver.html#aba3ca69923c5ce811aa01927d31c1752',1,'exotica::AICOSolver::cost_prev_()'],['../classexotica_1_1BayesianIKSolver.html#a5264f0f49d2a8ed8153b8cc32a02dd63',1,'exotica::BayesianIKSolver::cost_prev_()']]],
   ['cost_5ftask_5f',['cost_task_',['../classexotica_1_1AICOSolver.html#af272b4c1e1c681ebdefaa81670285b94',1,'exotica::AICOSolver']]],
   ['cost_5ftask_5fold_5f',['cost_task_old_',['../classexotica_1_1AICOSolver.html#a2a780963b2054a1b4db902174b837579',1,'exotica::AICOSolver']]],
-  ['cscene_5f',['cscene_',['../classexotica_1_1CollisionCheck.html#a968a1a8c9387259ce2d8505ffed4eba5',1,'exotica::CollisionCheck']]],
+  ['cscene_5f',['cscene_',['../classexotica_1_1CollisionCheck.html#a968a1a8c9387259ce2d8505ffed4eba5',1,'exotica::CollisionCheck::cscene_()'],['../classexotica_1_1CollisionDistance.html#a00b7f7ed4eb2cf93e980be8c0a46aae4',1,'exotica::CollisionDistance::cscene_()'],['../classexotica_1_1SmoothCollisionDistance.html#ac8fb2ff061a46ae0a1dae4ccee2ae879',1,'exotica::SmoothCollisionDistance::cscene_()'],['../classexotica_1_1SumOfPenetrations.html#add92d54a4da9c15618d427792dca6b19',1,'exotica::SumOfPenetrations::cscene_()']]],
   ['ct',['ct',['../classexotica_1_1AbstractTimeIndexedProblem.html#acac2aaee9844237e67e303a62b6b9572',1,'exotica::AbstractTimeIndexedProblem']]],
+  ['current_5fjoint_5fstate_5f',['current_joint_state_',['../classexotica_1_1JointVelocityLimitConstraint.html#a42d2d7db6b9921fcc85565fc1557554f',1,'exotica::JointVelocityLimitConstraint']]],
   ['custom_5flinks_5f',['custom_links_',['../classexotica_1_1Scene.html#ab5eba668c14b4df25647bcaddccef60f',1,'exotica::Scene']]],
   ['cw_5f',['CW_',['../classexotica_1_1DynamicTimeIndexedShootingProblem.html#a6e9b3d0bf23cfb31dca65f0be2ab6825',1,'exotica::DynamicTimeIndexedShootingProblem']]]
 ];
