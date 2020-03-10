@@ -26,6 +26,7 @@ var searchData=
   ['ps_5f',['ps_',['../classexotica_1_1Scene.html#aeb38e0e404b52c447016a7115cd22a31',1,'exotica::Scene']]],
   ['ps_5fpub_5f',['ps_pub_',['../classexotica_1_1Scene.html#af1449effa8373da8afb4160fd87d6bf3',1,'exotica::Scene']]],
   ['ptc_5f',['ptc_',['../classexotica_1_1TimeIndexedRRTConnectSolver.html#a17dff4c4bebd71f20d20d9a1df3246f0',1,'exotica::TimeIndexedRRTConnectSolver']]],
+  ['pub_5fdebug_5f',['pub_debug_',['../classexotica_1_1EffAxisAlignment.html#aa16d8b403cc6f10d1a99d28be468a726',1,'exotica::EffAxisAlignment']]],
   ['pub_5fmarker_5f',['pub_marker_',['../classexotica_1_1PointToLine.html#a7386e4709d545331be2114a1232669e0',1,'exotica::PointToLine']]],
   ['pub_5fmarker_5flabel_5f',['pub_marker_label_',['../classexotica_1_1PointToLine.html#aae5a31663c15dd7c84c0ce635a7c234d',1,'exotica::PointToLine']]],
   ['pub_5fmarkers_5f',['pub_markers_',['../classexotica_1_1AvoidLookAtSphere.html#a663b41116714760a7f12a0fe960f98c2',1,'exotica::AvoidLookAtSphere::pub_markers_()'],['../classexotica_1_1EffBox.html#a7aa60ebd1740d5e20f9043cc77e83a17',1,'exotica::EffBox::pub_markers_()']]]

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Quickstart: C++ &mdash; EXOTica 5.0 documentation</title>
+  <title>Quickstart: C++ &mdash; EXOTica 5.1.3 documentation</title>
   
 
   
@@ -17,42 +17,37 @@
   
 
   
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
 
-  
-  
     
 
   
-
-  
-  
-    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-        <link rel="index" title="Index"
-              href="genindex.html"/>
-        <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="EXOTica 5.0 documentation" href="index.html"/>
-        <link rel="next" title="Solving planning problems in C++" href="using_exotica_cpp.html"/>
-        <link rel="prev" title="Quickstart: Python" href="quickstart_python.html"/> 
-
-  
-  <script src="_static/js/modernizr.min.js"></script>
-
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Solving planning problems in C++" href="using_exotica_cpp.html" />
+    <link rel="prev" title="Quickstart: Python" href="quickstart_python.html" /> 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
-
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
+        <div class="wy-side-nav-search" >
           
 
           
@@ -66,7 +61,7 @@
             
             
               <div class="version">
-                5.0
+                5.1.3
               </div>
             
           
@@ -138,7 +133,7 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+      <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="index.html">EXOTica</a>
@@ -146,9 +141,10 @@
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
 
@@ -195,14 +191,14 @@ in the examples folder. This uses the lwr_simplified robot in the examples.</p>
 <div class="section" id="running-example-code">
 <h2>Running Example Code<a class="headerlink" href="#running-example-code" title="Permalink to this headline">¶</a></h2>
 <p>To run this code and start producing motion plans, start roscore then run:</p>
-<div class="highlight-shell"><div class="highlight"><pre><span></span>rosrun exotica_examples example_cpp_ik_minimal
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>rosrun exotica_examples example_cpp_ik_minimal
 </pre></div>
 </div>
 </div>
 <div class="section" id="expected-output">
 <h2>Expected output<a class="headerlink" href="#expected-output" title="Permalink to this headline">¶</a></h2>
 <p>Running the code will produce a result similar to the following in the terminal:</p>
-<div class="highlight-shell"><div class="highlight"><pre><span></span>Publishing IK
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>Publishing IK
 
 Finished solving in <span class="m">0</span>.000280003s Solution <span class="o">[</span> -6.18621023e-15  -9.09070542e-02  -8.66069432e-15   <span class="m">9</span>.26337047e-02 -1.44344905e-14  -1.00000000e-01   <span class="m">0</span>.00000000e+00<span class="o">]</span>
 
@@ -215,7 +211,7 @@ Finished solving in <span class="m">0</span>.000178323s Solution <span class="o"
 <p>Now that we have executed the example and seen the result, let’s look at what happening in the code. Here we are using the
 <a class="reference external" href="https://github.com/ipab-slmc/exotica/blob/master/exotica_examples/src/ik_minimal.cpp">ik_minimal.cpp</a> example.
 This is shown below:</p>
-<div class="highlight-cpp"><div class="highlight"><pre><span></span><span class="cp">#include</span> <span class="cpf">&lt;exotica_core/exotica_core.h&gt;</span><span class="cp"></span>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span> <span class="cpf">&lt;exotica_core/exotica_core.h&gt;</span><span class="cp"></span>
 
 <span class="k">using</span> <span class="k">namespace</span> <span class="n">exotica</span><span class="p">;</span>
 
@@ -239,7 +235,7 @@ This is shown below:</p>
 <div class="section" id="quick-solver-setup">
 <h2>Quick Solver Setup<a class="headerlink" href="#quick-solver-setup" title="Permalink to this headline">¶</a></h2>
 <p>After including the Exotica header file and setting the namespace, we enter the main function and instantiate a MotionSolverPtr:</p>
-<div class="highlight-cpp"><div class="highlight"><pre><span></span><span class="p">...</span>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="p">...</span>
 <span class="n">MotionSolverPtr</span> <span class="n">solver</span> <span class="o">=</span> <span class="n">XMLLoader</span><span class="o">::</span><span class="n">loadSolver</span><span class="p">(</span><span class="s">&quot;{exotica_examples}/resources/configs/example_ik.xml&quot;</span><span class="p">);</span>
 <span class="p">...</span>
 </pre></div>
@@ -250,8 +246,8 @@ file, which is parsed by EXOTica.</p>
 <div class="section" id="quick-xml-initialization">
 <h2>Quick XML Initialization<a class="headerlink" href="#quick-xml-initialization" title="Permalink to this headline">¶</a></h2>
 <p>The XML file from which the parser loads is <a class="reference external" href="https://github.com/ipab-slmc/exotica/blob/master/exotica_examples/resources/configs/example_ik.xml">included</a>
-in the <code class="docutils literal"><span class="pre">exotica_examples</span></code> folder. We can see a copy of it below:</p>
-<div class="highlight-xml"><div class="highlight"><pre><span></span><span class="cp">&lt;?xml version=&quot;1.0&quot; ?&gt;</span>
+in the <code class="docutils literal notranslate"><span class="pre">exotica_examples</span></code> folder. We can see a copy of it below:</p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?xml version=&quot;1.0&quot; ?&gt;</span>
 <span class="nt">&lt;IKSolverDemoConfig&gt;</span>
 
 <span class="nt">&lt;IKSolver</span> <span class="na">Name=</span><span class="s">&quot;MySolver&quot;</span><span class="nt">&gt;</span>
@@ -289,18 +285,18 @@ in the <code class="docutils literal"><span class="pre">exotica_examples</span><
 </pre></div>
 </div>
 <p>We can alter the properties of the solver and the problem in their respective XML tags.
-Altering the <code class="docutils literal"><span class="pre">StartState</span></code> will change initial position of the edited joints, changing the motion plan.</p>
+Altering the <code class="docutils literal notranslate"><span class="pre">StartState</span></code> will change initial position of the edited joints, changing the motion plan.</p>
 </div>
 <div class="section" id="solving-motion-plan">
 <h2>Solving Motion Plan<a class="headerlink" href="#solving-motion-plan" title="Permalink to this headline">¶</a></h2>
 <p>After we have loaded the solver, we can solve the problem and display the result:</p>
-<div class="highlight-cpp"><div class="highlight"><pre><span></span><span class="n">solver</span><span class="o">-&gt;</span><span class="n">Solve</span><span class="p">(</span><span class="n">solution</span><span class="p">);</span>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span><span class="o">-&gt;</span><span class="n">Solve</span><span class="p">(</span><span class="n">solution</span><span class="p">);</span>
 
 <span class="n">HIGHLIGHT</span><span class="p">(</span><span class="s">&quot;Finished solving in &quot;</span> <span class="o">&lt;&lt;</span> <span class="n">timer</span><span class="p">.</span><span class="n">getDuration</span><span class="p">()</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;s. Solution [&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">solution</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;]&quot;</span><span class="p">);</span>
 </pre></div>
 </div>
-<p><code class="docutils literal"><span class="pre">solver</span></code> is the name of the motion solver which we instantiated earlier. After creating it,
-solving is trivial; simply use <code class="docutils literal"><span class="pre">solver-&gt;Solve(solution);</span></code>, passing in the <code class="docutils literal"><span class="pre">Eigen::MatrixXd</span> <span class="pre">solution;</span></code>.</p>
+<p><code class="docutils literal notranslate"><span class="pre">solver</span></code> is the name of the motion solver which we instantiated earlier. After creating it,
+solving is trivial; simply use <code class="docutils literal notranslate"><span class="pre">solver-&gt;Solve(solution);</span></code>, passing in the <code class="docutils literal notranslate"><span class="pre">Eigen::MatrixXd</span> <span class="pre">solution;</span></code>.</p>
 <p>The output of the motion plan is stored in the matrix, which we can then print to the terminal.
 Since the XML specified an EndPose problem, the IKSolver computed a single robot configuration, returining a 1x7 matrix.</p>
 </div>
@@ -308,9 +304,7 @@ Since the XML specified an EndPose problem, the IKSolver computed a single robot
 
 
            </div>
-           <div class="articleComments">
-            
-           </div>
+           
           </div>
           <footer>
   
@@ -319,7 +313,7 @@ Since the XML specified an EndPose problem, the IKSolver computed a single robot
         <a href="using_exotica_cpp.html" class="btn btn-neutral float-right" title="Solving planning problems in C++" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="quickstart_python.html" class="btn btn-neutral" title="Quickstart: Python" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="quickstart_python.html" class="btn btn-neutral float-left" title="Quickstart: Python" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -328,11 +322,11 @@ Since the XML specified an EndPose problem, the IKSolver computed a single robot
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2019, Vladimir Ivan, Yiming Yang, Wolfgang Merkt, Michael Camilleri, Sethu Vijayakumar - and contributors.
+        &copy; Copyright 2020, Vladimir Ivan, Wolfgang Merkt, Sethu Vijayakumar - and contributors
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -345,37 +339,15 @@ Since the XML specified an EndPose problem, the IKSolver computed a single robot
   
 
 
-  
-
-    <script type="text/javascript">
-        var DOCUMENTATION_OPTIONS = {
-            URL_ROOT:'./',
-            VERSION:'5.0',
-            COLLAPSE_INDEX:false,
-            FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true,
-            SOURCELINK_SUFFIX: '.txt'
-        };
-    </script>
-      <script type="text/javascript" src="_static/jquery.js"></script>
-      <script type="text/javascript" src="_static/underscore.js"></script>
-      <script type="text/javascript" src="_static/doctools.js"></script>
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
-  
-
-  
-  
-    <script type="text/javascript" src="_static/js/theme.js"></script>
-  
-
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
   </script>
+
+  
+  
+    
    
 
 </body>

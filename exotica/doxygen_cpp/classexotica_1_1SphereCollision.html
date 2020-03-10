@@ -100,10 +100,6 @@ Collaboration diagram for exotica::SphereCollision:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae143e3de68dd8348011d69690e49eb59"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1SphereCollision.html#ae143e3de68dd8348011d69690e49eb59">SphereCollision</a> ()</td></tr>
-<tr class="separator:ae143e3de68dd8348011d69690e49eb59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add8e51741056b0ca4aa01f99d2dc4b20"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1SphereCollision.html#add8e51741056b0ca4aa01f99d2dc4b20">~SphereCollision</a> ()</td></tr>
-<tr class="separator:add8e51741056b0ca4aa01f99d2dc4b20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae92e94f33b5d1a9f750d969b068efa86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1SphereCollision.html#ae92e94f33b5d1a9f750d969b068efa86">Instantiate</a> (const SphereCollisionInitializer &amp;init) override</td></tr>
 <tr class="separator:ae92e94f33b5d1a9f750d969b068efa86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f3fa2dc1977f0c8e11b4b84085c5b99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1SphereCollision.html#a1f3fa2dc1977f0c8e11b4b84085c5b99">Update</a> (<a class="el" href="namespaceEigen.html#ad6c86a9df4dd2627a995a39eab0f9010">Eigen::VectorXdRefConst</a> x, <a class="el" href="namespaceEigen.html#a8f2847ac4d1fa769e981f4aee8b585da">Eigen::VectorXdRef</a> phi) override</td></tr>
@@ -170,6 +166,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a8bd2c6090c3dc65c52ffcf4ef4c08b5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a987ee45a9366f6eaabe09b9084147c2c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1SphereCollision.html#a987ee45a9366f6eaabe09b9084147c2c">eps_</a></td></tr>
 <tr class="separator:a987ee45a9366f6eaabe09b9084147c2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4e2ca2fd50dc1ef3fc7ca90a7140640"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1SphereCollision.html#ad4e2ca2fd50dc1ef3fc7ca90a7140640">dim_</a></td></tr>
+<tr class="separator:ad4e2ca2fd50dc1ef3fc7ca90a7140640"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -204,49 +202,6 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:aa2d71772c0b51e17b7907591ebcdb844 inherit pro_attribs_classexotica_1_1Instantiable"><td class="memItemLeft" align="right" valign="top">SphereCollisionInitializer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1Instantiable.html#aa2d71772c0b51e17b7907591ebcdb844">parameters_</a></td></tr>
 <tr class="separator:aa2d71772c0b51e17b7907591ebcdb844 inherit pro_attribs_classexotica_1_1Instantiable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ae143e3de68dd8348011d69690e49eb59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae143e3de68dd8348011d69690e49eb59">&#9670;&nbsp;</a></span>SphereCollision()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">exotica::SphereCollision::SphereCollision </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="add8e51741056b0ca4aa01f99d2dc4b20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add8e51741056b0ca4aa01f99d2dc4b20">&#9670;&nbsp;</a></span>~SphereCollision()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual exotica::SphereCollision::~SphereCollision </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="ac7daca0b3b025b20c5ed9e4eb6b35bb0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac7daca0b3b025b20c5ed9e4eb6b35bb0">&#9670;&nbsp;</a></span>Distance()</h2>
@@ -538,6 +493,28 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="ad4e2ca2fd50dc1ef3fc7ca90a7140640"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4e2ca2fd50dc1ef3fc7ca90a7140640">&#9670;&nbsp;</a></span>dim_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int exotica::SphereCollision::dim_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a987ee45a9366f6eaabe09b9084147c2c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a987ee45a9366f6eaabe09b9084147c2c">&#9670;&nbsp;</a></span>eps_</h2>
 
@@ -610,7 +587,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 23 2019 00:11:51 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Mar 10 2020 15:28:37 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

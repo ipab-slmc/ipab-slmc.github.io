@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Solving planning problems in C++ &mdash; EXOTica 5.0 documentation</title>
+  <title>Solving planning problems in C++ &mdash; EXOTica 5.1.3 documentation</title>
   
 
   
@@ -17,42 +17,37 @@
   
 
   
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
 
-  
-  
     
 
   
-
-  
-  
-    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-        <link rel="index" title="Index"
-              href="genindex.html"/>
-        <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="EXOTica 5.0 documentation" href="index.html"/>
-        <link rel="next" title="Creating a planner package for your own robot" href="own_robot.html"/>
-        <link rel="prev" title="Quickstart: C++" href="quickstart_cpp.html"/> 
-
-  
-  <script src="_static/js/modernizr.min.js"></script>
-
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Creating a planner package for your own robot" href="own_robot.html" />
+    <link rel="prev" title="Quickstart: C++" href="quickstart_cpp.html" /> 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
-
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
+        <div class="wy-side-nav-search" >
           
 
           
@@ -66,7 +61,7 @@
             
             
               <div class="version">
-                5.0
+                5.1.3
               </div>
             
           
@@ -138,7 +133,7 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+      <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="index.html">EXOTica</a>
@@ -146,9 +141,10 @@
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
 
@@ -194,9 +190,9 @@
 step. We will work off the same code and get on with solving some motion
 plans.</p>
 <p>We will continue to use the exotica example found in
-<code class="docutils literal"><span class="pre">manual.cpp</span></code> as a reference, starting after we sent the problem to
+<code class="docutils literal notranslate"><span class="pre">manual.cpp</span></code> as a reference, starting after we sent the problem to
 the solver:</p>
-<div class="highlight-c++"><div class="highlight"><pre><span></span><span class="p">...</span>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="p">...</span>
 
 <span class="c1">// Continued from initialization</span>
 <span class="c1">// Create the initial configuration</span>
@@ -244,14 +240,14 @@ Setting Start Position
 ======================</p>
 <p>Firstly, we must set up a vector of initial joint variables to be fed
 into the solver. Here we initialize the joints to zero angles:</p>
-<div class="highlight-c++"><div class="highlight"><pre><span></span><span class="n">Eigen</span><span class="o">::</span><span class="n">VectorXd</span> <span class="n">q</span> <span class="o">=</span> <span class="n">Eigen</span><span class="o">::</span><span class="n">VectorXd</span><span class="o">::</span><span class="n">Zero</span><span class="p">(</span><span class="n">any_problem</span><span class="o">-&gt;</span><span class="n">getScene</span><span class="p">()</span><span class="o">-&gt;</span><span class="n">getNumControlledJoints</span><span class="p">());</span>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="n">Eigen</span><span class="o">::</span><span class="n">VectorXd</span> <span class="n">q</span> <span class="o">=</span> <span class="n">Eigen</span><span class="o">::</span><span class="n">VectorXd</span><span class="o">::</span><span class="n">Zero</span><span class="p">(</span><span class="n">any_problem</span><span class="o">-&gt;</span><span class="n">getScene</span><span class="p">()</span><span class="o">-&gt;</span><span class="n">getNumControlledJoints</span><span class="p">());</span>
 </pre></div>
 </div>
 <p>Using the robot description to determine the size
-of the vector (<code class="docutils literal"><span class="pre">any_problem-&gt;getScene()-&gt;getNumControlledJoints()</span></code>). This vector
+of the vector (<code class="docutils literal notranslate"><span class="pre">any_problem-&gt;getScene()-&gt;getNumControlledJoints()</span></code>). This vector
 can naturally be changed to whatever joint configuration is required for
-your motion planning purposes. for example, after instantiating <code class="docutils literal"><span class="pre">q</span></code>:</p>
-<div class="highlight-c++"><div class="highlight"><pre><span></span><span class="n">q</span> <span class="o">&lt;&lt;</span> <span class="n">joint_start</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">joint_start</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="n">joint_start</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span><span class="n">joint_start</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span><span class="n">joint_start</span><span class="p">[</span><span class="mi">4</span><span class="p">],</span><span class="n">joint_start</span><span class="p">[</span><span class="mi">5</span><span class="p">],</span><span class="n">joint_start</span><span class="p">[</span><span class="mi">6</span><span class="p">];</span>
+your motion planning purposes. for example, after instantiating <code class="docutils literal notranslate"><span class="pre">q</span></code>:</p>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="n">q</span> <span class="o">&lt;&lt;</span> <span class="n">joint_start</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">joint_start</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="n">joint_start</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span><span class="n">joint_start</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span><span class="n">joint_start</span><span class="p">[</span><span class="mi">4</span><span class="p">],</span><span class="n">joint_start</span><span class="p">[</span><span class="mi">5</span><span class="p">],</span><span class="n">joint_start</span><span class="p">[</span><span class="mi">6</span><span class="p">];</span>
 </pre></div>
 </div>
 <p>and so on. This init joint configuration vector will be sent to the
@@ -262,7 +258,7 @@ solver later.</p>
 n*DOF matrix, where n is the number of steps along the trajectory. A
 dynamic matrix container will need to be created to hold this.
 This is created in the next line:</p>
-<div class="highlight-c++"><div class="highlight"><pre><span></span><span class="n">Eigen</span><span class="o">::</span><span class="n">MatrixXd</span> <span class="n">solution</span><span class="p">;</span>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="n">Eigen</span><span class="o">::</span><span class="n">MatrixXd</span> <span class="n">solution</span><span class="p">;</span>
 </pre></div>
 </div>
 <p>Now we have a starting point and something to hold the trajectory, we
@@ -273,16 +269,16 @@ need somewhere to go. It’s time to set the goal.</p>
 <p>Methods of goal setting vary according to the problem and your
 requirements. Two methods exist for the IK_solver. The method used in
 the tutorial specifies the goal for all IK_solver task maps by setting
-the <code class="docutils literal"><span class="pre">y</span></code> value to the desired goal:</p>
-<div class="highlight-cpp"><div class="highlight"><pre><span></span><span class="n">my_problem</span><span class="o">-&gt;</span><span class="n">y</span> <span class="o">&lt;&lt;</span> <span class="mf">0.6</span><span class="p">,</span>  <span class="c1">// X Position</span>
+the <code class="docutils literal notranslate"><span class="pre">y</span></code> value to the desired goal:</p>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="n">my_problem</span><span class="o">-&gt;</span><span class="n">y</span> <span class="o">&lt;&lt;</span> <span class="mf">0.6</span><span class="p">,</span>  <span class="c1">// X Position</span>
                 <span class="o">-</span><span class="mf">0.1</span> <span class="o">+</span> <span class="n">sin</span><span class="p">(</span><span class="n">t</span> <span class="o">*</span> <span class="mf">2.0</span> <span class="o">*</span> <span class="n">M_PI</span> <span class="o">*</span> <span class="mf">0.5</span><span class="p">)</span> <span class="o">*</span> <span class="mf">0.1</span><span class="p">,</span> <span class="c1">// Y Position</span>
                  <span class="mf">0.5</span> <span class="o">+</span> <span class="n">sin</span><span class="p">(</span><span class="n">t</span> <span class="o">*</span> <span class="n">M_PI</span> <span class="o">*</span> <span class="mf">0.5</span><span class="p">)</span> <span class="o">*</span> <span class="mf">0.2</span><span class="p">;</span> <span class="c1">// Z Position</span>
 </pre></div>
 </div>
-<p>NOTE: To set the goal for an individual map, use the <code class="docutils literal"><span class="pre">SetGoal()</span></code>
+<p>NOTE: To set the goal for an individual map, use the <code class="docutils literal notranslate"><span class="pre">SetGoal()</span></code>
 function. This requires the name of the task map and a Eigen vector
 containing the Cartesian coordinates of the goal:</p>
-<div class="highlight-cpp"><div class="highlight"><pre><span></span><span class="n">Eigen</span><span class="o">::</span><span class="n">VectorXd</span> <span class="n">goal</span><span class="p">(</span><span class="mi">3</span><span class="p">);</span>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="n">Eigen</span><span class="o">::</span><span class="n">VectorXd</span> <span class="n">goal</span><span class="p">(</span><span class="mi">3</span><span class="p">);</span>
 
 <span class="n">goal</span> <span class="o">&lt;&lt;</span> <span class="mf">0.6</span><span class="p">,</span><span class="mf">0.8</span><span class="p">,</span><span class="mf">0.5</span><span class="p">;</span>
 
@@ -291,41 +287,41 @@ containing the Cartesian coordinates of the goal:</p>
 </div>
 <p>Now the initial joint positions have been set, we have the solution
 container and have set the goal, we are ready to solve the problem using
-the <code class="docutils literal"><span class="pre">any_solver</span></code> container in which we stored the generic solver in
-earlier, passing the initial joint states <code class="docutils literal"><span class="pre">q</span></code> and the trajectory
+the <code class="docutils literal notranslate"><span class="pre">any_solver</span></code> container in which we stored the generic solver in
+earlier, passing the initial joint states <code class="docutils literal notranslate"><span class="pre">q</span></code> and the trajectory
 holder:</p>
 </div>
 <div class="section" id="solving-problems">
 <h2>Solving Problems<a class="headerlink" href="#solving-problems" title="Permalink to this headline">¶</a></h2>
-<div class="highlight-c++"><div class="highlight"><pre><span></span><span class="n">any_solver</span><span class="o">-&gt;</span><span class="n">Solve</span><span class="p">(</span><span class="n">solution</span><span class="p">);</span>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="n">any_solver</span><span class="o">-&gt;</span><span class="n">Solve</span><span class="p">(</span><span class="n">solution</span><span class="p">);</span>
 </pre></div>
 </div>
 </div>
 <div class="section" id="solution-format">
 <h2>Solution Format<a class="headerlink" href="#solution-format" title="Permalink to this headline">¶</a></h2>
 <p>Now we have a solution to our problem. But what does it look like?</p>
-<div class="highlight-shell"><div class="highlight"><pre><span></span><span class="o">[</span> INFO<span class="o">]</span> <span class="o">[</span><span class="m">1501240815</span>.111167097<span class="o">]</span>: Finished solving in <span class="m">3</span>.085e-05s. Solution <span class="o">[</span>  -0.109557   -0.653855  -0.0687444     <span class="m">1</span>.28515 <span class="m">1</span>.06079e-17           <span class="m">0</span>           <span class="m">0</span><span class="o">]</span>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span><span class="o">[</span> INFO<span class="o">]</span> <span class="o">[</span><span class="m">1501240815</span>.111167097<span class="o">]</span>: Finished solving in <span class="m">3</span>.085e-05s. Solution <span class="o">[</span>  -0.109557   -0.653855  -0.0687444     <span class="m">1</span>.28515 <span class="m">1</span>.06079e-17           <span class="m">0</span>           <span class="m">0</span><span class="o">]</span>
 </pre></div>
 </div>
-<p>When using the IK_solver as in this tutorial and we set the <code class="docutils literal"><span class="pre">MaxIterations</span></code> to a
+<p>When using the IK_solver as in this tutorial and we set the <code class="docutils literal notranslate"><span class="pre">MaxIterations</span></code> to a
 low number, we get single step solution to the IK problem, as shown above -
 this is what you would expect to see if you run this code;
 it shows a vector of angles, one column  for each joint in our
 robot. Each entry a joint configuration in radians, which will result in
 the end effector reaching the desired target. The rows of the output
 represent the positional steps each joint must pass through to reach
-the end effector goal. When using a higher <code class="docutils literal"><span class="pre">MaxIterations</span></code> setting, the number
+the end effector goal. When using a higher <code class="docutils literal notranslate"><span class="pre">MaxIterations</span></code> setting, the number
 of rows in your motion plan would likely increase.</p>
 <p>When using other problems or a different configuration of the
-<code class="docutils literal"><span class="pre">UnconstrainedEndPoseProblem</span></code>, trajectories will start to look a
+<code class="docutils literal notranslate"><span class="pre">UnconstrainedEndPoseProblem</span></code>, trajectories will start to look a
 little more substantial. The output below shows the format of a solution
-after being solved by the <code class="docutils literal"><span class="pre">OMPLSolver</span></code>. Note that this solution was
+after being solved by the <code class="docutils literal notranslate"><span class="pre">OMPLSolver</span></code>. Note that this solution was
 computed for a 6DOF robot and thus contains 6 columns. The first row
 represents the initial joint configuration, which here we set to zeros.
 The final row shows the configuration of the robot which allows the
 end-effector to reach the goal. The intermediate rows are the positional
 configurations that transfer the arm from start to end.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Solution</span><span class="p">:</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Solution</span><span class="p">:</span>
    <span class="p">[</span>       <span class="mi">0</span>            <span class="mi">0</span>            <span class="mi">0</span>            <span class="mi">0</span>              <span class="mi">0</span>     <span class="mf">1.63042e-322</span>
     <span class="mf">0.134729</span>   <span class="mf">0.00623148</span>  <span class="o">-</span><span class="mf">0.00439002</span>     <span class="o">-</span><span class="mf">0.0770144</span>   <span class="o">-</span><span class="mf">6.41669e-18</span>   <span class="mf">1.63042e-322</span>
     <span class="mf">0.269458</span>     <span class="mf">0.012463</span>  <span class="o">-</span><span class="mf">0.00878005</span>     <span class="o">-</span><span class="mf">0.154029</span>    <span class="o">-</span><span class="mf">1.28334e-17</span>   <span class="mf">1.63042e-322</span>
@@ -357,16 +353,16 @@ EXOTica has the functionality to visualize this in RVIZ, so you can see
 your plan in action. The parts of the example code we are yet to mention
 deals with this and we’ll go through it now.</p>
 <p>As we cycle through our motion plan, we can update the joint states:</p>
-<div class="highlight-c++"><div class="highlight"><pre><span></span><span class="n">q</span> <span class="o">=</span> <span class="n">solution</span><span class="p">.</span><span class="n">row</span><span class="p">(</span><span class="n">solution</span><span class="p">.</span><span class="n">rows</span><span class="p">()</span> <span class="o">-</span> <span class="mi">1</span><span class="p">);</span>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="n">q</span> <span class="o">=</span> <span class="n">solution</span><span class="p">.</span><span class="n">row</span><span class="p">(</span><span class="n">solution</span><span class="p">.</span><span class="n">rows</span><span class="p">()</span> <span class="o">-</span> <span class="mi">1</span><span class="p">);</span>
 </pre></div>
 </div>
 <p>and we send them to the problem:</p>
-<div class="highlight-c++"><div class="highlight"><pre><span></span><span class="n">my_problem</span><span class="o">-&gt;</span><span class="n">Update</span><span class="p">(</span><span class="n">q</span><span class="p">);</span>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="n">my_problem</span><span class="o">-&gt;</span><span class="n">Update</span><span class="p">(</span><span class="n">q</span><span class="p">);</span>
 </pre></div>
 </div>
 <p>Now we can publish those frames to the /joint_states topic to be read
 by RVIZ:</p>
-<div class="highlight-c++"><div class="highlight"><pre><span></span><span class="n">my_problem</span><span class="o">-&gt;</span><span class="n">GetScene</span><span class="p">()</span><span class="o">-&gt;</span><span class="n">GetKinematicTree</span><span class="p">().</span><span class="n">PublishFrames</span><span class="p">();</span>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="n">my_problem</span><span class="o">-&gt;</span><span class="n">GetScene</span><span class="p">()</span><span class="o">-&gt;</span><span class="n">GetKinematicTree</span><span class="p">().</span><span class="n">PublishFrames</span><span class="p">();</span>
 </pre></div>
 </div>
 <p>RVIZ can either be set-up manually or via a
@@ -377,9 +373,7 @@ file.</p>
 
 
            </div>
-           <div class="articleComments">
-            
-           </div>
+           
           </div>
           <footer>
   
@@ -388,7 +382,7 @@ file.</p>
         <a href="own_robot.html" class="btn btn-neutral float-right" title="Creating a planner package for your own robot" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="quickstart_cpp.html" class="btn btn-neutral" title="Quickstart: C++" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="quickstart_cpp.html" class="btn btn-neutral float-left" title="Quickstart: C++" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -397,11 +391,11 @@ file.</p>
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2019, Vladimir Ivan, Yiming Yang, Wolfgang Merkt, Michael Camilleri, Sethu Vijayakumar - and contributors.
+        &copy; Copyright 2020, Vladimir Ivan, Wolfgang Merkt, Sethu Vijayakumar - and contributors
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -414,37 +408,15 @@ file.</p>
   
 
 
-  
-
-    <script type="text/javascript">
-        var DOCUMENTATION_OPTIONS = {
-            URL_ROOT:'./',
-            VERSION:'5.0',
-            COLLAPSE_INDEX:false,
-            FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true,
-            SOURCELINK_SUFFIX: '.txt'
-        };
-    </script>
-      <script type="text/javascript" src="_static/jquery.js"></script>
-      <script type="text/javascript" src="_static/underscore.js"></script>
-      <script type="text/javascript" src="_static/doctools.js"></script>
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
-  
-
-  
-  
-    <script type="text/javascript" src="_static/js/theme.js"></script>
-  
-
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
   </script>
+
+  
+  
+    
    
 
 </body>

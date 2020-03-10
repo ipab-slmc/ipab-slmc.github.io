@@ -81,6 +81,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html">AbstractDynamicsSolver</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html">AbstractFeasibilityDrivenDDPSolver</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractTimeIndexedProblem.html">AbstractTimeIndexedProblem</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AICOSolver.html">AICOSolver</a></td></tr>
@@ -167,6 +169,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1Factory.html">Factory</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Templated <a class="el" href="classexotica_1_1Object.html">Object</a> factory for Default-constructible classes. The <a class="el" href="classexotica_1_1Factory.html" title="Templated Object factory for Default-constructible classes. The Factory is itself a singleton...">Factory</a> is itself a singleton.  <a href="classexotica_1_1Factory.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1FeasibilityDrivenDDPSolver.html">FeasibilityDrivenDDPSolver</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1FeedbackMotionSolver.html">FeedbackMotionSolver</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -489,7 +493,9 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="namespaceexotica.html#a1d6f0f26eae0a485ee377655fc2aafd2a79e4b3d753fa923b9dab47e785f0cc9e">TerminationCriterion::FunctionTolerance</a>, 
 <a class="el" href="namespaceexotica.html#a1d6f0f26eae0a485ee377655fc2aafd2a5d192a34a39a99307655c8c3dc8bc763">TerminationCriterion::GradientTolerance</a>, 
 <a class="el" href="namespaceexotica.html#a1d6f0f26eae0a485ee377655fc2aafd2a1e9d28d32bf1411a6d8eef0d296f1cc4">TerminationCriterion::Divergence</a>, 
-<a class="el" href="namespaceexotica.html#a1d6f0f26eae0a485ee377655fc2aafd2ac90d702da275c4b81b75a6a0163bc2bf">TerminationCriterion::UserDefined</a>
+<a class="el" href="namespaceexotica.html#a1d6f0f26eae0a485ee377655fc2aafd2ac90d702da275c4b81b75a6a0163bc2bf">TerminationCriterion::UserDefined</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespaceexotica.html#a1d6f0f26eae0a485ee377655fc2aafd2a8645457c64703c956325a6f44824acdb">TerminationCriterion::Convergence</a>
 <br />
  }</td></tr>
 <tr class="separator:a1d6f0f26eae0a485ee377655fc2aafd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -555,6 +561,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ae00a5b28dd47ce98605d36a7f91e91c4"><td class="memTemplParams" colspan="2">template&lt;class Key , class Val &gt; </td></tr>
 <tr class="memitem:ae00a5b28dd47ce98605d36a7f91e91c4"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; Val &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceexotica.html#ae00a5b28dd47ce98605d36a7f91e91c4">MapToVec</a> (const std::map&lt; Key, Val &gt; &amp;map)</td></tr>
 <tr class="separator:ae00a5b28dd47ce98605d36a7f91e91c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acab9263060ad0ff23923a1fdaa21dd25"><td class="memTemplParams" colspan="2">template&lt;class Key , class Val &gt; </td></tr>
+<tr class="memitem:acab9263060ad0ff23923a1fdaa21dd25"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; Key &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceexotica.html#acab9263060ad0ff23923a1fdaa21dd25">GetKeysFromMap</a> (const std::map&lt; Key, Val &gt; &amp;map)</td></tr>
+<tr class="separator:acab9263060ad0ff23923a1fdaa21dd25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a242165fb24efa2b970aff27fcb41b066"><td class="memTemplParams" colspan="2">template&lt;class Key , class Val &gt; </td></tr>
+<tr class="memitem:a242165fb24efa2b970aff27fcb41b066"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; Val &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceexotica.html#a242165fb24efa2b970aff27fcb41b066">GetValuesFromMap</a> (const std::map&lt; Key, Val &gt; &amp;map)</td></tr>
+<tr class="separator:a242165fb24efa2b970aff27fcb41b066"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16b309993af1720b021c68d9578d2f17"><td class="memTemplParams" colspan="2">template&lt;class Key , class Val &gt; </td></tr>
 <tr class="memitem:a16b309993af1720b021c68d9578d2f17"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceexotica.html#a16b309993af1720b021c68d9578d2f17">AppendMap</a> (std::map&lt; Key, Val &gt; &amp;orig, const std::map&lt; Key, Val &gt; &amp;extra)</td></tr>
 <tr class="separator:a16b309993af1720b021c68d9578d2f17"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -572,6 +584,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a56fb9db5340484864990714ac4cf0211"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
 <tr class="memitem:a56fb9db5340484864990714ac4cf0211"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceexotica.html#a56fb9db5340484864990714ac4cf0211">ToNumber&lt; double &gt;</a> (const std::string &amp;val)</td></tr>
 <tr class="separator:a56fb9db5340484864990714ac4cf0211"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaf8b4a3c156d61ed2a1de741170f227"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:aaaf8b4a3c156d61ed2a1de741170f227"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceexotica.html#aaaf8b4a3c156d61ed2a1de741170f227">ToNumber&lt; int &gt;</a> (const std::string &amp;val)</td></tr>
+<tr class="separator:aaaf8b4a3c156d61ed2a1de741170f227"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d3163a0a83f3d7a713175a0d389ca58"><td class="memTemplParams" colspan="2">template&lt;typename T , const int S&gt; </td></tr>
 <tr class="memitem:a3d3163a0a83f3d7a713175a0d389ca58"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, S, 1 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceexotica.html#a3d3163a0a83f3d7a713175a0d389ca58">ParseVector</a> (const std::string value)</td></tr>
 <tr class="separator:a3d3163a0a83f3d7a713175a0d389ca58"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -637,7 +652,7 @@ Variables</h2></td></tr>
 <tr class="separator:a144444a0e4339e54a77961288c2dcffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>TODO: remove this pragma once Pinocchio removes neutralConfiguration/ and fixes their deprecation warnings. (Relates to #547) </p>
+<div class="textblock"><p>TODO: remove this pragma once Pinocchio removes neutralConfiguration/ and fixes their deprecation warnings. (Relates to #547) fwd.hpp needs to be included first (before Boost, which comes with ROS), else everything breaks for Pinocchio &gt;=2.1.5 </p>
 </div><h2 class="groupheader">Typedef Documentation</h2>
 <a id="a9f3b8540da108e498bbe6107bd821cbb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9f3b8540da108e498bbe6107bd821cbb">&#9670;&nbsp;</a></span>ArrayFrame</h2>
@@ -1323,6 +1338,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a1d6f0f26eae0a485ee377655fc2aafd2a5d192a34a39a99307655c8c3dc8bc763"></a>GradientTolerance&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a1d6f0f26eae0a485ee377655fc2aafd2a1e9d28d32bf1411a6d8eef0d296f1cc4"></a>Divergence&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a1d6f0f26eae0a485ee377655fc2aafd2ac90d702da275c4b81b75a6a0163bc2bf"></a>UserDefined&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1d6f0f26eae0a485ee377655fc2aafd2a8645457c64703c956325a6f44824acdb"></a>Convergence&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1796,6 +1812,26 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="acab9263060ad0ff23923a1fdaa21dd25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acab9263060ad0ff23923a1fdaa21dd25">&#9670;&nbsp;</a></span>GetKeysFromMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Key , class Val &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;Key&gt; exotica::GetKeysFromMap </td>
+          <td>(</td>
+          <td class="paramtype">const std::map&lt; Key, Val &gt; &amp;&#160;</td>
+          <td class="paramname"><em>map</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aac1322873c277864399bc0b09d29cde6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aac1322873c277864399bc0b09d29cde6">&#9670;&nbsp;</a></span>GetRotation()</h2>
 
@@ -1889,6 +1925,26 @@ template&lt;typename T &gt; </div>
           <td>(</td>
           <td class="paramtype">const std::type_info &amp;&#160;</td>
           <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a242165fb24efa2b970aff27fcb41b066"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a242165fb24efa2b970aff27fcb41b066">&#9670;&nbsp;</a></span>GetValuesFromMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Key , class Val &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;Val&gt; exotica::GetValuesFromMap </td>
+          <td>(</td>
+          <td class="paramtype">const std::map&lt; Key, Val &gt; &amp;&#160;</td>
+          <td class="paramname"><em>map</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -2747,6 +2803,34 @@ template&lt;&gt; </div>
 
 </div>
 </div>
+<a id="aaaf8b4a3c156d61ed2a1de741170f227"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaf8b4a3c156d61ed2a1de741170f227">&#9670;&nbsp;</a></span>ToNumber< int >()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="namespaceexotica.html#a62f5340b7f6dccc2fe34a48972210b53">exotica::ToNumber</a>&lt; int &gt; </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ad5d2595174d8467aa75803bac91fa13c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad5d2595174d8467aa75803bac91fa13c">&#9670;&nbsp;</a></span>ToString() <span class="overload">[1/3]</span></h2>
 
@@ -2859,7 +2943,7 @@ template&lt;&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 23 2019 00:11:50 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Mar 10 2020 15:28:36 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

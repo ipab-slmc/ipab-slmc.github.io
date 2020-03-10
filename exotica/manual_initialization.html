@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Manual Initialization &mdash; EXOTica 5.0 documentation</title>
+  <title>Manual Initialization &mdash; EXOTica 5.1.3 documentation</title>
   
 
   
@@ -17,42 +17,37 @@
   
 
   
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
 
-  
-  
     
 
   
-
-  
-  
-    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-        <link rel="index" title="Index"
-              href="genindex.html"/>
-        <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="EXOTica 5.0 documentation" href="index.html"/>
-        <link rel="next" title="XML Initialization" href="XML.html"/>
-        <link rel="prev" title="Initialization" href="initialization.html"/> 
-
-  
-  <script src="_static/js/modernizr.min.js"></script>
-
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="XML Initialization" href="XML.html" />
+    <link rel="prev" title="Initialization" href="initialization.html" /> 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
-
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
+        <div class="wy-side-nav-search" >
           
 
           
@@ -66,7 +61,7 @@
             
             
               <div class="version">
-                5.0
+                5.1.3
               </div>
             
           
@@ -139,7 +134,7 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+      <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="index.html">EXOTica</a>
@@ -147,9 +142,10 @@
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
 
@@ -194,8 +190,8 @@
 <p>Manual initialization encapsulates all initialisation and handling of
 EXOTica within C++ or Python code, with no external XML files. This could
 be preferred if your project has been finalized or if you prefer to have all your EXOTica code in one place.</p>
-<p>An <a class="reference external" href="https://github.com/ipab-slmc/exotica/blob/master/exotica_examples/scripts/example_ik_manual_initialization">example of manual initialization</a>  in Python can be found in the <code class="docutils literal"><span class="pre">scripts</span></code> directory of the <code class="docutils literal"><span class="pre">exotica_examples</span></code> package. In this tutorial, we will use the <a class="reference external" href="https://github.com/ipab-slmc/exotica/blob/master/exotica_examples/src/generic.cpp">example of manual initialization</a> for the UnconstrainedEndPoseProblem written in C++, found in the <code class="docutils literal"><span class="pre">src</span></code> directory of the <code class="docutils literal"><span class="pre">exotica_examples</span></code> package:</p>
-<div class="highlight-c++"><div class="highlight"><pre><span></span><span class="cp">#include</span> <span class="cpf">&lt;exotica_core/exotica_core.h&gt;</span><span class="cp"></span>
+<p>An <a class="reference external" href="https://github.com/ipab-slmc/exotica/blob/master/exotica_examples/scripts/example_ik_manual_initialization">example of manual initialization</a>  in Python can be found in the <code class="docutils literal notranslate"><span class="pre">scripts</span></code> directory of the <code class="docutils literal notranslate"><span class="pre">exotica_examples</span></code> package. In this tutorial, we will use the <a class="reference external" href="https://github.com/ipab-slmc/exotica/blob/master/exotica_examples/src/generic.cpp">example of manual initialization</a> for the UnconstrainedEndPoseProblem written in C++, found in the <code class="docutils literal notranslate"><span class="pre">src</span></code> directory of the <code class="docutils literal notranslate"><span class="pre">exotica_examples</span></code> package:</p>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span> <span class="cpf">&lt;exotica_core/exotica_core.h&gt;</span><span class="cp"></span>
 
 <span class="c1">// Manual initialization requires dependency on specific solvers and task maps:</span>
 <span class="cp">#include</span> <span class="cpf">&lt;exotica_ik_solver/ik_solver_initializer.h&gt;</span><span class="cp"></span>
@@ -228,34 +224,34 @@ be preferred if your project has been finalized or if you prefer to have all you
 <div class="section" id="initializer-headers">
 <h2>Initializer Headers<a class="headerlink" href="#initializer-headers" title="Permalink to this headline">¶</a></h2>
 <p>At the top of the script, two initialiser header files are included: one
-for the <code class="docutils literal"><span class="pre">exotica_ik_solver/ik_solver_initializer.h</span></code> and one for
-<code class="docutils literal"><span class="pre">exotica_core_task_maps/eff_position_initializer.h</span></code>. These are generated from the <code class="docutils literal"><span class="pre">.in</span></code> files during the compilation/build phase.</p>
+for the <code class="docutils literal notranslate"><span class="pre">exotica_ik_solver/ik_solver_initializer.h</span></code> and one for
+<code class="docutils literal notranslate"><span class="pre">exotica_core_task_maps/eff_position_initializer.h</span></code>. These are generated from the <code class="docutils literal notranslate"><span class="pre">.in</span></code> files during the compilation/build phase.</p>
 <p>When initializing manually, the appropriate initializers must be
 included for both the task map and the solver. These are stored in the
-<code class="docutils literal"><span class="pre">exotations</span></code> directory under <code class="docutils literal"><span class="pre">task_maps</span></code> and <code class="docutils literal"><span class="pre">solvers</span></code>
+<code class="docutils literal notranslate"><span class="pre">exotations</span></code> directory under <code class="docutils literal notranslate"><span class="pre">task_maps</span></code> and <code class="docutils literal notranslate"><span class="pre">solvers</span></code>
 respectively.</p>
 <p>Currently available solvers are:</p>
-<div class="highlight-c++"><div class="highlight"><pre><span></span><span class="cp">#include</span> <span class="cpf">&lt;exotica_ompl_solver/ompl_solver_initializer.h&gt;</span><span class="cp"></span>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span> <span class="cpf">&lt;exotica_ompl_solver/ompl_solver_initializer.h&gt;</span><span class="cp"></span>
 <span class="cp">#include</span> <span class="cpf">&lt;exotica_aico_solver/aico_solver_initializer.h&gt;</span><span class="cp"></span>
 <span class="cp">#include</span> <span class="cpf">&lt;exotica_ik_solver/ik_solver_initializer.h&gt;</span><span class="cp"></span>
 </pre></div>
 </div>
 <p>Once we have included the correct initializers, we must initialise:
-* <code class="docutils literal"><span class="pre">scene</span></code>
-* <code class="docutils literal"><span class="pre">map</span></code>
-* <code class="docutils literal"><span class="pre">problem</span></code>
-* <code class="docutils literal"><span class="pre">solver</span></code></p>
+* <code class="docutils literal notranslate"><span class="pre">scene</span></code>
+* <code class="docutils literal notranslate"><span class="pre">map</span></code>
+* <code class="docutils literal notranslate"><span class="pre">problem</span></code>
+* <code class="docutils literal notranslate"><span class="pre">solver</span></code></p>
 </div>
 <div class="section" id="scene-initialization">
 <h2>Scene Initialization<a class="headerlink" href="#scene-initialization" title="Permalink to this headline">¶</a></h2>
-<p>When initializing the scene, we instantiate a <code class="docutils literal"><span class="pre">SceneInitializer</span></code>,
-which here name <code class="docutils literal"><span class="pre">scene</span></code>.</p>
-<div class="highlight-c++"><div class="highlight"><pre><span></span><span class="c1">// Scene using joint group &#39;arm&#39;</span>
+<p>When initializing the scene, we instantiate a <code class="docutils literal notranslate"><span class="pre">SceneInitializer</span></code>,
+which here name <code class="docutils literal notranslate"><span class="pre">scene</span></code>.</p>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="c1">// Scene using joint group &#39;arm&#39;</span>
 <span class="n">SceneInitializer</span> <span class="nf">scene</span><span class="p">(</span><span class="s">&quot;MyScene&quot;</span><span class="p">,</span> <span class="s">&quot;arm&quot;</span><span class="p">,</span> <span class="nb">false</span><span class="p">,</span> <span class="s">&quot;&quot;</span><span class="p">,</span> <span class="s">&quot;{exotica_examples}/resources/robots/lwr_simplified.urdf&quot;</span><span class="p">,</span> <span class="s">&quot;{exotica_examples}/resources/robots/lwr_simplified.srdf&quot;</span><span class="p">);</span>
 </pre></div>
 </div>
 <p>We must also pass in our initialization arguments seen in the <a class="reference external" href="https://github.com/ipab-slmc/exotica/blob/master/exotica_core/init/scene.in">Scene Initializer</a> file:</p>
-<div class="highlight-c++"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Scene</span>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Scene</span>
 
 <span class="n">extend</span> <span class="o">&lt;</span><span class="n">exotica_core</span><span class="o">/</span><span class="n">object</span><span class="o">&gt;</span>
 
@@ -294,18 +290,18 @@ which here name <code class="docutils literal"><span class="pre">scene</span></c
 </div>
 <div class="section" id="map-initialization">
 <h2>Map Initialization<a class="headerlink" href="#map-initialization" title="Permalink to this headline">¶</a></h2>
-<p>Maps refers to the <code class="docutils literal"><span class="pre">task</span> <span class="pre">maps</span></code> of a problem, they provide a mapping from configuration space to task space
+<p>Maps refers to the <code class="docutils literal notranslate"><span class="pre">task</span> <span class="pre">maps</span></code> of a problem, they provide a mapping from configuration space to task space
 which are useful for fulfilling several tasks, such as specifying goals and avoiding obstacles.
 You can read more about task maps in a <a class="reference external" href="Task_maps.html">later section</a> .</p>
-<p>For now we are only interested in reaching an end effector goal, so we will use the <code class="docutils literal"><span class="pre">EffFrame</span></code> task map,
+<p>For now we are only interested in reaching an end effector goal, so we will use the <code class="docutils literal notranslate"><span class="pre">EffFrame</span></code> task map,
 which allows us specify the name of the end effector from the URDF file, which will be the focus when we
 try to reach a an end effector goal, as we are doing here.</p>
-<div class="highlight-xml"><div class="highlight"><pre><span></span>EffFrameInitializer map(&quot;Position&quot;, false,
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span>EffFrameInitializer map(&quot;Position&quot;, false,
                         {FrameInitializer(&quot;lwr_arm_6_link&quot;, Eigen::VectorTransform(0, 0, 0, 0.7071067811865476, -4.3297802811774664e-17, 0.7071067811865475, 4.3297802811774664e-17))});
 </pre></div>
 </div>
 <p>Here we create an EffFrameInitializer with the name “map”. We again give the initialiser a name - “Position”, which will be used to refer
-to the map later. Then we give the standard debug argument (here it is false); then to initialise the frame we use the <code class="docutils literal"><span class="pre">FrameInitializer</span></code>
+to the map later. Then we give the standard debug argument (here it is false); then to initialise the frame we use the <code class="docutils literal notranslate"><span class="pre">FrameInitializer</span></code>
 initialiser to give the name of the end effector link (Must be the same name as the link in the URDF file). Then we can add an optional
 offset argument.</p>
 <p><em>NOTE - the name of the end effector link must match that in the URDF
@@ -317,49 +313,49 @@ and SRDF files</em></p>
 which make up a problem. Now we can move onto initialising a problem
 itself using these parts.</p>
 <p>In this example we are interested in setting up a
-<code class="docutils literal"><span class="pre">UnconstrainedEndPoseProblem</span></code>, so we use the
-<code class="docutils literal"><span class="pre">UnconstrainedEndPoseProblemInitializer</span></code>. Naturally, if your problem
-is a <code class="docutils literal"><span class="pre">SamplingProblem</span></code>, then the <code class="docutils literal"><span class="pre">SamplingProblemInitializer</span></code> would
+<code class="docutils literal notranslate"><span class="pre">UnconstrainedEndPoseProblem</span></code>, so we use the
+<code class="docutils literal notranslate"><span class="pre">UnconstrainedEndPoseProblemInitializer</span></code>. Naturally, if your problem
+is a <code class="docutils literal notranslate"><span class="pre">SamplingProblem</span></code>, then the <code class="docutils literal notranslate"><span class="pre">SamplingProblemInitializer</span></code> would
 be used and so on. But here we have our current problem initialiser:</p>
-<div class="highlight-c++"><div class="highlight"><pre><span></span><span class="n">UnconstrainedEndPoseProblemInitializer</span> <span class="nf">problem</span><span class="p">(</span><span class="s">&quot;MyProblem&quot;</span><span class="p">,</span> <span class="n">scene</span><span class="p">,</span> <span class="nb">false</span><span class="p">,</span> <span class="p">{</span><span class="n">map</span><span class="p">},</span> <span class="n">W</span><span class="p">);</span>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="n">UnconstrainedEndPoseProblemInitializer</span> <span class="nf">problem</span><span class="p">(</span><span class="s">&quot;MyProblem&quot;</span><span class="p">,</span> <span class="n">scene</span><span class="p">,</span> <span class="nb">false</span><span class="p">,</span> <span class="p">{</span><span class="n">map</span><span class="p">},</span> <span class="n">W</span><span class="p">);</span>
 </pre></div>
 </div>
 <p>into which we pass:
-* a name for the problem <code class="docutils literal"><span class="pre">&quot;MyProblem&quot;</span></code> (which we will use later)
-* the <code class="docutils literal"><span class="pre">scene</span></code> initialiser we created earlier (the name of the holder, not the name of the scene)
-* a debug argument. Here we set it to <code class="docutils literal"><span class="pre">false</span></code>
-* the <code class="docutils literal"><span class="pre">map</span></code> initialiser (must be contained in curly braces <code class="docutils literal"><span class="pre">{}</span></code>)
-* the weight vector <code class="docutils literal"><span class="pre">W</span></code></p>
+* a name for the problem <code class="docutils literal notranslate"><span class="pre">&quot;MyProblem&quot;</span></code> (which we will use later)
+* the <code class="docutils literal notranslate"><span class="pre">scene</span></code> initialiser we created earlier (the name of the holder, not the name of the scene)
+* a debug argument. Here we set it to <code class="docutils literal notranslate"><span class="pre">false</span></code>
+* the <code class="docutils literal notranslate"><span class="pre">map</span></code> initialiser (must be contained in curly braces <code class="docutils literal notranslate"><span class="pre">{}</span></code>)
+* the weight vector <code class="docutils literal notranslate"><span class="pre">W</span></code></p>
 <p>Later we will see in more detail that we can send multiple maps to the problem initialiser, all
-contained within the curly braces e.g. <code class="docutils literal"><span class="pre">{map,joint_limit_map,obs_avoid_map}</span></code> with a map initialiser
+contained within the curly braces e.g. <code class="docutils literal notranslate"><span class="pre">{map,joint_limit_map,obs_avoid_map}</span></code> with a map initialiser
 for each of the variables inside the braces.</p>
-<p>The <code class="docutils literal"><span class="pre">W</span></code> vector weights the joints of your robot according to the cost of moving each one.
+<p>The <code class="docutils literal notranslate"><span class="pre">W</span></code> vector weights the joints of your robot according to the cost of moving each one.
 This vector must be the same size as the number of the number of DOF of your robot.</p>
 </div>
 <div class="section" id="solver">
 <h2>Solver<a class="headerlink" href="#solver" title="Permalink to this headline">¶</a></h2>
 <p>That’s the problem set up, now to do the same for the solver. For the
-problem we have used in the tutorial (<code class="docutils literal"><span class="pre">UnconstrainedEndPoseProblem</span></code>),
+problem we have used in the tutorial (<code class="docutils literal notranslate"><span class="pre">UnconstrainedEndPoseProblem</span></code>),
 the IK solver is the most appropriate solver, so this is the solver we
 will set up:</p>
-<div class="highlight-c++"><div class="highlight"><pre><span></span><span class="n">IKSolverInitializer</span> <span class="nf">solver</span><span class="p">(</span><span class="s">&quot;MySolver&quot;</span><span class="p">);</span>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="n">IKSolverInitializer</span> <span class="nf">solver</span><span class="p">(</span><span class="s">&quot;MySolver&quot;</span><span class="p">);</span>
 <span class="n">solver</span><span class="p">.</span><span class="n">C</span> <span class="o">=</span> <span class="mf">1e-3</span><span class="p">;</span>
 <span class="n">solver</span><span class="p">.</span><span class="n">MaxIterations</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
 <span class="n">solver</span><span class="p">.</span><span class="n">MaxStep</span> <span class="o">=</span> <span class="mf">0.1</span><span class="p">;</span>
 </pre></div>
 </div>
-<p>Again, we have an initialiser for the solver (<code class="docutils literal"><span class="pre">IKSolverInitializer</span></code>)
-and we instantiate to a container, which here we call <code class="docutils literal"><span class="pre">solver</span></code>. Also
+<p>Again, we have an initialiser for the solver (<code class="docutils literal notranslate"><span class="pre">IKSolverInitializer</span></code>)
+and we instantiate to a container, which here we call <code class="docutils literal notranslate"><span class="pre">solver</span></code>. Also
 during initialisation, we give the solver a name we we can refer to it
-later; here we call the solver <code class="docutils literal"><span class="pre">&quot;MySolver&quot;</span></code></p>
+later; here we call the solver <code class="docutils literal notranslate"><span class="pre">&quot;MySolver&quot;</span></code></p>
 </div>
 <div class="section" id="solver-options">
 <h2>Solver Options<a class="headerlink" href="#solver-options" title="Permalink to this headline">¶</a></h2>
 <p>After setting up the solver, there are some options to fill in to set
 parameters for the solver, some required and some optional. Since we
-have used the <code class="docutils literal"><span class="pre">IKSolver</span></code> in the tutorial, the options for this solver
+have used the <code class="docutils literal notranslate"><span class="pre">IKSolver</span></code> in the tutorial, the options for this solver
 are seen below:</p>
-<div class="highlight-c++"><div class="highlight"><pre><span></span><span class="n">extend</span> <span class="o">&lt;</span><span class="n">exotica_core</span><span class="o">/</span><span class="n">motion_solver</span><span class="o">&gt;</span>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="n">extend</span> <span class="o">&lt;</span><span class="n">exotica_core</span><span class="o">/</span><span class="n">motion_solver</span><span class="o">&gt;</span>
 <span class="n">Optional</span> <span class="kt">double</span> <span class="n">Tolerance</span> <span class="o">=</span> <span class="mf">1e-5</span><span class="p">;</span>
 <span class="n">Optional</span> <span class="kt">double</span> <span class="n">Convergence</span> <span class="o">=</span> <span class="mf">0.0</span><span class="p">;</span>
 <span class="n">Optional</span> <span class="kt">int</span> <span class="n">MaxIterations</span> <span class="o">=</span> <span class="mi">50</span><span class="p">;</span>
@@ -368,10 +364,10 @@ are seen below:</p>
 <span class="n">Optional</span> <span class="kt">double</span> <span class="n">Alpha</span> <span class="o">=</span> <span class="mf">1.0</span><span class="p">;</span>
 </pre></div>
 </div>
-<p>All selections in the <code class="docutils literal"><span class="pre">IKSolver</span></code> are optional. By referring back to
+<p>All selections in the <code class="docutils literal notranslate"><span class="pre">IKSolver</span></code> are optional. By referring back to
 the example code, you see that we decided to set 3 of the options for
 this solver:</p>
-<div class="highlight-c++"><div class="highlight"><pre><span></span><span class="n">solver</span><span class="p">.</span><span class="n">C</span> <span class="o">=</span> <span class="mf">1e-3</span><span class="p">;</span>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span><span class="p">.</span><span class="n">C</span> <span class="o">=</span> <span class="mf">1e-3</span><span class="p">;</span>
 <span class="n">solver</span><span class="p">.</span><span class="n">MaxIterations</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
 <span class="n">solver</span><span class="p">.</span><span class="n">MaxStep</span> <span class="o">=</span> <span class="mf">0.1</span><span class="p">;</span>
 </pre></div>
@@ -379,7 +375,7 @@ this solver:</p>
 <p>This method is extensible to all the options in all the solvers. Before
 initialising a solver, you should always look for initialisation
 options, as some may be required. Again, these can be found in:</p>
-<p><code class="docutils literal"><span class="pre">exotica/exotations/solvers/&lt;SolverName&gt;/init/&lt;SolverName&gt;.in</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">exotica/exotations/solvers/&lt;SolverName&gt;/init/&lt;SolverName&gt;.in</span></code></p>
 <p>We now almost have a fully initialized motion solver. We can now
 move onto the common initialization step between hard-coded and XML
 initialization
@@ -389,9 +385,7 @@ initialization
 
 
            </div>
-           <div class="articleComments">
-            
-           </div>
+           
           </div>
           <footer>
   
@@ -400,7 +394,7 @@ initialization
         <a href="XML.html" class="btn btn-neutral float-right" title="XML Initialization" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="initialization.html" class="btn btn-neutral" title="Initialization" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="initialization.html" class="btn btn-neutral float-left" title="Initialization" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -409,11 +403,11 @@ initialization
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2019, Vladimir Ivan, Yiming Yang, Wolfgang Merkt, Michael Camilleri, Sethu Vijayakumar - and contributors.
+        &copy; Copyright 2020, Vladimir Ivan, Wolfgang Merkt, Sethu Vijayakumar - and contributors
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -426,37 +420,15 @@ initialization
   
 
 
-  
-
-    <script type="text/javascript">
-        var DOCUMENTATION_OPTIONS = {
-            URL_ROOT:'./',
-            VERSION:'5.0',
-            COLLAPSE_INDEX:false,
-            FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true,
-            SOURCELINK_SUFFIX: '.txt'
-        };
-    </script>
-      <script type="text/javascript" src="_static/jquery.js"></script>
-      <script type="text/javascript" src="_static/underscore.js"></script>
-      <script type="text/javascript" src="_static/doctools.js"></script>
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
-  
-
-  
-  
-    <script type="text/javascript" src="_static/js/theme.js"></script>
-  
-
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
   </script>
+
+  
+  
+    
    
 
 </body>

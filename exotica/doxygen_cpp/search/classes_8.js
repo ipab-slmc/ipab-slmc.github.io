@@ -33,6 +33,7 @@ var searchData=
   ['instantiable_3c_20effvelocityinitializer_20_3e',['Instantiable&lt; EffVelocityInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],
   ['instantiable_3c_20endposeprobleminitializer_20_3e',['Instantiable&lt; EndPoseProblemInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],
   ['instantiable_3c_20estsolverinitializer_20_3e',['Instantiable&lt; ESTSolverInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],
+  ['instantiable_3c_20feasibilitydrivenddpsolverinitializer_20_3e',['Instantiable&lt; FeasibilityDrivenDDPSolverInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],
   ['instantiable_3c_20gazeatconstraintinitializer_20_3e',['Instantiable&lt; GazeAtConstraintInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],
   ['instantiable_3c_20iksolverinitializer_20_3e',['Instantiable&lt; IKSolverInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],
   ['instantiable_3c_20ilqgsolverinitializer_20_3e',['Instantiable&lt; ILQGSolverInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],

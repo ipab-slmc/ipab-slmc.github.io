@@ -2,7 +2,7 @@ var searchData=
 [
   ['l_5f',['L_',['../classexotica_1_1QuadrotorDynamicsSolver.html#a8678f25fb4602e78c0e524316555804f',1,'exotica::QuadrotorDynamicsSolver::L_()'],['../classexotica_1_1CartpoleDynamicsSolver.html#ab47b2d09753fcf16961ebec41506264d',1,'exotica::CartpoleDynamicsSolver::l_()'],['../classexotica_1_1PendulumDynamicsSolver.html#a83d709cf342c1c1b2d2b42be86b188af',1,'exotica::PendulumDynamicsSolver::l_()']]],
   ['l_5fgains_5f',['l_gains_',['../classexotica_1_1ILQGSolver.html#aef222c074113ebadf52e33223e573482',1,'exotica::ILQGSolver::l_gains_()'],['../classexotica_1_1ILQGSolver.html#a4d26b4c2ce6d2f5b0efa5aef42f4d9d1',1,'exotica::ILQGSolver::L_gains_()']]],
-  ['lambda_5f',['lambda_',['../classexotica_1_1LevenbergMarquardtSolver.html#a8dd7436e6330087cafbe296876293910',1,'exotica::LevenbergMarquardtSolver']]],
+  ['lambda_5f',['lambda_',['../classexotica_1_1AbstractDDPSolver.html#aae9b6adcc9ff647c2691b71d1bed7dcc',1,'exotica::AbstractDDPSolver::lambda_()'],['../classexotica_1_1LevenbergMarquardtSolver.html#a8dd7436e6330087cafbe296876293910',1,'exotica::LevenbergMarquardtSolver::lambda_()']]],
   ['last_5ft_5f',['last_T_',['../classexotica_1_1AICOSolver.html#a7bb4457c5e68388fc3303414c9bebd76',1,'exotica::AICOSolver']]],
   ['lazyprmsolver',['LazyPRMSolver',['../classexotica_1_1LazyPRMSolver.html',1,'exotica::LazyPRMSolver'],['../classexotica_1_1LazyPRMSolver.html#a86c9a89cd98cd8a7e979c536c549e215',1,'exotica::LazyPRMSolver::LazyPRMSolver()']]],
   ['lbtrrtsolver',['LBTRRTSolver',['../classexotica_1_1LBTRRTSolver.html',1,'exotica::LBTRRTSolver'],['../classexotica_1_1LBTRRTSolver.html#adfbf7ab45f0f7374759c24bfe4839e27',1,'exotica::LBTRRTSolver::LBTRRTSolver()']]],
@@ -35,5 +35,5 @@ var searchData=
   ['local_5fgauss_5fnewton',['LOCAL_GAUSS_NEWTON',['../classexotica_1_1AICOSolver.html#acf9c283571ec13211293b1c72cf429dca62569f3a0987bc8af7f72a19a711e766',1,'exotica::AICOSolver::LOCAL_GAUSS_NEWTON()'],['../classexotica_1_1BayesianIKSolver.html#a1e7a57dd0565982b7632bed7110ddb58a9cb32f2961f8a4f4c82406bfb0adda65',1,'exotica::BayesianIKSolver::LOCAL_GAUSS_NEWTON()']]],
   ['local_5fgauss_5fnewton_5fdamped',['LOCAL_GAUSS_NEWTON_DAMPED',['../classexotica_1_1AICOSolver.html#acf9c283571ec13211293b1c72cf429dca861482c95cdb6c962ddeb4e0cf1297f6',1,'exotica::AICOSolver::LOCAL_GAUSS_NEWTON_DAMPED()'],['../classexotica_1_1BayesianIKSolver.html#a1e7a57dd0565982b7632bed7110ddb58aa922656b7116ddd73372468e44a9d422',1,'exotica::BayesianIKSolver::LOCAL_GAUSS_NEWTON_DAMPED()']]],
   ['look_5fat_2eh',['look_at.h',['../look__at_8h.html',1,'']]],
-  ['lookat',['LookAt',['../classexotica_1_1LookAt.html',1,'exotica::LookAt'],['../classexotica_1_1LookAt.html#a7335139fd9e3e763bfea2206f170e9fa',1,'exotica::LookAt::LookAt()']]]
+  ['lookat',['LookAt',['../classexotica_1_1LookAt.html',1,'exotica']]]
 ];

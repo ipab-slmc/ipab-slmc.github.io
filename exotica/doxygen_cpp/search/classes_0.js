@@ -2,6 +2,7 @@ var searchData=
 [
   ['abstractddpsolver',['AbstractDDPSolver',['../classexotica_1_1AbstractDDPSolver.html',1,'exotica']]],
   ['abstractdynamicssolver',['AbstractDynamicsSolver',['../classexotica_1_1AbstractDynamicsSolver.html',1,'exotica']]],
+  ['abstractfeasibilitydrivenddpsolver',['AbstractFeasibilityDrivenDDPSolver',['../classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html',1,'exotica']]],
   ['abstracttimeindexedproblem',['AbstractTimeIndexedProblem',['../classexotica_1_1AbstractTimeIndexedProblem.html',1,'exotica']]],
   ['aicosolver',['AICOSolver',['../classexotica_1_1AICOSolver.html',1,'exotica']]],
   ['allowedcollisionmatrix',['AllowedCollisionMatrix',['../classexotica_1_1AllowedCollisionMatrix.html',1,'exotica']]],

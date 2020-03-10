@@ -96,10 +96,14 @@ $(function() {
 </li>
 <li>BackwardPass()
 : <a class="el" href="classexotica_1_1AbstractDDPSolver.html#abe18001393459fefdf08dfc4117b8175">exotica::AbstractDDPSolver</a>
+, <a class="el" href="classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#acf2c6cea358e6bc4d19967c7444bc7dd">exotica::AbstractFeasibilityDrivenDDPSolver</a>
 , <a class="el" href="classexotica_1_1AnalyticDDPSolver.html#a53e242d7cdb1ac234e66c75aa5d0fdf0">exotica::AnalyticDDPSolver</a>
 , <a class="el" href="classexotica_1_1ControlLimitedDDPSolver.html#ad26c473962153a6dc2dd7a6a35ec93c3">exotica::ControlLimitedDDPSolver</a>
 , <a class="el" href="classexotica_1_1ILQGSolver.html#ab1b7fc2b0ab81c4f9fb77550b6937c84">exotica::ILQGSolver</a>
 , <a class="el" href="classexotica_1_1ILQRSolver.html#a8b850badc3e472822900a284c6e871e5">exotica::ILQRSolver</a>
+</li>
+<li>BackwardPassFDDP()
+: <a class="el" href="classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#affb139afadaccf71932e3d871c3c4ca0">exotica::AbstractFeasibilityDrivenDDPSolver</a>
 </li>
 <li>Base
 : <a class="el" href="classEigen_1_1AutoDiffScalar.html#a774eda299568916b03d067f41ca6af1a">Eigen::AutoDiffScalar&lt; _DerType &gt;</a>
@@ -115,13 +119,11 @@ $(function() {
 : <a class="el" href="classexotica_1_1Factory.html#a2f8b311376d0ccd3af12c874b7821416">exotica::Factory&lt; BaseClass &gt;</a>
 </li>
 <li>best_ref_u_
-: <a class="el" href="classexotica_1_1AbstractDDPSolver.html#a4acd17509df89a3d2160757365a35ee0">exotica::AbstractDDPSolver</a>
-, <a class="el" href="classexotica_1_1ILQGSolver.html#a14f0a9a977a234080d37aeaef379556f">exotica::ILQGSolver</a>
+: <a class="el" href="classexotica_1_1ILQGSolver.html#a14f0a9a977a234080d37aeaef379556f">exotica::ILQGSolver</a>
 , <a class="el" href="classexotica_1_1ILQRSolver.html#a8f252cd018ce20f7896a8b116050a1db">exotica::ILQRSolver</a>
 </li>
 <li>best_ref_x_
-: <a class="el" href="classexotica_1_1AbstractDDPSolver.html#aa62e7a0da12489754f939fedaee16428">exotica::AbstractDDPSolver</a>
-, <a class="el" href="classexotica_1_1ILQGSolver.html#a3bf006d6adc081c08d7d5879efb68f81">exotica::ILQGSolver</a>
+: <a class="el" href="classexotica_1_1ILQGSolver.html#a3bf006d6adc081c08d7d5879efb68f81">exotica::ILQGSolver</a>
 , <a class="el" href="classexotica_1_1ILQRSolver.html#aea5f3aee276ee6011a6424b6766b533c">exotica::ILQRSolver</a>
 </li>
 <li>best_sweep_
@@ -155,6 +157,9 @@ $(function() {
 <li>bounds_
 : <a class="el" href="classexotica_1_1OMPLSolver.html#abbd38ebb68eae44095e46881493c18be">exotica::OMPLSolver&lt; ProblemType &gt;</a>
 </li>
+<li>broad_phase_collision_manager_
+: <a class="el" href="classexotica_1_1CollisionSceneFCLLatest.html#a97538bf1d6606cbe861fc00004e9323e">exotica::CollisionSceneFCLLatest</a>
+</li>
 <li>buffer
 : <a class="el" href="structexotica_1_1visualization_1_1GeometryMesh.html#a03e2f5f4d9410de367e737d6b901a984">exotica::visualization::GeometryMesh</a>
 </li>
@@ -173,7 +178,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 23 2019 00:12:08 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Mar 10 2020 15:28:51 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

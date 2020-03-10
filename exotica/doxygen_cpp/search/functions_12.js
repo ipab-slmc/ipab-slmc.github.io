@@ -6,16 +6,17 @@ var searchData=
   ['taskvectorentry',['TaskVectorEntry',['../structexotica_1_1TaskVectorEntry.html#ac42303d735697ef6ac18f8f2f82c1926',1,'exotica::TaskVectorEntry::TaskVectorEntry()'],['../structexotica_1_1TaskVectorEntry.html#ae8d4859975601feb0bf3cb7f48ae9cb2',1,'exotica::TaskVectorEntry::TaskVectorEntry(int _id, RotationType _type)']]],
   ['tensortomatrix',['TensorToMatrix',['../namespaceEigen.html#a626ba9f1bfb2de041e728047bbe1174d',1,'Eigen']]],
   ['timeindexedproblem',['TimeIndexedProblem',['../classexotica_1_1TimeIndexedProblem.html#ad8536a85556378805fd063690ad03c3e',1,'exotica::TimeIndexedProblem']]],
-  ['timeindexedrrtconnectsolver',['TimeIndexedRRTConnectSolver',['../classexotica_1_1TimeIndexedRRTConnectSolver.html#a4b729e43326019aea53ecbc057f36c54',1,'exotica::TimeIndexedRRTConnectSolver']]],
   ['timeindexedsamplingproblem',['TimeIndexedSamplingProblem',['../classexotica_1_1TimeIndexedSamplingProblem.html#a113b440bd1e4dc8e7799901dec182414',1,'exotica::TimeIndexedSamplingProblem']]],
   ['timer',['Timer',['../classexotica_1_1Timer.html#a9827d76e29818c52e147adadfe944239',1,'exotica::Timer']]],
   ['tonumber',['ToNumber',['../namespaceexotica.html#a62f5340b7f6dccc2fe34a48972210b53',1,'exotica']]],
   ['tonumber_3c_20double_20_3e',['ToNumber&lt; double &gt;',['../namespaceexotica.html#a56fb9db5340484864990714ac4cf0211',1,'exotica']]],
   ['tonumber_3c_20float_20_3e',['ToNumber&lt; float &gt;',['../namespaceexotica.html#a3479fd14378522a1144d4b1e53a0c15e',1,'exotica']]],
+  ['tonumber_3c_20int_20_3e',['ToNumber&lt; int &gt;',['../namespaceexotica.html#aaaf8b4a3c156d61ed2a1de741170f227',1,'exotica']]],
   ['tostdptr',['ToStdPtr',['../tools_8h.html#a49eb08eff4a8026049f7fc94e2dbf248',1,'ToStdPtr(const boost::shared_ptr&lt; T &gt; &amp;p):&#160;tools.h'],['../tools_8h.html#a163147a845d521631b75396a325ebecc',1,'ToStdPtr(const std::shared_ptr&lt; T &gt; &amp;p):&#160;tools.h']]],
   ['tostring',['ToString',['../classexotica_1_1Trajectory.html#a0153b9a334247efc4eadb0eeaebf801b',1,'exotica::Trajectory::ToString()'],['../namespaceexotica.html#ad5d2595174d8467aa75803bac91fa13c',1,'exotica::ToString(const KDL::Frame &amp;s)'],['../namespaceexotica.html#a2ca2795151cc20a5fd476f657a49a5b7',1,'exotica::ToString(const Eigen::Isometry3d &amp;s)'],['../namespaceexotica.html#ad98c1ea7f2df7a6d5013b0d0ade0d975',1,'exotica::ToString(const Eigen::Affine3d &amp;s)']]],
   ['track',['Track',['../structexotica_1_1visualization_1_1Track.html#aa9c466e5c44e82366261fda3a0abc51e',1,'exotica::visualization::Track::Track()=default'],['../structexotica_1_1visualization_1_1Track.html#a5f53971263a1735f029203d95c7ee585',1,'exotica::visualization::Track::Track(const std::string &amp;name_in, const std::string &amp;type_in)']]],
   ['trajectory',['Trajectory',['../classexotica_1_1Trajectory.html#a0a5dfb32ff952967079d8e5e57ce713e',1,'exotica::Trajectory::Trajectory()'],['../classexotica_1_1Trajectory.html#a63199b559ff5389ccef533a29c35392a',1,'exotica::Trajectory::Trajectory(const std::string &amp;data)'],['../classexotica_1_1Trajectory.html#afdead2e8d347ef61c0907648b4c45032',1,'exotica::Trajectory::Trajectory(Eigen::MatrixXdRefConst data, double radius=1.0)']]],
   ['trim',['Trim',['../namespaceexotica.html#ad62ef39f74f7d75f06c273985fc38a59',1,'exotica']]],
+  ['trystep',['TryStep',['../classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#a0e24016e7bbc9a17e35e8817fcde95c7',1,'exotica::AbstractFeasibilityDrivenDDPSolver']]],
   ['type',['type',['../classexotica_1_1Object.html#a729d399f4fb2599c1b088a0d06e89f25',1,'exotica::Object']]]
 ];

@@ -84,6 +84,10 @@ $(function() {
 <li>in_collision
 : <a class="el" href="structexotica_1_1ContinuousCollisionProxy.html#a8ac476dc994d283f96c307c64a4f2199">exotica::ContinuousCollisionProxy</a>
 </li>
+<li>IncreaseRegularization()
+: <a class="el" href="classexotica_1_1AbstractDDPSolver.html#a5677a8e440ee842cffd60928877aad5a">exotica::AbstractDDPSolver</a>
+, <a class="el" href="classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#a17dc6465ce87c3e2d3f121b07c7cc58f">exotica::AbstractFeasibilityDrivenDDPSolver</a>
+</li>
 <li>Index
 : <a class="el" href="classEigen_1_1AutoDiffChainHessian.html#ac6e0114c1bf11b94626b07a341b98257">Eigen::AutoDiffChainHessian&lt; Functor &gt;</a>
 , <a class="el" href="classEigen_1_1AutoDiffChainHessianSparse.html#a1e48022e10100bac3ee748ed1a78221b">Eigen::AutoDiffChainHessianSparse&lt; Functor &gt;</a>
@@ -114,6 +118,9 @@ $(function() {
 : <a class="el" href="classexotica_1_1OMPLControlSolver.html#a44aa2f5a8126d5a2260738aa809fba21">exotica::OMPLControlSolver</a>
 , <a class="el" href="classexotica_1_1OMPLSolver.html#ac92fdb9cddab9907bb70d03bf97c3058">exotica::OMPLSolver&lt; ProblemType &gt;</a>
 , <a class="el" href="classexotica_1_1OMPLStateSpace.html#acd6e3f915afce7cb097a40cbe9cc402b">exotica::OMPLStateSpace</a>
+</li>
+<li>initial_regularization_rate_
+: <a class="el" href="classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#a456835bc922ff453c03f9a435727f5a9">exotica::AbstractFeasibilityDrivenDDPSolver</a>
 </li>
 <li>initial_trajectory_
 : <a class="el" href="classexotica_1_1AbstractTimeIndexedProblem.html#abdaf450e9e9bea267e3c04fcb1a9968e">exotica::AbstractTimeIndexedProblem</a>
@@ -223,11 +230,12 @@ $(function() {
 , <a class="el" href="classexotica_1_1EffOrientation.html#aca99bac08099c429e96a5bd2def6bbd7">exotica::EffOrientation</a>
 , <a class="el" href="classexotica_1_1EndPoseProblem.html#aa5df83bbadb2c943f06cdb1df802ca8c">exotica::EndPoseProblem</a>
 , <a class="el" href="classexotica_1_1ESTSolver.html#a4bfa232c6fe97e109c59b087b3244784">exotica::ESTSolver</a>
+, <a class="el" href="classexotica_1_1FeasibilityDrivenDDPSolver.html#ad364787273aa715815bb137e9bec6a56">exotica::FeasibilityDrivenDDPSolver</a>
 , <a class="el" href="classexotica_1_1GazeAtConstraint.html#a23fc5bddf9dc0bb5f9d19858048f25c0">exotica::GazeAtConstraint</a>
 , <a class="el" href="classexotica_1_1Instantiable.html#a4d6322162962e48a2c4bc187bdff25bc">exotica::Instantiable&lt; C, typename &gt;</a>
 , <a class="el" href="classexotica_1_1InteractionMesh.html#aea13a3f0c31e3d0b4b31675bb5dcd01d">exotica::InteractionMesh</a>
 , <a class="el" href="classexotica_1_1JointTorqueMinimizationProxy.html#af1c9bcb6b77c85171e525750b54686a3">exotica::JointTorqueMinimizationProxy</a>
-, <a class="el" href="classexotica_1_1KinematicTree.html#a6ce6b5b7d00159206cd5c010c0a98efe">exotica::KinematicTree</a>
+, <a class="el" href="classexotica_1_1KinematicTree.html#af3e0e521433b030b5aebec2ce05109e7">exotica::KinematicTree</a>
 , <a class="el" href="classexotica_1_1KPIECESolver.html#aa884ba8d45fc4f3ba17e3591ac28964d">exotica::KPIECESolver</a>
 , <a class="el" href="classexotica_1_1LazyPRMSolver.html#a1b68b0f9ceeff511c7888753265ab5ea">exotica::LazyPRMSolver</a>
 , <a class="el" href="classexotica_1_1LBTRRTSolver.html#a03e13d6506465c837acdc179c5efd0cc">exotica::LBTRRTSolver</a>
@@ -262,7 +270,7 @@ $(function() {
 : <a class="el" href="classexotica_1_1Object.html#a081338253532f0a2d0411ec74261abee">exotica::Object</a>
 </li>
 <li>Integrate()
-: <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a411d29f5ff252dae22278eed43641786">exotica::AbstractDynamicsSolver&lt; T, NX, NU &gt;</a>
+: <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#ad97856345fac0e3d595e24cada325623">exotica::AbstractDynamicsSolver&lt; T, NX, NU &gt;</a>
 , <a class="el" href="classexotica_1_1OMPLStatePropagator.html#a8176a926a05d073c726f59a6d0bef72b">exotica::OMPLStatePropagator</a>
 </li>
 <li>integrator_
@@ -277,6 +285,9 @@ $(function() {
 </li>
 <li>is_controlled
 : <a class="el" href="classexotica_1_1KinematicElement.html#a5259060a712b235795a6ce921f17ba35">exotica::KinematicElement</a>
+</li>
+<li>is_feasible_
+: <a class="el" href="classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#abfbb1142a6a5c1a41694aa1617fca79e">exotica::AbstractFeasibilityDrivenDDPSolver</a>
 </li>
 <li>is_robot_link
 : <a class="el" href="classexotica_1_1KinematicElement.html#af9cc9b43a4d38757491c823537241465">exotica::KinematicElement</a>
@@ -313,6 +324,9 @@ $(function() {
 : <a class="el" href="classexotica_1_1LazyPRMSolver.html#aa91e065316062b37dc667d11a27840d1">exotica::LazyPRMSolver</a>
 , <a class="el" href="classexotica_1_1PRMSolver.html#afa2f7bcb1a16401c2c30059882ef4c74">exotica::PRMSolver</a>
 </li>
+<li>IsNaN()
+: <a class="el" href="classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#a35788a17811a2f862e399f4f5be5651b">exotica::AbstractFeasibilityDrivenDDPSolver</a>
+</li>
 <li>IsRequired()
 : <a class="el" href="classexotica_1_1Property.html#ab2550e435c5ddc8aa7639400af5fbc58">exotica::Property</a>
 </li>
@@ -344,7 +358,7 @@ $(function() {
 </li>
 <li>IsValid()
 : <a class="el" href="classexotica_1_1PlanningProblem.html#a90c31c93cc5459565c147de7293e2938">exotica::PlanningProblem</a>
-, <a class="el" href="classexotica_1_1SamplingProblem.html#a6310ea30b510cd06373a5f7f59bebfd1">exotica::SamplingProblem</a>
+, <a class="el" href="classexotica_1_1SamplingProblem.html#aacb4f97ebf8d8163a1b7b2aa5e5e2ba8">exotica::SamplingProblem</a>
 , <a class="el" href="classexotica_1_1TimeIndexedProblem.html#a365792bce370ad5892eb240fb7ba0f49">exotica::TimeIndexedProblem</a>
 , <a class="el" href="classexotica_1_1TimeIndexedSamplingProblem.html#acdf6d28565d07e474c6b3ae74910bc63">exotica::TimeIndexedSamplingProblem</a>
 , <a class="el" href="classexotica_1_1UnconstrainedEndPoseProblem.html#a511720e24f2900ac210c3416d93f7cf4">exotica::UnconstrainedEndPoseProblem</a>
@@ -362,7 +376,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 23 2019 00:12:08 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Mar 10 2020 15:28:51 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

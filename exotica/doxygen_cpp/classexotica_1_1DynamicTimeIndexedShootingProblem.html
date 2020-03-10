@@ -110,64 +110,70 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8823c5596dc739022aba27ac06721bd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade4cf806ac218273536ec30164e67380"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#ade4cf806ac218273536ec30164e67380">Instantiate</a> (const DynamicTimeIndexedShootingProblemInitializer &amp;init) override</td></tr>
 <tr class="separator:ade4cf806ac218273536ec30164e67380"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c6de34d8c80789fd7f5703d251a087a"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a4c6de34d8c80789fd7f5703d251a087a">ApplyStartState</a> (bool update_traj=true) override</td></tr>
+<tr class="separator:a4c6de34d8c80789fd7f5703d251a087a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cbd76c24f8fb21c35097b430a39fc6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a9cbd76c24f8fb21c35097b430a39fc6d">PreUpdate</a> () override</td></tr>
 <tr class="separator:a9cbd76c24f8fb21c35097b430a39fc6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27674ada6c114c2c84484b84af3e2a16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a27674ada6c114c2c84484b84af3e2a16">Update</a> (<a class="el" href="namespaceEigen.html#ad6c86a9df4dd2627a995a39eab0f9010">Eigen::VectorXdRefConst</a> u, int t)</td></tr>
 <tr class="separator:a27674ada6c114c2c84484b84af3e2a16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7641eb99b08ef8a0b56aa7acf844082"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#aa7641eb99b08ef8a0b56aa7acf844082">get_T</a> () const</td></tr>
-<tr class="memdesc:aa7641eb99b08ef8a0b56aa7acf844082"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of timesteps in the state trajectory.  <a href="#aa7641eb99b08ef8a0b56aa7acf844082">More...</a><br /></td></tr>
-<tr class="separator:aa7641eb99b08ef8a0b56aa7acf844082"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f5e93bd11bc8815451d5ad6aa991210"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a3f5e93bd11bc8815451d5ad6aa991210">Update</a> (<a class="el" href="namespaceEigen.html#ad6c86a9df4dd2627a995a39eab0f9010">Eigen::VectorXdRefConst</a> x, <a class="el" href="namespaceEigen.html#ad6c86a9df4dd2627a995a39eab0f9010">Eigen::VectorXdRefConst</a> u, int t)</td></tr>
+<tr class="separator:a3f5e93bd11bc8815451d5ad6aa991210"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7b60510c6ef8a6796a70b35703b6ef3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#ab7b60510c6ef8a6796a70b35703b6ef3">UpdateTerminalState</a> (<a class="el" href="namespaceEigen.html#ad6c86a9df4dd2627a995a39eab0f9010">Eigen::VectorXdRefConst</a> x)</td></tr>
+<tr class="separator:ab7b60510c6ef8a6796a70b35703b6ef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12db3c0289ac32dc07abf6bc05b4c281"><td class="memItemLeft" align="right" valign="top">const int &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a12db3c0289ac32dc07abf6bc05b4c281">get_T</a> () const</td></tr>
+<tr class="memdesc:a12db3c0289ac32dc07abf6bc05b4c281"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of timesteps in the state trajectory.  <a href="#a12db3c0289ac32dc07abf6bc05b4c281">More...</a><br /></td></tr>
+<tr class="separator:a12db3c0289ac32dc07abf6bc05b4c281"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb62edde2297cbcf72698996021c8bf8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#afb62edde2297cbcf72698996021c8bf8">set_T</a> (const int &amp;T_in)</td></tr>
 <tr class="memdesc:afb62edde2297cbcf72698996021c8bf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the number of timesteps in the state trajectory.  <a href="#afb62edde2297cbcf72698996021c8bf8">More...</a><br /></td></tr>
 <tr class="separator:afb62edde2297cbcf72698996021c8bf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9e246d4e550b554c5d419bc7cf68a29"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#ae9e246d4e550b554c5d419bc7cf68a29">get_tau</a> () const</td></tr>
-<tr class="memdesc:ae9e246d4e550b554c5d419bc7cf68a29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the discretization timestep tau.  <a href="#ae9e246d4e550b554c5d419bc7cf68a29">More...</a><br /></td></tr>
-<tr class="separator:ae9e246d4e550b554c5d419bc7cf68a29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d03377697ede125c322c9eceaf4bb53"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a7d03377697ede125c322c9eceaf4bb53">get_X</a> () const</td></tr>
-<tr class="memdesc:a7d03377697ede125c322c9eceaf4bb53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the state trajectory X.  <a href="#a7d03377697ede125c322c9eceaf4bb53">More...</a><br /></td></tr>
-<tr class="separator:a7d03377697ede125c322c9eceaf4bb53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f8c61017ccb14addf57acea7c9150e3"><td class="memItemLeft" align="right" valign="top">const double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a5f8c61017ccb14addf57acea7c9150e3">get_tau</a> () const</td></tr>
+<tr class="memdesc:a5f8c61017ccb14addf57acea7c9150e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the discretization timestep tau.  <a href="#a5f8c61017ccb14addf57acea7c9150e3">More...</a><br /></td></tr>
+<tr class="separator:a5f8c61017ccb14addf57acea7c9150e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96319bdc11531b714bdfa0720e949fa1"><td class="memItemLeft" align="right" valign="top">const Eigen::MatrixXd &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a96319bdc11531b714bdfa0720e949fa1">get_X</a> () const</td></tr>
+<tr class="memdesc:a96319bdc11531b714bdfa0720e949fa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the state trajectory X.  <a href="#a96319bdc11531b714bdfa0720e949fa1">More...</a><br /></td></tr>
+<tr class="separator:a96319bdc11531b714bdfa0720e949fa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7e200b0514a038e941cc5c243bcedc4"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#ab7e200b0514a038e941cc5c243bcedc4">get_X</a> (int t) const</td></tr>
 <tr class="memdesc:ab7e200b0514a038e941cc5c243bcedc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the state at time t.  <a href="#ab7e200b0514a038e941cc5c243bcedc4">More...</a><br /></td></tr>
 <tr class="separator:ab7e200b0514a038e941cc5c243bcedc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a505554c22d59b52c57593798819917b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a505554c22d59b52c57593798819917b6">set_X</a> (<a class="el" href="namespaceEigen.html#af5a0065bf476ec39a4bc067ea6df6a33">Eigen::MatrixXdRefConst</a> X_in)</td></tr>
 <tr class="memdesc:a505554c22d59b52c57593798819917b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the state trajectory X (can be used as the initial guess)  <a href="#a505554c22d59b52c57593798819917b6">More...</a><br /></td></tr>
 <tr class="separator:a505554c22d59b52c57593798819917b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adaf538a353ce647d39ceaf25e16bd22b"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#adaf538a353ce647d39ceaf25e16bd22b">get_U</a> () const</td></tr>
-<tr class="memdesc:adaf538a353ce647d39ceaf25e16bd22b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the control trajectory U.  <a href="#adaf538a353ce647d39ceaf25e16bd22b">More...</a><br /></td></tr>
-<tr class="separator:adaf538a353ce647d39ceaf25e16bd22b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e364fc283431959f07af751fe05c01e"><td class="memItemLeft" align="right" valign="top">const Eigen::MatrixXd &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a2e364fc283431959f07af751fe05c01e">get_U</a> () const</td></tr>
+<tr class="memdesc:a2e364fc283431959f07af751fe05c01e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the control trajectory U.  <a href="#a2e364fc283431959f07af751fe05c01e">More...</a><br /></td></tr>
+<tr class="separator:a2e364fc283431959f07af751fe05c01e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96b58614379b8fbf5fcbb3e31beea680"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a96b58614379b8fbf5fcbb3e31beea680">get_U</a> (int t) const</td></tr>
 <tr class="memdesc:a96b58614379b8fbf5fcbb3e31beea680"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the control state at time t.  <a href="#a96b58614379b8fbf5fcbb3e31beea680">More...</a><br /></td></tr>
 <tr class="separator:a96b58614379b8fbf5fcbb3e31beea680"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae00272003823baf42006bab48993e7c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#ae00272003823baf42006bab48993e7c5">set_U</a> (<a class="el" href="namespaceEigen.html#af5a0065bf476ec39a4bc067ea6df6a33">Eigen::MatrixXdRefConst</a> U_in)</td></tr>
 <tr class="memdesc:ae00272003823baf42006bab48993e7c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the control trajectory U (can be used as the initial guess)  <a href="#ae00272003823baf42006bab48993e7c5">More...</a><br /></td></tr>
 <tr class="separator:ae00272003823baf42006bab48993e7c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51e114c0470e9f7496333b8b17d119af"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a51e114c0470e9f7496333b8b17d119af">get_X_star</a> () const</td></tr>
-<tr class="memdesc:a51e114c0470e9f7496333b8b17d119af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the target state trajectory X.  <a href="#a51e114c0470e9f7496333b8b17d119af">More...</a><br /></td></tr>
-<tr class="separator:a51e114c0470e9f7496333b8b17d119af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a5ec71a673a35ddab86b8b8b4a97a5a"><td class="memItemLeft" align="right" valign="top">const Eigen::MatrixXd &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a1a5ec71a673a35ddab86b8b8b4a97a5a">get_X_star</a> () const</td></tr>
+<tr class="memdesc:a1a5ec71a673a35ddab86b8b8b4a97a5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the target state trajectory X.  <a href="#a1a5ec71a673a35ddab86b8b8b4a97a5a">More...</a><br /></td></tr>
+<tr class="separator:a1a5ec71a673a35ddab86b8b8b4a97a5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c04b3b6f5ac0ddc8d8554f1d95a61e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a0c04b3b6f5ac0ddc8d8554f1d95a61e3">set_X_star</a> (<a class="el" href="namespaceEigen.html#af5a0065bf476ec39a4bc067ea6df6a33">Eigen::MatrixXdRefConst</a> X_star_in)</td></tr>
 <tr class="memdesc:a0c04b3b6f5ac0ddc8d8554f1d95a61e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the target state trajectory X.  <a href="#a0c04b3b6f5ac0ddc8d8554f1d95a61e3">More...</a><br /></td></tr>
 <tr class="separator:a0c04b3b6f5ac0ddc8d8554f1d95a61e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada022a04d9345b1177677523e600c251"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#ada022a04d9345b1177677523e600c251">get_Q</a> (int t) const</td></tr>
-<tr class="memdesc:ada022a04d9345b1177677523e600c251"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the precision matrix at time step t.  <a href="#ada022a04d9345b1177677523e600c251">More...</a><br /></td></tr>
-<tr class="separator:ada022a04d9345b1177677523e600c251"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9eac3b40fcc555d9f5fd80d4157d8955"><td class="memItemLeft" align="right" valign="top">const Eigen::MatrixXd &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a9eac3b40fcc555d9f5fd80d4157d8955">get_Q</a> (int t) const</td></tr>
+<tr class="memdesc:a9eac3b40fcc555d9f5fd80d4157d8955"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the precision matrix at time step t.  <a href="#a9eac3b40fcc555d9f5fd80d4157d8955">More...</a><br /></td></tr>
+<tr class="separator:a9eac3b40fcc555d9f5fd80d4157d8955"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e11c7bca429fcbb8b7e855028229253"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a4e11c7bca429fcbb8b7e855028229253">set_Q</a> (<a class="el" href="namespaceEigen.html#af5a0065bf476ec39a4bc067ea6df6a33">Eigen::MatrixXdRefConst</a> Q_in, int t)</td></tr>
 <tr class="memdesc:a4e11c7bca429fcbb8b7e855028229253"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the precision matrix for time step t.  <a href="#a4e11c7bca429fcbb8b7e855028229253">More...</a><br /></td></tr>
 <tr class="separator:a4e11c7bca429fcbb8b7e855028229253"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b62641d14e14eab376055fbb1fc474d"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a0b62641d14e14eab376055fbb1fc474d">get_Qf</a> () const</td></tr>
-<tr class="memdesc:a0b62641d14e14eab376055fbb1fc474d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the cost weight matrix at time N.  <a href="#a0b62641d14e14eab376055fbb1fc474d">More...</a><br /></td></tr>
-<tr class="separator:a0b62641d14e14eab376055fbb1fc474d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac563814a15eccd3eb901e9b9ae16ac8a"><td class="memItemLeft" align="right" valign="top">const Eigen::MatrixXd &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#ac563814a15eccd3eb901e9b9ae16ac8a">get_Qf</a> () const</td></tr>
+<tr class="memdesc:ac563814a15eccd3eb901e9b9ae16ac8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the cost weight matrix at time N.  <a href="#ac563814a15eccd3eb901e9b9ae16ac8a">More...</a><br /></td></tr>
+<tr class="separator:ac563814a15eccd3eb901e9b9ae16ac8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03dd45067c5cccda848411a434e12a04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a03dd45067c5cccda848411a434e12a04">set_Qf</a> (<a class="el" href="namespaceEigen.html#af5a0065bf476ec39a4bc067ea6df6a33">Eigen::MatrixXdRefConst</a> Q_in)</td></tr>
 <tr class="memdesc:a03dd45067c5cccda848411a434e12a04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the cost weight matrix for time N.  <a href="#a03dd45067c5cccda848411a434e12a04">More...</a><br /></td></tr>
 <tr class="separator:a03dd45067c5cccda848411a434e12a04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab8b76554e03a9a56bf160ede9fcf22a"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#aab8b76554e03a9a56bf160ede9fcf22a">get_R</a> () const</td></tr>
-<tr class="memdesc:aab8b76554e03a9a56bf160ede9fcf22a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the control weight matrix.  <a href="#aab8b76554e03a9a56bf160ede9fcf22a">More...</a><br /></td></tr>
-<tr class="separator:aab8b76554e03a9a56bf160ede9fcf22a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80807471e8cf004552f8b77b259be138"><td class="memItemLeft" align="right" valign="top">const Eigen::MatrixXd &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a80807471e8cf004552f8b77b259be138">get_R</a> () const</td></tr>
+<tr class="memdesc:a80807471e8cf004552f8b77b259be138"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the control weight matrix.  <a href="#a80807471e8cf004552f8b77b259be138">More...</a><br /></td></tr>
+<tr class="separator:a80807471e8cf004552f8b77b259be138"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fe6b52a8938a38289e068d72c40e660"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a6fe6b52a8938a38289e068d72c40e660">get_F</a> (int t) const</td></tr>
 <tr class="memdesc:a6fe6b52a8938a38289e068d72c40e660"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the noise weight matrix at time t.  <a href="#a6fe6b52a8938a38289e068d72c40e660">More...</a><br /></td></tr>
 <tr class="separator:a6fe6b52a8938a38289e068d72c40e660"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a577a29c0cb0fbf9383cb504817418261"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a577a29c0cb0fbf9383cb504817418261">GetControlNoiseJacobian</a> (int column_idx) const</td></tr>
-<tr class="memdesc:a577a29c0cb0fbf9383cb504817418261"><td class="mdescLeft">&#160;</td><td class="mdescRight">F[i]_u.  <a href="#a577a29c0cb0fbf9383cb504817418261">More...</a><br /></td></tr>
-<tr class="separator:a577a29c0cb0fbf9383cb504817418261"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa85ab74f990f14a8bafae262ada0d771"><td class="memItemLeft" align="right" valign="top">const Eigen::MatrixXd &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#aa85ab74f990f14a8bafae262ada0d771">GetControlNoiseJacobian</a> (int column_idx) const</td></tr>
+<tr class="memdesc:aa85ab74f990f14a8bafae262ada0d771"><td class="mdescLeft">&#160;</td><td class="mdescRight">F[i]_u.  <a href="#aa85ab74f990f14a8bafae262ada0d771">More...</a><br /></td></tr>
+<tr class="separator:aa85ab74f990f14a8bafae262ada0d771"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a911aa4ca3a41f80821c739e74feaacbb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a911aa4ca3a41f80821c739e74feaacbb">EnableStochasticUpdates</a> ()</td></tr>
 <tr class="separator:a911aa4ca3a41f80821c739e74feaacbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a7c57f9c5912437065bba32333e8022"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a9a7c57f9c5912437065bba32333e8022">DisableStochasticUpdates</a> ()</td></tr>
@@ -214,8 +220,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa2674f6bc30a9c36a135c4313b9939a6 inherit pub_methods_classexotica_1_1PlanningProblem"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af391a2b451c508d262dcba47d72e9fe4 inherit pub_methods_classexotica_1_1PlanningProblem"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1PlanningProblem.html#af391a2b451c508d262dcba47d72e9fe4">GetStartState</a> () const</td></tr>
 <tr class="separator:af391a2b451c508d262dcba47d72e9fe4 inherit pub_methods_classexotica_1_1PlanningProblem"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0adbca562e56d6a00e947d8fbcc13c1 inherit pub_methods_classexotica_1_1PlanningProblem"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1PlanningProblem.html#af0adbca562e56d6a00e947d8fbcc13c1">ApplyStartState</a> (bool update_traj=true)</td></tr>
-<tr class="separator:af0adbca562e56d6a00e947d8fbcc13c1 inherit pub_methods_classexotica_1_1PlanningProblem"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add1713bf517fa253479813b8b4c1a9e8 inherit pub_methods_classexotica_1_1PlanningProblem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1PlanningProblem.html#add1713bf517fa253479813b8b4c1a9e8">SetStartTime</a> (double t)</td></tr>
 <tr class="separator:add1713bf517fa253479813b8b4c1a9e8 inherit pub_methods_classexotica_1_1PlanningProblem"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add82c590253d64786362e31da0c1b32f inherit pub_methods_classexotica_1_1PlanningProblem"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1PlanningProblem.html#add82c590253d64786362e31da0c1b32f">GetStartTime</a> () const</td></tr>
@@ -426,6 +430,34 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a4c6de34d8c80789fd7f5703d251a087a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c6de34d8c80789fd7f5703d251a087a">&#9670;&nbsp;</a></span>ApplyStartState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::VectorXd exotica::DynamicTimeIndexedShootingProblem::ApplyStartState </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>update_traj</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classexotica_1_1PlanningProblem.html#a6e35480f7bfb5473a3a61745feb4c6db">exotica::PlanningProblem</a>.</p>
+
+</div>
+</div>
 <a id="a9a7c57f9c5912437065bba32333e8022"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9a7c57f9c5912437065bba32333e8022">&#9670;&nbsp;</a></span>DisableStochasticUpdates()</h2>
 
@@ -510,14 +542,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ada022a04d9345b1177677523e600c251"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada022a04d9345b1177677523e600c251">&#9670;&nbsp;</a></span>get_Q()</h2>
+<a id="a9eac3b40fcc555d9f5fd80d4157d8955"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9eac3b40fcc555d9f5fd80d4157d8955">&#9670;&nbsp;</a></span>get_Q()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::MatrixXd exotica::DynamicTimeIndexedShootingProblem::get_Q </td>
+          <td class="memname">const Eigen::MatrixXd&amp; exotica::DynamicTimeIndexedShootingProblem::get_Q </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>t</em></td><td>)</td>
@@ -530,14 +562,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0b62641d14e14eab376055fbb1fc474d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b62641d14e14eab376055fbb1fc474d">&#9670;&nbsp;</a></span>get_Qf()</h2>
+<a id="ac563814a15eccd3eb901e9b9ae16ac8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac563814a15eccd3eb901e9b9ae16ac8a">&#9670;&nbsp;</a></span>get_Qf()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::MatrixXd exotica::DynamicTimeIndexedShootingProblem::get_Qf </td>
+          <td class="memname">const Eigen::MatrixXd&amp; exotica::DynamicTimeIndexedShootingProblem::get_Qf </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -549,14 +581,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aab8b76554e03a9a56bf160ede9fcf22a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab8b76554e03a9a56bf160ede9fcf22a">&#9670;&nbsp;</a></span>get_R()</h2>
+<a id="a80807471e8cf004552f8b77b259be138"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80807471e8cf004552f8b77b259be138">&#9670;&nbsp;</a></span>get_R()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::MatrixXd exotica::DynamicTimeIndexedShootingProblem::get_R </td>
+          <td class="memname">const Eigen::MatrixXd&amp; exotica::DynamicTimeIndexedShootingProblem::get_R </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -568,14 +600,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aa7641eb99b08ef8a0b56aa7acf844082"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7641eb99b08ef8a0b56aa7acf844082">&#9670;&nbsp;</a></span>get_T()</h2>
+<a id="a12db3c0289ac32dc07abf6bc05b4c281"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12db3c0289ac32dc07abf6bc05b4c281">&#9670;&nbsp;</a></span>get_T()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int exotica::DynamicTimeIndexedShootingProblem::get_T </td>
+          <td class="memname">const int&amp; exotica::DynamicTimeIndexedShootingProblem::get_T </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -587,14 +619,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae9e246d4e550b554c5d419bc7cf68a29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9e246d4e550b554c5d419bc7cf68a29">&#9670;&nbsp;</a></span>get_tau()</h2>
+<a id="a5f8c61017ccb14addf57acea7c9150e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f8c61017ccb14addf57acea7c9150e3">&#9670;&nbsp;</a></span>get_tau()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double exotica::DynamicTimeIndexedShootingProblem::get_tau </td>
+          <td class="memname">const double&amp; exotica::DynamicTimeIndexedShootingProblem::get_tau </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -606,14 +638,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="adaf538a353ce647d39ceaf25e16bd22b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adaf538a353ce647d39ceaf25e16bd22b">&#9670;&nbsp;</a></span>get_U() <span class="overload">[1/2]</span></h2>
+<a id="a2e364fc283431959f07af751fe05c01e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e364fc283431959f07af751fe05c01e">&#9670;&nbsp;</a></span>get_U() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::MatrixXd exotica::DynamicTimeIndexedShootingProblem::get_U </td>
+          <td class="memname">const Eigen::MatrixXd&amp; exotica::DynamicTimeIndexedShootingProblem::get_U </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -645,14 +677,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7d03377697ede125c322c9eceaf4bb53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d03377697ede125c322c9eceaf4bb53">&#9670;&nbsp;</a></span>get_X() <span class="overload">[1/2]</span></h2>
+<a id="a96319bdc11531b714bdfa0720e949fa1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96319bdc11531b714bdfa0720e949fa1">&#9670;&nbsp;</a></span>get_X() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::MatrixXd exotica::DynamicTimeIndexedShootingProblem::get_X </td>
+          <td class="memname">const Eigen::MatrixXd&amp; exotica::DynamicTimeIndexedShootingProblem::get_X </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -684,14 +716,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a51e114c0470e9f7496333b8b17d119af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51e114c0470e9f7496333b8b17d119af">&#9670;&nbsp;</a></span>get_X_star()</h2>
+<a id="a1a5ec71a673a35ddab86b8b8b4a97a5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a5ec71a673a35ddab86b8b8b4a97a5a">&#9670;&nbsp;</a></span>get_X_star()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::MatrixXd exotica::DynamicTimeIndexedShootingProblem::get_X_star </td>
+          <td class="memname">const Eigen::MatrixXd&amp; exotica::DynamicTimeIndexedShootingProblem::get_X_star </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -760,14 +792,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a577a29c0cb0fbf9383cb504817418261"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a577a29c0cb0fbf9383cb504817418261">&#9670;&nbsp;</a></span>GetControlNoiseJacobian()</h2>
+<a id="aa85ab74f990f14a8bafae262ada0d771"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa85ab74f990f14a8bafae262ada0d771">&#9670;&nbsp;</a></span>GetControlNoiseJacobian()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::MatrixXd exotica::DynamicTimeIndexedShootingProblem::GetControlNoiseJacobian </td>
+          <td class="memname">const Eigen::MatrixXd&amp; exotica::DynamicTimeIndexedShootingProblem::GetControlNoiseJacobian </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>column_idx</em></td><td>)</td>
@@ -1102,7 +1134,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a27674ada6c114c2c84484b84af3e2a16"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27674ada6c114c2c84484b84af3e2a16">&#9670;&nbsp;</a></span>Update()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a27674ada6c114c2c84484b84af3e2a16">&#9670;&nbsp;</a></span>Update() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1123,6 +1155,58 @@ Protected Attributes</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3f5e93bd11bc8815451d5ad6aa991210"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f5e93bd11bc8815451d5ad6aa991210">&#9670;&nbsp;</a></span>Update() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void exotica::DynamicTimeIndexedShootingProblem::Update </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceEigen.html#ad6c86a9df4dd2627a995a39eab0f9010">Eigen::VectorXdRefConst</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceEigen.html#ad6c86a9df4dd2627a995a39eab0f9010">Eigen::VectorXdRefConst</a>&#160;</td>
+          <td class="paramname"><em>u</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab7b60510c6ef8a6796a70b35703b6ef3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7b60510c6ef8a6796a70b35703b6ef3">&#9670;&nbsp;</a></span>UpdateTerminalState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void exotica::DynamicTimeIndexedShootingProblem::UpdateTerminalState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceEigen.html#ad6c86a9df4dd2627a995a39eab0f9010">Eigen::VectorXdRefConst</a>&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1636,7 +1720,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 23 2019 00:11:50 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Mar 10 2020 15:28:36 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

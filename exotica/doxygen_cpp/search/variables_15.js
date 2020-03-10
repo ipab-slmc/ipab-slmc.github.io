@@ -12,5 +12,7 @@ var searchData=
   ['vinv_5fold',['Vinv_old',['../classexotica_1_1AICOSolver.html#a6235af23b640d38d4d9521509d80e5f2',1,'exotica::AICOSolver::Vinv_old()'],['../classexotica_1_1BayesianIKSolver.html#a46fca9010951d8bd096416eb4a131247',1,'exotica::BayesianIKSolver::Vinv_old()']]],
   ['visual',['visual',['../classexotica_1_1KinematicElement.html#a27c26a107d801a2b8f486befdffd0dfb',1,'exotica::KinematicElement']]],
   ['visualize_5f',['visualize_',['../classexotica_1_1PointToLine.html#a41e062196be1010d8912b9e1ce94dd20',1,'exotica::PointToLine']]],
-  ['vk_5fgains_5f',['vk_gains_',['../classexotica_1_1ILQRSolver.html#acf4f81525e690b6f19e18adafbe9ddf5',1,'exotica::ILQRSolver']]]
+  ['vk_5fgains_5f',['vk_gains_',['../classexotica_1_1ILQRSolver.html#acf4f81525e690b6f19e18adafbe9ddf5',1,'exotica::ILQRSolver']]],
+  ['vx_5f',['Vx_',['../classexotica_1_1AbstractDDPSolver.html#aa4d1f533940654163228c8f4b36fa688',1,'exotica::AbstractDDPSolver::Vx_()'],['../classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#ae3eb8110021e5678cbd03109a0af93bd',1,'exotica::AbstractFeasibilityDrivenDDPSolver::Vx_()']]],
+  ['vxx_5f',['Vxx_',['../classexotica_1_1AbstractDDPSolver.html#aeecf2e9a5524a4f77e5bd259315872c6',1,'exotica::AbstractDDPSolver::Vxx_()'],['../classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#a49fdfa3a106e07f958bcb479c9804a98',1,'exotica::AbstractFeasibilityDrivenDDPSolver::Vxx_()']]]
 ];

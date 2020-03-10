@@ -66,6 +66,7 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classexotica_1_1JointPose-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">exotica::JointPose Class Reference</div>  </div>
@@ -100,10 +101,6 @@ Collaboration diagram for exotica::JointPose:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1709cd58bf6de7796e737a94bcd87f91"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1JointPose.html#a1709cd58bf6de7796e737a94bcd87f91">JointPose</a> ()</td></tr>
-<tr class="separator:a1709cd58bf6de7796e737a94bcd87f91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a779e4a96182a16e1861a3427128e85a7"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1JointPose.html#a779e4a96182a16e1861a3427128e85a7">~JointPose</a> ()</td></tr>
-<tr class="separator:a779e4a96182a16e1861a3427128e85a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6c2c5c711b112a8c343e39c2ebdc313"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1JointPose.html#ad6c2c5c711b112a8c343e39c2ebdc313">AssignScene</a> (<a class="el" href="namespaceexotica.html#a40b1efc13b2dddc8a9addac2dc0aa11d">ScenePtr</a> scene) override</td></tr>
 <tr class="separator:ad6c2c5c711b112a8c343e39c2ebdc313"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bbcd3effd41ea6cb1a8af7e4d568182"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1JointPose.html#a9bbcd3effd41ea6cb1a8af7e4d568182">Update</a> (<a class="el" href="namespaceEigen.html#ad6c86a9df4dd2627a995a39eab0f9010">Eigen::VectorXdRefConst</a> x, <a class="el" href="namespaceEigen.html#a8f2847ac4d1fa769e981f4aee8b585da">Eigen::VectorXdRef</a> phi) override</td></tr>
@@ -157,8 +154,6 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a61b2120a75154221c31dd92f1ccecb77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3ddf569bb55dac44d6d4fd95b1d143a"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1JointPose.html#ab3ddf569bb55dac44d6d4fd95b1d143a">joint_ref_</a></td></tr>
 <tr class="separator:ab3ddf569bb55dac44d6d4fd95b1d143a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad96d4db398593ce5d49660342b3aa201"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1JointPose.html#ad96d4db398593ce5d49660342b3aa201">N_</a></td></tr>
-<tr class="separator:ad96d4db398593ce5d49660342b3aa201"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classexotica_1_1TaskMap"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classexotica_1_1TaskMap')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classexotica_1_1TaskMap.html">exotica::TaskMap</a></td></tr>
 <tr class="memitem:ab13fa25f4792f5f03ea035ea63d199a0 inherit pub_attribs_classexotica_1_1TaskMap"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classexotica_1_1KinematicSolution.html">KinematicSolution</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1TaskMap.html#ab13fa25f4792f5f03ea035ea63d199a0">kinematics</a> = std::vector&lt;<a class="el" href="classexotica_1_1KinematicSolution.html">KinematicSolution</a>&gt;(1)</td></tr>
 <tr class="separator:ab13fa25f4792f5f03ea035ea63d199a0 inherit pub_attribs_classexotica_1_1TaskMap"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -185,7 +180,13 @@ Public Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a14908535feea63e118e1fd3382db4fd4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1JointPose.html#a14908535feea63e118e1fd3382db4fd4">Initialize</a> ()</td></tr>
+<tr class="memdesc:a14908535feea63e118e1fd3382db4fd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">! Number of controlled joints  <a href="#a14908535feea63e118e1fd3382db4fd4">More...</a><br /></td></tr>
 <tr class="separator:a14908535feea63e118e1fd3382db4fd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a4318a21936c11e8397fa3c54c21319e4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1JointPose.html#a4318a21936c11e8397fa3c54c21319e4">num_controlled_joints_</a></td></tr>
+<tr class="separator:a4318a21936c11e8397fa3c54c21319e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -198,49 +199,6 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:aa2d71772c0b51e17b7907591ebcdb844 inherit pro_attribs_classexotica_1_1Instantiable"><td class="memItemLeft" align="right" valign="top">JointPoseInitializer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1Instantiable.html#aa2d71772c0b51e17b7907591ebcdb844">parameters_</a></td></tr>
 <tr class="separator:aa2d71772c0b51e17b7907591ebcdb844 inherit pro_attribs_classexotica_1_1Instantiable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a1709cd58bf6de7796e737a94bcd87f91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1709cd58bf6de7796e737a94bcd87f91">&#9670;&nbsp;</a></span>JointPose()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">exotica::JointPose::JointPose </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a779e4a96182a16e1861a3427128e85a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a779e4a96182a16e1861a3427128e85a7">&#9670;&nbsp;</a></span>~JointPose()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual exotica::JointPose::~JointPose </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="ad6c2c5c711b112a8c343e39c2ebdc313"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad6c2c5c711b112a8c343e39c2ebdc313">&#9670;&nbsp;</a></span>AssignScene()</h2>
@@ -292,6 +250,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>! Number of controlled joints </p>
 
 </div>
 </div>
@@ -433,16 +393,24 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ad96d4db398593ce5d49660342b3aa201"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad96d4db398593ce5d49660342b3aa201">&#9670;&nbsp;</a></span>N_</h2>
+<a id="a4318a21936c11e8397fa3c54c21319e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4318a21936c11e8397fa3c54c21319e4">&#9670;&nbsp;</a></span>num_controlled_joints_</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int exotica::JointPose::N_</td>
+          <td class="memname">int exotica::JointPose::num_controlled_joints_</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -453,7 +421,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 23 2019 00:11:50 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Mar 10 2020 15:28:36 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

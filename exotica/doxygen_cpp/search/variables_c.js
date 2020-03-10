@@ -30,5 +30,6 @@ var searchData=
   ['model_5flink_5fto_5fcollision_5flink_5fmap_5f',['model_link_to_collision_link_map_',['../classexotica_1_1Scene.html#ae0cdae1036f21b5e3adee56c3abb5994',1,'exotica::Scene']]],
   ['model_5ftree_5f',['model_tree_',['../classexotica_1_1KinematicTree.html#a9a5a22315dfcb1fd91a43b549d89b263',1,'exotica::KinematicTree']]],
   ['msg_5f',['msg_',['../classexotica_1_1Exception.html#a0b057d3741b831671b315b8de4a4029b',1,'exotica::Exception']]],
+  ['msg_5fdebug_5f',['msg_debug_',['../classexotica_1_1EffAxisAlignment.html#a21f7202ac0ced70a788411df60670a0e',1,'exotica::EffAxisAlignment']]],
   ['multi_5fquery_5f',['multi_query_',['../classexotica_1_1OMPLSolver.html#a5265628be16f133eb01bcc4fb5970a9f',1,'exotica::OMPLSolver']]]
 ];

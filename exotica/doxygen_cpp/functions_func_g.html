@@ -99,7 +99,7 @@ $(function() {
 : <a class="el" href="classexotica_1_1CollisionDistance.html#a0ebe6ba90d4b657acd53047b28e0de17">exotica::CollisionDistance</a>
 </li>
 <li>get_control_limits()
-: <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a066494d2603270267bc8cd54e773d147">exotica::AbstractDynamicsSolver&lt; T, NX, NU &gt;</a>
+: <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a82370542135582bb357793e7369e3abd">exotica::AbstractDynamicsSolver&lt; T, NX, NU &gt;</a>
 </li>
 <li>get_ct()
 : <a class="el" href="classexotica_1_1AbstractTimeIndexedProblem.html#a9cdc546e978e54cae19700cc6fb90540">exotica::AbstractTimeIndexedProblem</a>
@@ -109,6 +109,9 @@ $(function() {
 </li>
 <li>get_F()
 : <a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a6fe6b52a8938a38289e068d72c40e660">exotica::DynamicTimeIndexedShootingProblem</a>
+</li>
+<li>get_fs()
+: <a class="el" href="classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#a47e2803c96389cfd5ed6cf26e559a3fc">exotica::AbstractFeasibilityDrivenDDPSolver</a>
 </li>
 <li>get_h()
 : <a class="el" href="classexotica_1_1JointTorqueMinimizationProxy.html#acad3d1570f304d903841c37889cd0b3b">exotica::JointTorqueMinimizationProxy</a>
@@ -129,36 +132,51 @@ $(function() {
 : <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a041bad71445753b41620a7e2045d0fbd">exotica::AbstractDynamicsSolver&lt; T, NX, NU &gt;</a>
 , <a class="el" href="classexotica_1_1PlanningProblem.html#a8b36bed2b96fafa3040ef237c1e94ebb">exotica::PlanningProblem</a>
 </li>
+<li>get_num_state()
+: <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#abd34f818468505d2fe789300c07d629d">exotica::AbstractDynamicsSolver&lt; T, NX, NU &gt;</a>
+</li>
+<li>get_num_state_derivative()
+: <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a06da7ac6b25d9826d0f8bec8d37ae0fb">exotica::AbstractDynamicsSolver&lt; T, NX, NU &gt;</a>
+</li>
 <li>get_num_velocities()
 : <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a9e0c4231f995c1a823fab1fe00c53427">exotica::AbstractDynamicsSolver&lt; T, NX, NU &gt;</a>
 , <a class="el" href="classexotica_1_1PlanningProblem.html#aca688c62347e3300f5786ea62d63aee0">exotica::PlanningProblem</a>
 </li>
 <li>get_Q()
-: <a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#ada022a04d9345b1177677523e600c251">exotica::DynamicTimeIndexedShootingProblem</a>
+: <a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a9eac3b40fcc555d9f5fd80d4157d8955">exotica::DynamicTimeIndexedShootingProblem</a>
 </li>
 <li>get_Qf()
-: <a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a0b62641d14e14eab376055fbb1fc474d">exotica::DynamicTimeIndexedShootingProblem</a>
+: <a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#ac563814a15eccd3eb901e9b9ae16ac8a">exotica::DynamicTimeIndexedShootingProblem</a>
 </li>
 <li>get_R()
-: <a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#aab8b76554e03a9a56bf160ede9fcf22a">exotica::DynamicTimeIndexedShootingProblem</a>
+: <a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a80807471e8cf004552f8b77b259be138">exotica::DynamicTimeIndexedShootingProblem</a>
+</li>
+<li>get_replace_cylinders_with_capsules()
+: <a class="el" href="classexotica_1_1CollisionScene.html#aed7affb989921ff09464101ec5600cb7">exotica::CollisionScene</a>
 </li>
 <li>get_T()
-: <a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#aa7641eb99b08ef8a0b56aa7acf844082">exotica::DynamicTimeIndexedShootingProblem</a>
+: <a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a12db3c0289ac32dc07abf6bc05b4c281">exotica::DynamicTimeIndexedShootingProblem</a>
 </li>
 <li>get_tau()
-: <a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#ae9e246d4e550b554c5d419bc7cf68a29">exotica::DynamicTimeIndexedShootingProblem</a>
+: <a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a5f8c61017ccb14addf57acea7c9150e3">exotica::DynamicTimeIndexedShootingProblem</a>
 </li>
 <li>get_U()
-: <a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#adaf538a353ce647d39ceaf25e16bd22b">exotica::DynamicTimeIndexedShootingProblem</a>
+: <a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a2e364fc283431959f07af751fe05c01e">exotica::DynamicTimeIndexedShootingProblem</a>
+</li>
+<li>get_us()
+: <a class="el" href="classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#af8bbcefda367c1740c36f345468573d3">exotica::AbstractFeasibilityDrivenDDPSolver</a>
 </li>
 <li>get_world_links_to_exclude_from_collision_scene()
 : <a class="el" href="classexotica_1_1Scene.html#a660d965781476595ab3e9ddc17e969f0">exotica::Scene</a>
 </li>
 <li>get_X()
-: <a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a7d03377697ede125c322c9eceaf4bb53">exotica::DynamicTimeIndexedShootingProblem</a>
+: <a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a96319bdc11531b714bdfa0720e949fa1">exotica::DynamicTimeIndexedShootingProblem</a>
 </li>
 <li>get_X_star()
-: <a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a51e114c0470e9f7496333b8b17d119af">exotica::DynamicTimeIndexedShootingProblem</a>
+: <a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a1a5ec71a673a35ddab86b8b8b4a97a5a">exotica::DynamicTimeIndexedShootingProblem</a>
+</li>
+<li>get_xs()
+: <a class="el" href="classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#ad5e04d1b7a8a2b82356c2e90157604ee">exotica::AbstractFeasibilityDrivenDDPSolver</a>
 </li>
 <li>GetAcceleration()
 : <a class="el" href="classexotica_1_1Trajectory.html#a6d7a43b2fab88e858fd894bf95006e70">exotica::Trajectory</a>
@@ -175,10 +193,10 @@ $(function() {
 , <a class="el" href="classexotica_1_1InstantiableBase.html#a2482933f368afb1ddb0209c92282a4ae">exotica::InstantiableBase</a>
 </li>
 <li>GetAlwaysExternallyUpdatedCollisionScene()
-: <a class="el" href="classexotica_1_1CollisionScene.html#ac13b98570ea7323e714c4f23062c7506">exotica::CollisionScene</a>
+: <a class="el" href="classexotica_1_1CollisionScene.html#a4cd955f4f3f0e6d50512ff63fb8a250d">exotica::CollisionScene</a>
 </li>
 <li>GetAxis()
-: <a class="el" href="classexotica_1_1EffAxisAlignment.html#a58bb64e022d29d59d05d5eae6615f2c0">exotica::EffAxisAlignment</a>
+: <a class="el" href="classexotica_1_1EffAxisAlignment.html#a7b506a79f20d8537c31d057d2d85398c">exotica::EffAxisAlignment</a>
 </li>
 <li>GetBounds()
 : <a class="el" href="classexotica_1_1AbstractTimeIndexedProblem.html#a00d7516993ff12947d6c27e3599b21a0">exotica::AbstractTimeIndexedProblem</a>
@@ -191,6 +209,9 @@ $(function() {
 <li>GetCollisionDistance()
 : <a class="el" href="classexotica_1_1CollisionScene.html#afd36388fa3ee61bda8f1a88085afad51">exotica::CollisionScene</a>
 , <a class="el" href="classexotica_1_1CollisionSceneFCLLatest.html#ad79724aca36cbe5a5128c641b37d1bb3">exotica::CollisionSceneFCLLatest</a>
+</li>
+<li>GetCollisionObjectsFromMapByName()
+: <a class="el" href="classexotica_1_1CollisionSceneFCLLatest.html#a4452999a0ba1aee776eb26a1e67be977">exotica::CollisionSceneFCLLatest</a>
 </li>
 <li>GetCollisionObjectTypes()
 : <a class="el" href="classexotica_1_1KinematicTree.html#a1be3a5f039e54ca7c4bdb7b5bc967ee0">exotica::KinematicTree</a>
@@ -208,11 +229,6 @@ $(function() {
 </li>
 <li>GetCollisionTreeMap()
 : <a class="el" href="classexotica_1_1KinematicTree.html#a551070477c424193a0f941745eea7b7c">exotica::KinematicTree</a>
-</li>
-<li>GetCollisionWorldLinkElements()
-: <a class="el" href="classexotica_1_1CollisionScene.html#a4c02f8bbcc40cc653bf15a4aeee43b5a">exotica::CollisionScene</a>
-, <a class="el" href="classexotica_1_1CollisionSceneFCL.html#a75eee43439737a39c05d34bff3e732d4">exotica::CollisionSceneFCL</a>
-, <a class="el" href="classexotica_1_1CollisionSceneFCLLatest.html#ae0b7f97731de31d7fec194531eef2e06">exotica::CollisionSceneFCLLatest</a>
 </li>
 <li>GetCollisionWorldLinks()
 : <a class="el" href="classexotica_1_1CollisionScene.html#a719e999f78f6d284b4bb7119d9c6778c">exotica::CollisionScene</a>
@@ -256,7 +272,7 @@ $(function() {
 , <a class="el" href="classexotica_1_1Scene.html#a3b668a98ead8bce707886bb9033072c7">exotica::Scene</a>
 </li>
 <li>GetControlNoiseJacobian()
-: <a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a577a29c0cb0fbf9383cb504817418261">exotica::DynamicTimeIndexedShootingProblem</a>
+: <a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#aa85ab74f990f14a8bafae262ada0d771">exotica::DynamicTimeIndexedShootingProblem</a>
 </li>
 <li>GetCost()
 : <a class="el" href="classexotica_1_1AbstractTimeIndexedProblem.html#a260b8615880ada46c9248f325f4c4fa7">exotica::AbstractTimeIndexedProblem</a>
@@ -279,7 +295,7 @@ $(function() {
 , <a class="el" href="classexotica_1_1OMPLSE3RNProjection.html#a7d6d964c10b8a1c1bc7f4ed13ebb723a">exotica::OMPLSE3RNProjection</a>
 </li>
 <li>GetDirection()
-: <a class="el" href="classexotica_1_1EffAxisAlignment.html#a6b1bbba60be74c7f40c299f2623aa317">exotica::EffAxisAlignment</a>
+: <a class="el" href="classexotica_1_1EffAxisAlignment.html#a3a1e39a1007d7614da7d1ae1582fc7b4">exotica::EffAxisAlignment</a>
 </li>
 <li>GetDuration()
 : <a class="el" href="classexotica_1_1AbstractTimeIndexedProblem.html#af5646886a917b8021bc05d92edaca4fc">exotica::AbstractTimeIndexedProblem</a>
@@ -299,11 +315,11 @@ $(function() {
 : <a class="el" href="classexotica_1_1AbstractTimeIndexedProblem.html#a9001ed48c6ea6e004dd6aa704f752ff5">exotica::AbstractTimeIndexedProblem</a>
 , <a class="el" href="classexotica_1_1BoundedTimeIndexedProblem.html#a8556510a79a57a7d1b2e036e7600d326">exotica::BoundedTimeIndexedProblem</a>
 , <a class="el" href="classexotica_1_1EndPoseProblem.html#aa1541c875f4b446c3102379125b50e38">exotica::EndPoseProblem</a>
-, <a class="el" href="classexotica_1_1UnconstrainedTimeIndexedProblem.html#ae40cec724861f9e2da44e71147ae51d8">exotica::UnconstrainedTimeIndexedProblem</a>
+, <a class="el" href="classexotica_1_1UnconstrainedTimeIndexedProblem.html#a751d89af5b9c8df71b0f27db1bc76ef5">exotica::UnconstrainedTimeIndexedProblem</a>
 </li>
 <li>GetEqualityJacobian()
 : <a class="el" href="classexotica_1_1AbstractTimeIndexedProblem.html#a75629ad105f97aef365c1abd531528d7">exotica::AbstractTimeIndexedProblem</a>
-, <a class="el" href="classexotica_1_1BoundedTimeIndexedProblem.html#ae6af168bc5117220e01541ee92bcfc7f">exotica::BoundedTimeIndexedProblem</a>
+, <a class="el" href="classexotica_1_1BoundedTimeIndexedProblem.html#a3e4a43e75bb462e0cf7ac6a0830f885a">exotica::BoundedTimeIndexedProblem</a>
 , <a class="el" href="classexotica_1_1EndPoseProblem.html#ac04e74b5ae15c23f786a2ed7adb6f040">exotica::EndPoseProblem</a>
 , <a class="el" href="classexotica_1_1UnconstrainedTimeIndexedProblem.html#ae2509e3a0190df170ab481e41eb7883e">exotica::UnconstrainedTimeIndexedProblem</a>
 </li>
@@ -418,6 +434,9 @@ $(function() {
 <li>GetKinematicChainLinks()
 : <a class="el" href="classexotica_1_1KinematicTree.html#a1663e9acc318f5c00ff102b08cae49b3">exotica::KinematicTree</a>
 </li>
+<li>GetKinematicElementFromMapByName()
+: <a class="el" href="classexotica_1_1CollisionSceneFCLLatest.html#af56fedcb806176281947a9b58b4adfd6">exotica::CollisionSceneFCLLatest</a>
+</li>
 <li>GetKinematicResponse()
 : <a class="el" href="classexotica_1_1KinematicTree.html#a54cc5495c7c09d2c4c112236766ed2bb">exotica::KinematicTree</a>
 </li>
@@ -433,7 +452,7 @@ $(function() {
 : <a class="el" href="classexotica_1_1OMPLSolver.html#a6f85e695c5e605e33f1fd91c2e3a6f69">exotica::OMPLSolver&lt; ProblemType &gt;</a>
 </li>
 <li>GetLowerLimit()
-: <a class="el" href="classexotica_1_1EffBox.html#a7f323b18b16d0520a22764f685894f93">exotica::EffBox</a>
+: <a class="el" href="classexotica_1_1EffBox.html#ac03fc0caa40bba1b9878e02524c37395">exotica::EffBox</a>
 </li>
 <li>GetMaps()
 : <a class="el" href="classexotica_1_1Setup.html#a00bb117a3021c20aea80dd08b2d387d2">exotica::Setup</a>
@@ -563,7 +582,7 @@ $(function() {
 : <a class="el" href="classexotica_1_1RRTConnectSolver.html#a16884b61beacb3e7bd5f181d55c073dc">exotica::RRTConnectSolver</a>
 </li>
 <li>GetReplacePrimitiveShapesWithMeshes()
-: <a class="el" href="classexotica_1_1CollisionScene.html#a2aca2bdbfdd74e505b031b14fd2ed05c">exotica::CollisionScene</a>
+: <a class="el" href="classexotica_1_1CollisionScene.html#a2e68f47ce60e768a3802f7bc9aeb0aee">exotica::CollisionScene</a>
 </li>
 <li>GetRho()
 : <a class="el" href="classexotica_1_1AbstractTimeIndexedProblem.html#a00985f842c88806bf390f4e49f81ac67">exotica::AbstractTimeIndexedProblem</a>
@@ -594,14 +613,25 @@ $(function() {
 : <a class="el" href="classexotica_1_1OMPLRNStateSpace_1_1StateType.html#a0906c9e4ad850ba7476065840d10a5b1">exotica::OMPLRNStateSpace::StateType</a>
 , <a class="el" href="classexotica_1_1OMPLTimeIndexedRNStateSpace_1_1StateType.html#af253719fcffe8a895db826d2d0aa44af">exotica::OMPLTimeIndexedRNStateSpace::StateType</a>
 </li>
+<li>GetRobotCollisionObjectsFromMapByName()
+: <a class="el" href="classexotica_1_1CollisionSceneFCLLatest.html#a796001930796a9ff2d9726bafde18dc8">exotica::CollisionSceneFCLLatest</a>
+</li>
 <li>GetRobotLinkPadding()
-: <a class="el" href="classexotica_1_1CollisionScene.html#a4f25ba57119b8c14eb71f95e57f34539">exotica::CollisionScene</a>
+: <a class="el" href="classexotica_1_1CollisionScene.html#af17ac1480c80273fee7b6d244469fcf3">exotica::CollisionScene</a>
 </li>
 <li>GetRobotLinkScale()
-: <a class="el" href="classexotica_1_1CollisionScene.html#a1b2e52f884ff9bd6e23cd7f9cad2be4a">exotica::CollisionScene</a>
+: <a class="el" href="classexotica_1_1CollisionScene.html#a7ac31ab43d25c08f4c6626bb09c55f55">exotica::CollisionScene</a>
 </li>
 <li>GetRobotModel()
 : <a class="el" href="classexotica_1_1KinematicTree.html#a7c60b02d5349882450cc71ad4208ebfb">exotica::KinematicTree</a>
+</li>
+<li>GetRobotToRobotCollisionDistance()
+: <a class="el" href="classexotica_1_1CollisionScene.html#a5e78933b8fea6760216bf6917f26fada">exotica::CollisionScene</a>
+, <a class="el" href="classexotica_1_1CollisionSceneFCLLatest.html#af90f0f521809ec058925ba3c046ee601">exotica::CollisionSceneFCLLatest</a>
+</li>
+<li>GetRobotToWorldCollisionDistance()
+: <a class="el" href="classexotica_1_1CollisionScene.html#a75d8e8f31cdab4c8658f7f17d5e62348">exotica::CollisionScene</a>
+, <a class="el" href="classexotica_1_1CollisionSceneFCLLatest.html#a7a19551d3ffe1f638b7f71a0809fd7df">exotica::CollisionSceneFCLLatest</a>
 </li>
 <li>GetRootFrameName()
 : <a class="el" href="classexotica_1_1KinematicTree.html#a371ba6972fdc77a108c43ad29566043f">exotica::KinematicTree</a>
@@ -667,11 +697,10 @@ $(function() {
 </li>
 <li>GetT()
 : <a class="el" href="classexotica_1_1AbstractTimeIndexedProblem.html#adb5b8a6b81a654ee0e153e0325fcee35">exotica::AbstractTimeIndexedProblem</a>
-, <a class="el" href="classexotica_1_1TimeIndexedSamplingProblem.html#ae4ed253093f1d1d158445c4d6a1730d4">exotica::TimeIndexedSamplingProblem</a>
 </li>
 <li>GetTaskCosts()
 : <a class="el" href="classexotica_1_1AICOSolver.html#aae7f69cbd016256d5d881b4c7537b49c">exotica::AICOSolver</a>
-, <a class="el" href="classexotica_1_1BayesianIKSolver.html#a45e9b87cdda2adee81df0e55850166e8">exotica::BayesianIKSolver</a>
+, <a class="el" href="classexotica_1_1BayesianIKSolver.html#ac4d5868d51021b9193300677c7bb0a7f">exotica::BayesianIKSolver</a>
 </li>
 <li>GetTaskError()
 : <a class="el" href="structexotica_1_1EndPoseTask.html#aaf8ee2e254a951c0c7fde05d956aa5ff">exotica::EndPoseTask</a>
@@ -716,7 +745,7 @@ $(function() {
 : <a class="el" href="classexotica_1_1Property.html#adfea7789948a5fd5fa1dd631d99bccec">exotica::Property</a>
 </li>
 <li>GetUpperLimit()
-: <a class="el" href="classexotica_1_1EffBox.html#a688764527a6133aa25ff241102ace920">exotica::EffBox</a>
+: <a class="el" href="classexotica_1_1EffBox.html#ab0a7190e33833dc5186778e326f2d259">exotica::EffBox</a>
 </li>
 <li>GetUsedJointLimits()
 : <a class="el" href="classexotica_1_1KinematicTree.html#a276fc994b2b01239961d51bd124d9b3d">exotica::KinematicTree</a>
@@ -733,11 +762,14 @@ $(function() {
 <li>GetWeights()
 : <a class="el" href="classexotica_1_1InteractionMesh.html#ac7671fffabe241270f1b6a5463c44924">exotica::InteractionMesh</a>
 </li>
+<li>GetWorldCollisionObjectsFromMapByName()
+: <a class="el" href="classexotica_1_1CollisionSceneFCLLatest.html#af6bef9f14d8ccb1c64beb64753f7b88f">exotica::CollisionSceneFCLLatest</a>
+</li>
 <li>GetWorldLinkPadding()
-: <a class="el" href="classexotica_1_1CollisionScene.html#a4429da445e3d975bf381c8d6101339d1">exotica::CollisionScene</a>
+: <a class="el" href="classexotica_1_1CollisionScene.html#adeb0fcf0f30eeb1d6de0c26def3b4a4d">exotica::CollisionScene</a>
 </li>
 <li>GetWorldLinkScale()
-: <a class="el" href="classexotica_1_1CollisionScene.html#a8cfefee9377e5c2b223fc3d3248a1e18">exotica::CollisionScene</a>
+: <a class="el" href="classexotica_1_1CollisionScene.html#a21a55869a9ecedae445d93ea01af3aa8">exotica::CollisionScene</a>
 </li>
 <li>GrowRoadmap()
 : <a class="el" href="classexotica_1_1PRMSolver.html#ad8fd642b703972db042d47dddafe2c4e">exotica::PRMSolver</a>
@@ -749,7 +781,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 23 2019 00:12:08 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Mar 10 2020 15:28:51 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

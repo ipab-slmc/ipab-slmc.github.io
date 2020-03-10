@@ -28,7 +28,7 @@ var searchData=
   ['jointaccelerationbackwarddifference',['JointAccelerationBackwardDifference',['../classexotica_1_1JointAccelerationBackwardDifference.html',1,'exotica']]],
   ['jointjerkbackwarddifference',['JointJerkBackwardDifference',['../classexotica_1_1JointJerkBackwardDifference.html',1,'exotica']]],
   ['jointlimit',['JointLimit',['../classexotica_1_1JointLimit.html',1,'exotica']]],
-  ['jointpose',['JointPose',['../classexotica_1_1JointPose.html',1,'exotica::JointPose'],['../classexotica_1_1JointPose.html#a1709cd58bf6de7796e737a94bcd87f91',1,'exotica::JointPose::JointPose()']]],
+  ['jointpose',['JointPose',['../classexotica_1_1JointPose.html',1,'exotica']]],
   ['jointtorqueminimizationproxy',['JointTorqueMinimizationProxy',['../classexotica_1_1JointTorqueMinimizationProxy.html',1,'exotica']]],
   ['jointvelocitybackwarddifference',['JointVelocityBackwardDifference',['../classexotica_1_1JointVelocityBackwardDifference.html',1,'exotica']]],
   ['jointvelocitylimit',['JointVelocityLimit',['../classexotica_1_1JointVelocityLimit.html',1,'exotica::JointVelocityLimit'],['../classexotica_1_1JointVelocityLimit.html#af532eee22d5124d9298e0d1328da5fbd',1,'exotica::JointVelocityLimit::JointVelocityLimit()']]],

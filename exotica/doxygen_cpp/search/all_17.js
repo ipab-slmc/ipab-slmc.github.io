@@ -5,6 +5,7 @@ var searchData=
   ['w_5fscale_5f',['w_scale_',['../classexotica_1_1AbstractTimeIndexedProblem.html#a561b06b45c01643ef7b74e77afcf008e',1,'exotica::AbstractTimeIndexedProblem']]],
   ['warning',['WARNING',['../printable_8h.html#a9e1796fdadec0df60e8d280ee783b85c',1,'printable.h']]],
   ['warning_5fnamed',['WARNING_NAMED',['../printable_8h.html#a3c040b5bc6e340359024ed693de31b69',1,'printable.h']]],
+  ['was_5ffeasible_5f',['was_feasible_',['../classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#ab01b50b261f158f67ad7e4f9485bc5c3',1,'exotica::AbstractFeasibilityDrivenDDPSolver']]],
   ['web_5furl_5f',['web_url_',['../classexotica_1_1VisualizationMeshcat.html#a33e26cf163b3a35474bf0e3aac320bbe',1,'exotica::VisualizationMeshcat']]],
   ['weights_5f',['weights_',['../classexotica_1_1InteractionMesh.html#a788bed76c207d5b40648490842f8cd15',1,'exotica::InteractionMesh']]],
   ['what',['what',['../classexotica_1_1Exception.html#ac77a6adb2f9f448a9980eb02e76dc648',1,'exotica::Exception']]],
@@ -14,7 +15,6 @@ var searchData=
   ['wireframe',['wireframe',['../structexotica_1_1visualization_1_1Material.html#a55eb3877fee4a3aaa4bc22c0aa27813a',1,'exotica::visualization::Material']]],
   ['world_5flink_5fpadding_5f',['world_link_padding_',['../classexotica_1_1CollisionScene.html#a34067a293254c4ac486ee373a7c0e554',1,'exotica::CollisionScene']]],
   ['world_5flink_5fscale_5f',['world_link_scale_',['../classexotica_1_1CollisionScene.html#ad4e4827b411eb8d05229824e3abd7e11',1,'exotica::CollisionScene']]],
-  ['world_5flinks_5fto_5fexclude_5ffrom_5fcollision_5fscene',['world_links_to_exclude_from_collision_scene',['../classexotica_1_1CollisionScene.html#a4a806f1d3b2ae0b10a36f81252ecdc8c',1,'exotica::CollisionScene']]],
   ['world_5flinks_5fto_5fexclude_5ffrom_5fcollision_5fscene_5f',['world_links_to_exclude_from_collision_scene_',['../classexotica_1_1Scene.html#ab0e1ae9e3ae12749e2faafb531891ab4',1,'exotica::Scene']]],
   ['world_5fmargin_5f',['world_margin_',['../classexotica_1_1CollisionDistance.html#a44094d3ac313931b53fce7bfbf1b72bd',1,'exotica::CollisionDistance::world_margin_()'],['../classexotica_1_1SmoothCollisionDistance.html#a50618f13bac8f339abb1903cacfc95a0',1,'exotica::SmoothCollisionDistance::world_margin_()'],['../classexotica_1_1SumOfPenetrations.html#a6bb2e6f8e6146035788c36dc6949ad45',1,'exotica::SumOfPenetrations::world_margin_()']]]
 ];

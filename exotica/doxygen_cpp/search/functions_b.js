@@ -12,6 +12,5 @@ var searchData=
   ['loadscenefromstringstream',['LoadSceneFromStringStream',['../classexotica_1_1Scene.html#ac1b0de408cfa666f10d0be82152561ec',1,'exotica::Scene']]],
   ['loadsolver',['LoadSolver',['../classexotica_1_1XMLLoader.html#aa73e7f6438898e697271811484d9dd2c',1,'exotica::XMLLoader']]],
   ['loadsolverstandalone',['LoadSolverStandalone',['../classexotica_1_1XMLLoader.html#a3d8800ad530151669bcc652730532ec1',1,'exotica::XMLLoader']]],
-  ['loadxml',['LoadXML',['../classexotica_1_1XMLLoader.html#a6e9d8d25e312be6ee7569166acab106a',1,'exotica::XMLLoader::LoadXML(std::string file_name, bool parsePathAsXML=false)'],['../classexotica_1_1XMLLoader.html#a49d0b0aaac92f7e7abd3f7f1546f452f',1,'exotica::XMLLoader::LoadXML(std::string file_name, Initializer &amp;solver, Initializer &amp;problem, const std::string &amp;solver_name=&quot;&quot;, const std::string &amp;problem_name=&quot;&quot;, bool parsePathAsXML=false)']]],
-  ['lookat',['LookAt',['../classexotica_1_1LookAt.html#a7335139fd9e3e763bfea2206f170e9fa',1,'exotica::LookAt']]]
+  ['loadxml',['LoadXML',['../classexotica_1_1XMLLoader.html#a6e9d8d25e312be6ee7569166acab106a',1,'exotica::XMLLoader::LoadXML(std::string file_name, bool parsePathAsXML=false)'],['../classexotica_1_1XMLLoader.html#a49d0b0aaac92f7e7abd3f7f1546f452f',1,'exotica::XMLLoader::LoadXML(std::string file_name, Initializer &amp;solver, Initializer &amp;problem, const std::string &amp;solver_name=&quot;&quot;, const std::string &amp;problem_name=&quot;&quot;, bool parsePathAsXML=false)']]]
 ];

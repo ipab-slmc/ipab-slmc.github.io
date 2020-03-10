@@ -64,6 +64,10 @@ $(function() {
 <li>IKSolver()
 : <a class="el" href="classexotica_1_1IKSolver.html#a74f64c5bfe7db56d421c553ab90d8a91">exotica::IKSolver</a>
 </li>
+<li>IncreaseRegularization()
+: <a class="el" href="classexotica_1_1AbstractDDPSolver.html#a5677a8e440ee842cffd60928877aad5a">exotica::AbstractDDPSolver</a>
+, <a class="el" href="classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#a17dc6465ce87c3e2d3f121b07c7cc58f">exotica::AbstractFeasibilityDrivenDDPSolver</a>
+</li>
 <li>Initialize()
 : <a class="el" href="classexotica_1_1CenterOfMass.html#a219e2e3957cd58f3c5bc27a819afb42b">exotica::CenterOfMass</a>
 , <a class="el" href="classexotica_1_1CollisionCheck.html#aa1ad6e0b6042b818c604abe97e07bfe8">exotica::CollisionCheck</a>
@@ -127,11 +131,12 @@ $(function() {
 , <a class="el" href="classexotica_1_1EffOrientation.html#aca99bac08099c429e96a5bd2def6bbd7">exotica::EffOrientation</a>
 , <a class="el" href="classexotica_1_1EndPoseProblem.html#aa5df83bbadb2c943f06cdb1df802ca8c">exotica::EndPoseProblem</a>
 , <a class="el" href="classexotica_1_1ESTSolver.html#a4bfa232c6fe97e109c59b087b3244784">exotica::ESTSolver</a>
+, <a class="el" href="classexotica_1_1FeasibilityDrivenDDPSolver.html#ad364787273aa715815bb137e9bec6a56">exotica::FeasibilityDrivenDDPSolver</a>
 , <a class="el" href="classexotica_1_1GazeAtConstraint.html#a23fc5bddf9dc0bb5f9d19858048f25c0">exotica::GazeAtConstraint</a>
 , <a class="el" href="classexotica_1_1Instantiable.html#a4d6322162962e48a2c4bc187bdff25bc">exotica::Instantiable&lt; C, typename &gt;</a>
 , <a class="el" href="classexotica_1_1InteractionMesh.html#aea13a3f0c31e3d0b4b31675bb5dcd01d">exotica::InteractionMesh</a>
 , <a class="el" href="classexotica_1_1JointTorqueMinimizationProxy.html#af1c9bcb6b77c85171e525750b54686a3">exotica::JointTorqueMinimizationProxy</a>
-, <a class="el" href="classexotica_1_1KinematicTree.html#a6ce6b5b7d00159206cd5c010c0a98efe">exotica::KinematicTree</a>
+, <a class="el" href="classexotica_1_1KinematicTree.html#af3e0e521433b030b5aebec2ce05109e7">exotica::KinematicTree</a>
 , <a class="el" href="classexotica_1_1KPIECESolver.html#aa884ba8d45fc4f3ba17e3591ac28964d">exotica::KPIECESolver</a>
 , <a class="el" href="classexotica_1_1LazyPRMSolver.html#a1b68b0f9ceeff511c7888753265ab5ea">exotica::LazyPRMSolver</a>
 , <a class="el" href="classexotica_1_1LBTRRTSolver.html#a03e13d6506465c837acdc179c5efd0cc">exotica::LBTRRTSolver</a>
@@ -166,7 +171,7 @@ $(function() {
 : <a class="el" href="classexotica_1_1Object.html#a081338253532f0a2d0411ec74261abee">exotica::Object</a>
 </li>
 <li>Integrate()
-: <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a411d29f5ff252dae22278eed43641786">exotica::AbstractDynamicsSolver&lt; T, NX, NU &gt;</a>
+: <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#ad97856345fac0e3d595e24cada325623">exotica::AbstractDynamicsSolver&lt; T, NX, NU &gt;</a>
 , <a class="el" href="classexotica_1_1OMPLStatePropagator.html#a8176a926a05d073c726f59a6d0bef72b">exotica::OMPLStatePropagator</a>
 </li>
 <li>InteractionMesh()
@@ -179,7 +184,7 @@ $(function() {
 <li>IsAllowedToCollide()
 : <a class="el" href="classexotica_1_1CollisionScene.html#a7ec9992762c12a9ffa75e624a2c840b5">exotica::CollisionScene</a>
 , <a class="el" href="classexotica_1_1CollisionSceneFCL.html#a4584f2249e417044bd779b84652fbb34">exotica::CollisionSceneFCL</a>
-, <a class="el" href="classexotica_1_1CollisionSceneFCLLatest.html#a922c7dac85931a88c8b8e52d71b0bad5">exotica::CollisionSceneFCLLatest</a>
+, <a class="el" href="classexotica_1_1CollisionSceneFCLLatest.html#aaff4c7615fb7097dce346f3572353d11">exotica::CollisionSceneFCLLatest</a>
 </li>
 <li>IsCollisionFree()
 : <a class="el" href="classexotica_1_1CollisionScene.html#a2db8b8a463f4206151f856fcdfe5dfe7">exotica::CollisionScene</a>
@@ -201,6 +206,9 @@ $(function() {
 <li>IsMultiQuery()
 : <a class="el" href="classexotica_1_1LazyPRMSolver.html#aa91e065316062b37dc667d11a27840d1">exotica::LazyPRMSolver</a>
 , <a class="el" href="classexotica_1_1PRMSolver.html#afa2f7bcb1a16401c2c30059882ef4c74">exotica::PRMSolver</a>
+</li>
+<li>IsNaN()
+: <a class="el" href="classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#a35788a17811a2f862e399f4f5be5651b">exotica::AbstractFeasibilityDrivenDDPSolver</a>
 </li>
 <li>IsRequired()
 : <a class="el" href="classexotica_1_1Property.html#ab2550e435c5ddc8aa7639400af5fbc58">exotica::Property</a>
@@ -243,7 +251,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 23 2019 00:12:08 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Mar 10 2020 15:28:51 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

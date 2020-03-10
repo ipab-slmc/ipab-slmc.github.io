@@ -139,8 +139,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6de4bb7e88f67835ccd354899520ccb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf0e22d30e18d756b8e6f1dab16c6cf9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1TimeIndexedSamplingProblem.html#adf0e22d30e18d756b8e6f1dab16c6cf9">SetGoalState</a> (<a class="el" href="namespaceEigen.html#ad6c86a9df4dd2627a995a39eab0f9010">Eigen::VectorXdRefConst</a> qT)</td></tr>
 <tr class="separator:adf0e22d30e18d756b8e6f1dab16c6cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4ed253093f1d1d158445c4d6a1730d4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1TimeIndexedSamplingProblem.html#ae4ed253093f1d1d158445c4d6a1730d4">GetT</a> () const</td></tr>
-<tr class="separator:ae4ed253093f1d1d158445c4d6a1730d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29c2567311ee2a3700287b67bdcd93f6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1TimeIndexedSamplingProblem.html#a29c2567311ee2a3700287b67bdcd93f6">GetGoalTime</a> () const</td></tr>
 <tr class="separator:a29c2567311ee2a3700287b67bdcd93f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a779d7281646d290c1337e645e8210aa8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1TimeIndexedSamplingProblem.html#a779d7281646d290c1337e645e8210aa8">SetGoalTime</a> (const double &amp;t)</td></tr>
@@ -164,8 +162,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa2674f6bc30a9c36a135c4313b9939a6 inherit pub_methods_classexotica_1_1PlanningProblem"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af391a2b451c508d262dcba47d72e9fe4 inherit pub_methods_classexotica_1_1PlanningProblem"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1PlanningProblem.html#af391a2b451c508d262dcba47d72e9fe4">GetStartState</a> () const</td></tr>
 <tr class="separator:af391a2b451c508d262dcba47d72e9fe4 inherit pub_methods_classexotica_1_1PlanningProblem"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0adbca562e56d6a00e947d8fbcc13c1 inherit pub_methods_classexotica_1_1PlanningProblem"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1PlanningProblem.html#af0adbca562e56d6a00e947d8fbcc13c1">ApplyStartState</a> (bool update_traj=true)</td></tr>
-<tr class="separator:af0adbca562e56d6a00e947d8fbcc13c1 inherit pub_methods_classexotica_1_1PlanningProblem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e35480f7bfb5473a3a61745feb4c6db inherit pub_methods_classexotica_1_1PlanningProblem"><td class="memItemLeft" align="right" valign="top">virtual Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1PlanningProblem.html#a6e35480f7bfb5473a3a61745feb4c6db">ApplyStartState</a> (bool update_traj=true)</td></tr>
+<tr class="separator:a6e35480f7bfb5473a3a61745feb4c6db inherit pub_methods_classexotica_1_1PlanningProblem"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add1713bf517fa253479813b8b4c1a9e8 inherit pub_methods_classexotica_1_1PlanningProblem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1PlanningProblem.html#add1713bf517fa253479813b8b4c1a9e8">SetStartTime</a> (double t)</td></tr>
 <tr class="separator:add1713bf517fa253479813b8b4c1a9e8 inherit pub_methods_classexotica_1_1PlanningProblem"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add82c590253d64786362e31da0c1b32f inherit pub_methods_classexotica_1_1PlanningProblem"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1PlanningProblem.html#add82c590253d64786362e31da0c1b32f">GetStartTime</a> () const</td></tr>
@@ -255,11 +253,11 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a7b671a10e3271e8a13cd849547979f7e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1TimeIndexedSamplingProblem.html#a7b671a10e3271e8a13cd849547979f7e">T_</a></td></tr>
-<tr class="separator:a7b671a10e3271e8a13cd849547979f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a902df6028fd8835eadccda458b9d132f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1TimeIndexedSamplingProblem.html#a902df6028fd8835eadccda458b9d132f">t_goal_</a></td></tr>
+<tr class="memdesc:a902df6028fd8835eadccda458b9d132f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Goal time: The time at which goal_ should be reached and the upper bound for the time-dimension.  <a href="#a902df6028fd8835eadccda458b9d132f">More...</a><br /></td></tr>
 <tr class="separator:a902df6028fd8835eadccda458b9d132f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65d3bd95b158a7f05cc6868e81aeebe2"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1TimeIndexedSamplingProblem.html#a65d3bd95b158a7f05cc6868e81aeebe2">goal_</a></td></tr>
+<tr class="memdesc:a65d3bd95b158a7f05cc6868e81aeebe2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Goal state to reach (spatial) at temporal goal (t_goal_)  <a href="#a65d3bd95b158a7f05cc6868e81aeebe2">More...</a><br /></td></tr>
 <tr class="separator:a65d3bd95b158a7f05cc6868e81aeebe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
@@ -472,23 +470,6 @@ Additional Inherited Members</h2></td></tr>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae4ed253093f1d1d158445c4d6a1730d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4ed253093f1d1d158445c4d6a1730d4">&#9670;&nbsp;</a></span>GetT()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double exotica::TimeIndexedSamplingProblem::GetT </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -803,6 +784,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Goal state to reach (spatial) at temporal goal (t_goal_) </p>
+
 </div>
 </div>
 <a id="a67fe84360465ac66860ae3d58bb5e258"></a>
@@ -889,28 +872,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a7b671a10e3271e8a13cd849547979f7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b671a10e3271e8a13cd849547979f7e">&#9670;&nbsp;</a></span>T_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double exotica::TimeIndexedSamplingProblem::T_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a902df6028fd8835eadccda458b9d132f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a902df6028fd8835eadccda458b9d132f">&#9670;&nbsp;</a></span>t_goal_</h2>
 
@@ -930,6 +891,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Goal time: The time at which goal_ should be reached and the upper bound for the time-dimension. </p>
 
 </div>
 </div>
@@ -953,7 +916,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 23 2019 00:11:51 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Mar 10 2020 15:28:37 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

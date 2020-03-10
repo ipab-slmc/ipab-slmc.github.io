@@ -78,13 +78,15 @@ Inheritance diagram for exotica::AbstractDDPSolver:</div>
 <div class="dyncontent">
 <div class="center"><img src="classexotica_1_1AbstractDDPSolver__inherit__graph.png" border="0" usemap="#exotica_1_1AbstractDDPSolver_inherit__map" alt="Inheritance graph"/></div>
 <map name="exotica_1_1AbstractDDPSolver_inherit__map" id="exotica_1_1AbstractDDPSolver_inherit__map">
-<area shape="rect" id="node7" href="classexotica_1_1AnalyticDDPSolver.html" title="{exotica::AnalyticDDPSolver\n||+ Instantiate()\l&#45; BackwardPass()\l}" alt="" coords="35,917,221,1009"/>
-<area shape="rect" id="node8" href="classexotica_1_1ControlLimitedDDPSolver.html" title="{exotica::ControlLimitedDDPSolver\n||+ Instantiate()\l&#45; BackwardPass()\l}" alt="" coords="245,917,467,1009"/>
-<area shape="rect" id="node2" href="classexotica_1_1FeedbackMotionSolver.html" title="{exotica::FeedbackMotionSolver\n||+ GetFeedbackControl()\l}" alt="" coords="139,520,344,597"/>
-<area shape="rect" id="node3" href="classexotica_1_1MotionSolver.html" title="{exotica::MotionSolver\n|# problem_\l# planning_time_\l# max_iterations_\l|+ MotionSolver()\l+ ~MotionSolver()\l+ InstantiateBase()\l+ SpecifyProblem()\l+ Solve()\l+ GetProblem()\l+ Print()\l+ SetNumberOfMaxIterations()\l+ GetNumberOfMaxIterations()\l+ GetPlanningTime()\l}" alt="" coords="140,233,343,472"/>
-<area shape="rect" id="node4" href="classexotica_1_1Object.html" title="{exotica::Object\n|+ ns_\l+ object_name_\l+ debug_\l|+ Object()\l+ ~Object()\l+ type()\l+ GetObjectName()\l+ InstantiateObject()\l+ Print()\l}" alt="" coords="5,5,147,185"/>
-<area shape="rect" id="node5" href="classexotica_1_1Uncopyable.html" title="{exotica::Uncopyable\n||+ Uncopyable()\l+ ~Uncopyable()\l&#45; Uncopyable()\l&#45; operator=()\l}" alt="" coords="171,35,312,156"/>
-<area shape="rect" id="node6" href="classexotica_1_1InstantiableBase.html" title="{exotica::InstantiableBase\n||+ GetInitializerTemplate()\l+ InstantiateInternal()\l+ InstantiateBase()\l+ GetAllTemplates()\l}" alt="" coords="337,35,506,156"/>
+<area shape="rect" id="node7" href="classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html" title="{exotica::AbstractFeasibility\lDrivenDDPSolver\n|# NDX_\l# control_limits_\l# initial_regularization\l_rate_\l# clamp_to_control_limits\l_in_forward_pass_\l# steplength_\l# d_\l# dV_\l# dVexp_\l# th_acceptstep_\l# th_stop_\land 37 more...\l|+ Solve()\l+ get_fs()\l+ get_xs()\l+ get_us()\l# IncreaseRegularization()\l# DecreaseRegularization()\l# ExpectedImprovement()\l# UpdateExpectedImprovement()\l# IsNaN()\l# SetCandidate()\l# CheckStoppingCriteria()\l# CalcDiff()\l# ComputeDirection()\l# BackwardPassFDDP()\l# BackwardPass()\l# ComputeGains()\l# ForwardPass()\l# TryStep()\l# AllocateData()\l}" alt="" coords="5,1005,220,1537"/>
+<area shape="rect" id="node9" href="classexotica_1_1AnalyticDDPSolver.html" title="{exotica::AnalyticDDPSolver\n|&#45; Quu_llt_\l|+ Instantiate()\l&#45; BackwardPass()\l}" alt="" coords="244,1225,429,1317"/>
+<area shape="rect" id="node10" href="classexotica_1_1ControlLimitedDDPSolver.html" title="{exotica::ControlLimitedDDPSolver\n||+ Instantiate()\l&#45; BackwardPass()\l}" alt="" coords="453,1225,676,1317"/>
+<area shape="rect" id="node2" href="classexotica_1_1FeedbackMotionSolver.html" title="{exotica::FeedbackMotionSolver\n||+ GetFeedbackControl()\l}" alt="" coords="234,520,439,597"/>
+<area shape="rect" id="node3" href="classexotica_1_1MotionSolver.html" title="{exotica::MotionSolver\n|# problem_\l# planning_time_\l# max_iterations_\l|+ MotionSolver()\l+ ~MotionSolver()\l+ InstantiateBase()\l+ SpecifyProblem()\l+ Solve()\l+ GetProblem()\l+ Print()\l+ SetNumberOfMaxIterations()\l+ GetNumberOfMaxIterations()\l+ GetPlanningTime()\l}" alt="" coords="235,233,438,472"/>
+<area shape="rect" id="node4" href="classexotica_1_1Object.html" title="{exotica::Object\n|+ ns_\l+ object_name_\l+ debug_\l|+ Object()\l+ ~Object()\l+ type()\l+ GetObjectName()\l+ InstantiateObject()\l+ Print()\l}" alt="" coords="101,5,242,185"/>
+<area shape="rect" id="node5" href="classexotica_1_1Uncopyable.html" title="{exotica::Uncopyable\n||+ Uncopyable()\l+ ~Uncopyable()\l&#45; Uncopyable()\l&#45; operator=()\l}" alt="" coords="266,35,407,156"/>
+<area shape="rect" id="node6" href="classexotica_1_1InstantiableBase.html" title="{exotica::InstantiableBase\n||+ GetInitializerTemplate()\l+ InstantiateInternal()\l+ InstantiateBase()\l+ GetAllTemplates()\l}" alt="" coords="432,35,601,156"/>
+<area shape="rect" id="node8" href="classexotica_1_1FeasibilityDrivenDDPSolver.html" title="{exotica::FeasibilityDriven\lDDPSolver\n||+ Instantiate()\l}" alt="" coords="28,1585,197,1677"/>
 </map>
 </div>
 <div class="dynheader">
@@ -155,6 +157,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a82f6f5f7b83213958ba20a754b6155a9"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#a82f6f5f7b83213958ba20a754b6155a9">ForwardPass</a> (const double alpha, <a class="el" href="namespaceEigen.html#af5a0065bf476ec39a4bc067ea6df6a33">Eigen::MatrixXdRefConst</a> ref_x, <a class="el" href="namespaceEigen.html#af5a0065bf476ec39a4bc067ea6df6a33">Eigen::MatrixXdRefConst</a> ref_u)</td></tr>
 <tr class="memdesc:a82f6f5f7b83213958ba20a754b6155a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forward simulates the dynamics using the gains computed in the last BackwardPass;.  <a href="#a82f6f5f7b83213958ba20a754b6155a9">More...</a><br /></td></tr>
 <tr class="separator:a82f6f5f7b83213958ba20a754b6155a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5677a8e440ee842cffd60928877aad5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#a5677a8e440ee842cffd60928877aad5a">IncreaseRegularization</a> ()</td></tr>
+<tr class="separator:a5677a8e440ee842cffd60928877aad5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf07c5e733bcf2041d0868e4e36ee0e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#adf07c5e733bcf2041d0868e4e36ee0e3">DecreaseRegularization</a> ()</td></tr>
+<tr class="separator:adf07c5e733bcf2041d0868e4e36ee0e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -170,10 +176,68 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:accfeb33d6117a7a2ce72282040262a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37470b2082a5881ec5519884f3505679"><td class="memItemLeft" align="right" valign="top">AbstractDDPSolverInitializer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#a37470b2082a5881ec5519884f3505679">base_parameters_</a></td></tr>
 <tr class="separator:a37470b2082a5881ec5519884f3505679"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa62e7a0da12489754f939fedaee16428"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#aa62e7a0da12489754f939fedaee16428">best_ref_x_</a></td></tr>
-<tr class="separator:aa62e7a0da12489754f939fedaee16428"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4acd17509df89a3d2160757365a35ee0"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#a4acd17509df89a3d2160757365a35ee0">best_ref_u_</a></td></tr>
-<tr class="separator:a4acd17509df89a3d2160757365a35ee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a854867c0f7e60bf5f878fb906c24cf33"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#a854867c0f7e60bf5f878fb906c24cf33">alpha_space_</a></td></tr>
+<tr class="separator:a854867c0f7e60bf5f878fb906c24cf33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae9b6adcc9ff647c2691b71d1bed7dcc"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#aae9b6adcc9ff647c2691b71d1bed7dcc">lambda_</a></td></tr>
+<tr class="separator:aae9b6adcc9ff647c2691b71d1bed7dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20736eba4be06b1d261ba8b312baa254"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#a20736eba4be06b1d261ba8b312baa254">T_</a></td></tr>
+<tr class="memdesc:a20736eba4be06b1d261ba8b312baa254"><td class="mdescLeft">&#160;</td><td class="mdescRight">!&lt; Regularisation (Vxx, Quu)  <a href="#a20736eba4be06b1d261ba8b312baa254">More...</a><br /></td></tr>
+<tr class="separator:a20736eba4be06b1d261ba8b312baa254"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89e0c6d1d5fbbcacb99c273d85c7bd76"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#a89e0c6d1d5fbbcacb99c273d85c7bd76">NU_</a></td></tr>
+<tr class="separator:a89e0c6d1d5fbbcacb99c273d85c7bd76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2a10426c6e27e03d85bf81e1383cca1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#ac2a10426c6e27e03d85bf81e1383cca1">NX_</a></td></tr>
+<tr class="separator:ac2a10426c6e27e03d85bf81e1383cca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad97671f945de51079370a4e65625f3cd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#ad97671f945de51079370a4e65625f3cd">NDX_</a></td></tr>
+<tr class="separator:ad97671f945de51079370a4e65625f3cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ea21d2c08566d4cd99627a6f498662e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#a4ea21d2c08566d4cd99627a6f498662e">NV_</a></td></tr>
+<tr class="separator:a4ea21d2c08566d4cd99627a6f498662e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8abf729c514722a73a0883fb612eb099"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#a8abf729c514722a73a0883fb612eb099">dt_</a></td></tr>
+<tr class="separator:a8abf729c514722a73a0883fb612eb099"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1a9cf8b754207c4399bda4d4da55838"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#ab1a9cf8b754207c4399bda4d4da55838">cost_</a></td></tr>
+<tr class="separator:ab1a9cf8b754207c4399bda4d4da55838"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06d625bf2d6d8e912853b1ac2dd2f95a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#a06d625bf2d6d8e912853b1ac2dd2f95a">cost_prev_</a></td></tr>
+<tr class="memdesc:a06d625bf2d6d8e912853b1ac2dd2f95a"><td class="mdescLeft">&#160;</td><td class="mdescRight">!&lt; Cost during iteration  <a href="#a06d625bf2d6d8e912853b1ac2dd2f95a">More...</a><br /></td></tr>
+<tr class="separator:a06d625bf2d6d8e912853b1ac2dd2f95a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a359e18de48eeef4163ff01214fce6af9"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#a359e18de48eeef4163ff01214fce6af9">alpha_best_</a></td></tr>
+<tr class="memdesc:a359e18de48eeef4163ff01214fce6af9"><td class="mdescLeft">&#160;</td><td class="mdescRight">!&lt; Cost during previous iteration  <a href="#a359e18de48eeef4163ff01214fce6af9">More...</a><br /></td></tr>
+<tr class="separator:a359e18de48eeef4163ff01214fce6af9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f6cfdc4c3ea9aca8f54c0da9d86e8de"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#a8f6cfdc4c3ea9aca8f54c0da9d86e8de">time_taken_forward_pass_</a></td></tr>
+<tr class="memdesc:a8f6cfdc4c3ea9aca8f54c0da9d86e8de"><td class="mdescLeft">&#160;</td><td class="mdescRight">!&lt; Line-search step taken  <a href="#a8f6cfdc4c3ea9aca8f54c0da9d86e8de">More...</a><br /></td></tr>
+<tr class="separator:a8f6cfdc4c3ea9aca8f54c0da9d86e8de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed27f49dc7cf6cee3868811c10f69b10"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#aed27f49dc7cf6cee3868811c10f69b10">time_taken_backward_pass_</a></td></tr>
+<tr class="separator:aed27f49dc7cf6cee3868811c10f69b10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac61d17afe97d1437be344b72945b690c"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#ac61d17afe97d1437be344b72945b690c">U_try_</a></td></tr>
+<tr class="separator:ac61d17afe97d1437be344b72945b690c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b049b537d7e2fa1a61ca357b51a4ab6"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#a4b049b537d7e2fa1a61ca357b51a4ab6">U_prev_</a></td></tr>
+<tr class="memdesc:a4b049b537d7e2fa1a61ca357b51a4ab6"><td class="mdescLeft">&#160;</td><td class="mdescRight">!&lt; Updated control trajectory during iteration.  <a href="#a4b049b537d7e2fa1a61ca357b51a4ab6">More...</a><br /></td></tr>
+<tr class="separator:a4b049b537d7e2fa1a61ca357b51a4ab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a786582f324c1cf46b387ec0e774ba177"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#a786582f324c1cf46b387ec0e774ba177">X_ref_</a></td></tr>
+<tr class="memdesc:a786582f324c1cf46b387ec0e774ba177"><td class="mdescLeft">&#160;</td><td class="mdescRight">!&lt; Last accepted control trajectory  <a href="#a786582f324c1cf46b387ec0e774ba177">More...</a><br /></td></tr>
+<tr class="separator:a786582f324c1cf46b387ec0e774ba177"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a7e93ec5ec38841196bc67d90ef2b86"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#a6a7e93ec5ec38841196bc67d90ef2b86">U_ref_</a></td></tr>
+<tr class="memdesc:a6a7e93ec5ec38841196bc67d90ef2b86"><td class="mdescLeft">&#160;</td><td class="mdescRight">!&lt; Reference state trajectory for feedback control.  <a href="#a6a7e93ec5ec38841196bc67d90ef2b86">More...</a><br /></td></tr>
+<tr class="separator:a6a7e93ec5ec38841196bc67d90ef2b86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d871af9511e39c551c437d91dd9332a"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#a0d871af9511e39c551c437d91dd9332a">Qx_</a></td></tr>
+<tr class="memdesc:a0d871af9511e39c551c437d91dd9332a"><td class="mdescLeft">&#160;</td><td class="mdescRight">!&lt; Reference control trajectory for feedback control.  <a href="#a0d871af9511e39c551c437d91dd9332a">More...</a><br /></td></tr>
+<tr class="separator:a0d871af9511e39c551c437d91dd9332a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33b05120a482ce3aa0c0db79e2fbd8b1"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#a33b05120a482ce3aa0c0db79e2fbd8b1">Qu_</a></td></tr>
+<tr class="separator:a33b05120a482ce3aa0c0db79e2fbd8b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d5f57ddc07d35ed62170fb5d2bc9457"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#a0d5f57ddc07d35ed62170fb5d2bc9457">Qxx_</a></td></tr>
+<tr class="separator:a0d5f57ddc07d35ed62170fb5d2bc9457"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5398463cefbff229738135668c62e3b"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#aa5398463cefbff229738135668c62e3b">Quu_</a></td></tr>
+<tr class="separator:aa5398463cefbff229738135668c62e3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa747acfbfb4e850cd2e8a06980f1e85a"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#aa747acfbfb4e850cd2e8a06980f1e85a">Qux_</a></td></tr>
+<tr class="separator:aa747acfbfb4e850cd2e8a06980f1e85a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fae4d8b5198203daf5dd44a5cf5fa1c"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#a1fae4d8b5198203daf5dd44a5cf5fa1c">Quu_inv_</a></td></tr>
+<tr class="separator:a1fae4d8b5198203daf5dd44a5cf5fa1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeecf2e9a5524a4f77e5bd259315872c6"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#aeecf2e9a5524a4f77e5bd259315872c6">Vxx_</a></td></tr>
+<tr class="separator:aeecf2e9a5524a4f77e5bd259315872c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4d1f533940654163228c8f4b36fa688"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#aa4d1f533940654163228c8f4b36fa688">Vx_</a></td></tr>
+<tr class="separator:aa4d1f533940654163228c8f4b36fa688"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94c7e039297ac06e28d523fee90dd0e0"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#a94c7e039297ac06e28d523fee90dd0e0">fx_</a></td></tr>
+<tr class="separator:a94c7e039297ac06e28d523fee90dd0e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a9a7724cfa90d5018e20d103aafd389"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#a0a9a7724cfa90d5018e20d103aafd389">fu_</a></td></tr>
+<tr class="separator:a0a9a7724cfa90d5018e20d103aafd389"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classexotica_1_1MotionSolver"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classexotica_1_1MotionSolver')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classexotica_1_1MotionSolver.html">exotica::MotionSolver</a></td></tr>
 <tr class="memitem:abcf4542ec442634a32f286604151d794 inherit pro_attribs_classexotica_1_1MotionSolver"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceexotica.html#a4f3b927ad74a50193d0fb7bd2824f836">PlanningProblemPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1MotionSolver.html#abcf4542ec442634a32f286604151d794">problem_</a></td></tr>
 <tr class="separator:abcf4542ec442634a32f286604151d794 inherit pro_attribs_classexotica_1_1MotionSolver"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -219,7 +283,32 @@ Additional Inherited Members</h2></td></tr>
 <p>!&lt; Control gains. </p>
 <p>Computes the control gains for a the trajectory in the associated DynamicTimeIndexedProblem. </p>
 
-<p>Implemented in <a class="el" href="classexotica_1_1ControlLimitedDDPSolver.html#ad26c473962153a6dc2dd7a6a35ec93c3">exotica::ControlLimitedDDPSolver</a>, and <a class="el" href="classexotica_1_1AnalyticDDPSolver.html#a53e242d7cdb1ac234e66c75aa5d0fdf0">exotica::AnalyticDDPSolver</a>.</p>
+<p>Implemented in <a class="el" href="classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#acf2c6cea358e6bc4d19967c7444bc7dd">exotica::AbstractFeasibilityDrivenDDPSolver</a>, <a class="el" href="classexotica_1_1ControlLimitedDDPSolver.html#ad26c473962153a6dc2dd7a6a35ec93c3">exotica::ControlLimitedDDPSolver</a>, and <a class="el" href="classexotica_1_1AnalyticDDPSolver.html#a53e242d7cdb1ac234e66c75aa5d0fdf0">exotica::AnalyticDDPSolver</a>.</p>
+
+</div>
+</div>
+<a id="adf07c5e733bcf2041d0868e4e36ee0e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf07c5e733bcf2041d0868e4e36ee0e3">&#9670;&nbsp;</a></span>DecreaseRegularization()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void exotica::AbstractDDPSolver::DecreaseRegularization </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -313,6 +402,31 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a5677a8e440ee842cffd60928877aad5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5677a8e440ee842cffd60928877aad5a">&#9670;&nbsp;</a></span>IncreaseRegularization()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void exotica::AbstractDDPSolver::IncreaseRegularization </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a6e2536d6930eceb6e3873634213322c1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6e2536d6930eceb6e3873634213322c1">&#9670;&nbsp;</a></span>Solve()</h2>
 
@@ -346,6 +460,8 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 
 <p>Implements <a class="el" href="classexotica_1_1MotionSolver.html#af80ff4e02e245a5c330a8747b8116f4b">exotica::MotionSolver</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#a236c3a4c05042a0d33edb3f270259f18">exotica::AbstractFeasibilityDrivenDDPSolver</a>.</p>
 
 </div>
 </div>
@@ -387,6 +503,52 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a359e18de48eeef4163ff01214fce6af9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a359e18de48eeef4163ff01214fce6af9">&#9670;&nbsp;</a></span>alpha_best_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double exotica::AbstractDDPSolver::alpha_best_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>!&lt; Cost during previous iteration </p>
+
+</div>
+</div>
+<a id="a854867c0f7e60bf5f878fb906c24cf33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a854867c0f7e60bf5f878fb906c24cf33">&#9670;&nbsp;</a></span>alpha_space_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::VectorXd exotica::AbstractDDPSolver::alpha_space_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a37470b2082a5881ec5519884f3505679"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a37470b2082a5881ec5519884f3505679">&#9670;&nbsp;</a></span>base_parameters_</h2>
 
@@ -409,8 +571,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a4acd17509df89a3d2160757365a35ee0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4acd17509df89a3d2160757365a35ee0">&#9670;&nbsp;</a></span>best_ref_u_</h2>
+<a id="ab1a9cf8b754207c4399bda4d4da55838"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1a9cf8b754207c4399bda4d4da55838">&#9670;&nbsp;</a></span>cost_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -419,7 +581,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::MatrixXd exotica::AbstractDDPSolver::best_ref_u_</td>
+          <td class="memname">double exotica::AbstractDDPSolver::cost_</td>
         </tr>
       </table>
   </td>
@@ -431,8 +593,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aa62e7a0da12489754f939fedaee16428"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa62e7a0da12489754f939fedaee16428">&#9670;&nbsp;</a></span>best_ref_x_</h2>
+<a id="a06d625bf2d6d8e912853b1ac2dd2f95a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06d625bf2d6d8e912853b1ac2dd2f95a">&#9670;&nbsp;</a></span>cost_prev_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -441,7 +603,31 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::MatrixXd exotica::AbstractDDPSolver::best_ref_x_</td>
+          <td class="memname">double exotica::AbstractDDPSolver::cost_prev_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>!&lt; Cost during iteration </p>
+
+</div>
+</div>
+<a id="a8abf729c514722a73a0883fb612eb099"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8abf729c514722a73a0883fb612eb099">&#9670;&nbsp;</a></span>dt_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double exotica::AbstractDDPSolver::dt_</td>
         </tr>
       </table>
   </td>
@@ -474,6 +660,50 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>!&lt; Shared pointer to the planning problem. </p>
+
+</div>
+</div>
+<a id="a0a9a7724cfa90d5018e20d103aafd389"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a9a7724cfa90d5018e20d103aafd389">&#9670;&nbsp;</a></span>fu_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::MatrixXd exotica::AbstractDDPSolver::fu_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a94c7e039297ac06e28d523fee90dd0e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94c7e039297ac06e28d523fee90dd0e0">&#9670;&nbsp;</a></span>fx_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::MatrixXd exotica::AbstractDDPSolver::fx_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -523,6 +753,116 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aae9b6adcc9ff647c2691b71d1bed7dcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae9b6adcc9ff647c2691b71d1bed7dcc">&#9670;&nbsp;</a></span>lambda_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double exotica::AbstractDDPSolver::lambda_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad97671f945de51079370a4e65625f3cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad97671f945de51079370a4e65625f3cd">&#9670;&nbsp;</a></span>NDX_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int exotica::AbstractDDPSolver::NDX_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a89e0c6d1d5fbbcacb99c273d85c7bd76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89e0c6d1d5fbbcacb99c273d85c7bd76">&#9670;&nbsp;</a></span>NU_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int exotica::AbstractDDPSolver::NU_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ea21d2c08566d4cd99627a6f498662e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ea21d2c08566d4cd99627a6f498662e">&#9670;&nbsp;</a></span>NV_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int exotica::AbstractDDPSolver::NV_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac2a10426c6e27e03d85bf81e1383cca1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2a10426c6e27e03d85bf81e1383cca1">&#9670;&nbsp;</a></span>NX_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int exotica::AbstractDDPSolver::NX_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af2229f8e0b2e292626c832bc69b6e72d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af2229f8e0b2e292626c832bc69b6e72d">&#9670;&nbsp;</a></span>prob_</h2>
 
@@ -545,13 +885,355 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a33b05120a482ce3aa0c0db79e2fbd8b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33b05120a482ce3aa0c0db79e2fbd8b1">&#9670;&nbsp;</a></span>Qu_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::MatrixXd exotica::AbstractDDPSolver::Qu_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa5398463cefbff229738135668c62e3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5398463cefbff229738135668c62e3b">&#9670;&nbsp;</a></span>Quu_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::MatrixXd exotica::AbstractDDPSolver::Quu_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1fae4d8b5198203daf5dd44a5cf5fa1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fae4d8b5198203daf5dd44a5cf5fa1c">&#9670;&nbsp;</a></span>Quu_inv_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::MatrixXd exotica::AbstractDDPSolver::Quu_inv_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa747acfbfb4e850cd2e8a06980f1e85a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa747acfbfb4e850cd2e8a06980f1e85a">&#9670;&nbsp;</a></span>Qux_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::MatrixXd exotica::AbstractDDPSolver::Qux_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0d871af9511e39c551c437d91dd9332a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d871af9511e39c551c437d91dd9332a">&#9670;&nbsp;</a></span>Qx_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::MatrixXd exotica::AbstractDDPSolver::Qx_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>!&lt; Reference control trajectory for feedback control. </p>
+
+</div>
+</div>
+<a id="a0d5f57ddc07d35ed62170fb5d2bc9457"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d5f57ddc07d35ed62170fb5d2bc9457">&#9670;&nbsp;</a></span>Qxx_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::MatrixXd exotica::AbstractDDPSolver::Qxx_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a20736eba4be06b1d261ba8b312baa254"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20736eba4be06b1d261ba8b312baa254">&#9670;&nbsp;</a></span>T_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int exotica::AbstractDDPSolver::T_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>!&lt; Regularisation (Vxx, Quu) </p>
+
+</div>
+</div>
+<a id="aed27f49dc7cf6cee3868811c10f69b10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed27f49dc7cf6cee3868811c10f69b10">&#9670;&nbsp;</a></span>time_taken_backward_pass_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double exotica::AbstractDDPSolver::time_taken_backward_pass_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8f6cfdc4c3ea9aca8f54c0da9d86e8de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f6cfdc4c3ea9aca8f54c0da9d86e8de">&#9670;&nbsp;</a></span>time_taken_forward_pass_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double exotica::AbstractDDPSolver::time_taken_forward_pass_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>!&lt; Line-search step taken </p>
+
+</div>
+</div>
+<a id="a4b049b537d7e2fa1a61ca357b51a4ab6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b049b537d7e2fa1a61ca357b51a4ab6">&#9670;&nbsp;</a></span>U_prev_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::MatrixXd exotica::AbstractDDPSolver::U_prev_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>!&lt; Updated control trajectory during iteration. </p>
+
+</div>
+</div>
+<a id="a6a7e93ec5ec38841196bc67d90ef2b86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a7e93ec5ec38841196bc67d90ef2b86">&#9670;&nbsp;</a></span>U_ref_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::MatrixXd exotica::AbstractDDPSolver::U_ref_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>!&lt; Reference state trajectory for feedback control. </p>
+
+</div>
+</div>
+<a id="ac61d17afe97d1437be344b72945b690c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac61d17afe97d1437be344b72945b690c">&#9670;&nbsp;</a></span>U_try_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::MatrixXd exotica::AbstractDDPSolver::U_try_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa4d1f533940654163228c8f4b36fa688"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4d1f533940654163228c8f4b36fa688">&#9670;&nbsp;</a></span>Vx_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::VectorXd exotica::AbstractDDPSolver::Vx_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeecf2e9a5524a4f77e5bd259315872c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeecf2e9a5524a4f77e5bd259315872c6">&#9670;&nbsp;</a></span>Vxx_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::MatrixXd exotica::AbstractDDPSolver::Vxx_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a786582f324c1cf46b387ec0e774ba177"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a786582f324c1cf46b387ec0e774ba177">&#9670;&nbsp;</a></span>X_ref_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::MatrixXd exotica::AbstractDDPSolver::X_ref_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>!&lt; Last accepted control trajectory </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>/home/wxm/tmp/exotica/exotations/solvers/exotica_ddp_solver/include/exotica_ddp_solver/<a class="el" href="abstract__ddp__solver_8h_source.html">abstract_ddp_solver.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 23 2019 00:11:50 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Mar 10 2020 15:28:36 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

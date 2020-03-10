@@ -93,8 +93,8 @@ Collaboration diagram for exotica::KinematicTree:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6ce6b5b7d00159206cd5c010c0a98efe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1KinematicTree.html#a6ce6b5b7d00159206cd5c010c0a98efe">Instantiate</a> (std::string joint_group, robot_model::RobotModelPtr model, const std::string &amp;name)</td></tr>
-<tr class="separator:a6ce6b5b7d00159206cd5c010c0a98efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3e0e521433b030b5aebec2ce05109e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1KinematicTree.html#af3e0e521433b030b5aebec2ce05109e7">Instantiate</a> (const std::string &amp;joint_group, robot_model::RobotModelPtr model, const std::string &amp;name)</td></tr>
+<tr class="separator:af3e0e521433b030b5aebec2ce05109e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a371ba6972fdc77a108c43ad29566043f"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1KinematicTree.html#a371ba6972fdc77a108c43ad29566043f">GetRootFrameName</a> () const</td></tr>
 <tr class="separator:a371ba6972fdc77a108c43ad29566043f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cfa6415f58d1bba0db5abfbdc5eed4f"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1KinematicTree.html#a1cfa6415f58d1bba0db5abfbdc5eed4f">GetRootJointName</a> () const</td></tr>
@@ -300,7 +300,7 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a6a2da3d29f1864fd452f5215f49114b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c7ebcc6f3c3cfae9c4b67861e4d3ea5"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1KinematicTree.html#a1c7ebcc6f3c3cfae9c4b67861e4d3ea5">controlled_link_names_</a></td></tr>
 <tr class="separator:a1c7ebcc6f3c3cfae9c4b67861e4d3ea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e51cdde25f9393998fd812f9dd93217"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="structexotica_1_1KinematicResponse.html">KinematicResponse</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1KinematicTree.html#a1e51cdde25f9393998fd812f9dd93217">solution_</a></td></tr>
+<tr class="memitem:a1e51cdde25f9393998fd812f9dd93217"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="structexotica_1_1KinematicResponse.html">KinematicResponse</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1KinematicTree.html#a1e51cdde25f9393998fd812f9dd93217">solution_</a> = std::make_shared&lt;<a class="el" href="structexotica_1_1KinematicResponse.html">KinematicResponse</a>&gt;()</td></tr>
 <tr class="separator:a1e51cdde25f9393998fd812f9dd93217"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0daa279f4d05a842014826a22d731f4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceexotica.html#a8879608908229eff06df2b94c63f1a99">KinematicRequestFlags</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1KinematicTree.html#a0daa279f4d05a842014826a22d731f4e">flags_</a></td></tr>
 <tr class="separator:a0daa279f4d05a842014826a22d731f4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1467,8 +1467,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6ce6b5b7d00159206cd5c010c0a98efe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ce6b5b7d00159206cd5c010c0a98efe">&#9670;&nbsp;</a></span>Instantiate()</h2>
+<a id="af3e0e521433b030b5aebec2ce05109e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3e0e521433b030b5aebec2ce05109e7">&#9670;&nbsp;</a></span>Instantiate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1476,7 +1476,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void exotica::KinematicTree::Instantiate </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>joint_group</em>, </td>
         </tr>
         <tr>
@@ -2697,7 +2697,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt;<a class="el" href="structexotica_1_1KinematicResponse.html">KinematicResponse</a>&gt; exotica::KinematicTree::solution_</td>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="structexotica_1_1KinematicResponse.html">KinematicResponse</a>&gt; exotica::KinematicTree::solution_ = std::make_shared&lt;<a class="el" href="structexotica_1_1KinematicResponse.html">KinematicResponse</a>&gt;()</td>
         </tr>
       </table>
   </td>
@@ -2803,7 +2803,7 @@ Private Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 23 2019 00:11:51 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Mar 10 2020 15:28:36 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

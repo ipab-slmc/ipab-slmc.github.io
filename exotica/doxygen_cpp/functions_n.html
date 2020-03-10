@@ -71,7 +71,6 @@ $(function() {
 : <a class="el" href="classexotica_1_1ContinuousJointPose.html#a9cb6f9a1653a47566038c9841ad825df">exotica::ContinuousJointPose</a>
 , <a class="el" href="classexotica_1_1JointAccelerationBackwardDifference.html#a202da50ca4bc96dbeb0263debb53a22c">exotica::JointAccelerationBackwardDifference</a>
 , <a class="el" href="classexotica_1_1JointJerkBackwardDifference.html#ae56c7ae0b244301bd1aebf991c9ef0cb">exotica::JointJerkBackwardDifference</a>
-, <a class="el" href="classexotica_1_1JointPose.html#ad96d4db398593ce5d49660342b3aa201">exotica::JointPose</a>
 , <a class="el" href="classexotica_1_1JointVelocityBackwardDifference.html#ad648a529ad8cc76613c3062e14e39647">exotica::JointVelocityBackwardDifference</a>
 , <a class="el" href="classexotica_1_1JointVelocityLimitConstraint.html#acbd2f4e602b02df3b9c41f3c8c5060f0">exotica::JointVelocityLimitConstraint</a>
 </li>
@@ -101,6 +100,13 @@ $(function() {
 , <a class="el" href="classexotica_1_1Property.html#a8e77872501ca54eb12e48fc6aaf6afb7">exotica::Property</a>
 , <a class="el" href="classexotica_1_1Server.html#ae870dbb0f67f205fb24f641646d5f32d">exotica::Server</a>
 </li>
+<li>NDX_
+: <a class="el" href="classexotica_1_1AbstractDDPSolver.html#ad97671f945de51079370a4e65625f3cd">exotica::AbstractDDPSolver</a>
+, <a class="el" href="classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#a1ac76b5847f97bc167feac8a70864c40">exotica::AbstractFeasibilityDrivenDDPSolver</a>
+</li>
+<li>needs_update_of_collision_objects_
+: <a class="el" href="classexotica_1_1CollisionScene.html#a3f172df59b4a28bb7a9e292f476dd6b3">exotica::CollisionScene</a>
+</li>
 <li>Nested
 : <a class="el" href="structEigen_1_1NumTraits_3_01AutoDiffScalar_3_01DerType_01_4_01_4.html#ada3e807a032847e41f78cdc845b68572">Eigen::NumTraits&lt; AutoDiffScalar&lt; DerType &gt; &gt;</a>
 , <a class="el" href="structEigen_1_1NumTraits_3_01AutoDiffScalar_3_01SparseVector_3_01DerType___01_4_01_4_01_4.html#a0ff772f44d168cd114fc013889a690d8">Eigen::NumTraits&lt; AutoDiffScalar&lt; SparseVector&lt; DerType_ &gt; &gt; &gt;</a>
@@ -128,8 +134,12 @@ $(function() {
 <li>ns_
 : <a class="el" href="classexotica_1_1Object.html#a7ae06802c7b25ee0d71988fc1141a70b">exotica::Object</a>
 </li>
+<li>NU_
+: <a class="el" href="classexotica_1_1AbstractDDPSolver.html#a89e0c6d1d5fbbcacb99c273d85c7bd76">exotica::AbstractDDPSolver</a>
+</li>
 <li>num_controlled_joints_
-: <a class="el" href="classexotica_1_1KinematicTree.html#a8524f5a78f0e167961e97c5b41797841">exotica::KinematicTree</a>
+: <a class="el" href="classexotica_1_1JointPose.html#a4318a21936c11e8397fa3c54c21319e4">exotica::JointPose</a>
+, <a class="el" href="classexotica_1_1KinematicTree.html#a8524f5a78f0e167961e97c5b41797841">exotica::KinematicTree</a>
 </li>
 <li>num_controls_
 : <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a26835cf6fd8bfa56a1ec70c202fb9046">exotica::AbstractDynamicsSolver&lt; T, NX, NU &gt;</a>
@@ -141,6 +151,12 @@ $(function() {
 <li>num_positions_
 : <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a69ba2885171ed7dea642b0383fde54e8">exotica::AbstractDynamicsSolver&lt; T, NX, NU &gt;</a>
 , <a class="el" href="classexotica_1_1PlanningProblem.html#a3ce14dfbecc9d7096c71f2446cd29d17">exotica::PlanningProblem</a>
+</li>
+<li>num_state_
+: <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a6d59f3dbf03f79fb8f7ef6d4d5cb74b0">exotica::AbstractDynamicsSolver&lt; T, NX, NU &gt;</a>
+</li>
+<li>num_state_derivative_
+: <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a646eeac515439e3bb2659eb0847bcf9e">exotica::AbstractDynamicsSolver&lt; T, NX, NU &gt;</a>
 </li>
 <li>num_tasks
 : <a class="el" href="classexotica_1_1AbstractTimeIndexedProblem.html#ab29d2d293166337cd08d5d89b2102400">exotica::AbstractTimeIndexedProblem</a>
@@ -159,11 +175,17 @@ $(function() {
 <li>number_of_problem_updates_
 : <a class="el" href="classexotica_1_1PlanningProblem.html#a502df5e4c5d5baeb668b7064345a57ac">exotica::PlanningProblem</a>
 </li>
+<li>NV_
+: <a class="el" href="classexotica_1_1AbstractDDPSolver.html#a4ea21d2c08566d4cd99627a6f498662e">exotica::AbstractDDPSolver</a>
+</li>
+<li>NX_
+: <a class="el" href="classexotica_1_1AbstractDDPSolver.html#ac2a10426c6e27e03d85bf81e1383cca1">exotica::AbstractDDPSolver</a>
+</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 23 2019 00:12:08 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Mar 10 2020 15:28:51 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

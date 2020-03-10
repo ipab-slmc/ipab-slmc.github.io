@@ -1,9 +1,11 @@
 var searchData=
 [
+  ['calcdiff',['CalcDiff',['../classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#a58f3ae960c92f6a5c635d1e1a7db485a',1,'exotica::AbstractFeasibilityDrivenDDPSolver']]],
   ['cartpoledynamicssolver',['CartpoleDynamicsSolver',['../classexotica_1_1CartpoleDynamicsSolver.html#a32c813597e5c2bc511aa4c1a150317b6',1,'exotica::CartpoleDynamicsSolver']]],
   ['changeparent',['ChangeParent',['../classexotica_1_1KinematicTree.html#a068e629952e228d26261eb94e502dbf0',1,'exotica::KinematicTree']]],
   ['check',['Check',['../classexotica_1_1InitializerBase.html#a573c364dcaa73f2ab1840dee8ec06c22',1,'exotica::InitializerBase']]],
   ['checkcollision',['CheckCollision',['../classexotica_1_1CollisionSceneFCL.html#a05bddb6f263419a84c5154ba2228ab38',1,'exotica::CollisionSceneFCL::CheckCollision()'],['../classexotica_1_1CollisionSceneFCLLatest.html#a75d47bb44b48d3de04aecb43b51fdce9',1,'exotica::CollisionSceneFCLLatest::CheckCollision()']]],
+  ['checkstoppingcriteria',['CheckStoppingCriteria',['../classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#a9822548116f42add71e16dfa55fa4d87',1,'exotica::AbstractFeasibilityDrivenDDPSolver']]],
   ['cleanscene',['CleanScene',['../classexotica_1_1Scene.html#a5305a7f7fd675e67076159bdba35dbc9',1,'exotica::Scene']]],
   ['clear',['clear',['../classexotica_1_1SinglePassMeanCovariance.html#a117233fb3682fa08a7d468a2bbfe50ff',1,'exotica::SinglePassMeanCovariance::clear()'],['../classexotica_1_1OMPLTimeIndexedRRTConnect.html#ad5e98dcb91ea20f3a28c6cb548789d1f',1,'exotica::OMPLTimeIndexedRRTConnect::clear()'],['../classexotica_1_1AllowedCollisionMatrix.html#af3cfe4b8edaca0d52e245d3530cdb5f2',1,'exotica::AllowedCollisionMatrix::clear()'],['../classexotica_1_1PRMSolver.html#aa09f5bb4967a6ed96c5c35857454bba2',1,'exotica::PRMSolver::Clear()'],['../classexotica_1_1LazyPRMSolver.html#a351b1173a4138bce8aeeb98377b1c4b2',1,'exotica::LazyPRMSolver::Clear()']]],
   ['clearquery',['ClearQuery',['../classexotica_1_1PRMSolver.html#a27175173a2005fd09ba132f386c09613',1,'exotica::PRMSolver::ClearQuery()'],['../classexotica_1_1LazyPRMSolver.html#a8f72419686f4d46e00a7b52ed91cbbf6',1,'exotica::LazyPRMSolver::ClearQuery()']]],
@@ -13,9 +15,9 @@ var searchData=
   ['collisiondata',['CollisionData',['../structexotica_1_1CollisionSceneFCL_1_1CollisionData.html#aea591754908b4183f804fb9b0d587492',1,'exotica::CollisionSceneFCL::CollisionData::CollisionData()'],['../structexotica_1_1CollisionSceneFCLLatest_1_1CollisionData.html#a341dd1f7ef98487035bec8b69973984d',1,'exotica::CollisionSceneFCLLatest::CollisionData::CollisionData()']]],
   ['collisionproxy',['CollisionProxy',['../structexotica_1_1CollisionProxy.html#af54f32246c4efa4296fbf6f75682275f',1,'exotica::CollisionProxy']]],
   ['collisionscene',['CollisionScene',['../classexotica_1_1CollisionScene.html#a8721092c0bd0fe985c2e1e32dde5055f',1,'exotica::CollisionScene']]],
-  ['collisionscenefcl',['CollisionSceneFCL',['../classexotica_1_1CollisionSceneFCL.html#af41b7e96a7d0856b1728913a29edb8b3',1,'exotica::CollisionSceneFCL']]],
-  ['collisionscenefcllatest',['CollisionSceneFCLLatest',['../classexotica_1_1CollisionSceneFCLLatest.html#aeba8354fa82df8a9adb19290bae656af',1,'exotica::CollisionSceneFCLLatest']]],
+  ['computedirection',['ComputeDirection',['../classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#a7de1b04c8050303f2c58d69a2a672046',1,'exotica::AbstractFeasibilityDrivenDDPSolver']]],
   ['computedistance',['ComputeDistance',['../classexotica_1_1CollisionSceneFCLLatest.html#a9c984ca1b2293ededaf78bd59d7efbc6',1,'exotica::CollisionSceneFCLLatest']]],
+  ['computegains',['ComputeGains',['../classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#ac6ba39e56068dc8b1a20287640fbd904',1,'exotica::AbstractFeasibilityDrivenDDPSolver']]],
   ['computegoallaplace',['ComputeGoalLaplace',['../classexotica_1_1InteractionMesh.html#a54da3b4c05c277e199cab0ca2fc84160',1,'exotica::InteractionMesh::ComputeGoalLaplace(const Eigen::VectorXd &amp;x, Eigen::VectorXd &amp;goal)'],['../classexotica_1_1InteractionMesh.html#a2d5eba4b0aa4ed304fac94c89e553bca',1,'exotica::InteractionMesh::ComputeGoalLaplace(const std::vector&lt; KDL::Frame &gt; &amp;nodes, Eigen::VectorXd &amp;goal, Eigen::MatrixXdRefConst weights)']]],
   ['computej',['ComputeJ',['../classexotica_1_1KinematicTree.html#a382b28f97d67df6af83e669b6e94fc8b',1,'exotica::KinematicTree']]],
   ['computejdot',['ComputeJdot',['../classexotica_1_1KinematicTree.html#a50714577e4f547e43dc66fb4e1156da0',1,'exotica::KinematicTree']]],

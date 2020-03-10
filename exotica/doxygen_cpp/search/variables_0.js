@@ -7,6 +7,8 @@ var searchData=
   ['active_5fnonlinear_5finequality_5fconstraints_5f',['active_nonlinear_inequality_constraints_',['../classexotica_1_1AbstractTimeIndexedProblem.html#adb912416b81eda9bb02581588ff6cada',1,'exotica::AbstractTimeIndexedProblem']]],
   ['active_5fnonlinear_5finequality_5fconstraints_5fdimension_5f',['active_nonlinear_inequality_constraints_dimension_',['../classexotica_1_1AbstractTimeIndexedProblem.html#a5f2be51a0ded11389dc9da02fccab205',1,'exotica::AbstractTimeIndexedProblem']]],
   ['algorithm_5f',['algorithm_',['../classexotica_1_1OMPLControlSolver.html#ab2e74918f817599370cbde48ff0cef0a',1,'exotica::OMPLControlSolver::algorithm_()'],['../classexotica_1_1OMPLSolver.html#a6887cf64b29cbdb763a53f3d2c01a48d',1,'exotica::OMPLSolver::algorithm_()'],['../classexotica_1_1TimeIndexedRRTConnectSolver.html#a29120af71576a57d532b09148dcd8056',1,'exotica::TimeIndexedRRTConnectSolver::algorithm_()']]],
+  ['alpha_5fbest_5f',['alpha_best_',['../classexotica_1_1AbstractDDPSolver.html#a359e18de48eeef4163ff01214fce6af9',1,'exotica::AbstractDDPSolver']]],
+  ['alpha_5fspace_5f',['alpha_space_',['../classexotica_1_1AbstractDDPSolver.html#a854867c0f7e60bf5f878fb906c24cf33',1,'exotica::AbstractDDPSolver']]],
   ['always_5fexternally_5fupdated_5fcollision_5fscene_5f',['always_externally_updated_collision_scene_',['../classexotica_1_1CollisionScene.html#a2a6a0d1b120c44e8a7a3cc0fa2da97b4',1,'exotica::CollisionScene']]],
   ['ambient',['ambient',['../structexotica_1_1visualization_1_1Material.html#a7d2603a34f68cbfade3b9dacdc5558f2',1,'exotica::visualization::Material']]],
   ['animations',['animations',['../structexotica_1_1visualization_1_1SetAnimation.html#a34cda27ad7a9c940bb09ef84dd1d8192',1,'exotica::visualization::SetAnimation']]],

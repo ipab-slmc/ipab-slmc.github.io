@@ -25,5 +25,7 @@ var searchData=
   ['visualizationmeshcat',['VisualizationMeshcat',['../classexotica_1_1VisualizationMeshcat.html',1,'exotica::VisualizationMeshcat'],['../classexotica_1_1VisualizationMeshcat.html#a2477d0d0c18a520db36044633ab54b45',1,'exotica::VisualizationMeshcat::VisualizationMeshcat()']]],
   ['visualizationmoveit',['VisualizationMoveIt',['../classexotica_1_1VisualizationMoveIt.html',1,'exotica::VisualizationMoveIt'],['../classexotica_1_1VisualizationMoveIt.html#a14d3681336f67162d239d663f91d2721',1,'exotica::VisualizationMoveIt::VisualizationMoveIt()']]],
   ['visualize_5f',['visualize_',['../classexotica_1_1PointToLine.html#a41e062196be1010d8912b9e1ce94dd20',1,'exotica::PointToLine']]],
-  ['vk_5fgains_5f',['vk_gains_',['../classexotica_1_1ILQRSolver.html#acf4f81525e690b6f19e18adafbe9ddf5',1,'exotica::ILQRSolver']]]
+  ['vk_5fgains_5f',['vk_gains_',['../classexotica_1_1ILQRSolver.html#acf4f81525e690b6f19e18adafbe9ddf5',1,'exotica::ILQRSolver']]],
+  ['vx_5f',['Vx_',['../classexotica_1_1AbstractDDPSolver.html#aa4d1f533940654163228c8f4b36fa688',1,'exotica::AbstractDDPSolver::Vx_()'],['../classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#ae3eb8110021e5678cbd03109a0af93bd',1,'exotica::AbstractFeasibilityDrivenDDPSolver::Vx_()']]],
+  ['vxx_5f',['Vxx_',['../classexotica_1_1AbstractDDPSolver.html#aeecf2e9a5524a4f77e5bd259315872c6',1,'exotica::AbstractDDPSolver::Vxx_()'],['../classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#a49fdfa3a106e07f958bcb479c9804a98',1,'exotica::AbstractFeasibilityDrivenDDPSolver::Vxx_()']]]
 ];
