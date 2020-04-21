@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['c_5f',['C_',['../classexotica_1_1IKSolver.html#a4f2d447f30cc93660727cb65abe9e2be',1,'exotica::IKSolver']]],
   ['calcdiff',['CalcDiff',['../classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#a58f3ae960c92f6a5c635d1e1a7db485a',1,'exotica::AbstractFeasibilityDrivenDDPSolver']]],
   ['cartpole_5fdynamics_5fsolver_2eh',['cartpole_dynamics_solver.h',['../cartpole__dynamics__solver_8h.html',1,'']]],
   ['cartpoledynamicssolver',['CartpoleDynamicsSolver',['../classexotica_1_1CartpoleDynamicsSolver.html',1,'exotica::CartpoleDynamicsSolver'],['../classexotica_1_1CartpoleDynamicsSolver.html#a32c813597e5c2bc511aa4c1a150317b6',1,'exotica::CartpoleDynamicsSolver::CartpoleDynamicsSolver()']]],
@@ -47,6 +46,7 @@ var searchData=
   ['com_5fmarker_5f',['com_marker_',['../classexotica_1_1CenterOfMass.html#a86367ffe810b471d9ad670a37c8c6d73',1,'exotica::CenterOfMass']]],
   ['com_5fpub_5f',['com_pub_',['../classexotica_1_1CenterOfMass.html#a7d2c8d02277b8f9067c1a8f12272cb8c',1,'exotica::CenterOfMass']]],
   ['compound_5f',['compound_',['../classexotica_1_1SamplingProblem.html#a9a81ec60393e7ac3a6ad4c594b7fafbc',1,'exotica::SamplingProblem']]],
+  ['computederivatives',['ComputeDerivatives',['../classexotica_1_1DoubleIntegratorDynamicsSolver.html#a51a52dd6068e96bd0a21f0f86d775113',1,'exotica::DoubleIntegratorDynamicsSolver::ComputeDerivatives()'],['../classexotica_1_1PinocchioDynamicsSolver.html#a7b4005e8b8191646da28c59ffd58a598',1,'exotica::PinocchioDynamicsSolver::ComputeDerivatives()'],['../classexotica_1_1PinocchioDynamicsSolverWithGravityCompensation.html#a80d749e856aede4be3b3c58eb590ebac',1,'exotica::PinocchioDynamicsSolverWithGravityCompensation::ComputeDerivatives()'],['../classexotica_1_1AbstractDynamicsSolver.html#a542544c89a38cac866d733c586c54980',1,'exotica::AbstractDynamicsSolver::ComputeDerivatives()']]],
   ['computedirection',['ComputeDirection',['../classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#a7de1b04c8050303f2c58d69a2a672046',1,'exotica::AbstractFeasibilityDrivenDDPSolver']]],
   ['computedistance',['ComputeDistance',['../classexotica_1_1CollisionSceneFCLLatest.html#a9c984ca1b2293ededaf78bd59d7efbc6',1,'exotica::CollisionSceneFCLLatest']]],
   ['computegains',['ComputeGains',['../classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#ac6ba39e56068dc8b1a20287640fbd904',1,'exotica::AbstractFeasibilityDrivenDDPSolver']]],
@@ -99,6 +99,7 @@ var searchData=
   ['cost_5fcontrol_5f',['cost_control_',['../classexotica_1_1AICOSolver.html#ab4f6e649dadbce4672513ba20213eaa4',1,'exotica::AICOSolver']]],
   ['cost_5fcontrol_5fold_5f',['cost_control_old_',['../classexotica_1_1AICOSolver.html#aac6b87e2684ff17399616e3738c5dda9',1,'exotica::AICOSolver']]],
   ['cost_5fevolution_5f',['cost_evolution_',['../classexotica_1_1PlanningProblem.html#ab3850aeec64ed5ef63b17357080f4798',1,'exotica::PlanningProblem']]],
+  ['cost_5fjacobian_5f',['cost_jacobian_',['../classexotica_1_1IKSolver.html#a721a034346abf6ff583ae3f27e9e6429',1,'exotica::IKSolver']]],
   ['cost_5fold_5f',['cost_old_',['../classexotica_1_1AICOSolver.html#aa09beaff57ea30b1a4e9877d1daccfc9',1,'exotica::AICOSolver::cost_old_()'],['../classexotica_1_1BayesianIKSolver.html#a05609c13479ffb762eefa0e6568e182f',1,'exotica::BayesianIKSolver::cost_old_()']]],
   ['cost_5fphi',['cost_Phi',['../classexotica_1_1AbstractTimeIndexedProblem.html#a6e61fee9ceb892a82cfd84dc30ca338c',1,'exotica::AbstractTimeIndexedProblem::cost_Phi()'],['../classexotica_1_1DynamicTimeIndexedShootingProblem.html#a25793e9527118df8d94592a09e390bf8',1,'exotica::DynamicTimeIndexedShootingProblem::cost_Phi()']]],
   ['cost_5fprev_5f',['cost_prev_',['../classexotica_1_1AICOSolver.html#aba3ca69923c5ce811aa01927d31c1752',1,'exotica::AICOSolver::cost_prev_()'],['../classexotica_1_1BayesianIKSolver.html#a5264f0f49d2a8ed8153b8cc32a02dd63',1,'exotica::BayesianIKSolver::cost_prev_()'],['../classexotica_1_1AbstractDDPSolver.html#a06d625bf2d6d8e912853b1ac2dd2f95a',1,'exotica::AbstractDDPSolver::cost_prev_()']]],

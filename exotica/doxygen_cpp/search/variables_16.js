@@ -1,7 +1,7 @@
 var searchData=
 [
   ['w',['W',['../classexotica_1_1AICOSolver.html#ae50a195d68e2e9c787ec88cee7444ddd',1,'exotica::AICOSolver::W()'],['../classexotica_1_1BayesianIKSolver.html#ab05269a9c96a48804d36031aaedfe8e2',1,'exotica::BayesianIKSolver::W()'],['../classexotica_1_1SinglePassMeanCovariance.html#ae6ee1a95f7e88fe7613a09b6c05427fd',1,'exotica::SinglePassMeanCovariance::W()'],['../classexotica_1_1AbstractTimeIndexedProblem.html#a62b3b37f88f8bedca505b26c232657e7',1,'exotica::AbstractTimeIndexedProblem::W()'],['../classexotica_1_1BoundedEndPoseProblem.html#aed04eda07aa51159eb22247761da2ad8',1,'exotica::BoundedEndPoseProblem::W()'],['../classexotica_1_1EndPoseProblem.html#a5b7256592fd840eade49d333a7d843a0',1,'exotica::EndPoseProblem::W()'],['../classexotica_1_1UnconstrainedEndPoseProblem.html#aab76cba871ca79af3b99063c2ef33f39',1,'exotica::UnconstrainedEndPoseProblem::W()']]],
-  ['w_5f',['W_',['../classexotica_1_1IKSolver.html#a8f57e1c04fec82364647ee6699cac258',1,'exotica::IKSolver']]],
+  ['w_5finv_5f',['W_inv_',['../classexotica_1_1IKSolver.html#a98c58376d7de26e1fb98b29f481d52a8',1,'exotica::IKSolver']]],
   ['w_5fscale_5f',['w_scale_',['../classexotica_1_1AbstractTimeIndexedProblem.html#a561b06b45c01643ef7b74e77afcf008e',1,'exotica::AbstractTimeIndexedProblem']]],
   ['was_5ffeasible_5f',['was_feasible_',['../classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#ab01b50b261f158f67ad7e4f9485bc5c3',1,'exotica::AbstractFeasibilityDrivenDDPSolver']]],
   ['web_5furl_5f',['web_url_',['../classexotica_1_1VisualizationMeshcat.html#a33e26cf163b3a35474bf0e3aac320bbe',1,'exotica::VisualizationMeshcat']]],

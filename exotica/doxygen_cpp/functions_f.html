@@ -67,6 +67,7 @@ $(function() {
 , <a class="el" href="classexotica_1_1DoubleIntegratorDynamicsSolver.html#a82498e9c55f553817092fed5eafb1f1e">exotica::DoubleIntegratorDynamicsSolver</a>
 , <a class="el" href="classexotica_1_1PendulumDynamicsSolver.html#a279abfd5ba4de1bd7f190cb7c8b76569">exotica::PendulumDynamicsSolver</a>
 , <a class="el" href="classexotica_1_1PinocchioDynamicsSolver.html#a4dddade619bed75c4fdced8c33b80e25">exotica::PinocchioDynamicsSolver</a>
+, <a class="el" href="classexotica_1_1PinocchioDynamicsSolverWithGravityCompensation.html#ad8cf94a20217d96e0e874bd8bc880510">exotica::PinocchioDynamicsSolverWithGravityCompensation</a>
 , <a class="el" href="classexotica_1_1QuadrotorDynamicsSolver.html#ac4b76a8f428985b43f8c94ea33ddabd9">exotica::QuadrotorDynamicsSolver</a>
 </li>
 <li>Factory()
@@ -103,7 +104,7 @@ $(function() {
 : <a class="el" href="classEigen_1_1FiniteDiffChainHessian.html#a3fa4424d84d61471a66c8a48ca6455bd">Eigen::FiniteDiffChainHessian&lt; Functor, mode &gt;</a>
 </li>
 <li>FiniteDiffChainJacobian()
-: <a class="el" href="classEigen_1_1FiniteDiffChainJacobian.html#a3dc5503ff4d98ffeabbd3f0161aa86b6">Eigen::FiniteDiffChainJacobian&lt; Functor, mode &gt;</a>
+: <a class="el" href="classEigen_1_1FiniteDiffChainJacobian.html#ab9c3d31971a09bc1c099107e3fbf091d">Eigen::FiniteDiffChainJacobian&lt; Functor, mode &gt;</a>
 </li>
 <li>FK()
 : <a class="el" href="classexotica_1_1KinematicTree.html#ab6f7f6c8bf51299785fefee03428fb3b">exotica::KinematicTree</a>
@@ -187,13 +188,15 @@ $(function() {
 , <a class="el" href="classexotica_1_1DoubleIntegratorDynamicsSolver.html#ae82d3cab6ec91b52bf443c6957f8416d">exotica::DoubleIntegratorDynamicsSolver</a>
 , <a class="el" href="classexotica_1_1PendulumDynamicsSolver.html#a3b3e8153030cc77c75823a842f6c81b8">exotica::PendulumDynamicsSolver</a>
 , <a class="el" href="classexotica_1_1PinocchioDynamicsSolver.html#abc33ddb2212db8ffec054294dc0d1687">exotica::PinocchioDynamicsSolver</a>
+, <a class="el" href="classexotica_1_1PinocchioDynamicsSolverWithGravityCompensation.html#a8d5355c794e361462bbd890100e5b293">exotica::PinocchioDynamicsSolverWithGravityCompensation</a>
 , <a class="el" href="classexotica_1_1QuadrotorDynamicsSolver.html#ae282f7828156558721134e913deca9f0">exotica::QuadrotorDynamicsSolver</a>
 </li>
 <li>fu_
 : <a class="el" href="classexotica_1_1AbstractDDPSolver.html#a0a9a7724cfa90d5018e20d103aafd389">exotica::AbstractDDPSolver</a>
+, <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a66cc23799b0c414cd32a62cd96de82e0">exotica::AbstractDynamicsSolver&lt; T, NX, NU &gt;</a>
 </li>
-<li>fu_analytic_
-: <a class="el" href="classexotica_1_1PinocchioDynamicsSolver.html#a7b4c74fbd716f8a2bcd605e86e497887">exotica::PinocchioDynamicsSolver</a>
+<li>fu_fd()
+: <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a939b95e73b9c81cde20e67cd36be6a5a">exotica::AbstractDynamicsSolver&lt; T, NX, NU &gt;</a>
 </li>
 <li>function_tolerance_
 : <a class="el" href="classexotica_1_1AICOSolver.html#ad7c14cc732505a0f35bd5bc1b335878f">exotica::AICOSolver</a>
@@ -220,13 +223,15 @@ $(function() {
 , <a class="el" href="classexotica_1_1DoubleIntegratorDynamicsSolver.html#aee2d92cd0229fd242f515514999c4347">exotica::DoubleIntegratorDynamicsSolver</a>
 , <a class="el" href="classexotica_1_1PendulumDynamicsSolver.html#afc12a04cbfaddebd8d8f609f0dc9c907">exotica::PendulumDynamicsSolver</a>
 , <a class="el" href="classexotica_1_1PinocchioDynamicsSolver.html#a00bdc597f85930ca660522e76ca17d75">exotica::PinocchioDynamicsSolver</a>
+, <a class="el" href="classexotica_1_1PinocchioDynamicsSolverWithGravityCompensation.html#ac06edc0353192dcc18e53e67255ea67e">exotica::PinocchioDynamicsSolverWithGravityCompensation</a>
 , <a class="el" href="classexotica_1_1QuadrotorDynamicsSolver.html#a7a821f99ab29ed6f1cec26fd71abce5b">exotica::QuadrotorDynamicsSolver</a>
 </li>
 <li>fx_
 : <a class="el" href="classexotica_1_1AbstractDDPSolver.html#a94c7e039297ac06e28d523fee90dd0e0">exotica::AbstractDDPSolver</a>
+, <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a0f2c26e496bc9cf8bcdf83a5ddf82dd9">exotica::AbstractDynamicsSolver&lt; T, NX, NU &gt;</a>
 </li>
-<li>fx_analytic_
-: <a class="el" href="classexotica_1_1PinocchioDynamicsSolver.html#ad346015f0884f8246476e934f4b5946b">exotica::PinocchioDynamicsSolver</a>
+<li>fx_fd()
+: <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#aa4c048c58ee7068463f3c52f498c6719">exotica::AbstractDynamicsSolver&lt; T, NX, NU &gt;</a>
 </li>
 <li>FxTVxx_p_
 : <a class="el" href="classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#a5bce5e00ae332ffcda89f981a277dcad">exotica::AbstractFeasibilityDrivenDDPSolver</a>
@@ -249,7 +254,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Mar 10 2020 15:28:51 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Apr 21 2020 17:35:46 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

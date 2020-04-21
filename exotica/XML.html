@@ -114,6 +114,7 @@
 <li class="toctree-l1"><a class="reference internal" href="Setting-up-ROSlaunch.html">Setting up ROSlaunch</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Setting-up-problems-and-solvers.html">Setting up Problems and Solvers</a></li>
 <li class="toctree-l1"><a class="reference internal" href="advanced/task_space_vector.html">Task space vector handling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Visualisation.html">Visualisation</a></li>
 </ul>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="Initializers.html">Initializers</a></li>
@@ -196,13 +197,7 @@ We will be using the XML file under the
 file and is shown below:</p>
 <div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?xml version=&quot;1.0&quot; ?&gt;</span>
 <span class="nt">&lt;IKSolverDemoConfig&gt;</span>
-  <span class="nt">&lt;IKSolver</span> <span class="na">Name=</span><span class="s">&quot;MySolver&quot;</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;MaxIterations&gt;</span>1<span class="nt">&lt;/MaxIterations&gt;</span>
-    <span class="nt">&lt;MaxStep&gt;</span>0.1<span class="nt">&lt;/MaxStep&gt;</span>
-    <span class="nt">&lt;Tolerance&gt;</span>1e-5<span class="nt">&lt;/Tolerance&gt;</span>
-    <span class="nt">&lt;Alpha&gt;</span>1.0<span class="nt">&lt;/Alpha&gt;</span>
-    <span class="nt">&lt;C&gt;</span>1e-3<span class="nt">&lt;/C&gt;</span>
-  <span class="nt">&lt;/IKSolver&gt;</span>
+  <span class="nt">&lt;IKSolver</span> <span class="na">Name=</span><span class="s">&quot;MySolver&quot;</span> <span class="na">MaxIterations=</span><span class="s">&quot;10&quot;</span><span class="nt">/&gt;</span>
 
   <span class="nt">&lt;UnconstrainedEndPoseProblem</span> <span class="na">Name=</span><span class="s">&quot;MyProblem&quot;</span><span class="nt">&gt;</span>
     <span class="nt">&lt;PlanningScene&gt;</span>
@@ -229,7 +224,7 @@ file and is shown below:</p>
 </div>
 <p class="rubric">CODE EXPLAINED</p>
 <p>In the code we see:
-* the initialization of the <code class="docutils literal notranslate"><span class="pre">IKSolver</span></code> and its parameters (e.g. <code class="docutils literal notranslate"><span class="pre">MaxIterations</span></code>,<code class="docutils literal notranslate"><span class="pre">MaxStep</span></code>) set
+* the initialization of the <code class="docutils literal notranslate"><span class="pre">IKSolver</span></code> and its parameters (e.g. <code class="docutils literal notranslate"><span class="pre">MaxIterations</span></code>) set
 * a problem (<code class="docutils literal notranslate"><span class="pre">UnconstrainedEndPoseProblem</span></code>) is specified and  necessary parameters input.
 - Within the problem, a <code class="docutils literal notranslate"><span class="pre">PlanningScene</span></code> and <code class="docutils literal notranslate"><span class="pre">Maps</span></code> are initialized in addition to the problem parameters.</p>
 <p>Let’s look a little more closely into the solver and problem setup.</p>
@@ -239,10 +234,8 @@ file and is shown below:</p>
 (which will be used later); here we use the name “MySolver” : <code class="docutils literal notranslate"><span class="pre">&lt;IKSolver</span> <span class="pre">Name=&quot;MySolver&quot;&gt;</span></code>
 Solver options are then specified:</p>
 <div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;MaxIterations&gt;</span>1<span class="nt">&lt;/MaxIterations&gt;</span>
-<span class="nt">&lt;MaxStep&gt;</span>0.1<span class="nt">&lt;/MaxStep&gt;</span>
 <span class="nt">&lt;Tolerance&gt;</span>1e-5<span class="nt">&lt;/Tolerance&gt;</span>
-<span class="nt">&lt;Alpha&gt;</span>1.0<span class="nt">&lt;/Alpha&gt;</span>
-<span class="nt">&lt;C&gt;</span>1e-3<span class="nt">&lt;/C&gt;</span>
+<span class="nt">&lt;RegularizationRate&gt;</span>1e-3<span class="nt">&lt;/RegularizationRate&gt;</span>
 </pre></div>
 </div>
 <p>The parameters in this case are optional, but each solver has its own

@@ -36,6 +36,7 @@ var searchData=
   ['equality',['equality',['../classexotica_1_1AbstractTimeIndexedProblem.html#afaf83b240e00f2d64294a3423ebc6ce8',1,'exotica::AbstractTimeIndexedProblem::equality()'],['../classexotica_1_1EndPoseProblem.html#a002ef24334f1ba5895417cb7bff4ec14',1,'exotica::EndPoseProblem::equality()'],['../classexotica_1_1SamplingProblem.html#a30a0488a681df4ec7f713e680a0b7fd1',1,'exotica::SamplingProblem::equality()'],['../classexotica_1_1TimeIndexedSamplingProblem.html#a2d72413a903545dc6941ebf3ae43b0e6',1,'exotica::TimeIndexedSamplingProblem::equality()']]],
   ['equality_5fphi',['equality_Phi',['../classexotica_1_1AbstractTimeIndexedProblem.html#aca3ae6496c7517b6644a502501cec1d7',1,'exotica::AbstractTimeIndexedProblem']]],
   ['error',['ERROR',['../printable_8h.html#abac57baaff13f3a1ddbb0c8a193b7e32',1,'printable.h']]],
+  ['error_5f',['error_',['../classexotica_1_1IKSolver.html#ad354b119505ae4ef163e2b226ba20922',1,'exotica::IKSolver']]],
   ['estsolver',['ESTSolver',['../classexotica_1_1ESTSolver.html',1,'exotica::ESTSolver'],['../classexotica_1_1ESTSolver.html#ae61f7a14e6a4ee4befeae66a033f95cb',1,'exotica::ESTSolver::ESTSolver()']]],
   ['evaluatetrajectory',['EvaluateTrajectory',['../classexotica_1_1AICOSolver.html#acee1a9a80cb12c3b2395ceda52a8f014',1,'exotica::AICOSolver::EvaluateTrajectory()'],['../classexotica_1_1BayesianIKSolver.html#a9fd386279385c9ecc2a8759be5ba63ec',1,'exotica::BayesianIKSolver::EvaluateTrajectory()']]],
   ['ex_5fconc',['EX_CONC',['../tools_8h.html#a662af1dcc5c45d9e7e61704321032881',1,'tools.h']]],

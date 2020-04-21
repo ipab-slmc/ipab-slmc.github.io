@@ -55,6 +55,7 @@ var searchData=
   ['instantiable_3c_20manipulabilityinitializer_20_3e',['Instantiable&lt; ManipulabilityInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],
   ['instantiable_3c_20pendulumdynamicssolverinitializer_20_3e',['Instantiable&lt; PendulumDynamicsSolverInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],
   ['instantiable_3c_20pinocchiodynamicssolverinitializer_20_3e',['Instantiable&lt; PinocchioDynamicsSolverInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],
+  ['instantiable_3c_20pinocchiodynamicssolverwithgravitycompensationinitializer_20_3e',['Instantiable&lt; PinocchioDynamicsSolverWithGravityCompensationInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],
   ['instantiable_3c_20pointtolineinitializer_20_3e',['Instantiable&lt; PointToLineInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],
   ['instantiable_3c_20pointtoplaneinitializer_20_3e',['Instantiable&lt; PointToPlaneInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],
   ['instantiable_3c_20prmsolverinitializer_20_3e',['Instantiable&lt; PRMSolverInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],

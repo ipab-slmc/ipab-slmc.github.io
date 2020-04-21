@@ -103,6 +103,7 @@
 <li class="toctree-l1"><a class="reference internal" href="Setting-up-ROSlaunch.html">Setting up ROSlaunch</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Setting-up-problems-and-solvers.html">Setting up Problems and Solvers</a></li>
 <li class="toctree-l1"><a class="reference internal" href="advanced/task_space_vector.html">Task space vector handling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Visualisation.html">Visualisation</a></li>
 </ul>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="Initializers.html">Initializers</a></li>
@@ -269,6 +270,8 @@
 </li>
       <li><a href="Python-API.html#exotica_core_task_maps_py.CenterOfMass">CenterOfMass (class in exotica_core_task_maps_py)</a>
 </li>
+      <li><a href="Python-API.html#pyexotica.check_dynamics_solver_derivatives">check_dynamics_solver_derivatives() (in module pyexotica)</a>
+</li>
       <li><a href="Python-API.html#pyexotica.check_trajectory_continuous_time">check_trajectory_continuous_time() (in module pyexotica)</a>
 </li>
       <li><a href="Python-API.html#pyexotica.BoxQPSolution.clamped_idx">clamped_idx (pyexotica.BoxQPSolution attribute)</a>
@@ -293,16 +296,18 @@
 </li>
       <li><a href="Python-API.html#pyexotica.CollisionScene">CollisionScene (class in pyexotica)</a>
 </li>
+      <li><a href="Python-API.html#pyexotica.DynamicsSolver.compute_derivatives">compute_derivatives() (pyexotica.DynamicsSolver method)</a>
+</li>
       <li><a href="Python-API.html#exotica_core_task_maps_py.InteractionMesh.compute_goal_laplace">compute_goal_laplace() (exotica_core_task_maps_py.InteractionMesh static method)</a>
 </li>
       <li><a href="Python-API.html#exotica_core_task_maps_py.InteractionMesh.compute_laplace">compute_laplace() (exotica_core_task_maps_py.InteractionMesh static method)</a>
 </li>
       <li><a href="Python-API.html#pyexotica.Mesh.computeTriangleNormals">computeTriangleNormals() (pyexotica.Mesh method)</a>
 </li>
-      <li><a href="Python-API.html#pyexotica.Mesh.computeVertexNormals">computeVertexNormals() (pyexotica.Mesh method)</a>
-</li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="Python-API.html#pyexotica.Mesh.computeVertexNormals">computeVertexNormals() (pyexotica.Mesh method)</a>
+</li>
       <li><a href="Python-API.html#pyexotica.Cone">Cone (class in pyexotica)</a>
 </li>
       <li><a href="Python-API.html#pyexotica.ShapeType.CONE">CONE (pyexotica.ShapeType attribute)</a>
@@ -435,19 +440,23 @@
 </li>
       <li><a href="Python-API.html#pyexotica.Scene.fk">fk() (pyexotica.Scene method)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="Python-API.html#pyexotica.BaseType.Floating">Floating (pyexotica.BaseType attribute)</a>
 </li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="Python-API.html#pyexotica.BoxQPSolution.free_idx">free_idx (pyexotica.BoxQPSolution attribute)</a>
 </li>
       <li><a href="Python-API.html#exotica_ddp_solver_py.FeasibilityDrivenDDPSolver.fs">fs (exotica_ddp_solver_py.FeasibilityDrivenDDPSolver attribute)</a>
 </li>
       <li><a href="Python-API.html#pyexotica.DynamicsSolver.fu">fu() (pyexotica.DynamicsSolver method)</a>
 </li>
+      <li><a href="Python-API.html#pyexotica.DynamicsSolver.fu_fd">fu_fd() (pyexotica.DynamicsSolver method)</a>
+</li>
       <li><a href="Python-API.html#pyexotica.TerminationCriterion.FunctionTolerance">FunctionTolerance (pyexotica.TerminationCriterion attribute)</a>
 </li>
       <li><a href="Python-API.html#pyexotica.DynamicsSolver.fx">fx() (pyexotica.DynamicsSolver method)</a>
+</li>
+      <li><a href="Python-API.html#pyexotica.DynamicsSolver.fx_fd">fx_fd() (pyexotica.DynamicsSolver method)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -494,6 +503,10 @@
       <li><a href="Python-API.html#pyexotica.VisualizationMeshcat.get_file_url">get_file_url() (pyexotica.VisualizationMeshcat method)</a>
 </li>
       <li><a href="Python-API.html#pyexotica.KDLFrame.get_frame">get_frame() (pyexotica.KDLFrame method)</a>
+</li>
+      <li><a href="Python-API.html#pyexotica.DynamicsSolver.get_fu">get_fu() (pyexotica.DynamicsSolver method)</a>
+</li>
+      <li><a href="Python-API.html#pyexotica.DynamicsSolver.get_fx">get_fx() (pyexotica.DynamicsSolver method)</a>
 </li>
       <li><a href="Python-API.html#pyexotica.EndPoseTask.get_goal">get_goal() (pyexotica.EndPoseTask method)</a>
 
@@ -555,6 +568,8 @@
 </li>
       <li><a href="Python-API.html#pyexotica.KDLFrame.get_rpy">get_rpy() (pyexotica.KDLFrame method)</a>
 </li>
+      <li><a href="Python-API.html#pyexotica.TimeIndexedTask.get_S">get_S() (pyexotica.TimeIndexedTask method)</a>
+</li>
       <li><a href="Python-API.html#pyexotica.PlanningProblem.get_scene">get_scene() (pyexotica.PlanningProblem method)</a>
 
       <ul>
@@ -564,7 +579,11 @@
       <li><a href="Python-API.html#pyexotica.Setup.get_solvers">get_solvers() (pyexotica.Setup static method)</a>
 </li>
       <li><a href="Python-API.html#pyexotica.EndPoseTask.get_task_error">get_task_error() (pyexotica.EndPoseTask method)</a>
+
+      <ul>
+        <li><a href="Python-API.html#pyexotica.TimeIndexedTask.get_task_error">(pyexotica.TimeIndexedTask method)</a>
 </li>
+      </ul></li>
       <li><a href="Python-API.html#pyexotica.PlanningProblem.get_task_maps">get_task_maps() (pyexotica.PlanningProblem method)</a>
 </li>
       <li><a href="Python-API.html#pyexotica.PlanningProblem.get_tasks">get_tasks() (pyexotica.PlanningProblem method)</a>

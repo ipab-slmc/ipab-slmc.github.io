@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['object',['Object',['../structexotica_1_1visualization_1_1Object.html',1,'exotica::visualization::Object&lt; T &gt;'],['../classexotica_1_1Object.html',1,'exotica::Object']]],
+  ['object',['Object',['../classexotica_1_1Object.html',1,'exotica::Object'],['../structexotica_1_1visualization_1_1Object.html',1,'exotica::visualization::Object&lt; T &gt;']]],
   ['objectdata',['ObjectData',['../structexotica_1_1visualization_1_1ObjectData.html',1,'exotica::visualization']]],
   ['omplcontrolsolver',['OMPLControlSolver',['../classexotica_1_1OMPLControlSolver.html',1,'exotica']]],
   ['omplrnprojection',['OMPLRNProjection',['../classexotica_1_1OMPLRNProjection.html',1,'exotica']]],

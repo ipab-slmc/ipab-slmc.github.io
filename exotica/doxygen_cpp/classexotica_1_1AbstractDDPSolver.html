@@ -157,10 +157,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a82f6f5f7b83213958ba20a754b6155a9"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#a82f6f5f7b83213958ba20a754b6155a9">ForwardPass</a> (const double alpha, <a class="el" href="namespaceEigen.html#af5a0065bf476ec39a4bc067ea6df6a33">Eigen::MatrixXdRefConst</a> ref_x, <a class="el" href="namespaceEigen.html#af5a0065bf476ec39a4bc067ea6df6a33">Eigen::MatrixXdRefConst</a> ref_u)</td></tr>
 <tr class="memdesc:a82f6f5f7b83213958ba20a754b6155a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forward simulates the dynamics using the gains computed in the last BackwardPass;.  <a href="#a82f6f5f7b83213958ba20a754b6155a9">More...</a><br /></td></tr>
 <tr class="separator:a82f6f5f7b83213958ba20a754b6155a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5677a8e440ee842cffd60928877aad5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#a5677a8e440ee842cffd60928877aad5a">IncreaseRegularization</a> ()</td></tr>
-<tr class="separator:a5677a8e440ee842cffd60928877aad5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf07c5e733bcf2041d0868e4e36ee0e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#adf07c5e733bcf2041d0868e4e36ee0e3">DecreaseRegularization</a> ()</td></tr>
-<tr class="separator:adf07c5e733bcf2041d0868e4e36ee0e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0325476f23c6ddb8d4c7230de26438dc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#a0325476f23c6ddb8d4c7230de26438dc">IncreaseRegularization</a> ()</td></tr>
+<tr class="separator:a0325476f23c6ddb8d4c7230de26438dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addeddc2c59f44ffa5d3501f6ecf99b15"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDDPSolver.html#addeddc2c59f44ffa5d3501f6ecf99b15">DecreaseRegularization</a> ()</td></tr>
+<tr class="separator:addeddc2c59f44ffa5d3501f6ecf99b15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -287,8 +287,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="adf07c5e733bcf2041d0868e4e36ee0e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf07c5e733bcf2041d0868e4e36ee0e3">&#9670;&nbsp;</a></span>DecreaseRegularization()</h2>
+<a id="addeddc2c59f44ffa5d3501f6ecf99b15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addeddc2c59f44ffa5d3501f6ecf99b15">&#9670;&nbsp;</a></span>DecreaseRegularization()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -297,7 +297,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void exotica::AbstractDDPSolver::DecreaseRegularization </td>
+          <td class="memname">virtual void exotica::AbstractDDPSolver::DecreaseRegularization </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -305,10 +305,12 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#a09f3220acb8abb524ca932885c56a06d">exotica::AbstractFeasibilityDrivenDDPSolver</a>.</p>
 
 </div>
 </div>
@@ -402,8 +404,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a5677a8e440ee842cffd60928877aad5a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5677a8e440ee842cffd60928877aad5a">&#9670;&nbsp;</a></span>IncreaseRegularization()</h2>
+<a id="a0325476f23c6ddb8d4c7230de26438dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0325476f23c6ddb8d4c7230de26438dc">&#9670;&nbsp;</a></span>IncreaseRegularization()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -412,7 +414,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void exotica::AbstractDDPSolver::IncreaseRegularization </td>
+          <td class="memname">virtual void exotica::AbstractDDPSolver::IncreaseRegularization </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -420,10 +422,12 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#a17dc6465ce87c3e2d3f121b07c7cc58f">exotica::AbstractFeasibilityDrivenDDPSolver</a>.</p>
 
 </div>
 </div>
@@ -1233,7 +1237,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Mar 10 2020 15:28:36 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Apr 21 2020 17:35:39 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

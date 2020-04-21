@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['c_5f',['C_',['../classexotica_1_1IKSolver.html#a4f2d447f30cc93660727cb65abe9e2be',1,'exotica::IKSolver']]],
   ['check_5fself_5fcollision_5f',['check_self_collision_',['../classexotica_1_1CollisionDistance.html#a08436ba354621c31185b81eb40286e65',1,'exotica::CollisionDistance::check_self_collision_()'],['../classexotica_1_1SmoothCollisionDistance.html#afc384af252c8ae1f60ee1e251d99aafa',1,'exotica::SmoothCollisionDistance::check_self_collision_()'],['../classexotica_1_1SumOfPenetrations.html#a3888c9cf2cfb7bf6b1760d722ba5624a',1,'exotica::SumOfPenetrations::check_self_collision_()']]],
   ['children',['children',['../classexotica_1_1KinematicElement.html#aacccfa9964eb280cc4d534e11d176956',1,'exotica::KinematicElement']]],
   ['ci_5f',['Ci_',['../classexotica_1_1DynamicTimeIndexedShootingProblem.html#a01326a7d97274a439b35291a4b586586',1,'exotica::DynamicTimeIndexedShootingProblem']]],
@@ -42,6 +41,7 @@ var searchData=
   ['cost_5fcontrol_5f',['cost_control_',['../classexotica_1_1AICOSolver.html#ab4f6e649dadbce4672513ba20213eaa4',1,'exotica::AICOSolver']]],
   ['cost_5fcontrol_5fold_5f',['cost_control_old_',['../classexotica_1_1AICOSolver.html#aac6b87e2684ff17399616e3738c5dda9',1,'exotica::AICOSolver']]],
   ['cost_5fevolution_5f',['cost_evolution_',['../classexotica_1_1PlanningProblem.html#ab3850aeec64ed5ef63b17357080f4798',1,'exotica::PlanningProblem']]],
+  ['cost_5fjacobian_5f',['cost_jacobian_',['../classexotica_1_1IKSolver.html#a721a034346abf6ff583ae3f27e9e6429',1,'exotica::IKSolver']]],
   ['cost_5fold_5f',['cost_old_',['../classexotica_1_1AICOSolver.html#aa09beaff57ea30b1a4e9877d1daccfc9',1,'exotica::AICOSolver::cost_old_()'],['../classexotica_1_1BayesianIKSolver.html#a05609c13479ffb762eefa0e6568e182f',1,'exotica::BayesianIKSolver::cost_old_()']]],
   ['cost_5fphi',['cost_Phi',['../classexotica_1_1AbstractTimeIndexedProblem.html#a6e61fee9ceb892a82cfd84dc30ca338c',1,'exotica::AbstractTimeIndexedProblem::cost_Phi()'],['../classexotica_1_1DynamicTimeIndexedShootingProblem.html#a25793e9527118df8d94592a09e390bf8',1,'exotica::DynamicTimeIndexedShootingProblem::cost_Phi()']]],
   ['cost_5fprev_5f',['cost_prev_',['../classexotica_1_1AICOSolver.html#aba3ca69923c5ce811aa01927d31c1752',1,'exotica::AICOSolver::cost_prev_()'],['../classexotica_1_1BayesianIKSolver.html#a5264f0f49d2a8ed8153b8cc32a02dd63',1,'exotica::BayesianIKSolver::cost_prev_()'],['../classexotica_1_1AbstractDDPSolver.html#a06d625bf2d6d8e912853b1ac2dd2f95a',1,'exotica::AbstractDDPSolver::cost_prev_()']]],

@@ -72,10 +72,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>IK position solver The solver constructs and solves a linear program of the following form: </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ (SJW)x=y \]" src="form_37.png"/>
-</p>
-<p> Where S is a diagonal matrix of task scaling factors rho for each task, jacobian is the Jacobian, W is a diagonal matrix of the joint space weights.  
+<p>Weighted and Regularized Pseudo-Inverse Inverse Kinematics Solver The solver solves a weighted and regularised pseudo-inverse problem. It uses backtracking line-search and adaptive regularization.  
  <a href="classexotica_1_1IKSolver.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="ik__solver_8h_source.html">ik_solver.h</a>&gt;</code></p>
@@ -106,10 +103,6 @@ Collaboration diagram for exotica::IKSolver:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a74f64c5bfe7db56d421c553ab90d8a91"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#a74f64c5bfe7db56d421c553ab90d8a91">IKSolver</a> ()</td></tr>
-<tr class="separator:a74f64c5bfe7db56d421c553ab90d8a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f503f45884bd0e5943c83ec1122a7b6"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#a0f503f45884bd0e5943c83ec1122a7b6">~IKSolver</a> ()</td></tr>
-<tr class="separator:a0f503f45884bd0e5943c83ec1122a7b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41f151095b609e3acb56260cca17089e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#a41f151095b609e3acb56260cca17089e">Solve</a> (Eigen::MatrixXd &amp;solution) override</td></tr>
 <tr class="separator:a41f151095b609e3acb56260cca17089e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a3733075b3403c159c6facccd9ff4a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#a0a3733075b3403c159c6facccd9ff4a2">SpecifyProblem</a> (<a class="el" href="namespaceexotica.html#a4f3b927ad74a50193d0fb7bd2824f836">PlanningProblemPtr</a> pointer) override</td></tr>
@@ -157,20 +150,80 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:aaae517aed97e881cb74c2b006b0d3ca9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#aaae517aed97e881cb74c2b006b0d3ca9">IncreaseRegularization</a> ()</td></tr>
+<tr class="separator:aaae517aed97e881cb74c2b006b0d3ca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8e926e7385967a03495fb146bacf728"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#ad8e926e7385967a03495fb146bacf728">DecreaseRegularization</a> ()</td></tr>
+<tr class="separator:ad8e926e7385967a03495fb146bacf728"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a991b2b3bc6dcc36954928aca15ee6a7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#a991b2b3bc6dcc36954928aca15ee6a7f">PrintDebug</a> (const int i)</td></tr>
+<tr class="separator:a991b2b3bc6dcc36954928aca15ee6a7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade7d59bb8b7b3c3bca3e5e07b01e6028"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#ade7d59bb8b7b3c3bca3e5e07b01e6028">ScaleToStepSize</a> (<a class="el" href="namespaceEigen.html#a8f2847ac4d1fa769e981f4aee8b585da">Eigen::VectorXdRef</a> xd)</td></tr>
-<tr class="memdesc:ade7d59bb8b7b3c3bca3e5e07b01e6028"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scale the state change vector so that the largest dimension is max. step or smaller.  <a href="#ade7d59bb8b7b3c3bca3e5e07b01e6028">More...</a><br /></td></tr>
+<tr class="memdesc:ade7d59bb8b7b3c3bca3e5e07b01e6028"><td class="mdescLeft">&#160;</td><td class="mdescRight">To scale to maximum step size.  <a href="#ade7d59bb8b7b3c3bca3e5e07b01e6028">More...</a><br /></td></tr>
 <tr class="separator:ade7d59bb8b7b3c3bca3e5e07b01e6028"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:afd4a17a8f81af27327b401f718cb836b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceexotica.html#a30dbcb47575b3b3f1e748b830dfc3928">UnconstrainedEndPoseProblemPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#afd4a17a8f81af27327b401f718cb836b">prob_</a></td></tr>
 <tr class="separator:afd4a17a8f81af27327b401f718cb836b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f2d447f30cc93660727cb65abe9e2be"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#a4f2d447f30cc93660727cb65abe9e2be">C_</a></td></tr>
-<tr class="memdesc:a4f2d447f30cc93660727cb65abe9e2be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Regularisation (use values from interval &lt;0, 1))  <a href="#a4f2d447f30cc93660727cb65abe9e2be">More...</a><br /></td></tr>
-<tr class="separator:a4f2d447f30cc93660727cb65abe9e2be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f57e1c04fec82364647ee6699cac258"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#a8f57e1c04fec82364647ee6699cac258">W_</a></td></tr>
-<tr class="memdesc:a8f57e1c04fec82364647ee6699cac258"><td class="mdescLeft">&#160;</td><td class="mdescRight">Jointspace weighting.  <a href="#a8f57e1c04fec82364647ee6699cac258">More...</a><br /></td></tr>
-<tr class="separator:a8f57e1c04fec82364647ee6699cac258"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98c58376d7de26e1fb98b29f481d52a8"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#a98c58376d7de26e1fb98b29f481d52a8">W_inv_</a></td></tr>
+<tr class="memdesc:a98c58376d7de26e1fb98b29f481d52a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Joint-space weighting (inverse)  <a href="#a98c58376d7de26e1fb98b29f481d52a8">More...</a><br /></td></tr>
+<tr class="separator:a98c58376d7de26e1fb98b29f481d52a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c37d1e5b6e4f14c859c5d887ac9df71"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#a6c37d1e5b6e4f14c859c5d887ac9df71">alpha_space_</a></td></tr>
+<tr class="memdesc:a6c37d1e5b6e4f14c859c5d887ac9df71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Steplengths for backtracking line-search.  <a href="#a6c37d1e5b6e4f14c859c5d887ac9df71">More...</a><br /></td></tr>
+<tr class="separator:a6c37d1e5b6e4f14c859c5d887ac9df71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b2073a4dac4e9b7583476636f15e301"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#a8b2073a4dac4e9b7583476636f15e301">stop_</a></td></tr>
+<tr class="memdesc:a8b2073a4dac4e9b7583476636f15e301"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop criterion: Norm of cost Jacobian.  <a href="#a8b2073a4dac4e9b7583476636f15e301">More...</a><br /></td></tr>
+<tr class="separator:a8b2073a4dac4e9b7583476636f15e301"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accba4afd41d3835cfaffa7cd64111bd5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#accba4afd41d3835cfaffa7cd64111bd5">step_</a></td></tr>
+<tr class="memdesc:accba4afd41d3835cfaffa7cd64111bd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of step: Sum of squared norm of qd_.  <a href="#accba4afd41d3835cfaffa7cd64111bd5">More...</a><br /></td></tr>
+<tr class="separator:accba4afd41d3835cfaffa7cd64111bd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae338dd3127e77e312b88ee602698d963"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#ae338dd3127e77e312b88ee602698d963">lambda_</a> = 0</td></tr>
+<tr class="memdesc:ae338dd3127e77e312b88ee602698d963"><td class="mdescLeft">&#160;</td><td class="mdescRight">Damping factor.  <a href="#ae338dd3127e77e312b88ee602698d963">More...</a><br /></td></tr>
+<tr class="separator:ae338dd3127e77e312b88ee602698d963"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a473cd9b6c979d59e8096b768382e1ef8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#a473cd9b6c979d59e8096b768382e1ef8">steplength_</a></td></tr>
+<tr class="memdesc:a473cd9b6c979d59e8096b768382e1ef8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accepted steplength.  <a href="#a473cd9b6c979d59e8096b768382e1ef8">More...</a><br /></td></tr>
+<tr class="separator:a473cd9b6c979d59e8096b768382e1ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a523220573fd8d21fad3353fd639b0d37"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#a523220573fd8d21fad3353fd639b0d37">q_</a></td></tr>
+<tr class="memdesc:a523220573fd8d21fad3353fd639b0d37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Joint configuration vector, used during optimisation.  <a href="#a523220573fd8d21fad3353fd639b0d37">More...</a><br /></td></tr>
+<tr class="separator:a523220573fd8d21fad3353fd639b0d37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a202647e8db2c36dfa02bb464cea86826"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#a202647e8db2c36dfa02bb464cea86826">qd_</a></td></tr>
+<tr class="memdesc:a202647e8db2c36dfa02bb464cea86826"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change in joint configuration, used during optimisation.  <a href="#a202647e8db2c36dfa02bb464cea86826">More...</a><br /></td></tr>
+<tr class="separator:a202647e8db2c36dfa02bb464cea86826"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a3a658de2f8ad07f4d724a149159925"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#a5a3a658de2f8ad07f4d724a149159925">yd_</a></td></tr>
+<tr class="memdesc:a5a3a658de2f8ad07f4d724a149159925"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structexotica_1_1Task.html">Task</a> space difference/error, used during optimisation.  <a href="#a5a3a658de2f8ad07f4d724a149159925">More...</a><br /></td></tr>
+<tr class="separator:a5a3a658de2f8ad07f4d724a149159925"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a721a034346abf6ff583ae3f27e9e6429"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#a721a034346abf6ff583ae3f27e9e6429">cost_jacobian_</a></td></tr>
+<tr class="memdesc:a721a034346abf6ff583ae3f27e9e6429"><td class="mdescLeft">&#160;</td><td class="mdescRight">Jacobian, used during optimisation.  <a href="#a721a034346abf6ff583ae3f27e9e6429">More...</a><br /></td></tr>
+<tr class="separator:a721a034346abf6ff583ae3f27e9e6429"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30e5d59b89ce45b805a27a900409afc6"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#a30e5d59b89ce45b805a27a900409afc6">J_pseudo_inverse_</a></td></tr>
+<tr class="memdesc:a30e5d59b89ce45b805a27a900409afc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Jacobian pseudo-inverse, used during optimisation.  <a href="#a30e5d59b89ce45b805a27a900409afc6">More...</a><br /></td></tr>
+<tr class="separator:a30e5d59b89ce45b805a27a900409afc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad354b119505ae4ef163e2b226ba20922"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#ad354b119505ae4ef163e2b226ba20922">error_</a></td></tr>
+<tr class="memdesc:ad354b119505ae4ef163e2b226ba20922"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error, used during optimisation.  <a href="#ad354b119505ae4ef163e2b226ba20922">More...</a><br /></td></tr>
+<tr class="separator:ad354b119505ae4ef163e2b226ba20922"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4065d659cbbca0b27f41fe7e6f6c9f0c"><td class="memItemLeft" align="right" valign="top">Eigen::LLT&lt; Eigen::MatrixXd &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#a4065d659cbbca0b27f41fe7e6f6c9f0c">J_decomposition_</a></td></tr>
+<tr class="memdesc:a4065d659cbbca0b27f41fe7e6f6c9f0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cholesky decomposition for the weighted pseudo-inverse.  <a href="#a4065d659cbbca0b27f41fe7e6f6c9f0c">More...</a><br /></td></tr>
+<tr class="separator:a4065d659cbbca0b27f41fe7e6f6c9f0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa2882f31189bec81f049280df8af5d3"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#afa2882f31189bec81f049280df8af5d3">J_tmp_</a></td></tr>
+<tr class="memdesc:afa2882f31189bec81f049280df8af5d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Temporary variable for inverse computation.  <a href="#afa2882f31189bec81f049280df8af5d3">More...</a><br /></td></tr>
+<tr class="separator:afa2882f31189bec81f049280df8af5d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab02cb58954231f2d40637e511887b4ff"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#ab02cb58954231f2d40637e511887b4ff">th_stop_</a></td></tr>
+<tr class="memdesc:ab02cb58954231f2d40637e511887b4ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gradient convergence threshold.  <a href="#ab02cb58954231f2d40637e511887b4ff">More...</a><br /></td></tr>
+<tr class="separator:ab02cb58954231f2d40637e511887b4ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a989d6660aeb2f6f2c3a57843223630d7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#a989d6660aeb2f6f2c3a57843223630d7">regmin_</a> = 1e-9</td></tr>
+<tr class="memdesc:a989d6660aeb2f6f2c3a57843223630d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum regularization (will not decrease lower)  <a href="#a989d6660aeb2f6f2c3a57843223630d7">More...</a><br /></td></tr>
+<tr class="separator:a989d6660aeb2f6f2c3a57843223630d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cf1af66a22bbdc6752fb4555104c85f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#a1cf1af66a22bbdc6752fb4555104c85f">regmax_</a> = 1e9</td></tr>
+<tr class="memdesc:a1cf1af66a22bbdc6752fb4555104c85f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum regularization (to exit by divergence)  <a href="#a1cf1af66a22bbdc6752fb4555104c85f">More...</a><br /></td></tr>
+<tr class="separator:a1cf1af66a22bbdc6752fb4555104c85f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb521f5af742556c763e23c99318373d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#aeb521f5af742556c763e23c99318373d">regfactor_</a> = 10.</td></tr>
+<tr class="memdesc:aeb521f5af742556c763e23c99318373d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Factor by which the regularization gets increased/decreased.  <a href="#aeb521f5af742556c763e23c99318373d">More...</a><br /></td></tr>
+<tr class="separator:aeb521f5af742556c763e23c99318373d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cadc6ad10e5d7267b147025d87177d5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#a7cadc6ad10e5d7267b147025d87177d5">th_stepdec_</a> = 0.5</td></tr>
+<tr class="memdesc:a7cadc6ad10e5d7267b147025d87177d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Step-length threshold used to decrease regularization.  <a href="#a7cadc6ad10e5d7267b147025d87177d5">More...</a><br /></td></tr>
+<tr class="separator:a7cadc6ad10e5d7267b147025d87177d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d0c8a9d5eae3909c07d481b8cb83ce2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#a3d0c8a9d5eae3909c07d481b8cb83ce2">th_stepinc_</a> = 0.01</td></tr>
+<tr class="memdesc:a3d0c8a9d5eae3909c07d481b8cb83ce2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Step-length threshold used to increase regularization.  <a href="#a3d0c8a9d5eae3909c07d481b8cb83ce2">More...</a><br /></td></tr>
+<tr class="separator:a3d0c8a9d5eae3909c07d481b8cb83ce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -193,31 +246,10 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:aa2d71772c0b51e17b7907591ebcdb844 inherit pro_attribs_classexotica_1_1Instantiable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>IK position solver The solver constructs and solves a linear program of the following form: </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ (SJW)x=y \]" src="form_37.png"/>
-</p>
-<p> Where S is a diagonal matrix of task scaling factors rho for each task, jacobian is the Jacobian, W is a diagonal matrix of the joint space weights. </p>
-<p>When regularisation term C is used, it gets appended to the Jacobian and distance to the nominal pose is appended to the y vector. For more details see: <a href="https://github.com/ipab-slmc/exotica/pull/465#issuecomment-449021817">https://github.com/ipab-slmc/exotica/pull/465#issuecomment-449021817</a> </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a74f64c5bfe7db56d421c553ab90d8a91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74f64c5bfe7db56d421c553ab90d8a91">&#9670;&nbsp;</a></span>IKSolver()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">exotica::IKSolver::IKSolver </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0f503f45884bd0e5943c83ec1122a7b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f503f45884bd0e5943c83ec1122a7b6">&#9670;&nbsp;</a></span>~IKSolver()</h2>
+<div class="textblock"><p>Weighted and Regularized Pseudo-Inverse Inverse Kinematics Solver The solver solves a weighted and regularised pseudo-inverse problem. It uses backtracking line-search and adaptive regularization. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad8e926e7385967a03495fb146bacf728"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8e926e7385967a03495fb146bacf728">&#9670;&nbsp;</a></span>DecreaseRegularization()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226,7 +258,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual exotica::IKSolver::~IKSolver </td>
+          <td class="memname">void exotica::IKSolver::DecreaseRegularization </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -234,14 +266,64 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a id="aaae517aed97e881cb74c2b006b0d3ca9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaae517aed97e881cb74c2b006b0d3ca9">&#9670;&nbsp;</a></span>IncreaseRegularization()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void exotica::IKSolver::IncreaseRegularization </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a991b2b3bc6dcc36954928aca15ee6a7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a991b2b3bc6dcc36954928aca15ee6a7f">&#9670;&nbsp;</a></span>PrintDebug()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void exotica::IKSolver::PrintDebug </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ade7d59bb8b7b3c3bca3e5e07b01e6028"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ade7d59bb8b7b3c3bca3e5e07b01e6028">&#9670;&nbsp;</a></span>ScaleToStepSize()</h2>
 
@@ -266,7 +348,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Scale the state change vector so that the largest dimension is max. step or smaller. </p>
+<p>To scale to maximum step size. </p>
 
 </div>
 </div>
@@ -327,8 +409,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a4f2d447f30cc93660727cb65abe9e2be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f2d447f30cc93660727cb65abe9e2be">&#9670;&nbsp;</a></span>C_</h2>
+<a id="a6c37d1e5b6e4f14c859c5d887ac9df71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c37d1e5b6e4f14c859c5d887ac9df71">&#9670;&nbsp;</a></span>alpha_space_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -337,7 +419,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::MatrixXd exotica::IKSolver::C_</td>
+          <td class="memname">Eigen::VectorXd exotica::IKSolver::alpha_space_</td>
         </tr>
       </table>
   </td>
@@ -347,7 +429,151 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Regularisation (use values from interval &lt;0, 1)) </p>
+<p>Steplengths for backtracking line-search. </p>
+
+</div>
+</div>
+<a id="a721a034346abf6ff583ae3f27e9e6429"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a721a034346abf6ff583ae3f27e9e6429">&#9670;&nbsp;</a></span>cost_jacobian_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::MatrixXd exotica::IKSolver::cost_jacobian_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Jacobian, used during optimisation. </p>
+
+</div>
+</div>
+<a id="ad354b119505ae4ef163e2b226ba20922"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad354b119505ae4ef163e2b226ba20922">&#9670;&nbsp;</a></span>error_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double exotica::IKSolver::error_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Error, used during optimisation. </p>
+
+</div>
+</div>
+<a id="a4065d659cbbca0b27f41fe7e6f6c9f0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4065d659cbbca0b27f41fe7e6f6c9f0c">&#9670;&nbsp;</a></span>J_decomposition_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::LLT&lt;Eigen::MatrixXd&gt; exotica::IKSolver::J_decomposition_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Cholesky decomposition for the weighted pseudo-inverse. </p>
+
+</div>
+</div>
+<a id="a30e5d59b89ce45b805a27a900409afc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30e5d59b89ce45b805a27a900409afc6">&#9670;&nbsp;</a></span>J_pseudo_inverse_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::MatrixXd exotica::IKSolver::J_pseudo_inverse_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Jacobian pseudo-inverse, used during optimisation. </p>
+
+</div>
+</div>
+<a id="afa2882f31189bec81f049280df8af5d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa2882f31189bec81f049280df8af5d3">&#9670;&nbsp;</a></span>J_tmp_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::MatrixXd exotica::IKSolver::J_tmp_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Temporary variable for inverse computation. </p>
+
+</div>
+</div>
+<a id="ae338dd3127e77e312b88ee602698d963"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae338dd3127e77e312b88ee602698d963">&#9670;&nbsp;</a></span>lambda_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double exotica::IKSolver::lambda_ = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Damping factor. </p>
 
 </div>
 </div>
@@ -373,8 +599,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a8f57e1c04fec82364647ee6699cac258"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f57e1c04fec82364647ee6699cac258">&#9670;&nbsp;</a></span>W_</h2>
+<a id="a523220573fd8d21fad3353fd639b0d37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a523220573fd8d21fad3353fd639b0d37">&#9670;&nbsp;</a></span>q_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -383,7 +609,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::MatrixXd exotica::IKSolver::W_</td>
+          <td class="memname">Eigen::VectorXd exotica::IKSolver::q_</td>
         </tr>
       </table>
   </td>
@@ -393,7 +619,295 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Jointspace weighting. </p>
+<p>Joint configuration vector, used during optimisation. </p>
+
+</div>
+</div>
+<a id="a202647e8db2c36dfa02bb464cea86826"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a202647e8db2c36dfa02bb464cea86826">&#9670;&nbsp;</a></span>qd_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::VectorXd exotica::IKSolver::qd_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Change in joint configuration, used during optimisation. </p>
+
+</div>
+</div>
+<a id="aeb521f5af742556c763e23c99318373d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb521f5af742556c763e23c99318373d">&#9670;&nbsp;</a></span>regfactor_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double exotica::IKSolver::regfactor_ = 10.</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Factor by which the regularization gets increased/decreased. </p>
+
+</div>
+</div>
+<a id="a1cf1af66a22bbdc6752fb4555104c85f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cf1af66a22bbdc6752fb4555104c85f">&#9670;&nbsp;</a></span>regmax_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double exotica::IKSolver::regmax_ = 1e9</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Maximum regularization (to exit by divergence) </p>
+
+</div>
+</div>
+<a id="a989d6660aeb2f6f2c3a57843223630d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a989d6660aeb2f6f2c3a57843223630d7">&#9670;&nbsp;</a></span>regmin_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double exotica::IKSolver::regmin_ = 1e-9</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Minimum regularization (will not decrease lower) </p>
+
+</div>
+</div>
+<a id="accba4afd41d3835cfaffa7cd64111bd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accba4afd41d3835cfaffa7cd64111bd5">&#9670;&nbsp;</a></span>step_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double exotica::IKSolver::step_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Size of step: Sum of squared norm of qd_. </p>
+
+</div>
+</div>
+<a id="a473cd9b6c979d59e8096b768382e1ef8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a473cd9b6c979d59e8096b768382e1ef8">&#9670;&nbsp;</a></span>steplength_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double exotica::IKSolver::steplength_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Accepted steplength. </p>
+
+</div>
+</div>
+<a id="a8b2073a4dac4e9b7583476636f15e301"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b2073a4dac4e9b7583476636f15e301">&#9670;&nbsp;</a></span>stop_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double exotica::IKSolver::stop_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stop criterion: Norm of cost Jacobian. </p>
+
+</div>
+</div>
+<a id="a7cadc6ad10e5d7267b147025d87177d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cadc6ad10e5d7267b147025d87177d5">&#9670;&nbsp;</a></span>th_stepdec_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double exotica::IKSolver::th_stepdec_ = 0.5</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Step-length threshold used to decrease regularization. </p>
+
+</div>
+</div>
+<a id="a3d0c8a9d5eae3909c07d481b8cb83ce2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d0c8a9d5eae3909c07d481b8cb83ce2">&#9670;&nbsp;</a></span>th_stepinc_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double exotica::IKSolver::th_stepinc_ = 0.01</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Step-length threshold used to increase regularization. </p>
+
+</div>
+</div>
+<a id="ab02cb58954231f2d40637e511887b4ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab02cb58954231f2d40637e511887b4ff">&#9670;&nbsp;</a></span>th_stop_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double exotica::IKSolver::th_stop_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gradient convergence threshold. </p>
+
+</div>
+</div>
+<a id="a98c58376d7de26e1fb98b29f481d52a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98c58376d7de26e1fb98b29f481d52a8">&#9670;&nbsp;</a></span>W_inv_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::MatrixXd exotica::IKSolver::W_inv_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Joint-space weighting (inverse) </p>
+
+</div>
+</div>
+<a id="a5a3a658de2f8ad07f4d724a149159925"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a3a658de2f8ad07f4d724a149159925">&#9670;&nbsp;</a></span>yd_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::VectorXd exotica::IKSolver::yd_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="structexotica_1_1Task.html">Task</a> space difference/error, used during optimisation. </p>
 
 </div>
 </div>
@@ -403,7 +917,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Mar 10 2020 15:28:36 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Apr 21 2020 17:35:39 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

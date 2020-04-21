@@ -1,6 +1,8 @@
 var searchData=
 [
   ['u_5f',['U_',['../classexotica_1_1DynamicTimeIndexedShootingProblem.html#a1a74016a4bdf676b1acf8f2bc367e196',1,'exotica::DynamicTimeIndexedShootingProblem']]],
+  ['u_5fcommand_5f',['u_command_',['../classexotica_1_1PinocchioDynamicsSolverWithGravityCompensation.html#acccb1baa4ad4dc223ecfb2e982c58b99',1,'exotica::PinocchioDynamicsSolverWithGravityCompensation']]],
+  ['u_5fnle_5f',['u_nle_',['../classexotica_1_1PinocchioDynamicsSolverWithGravityCompensation.html#ae424ae984163d77e59e7a1d9bff886b8',1,'exotica::PinocchioDynamicsSolverWithGravityCompensation']]],
   ['u_5fprev_5f',['U_prev_',['../classexotica_1_1AbstractDDPSolver.html#a4b049b537d7e2fa1a61ca357b51a4ab6',1,'exotica::AbstractDDPSolver']]],
   ['u_5fref_5f',['U_ref_',['../classexotica_1_1AbstractDDPSolver.html#a6a7e93ec5ec38841196bc67d90ef2b86',1,'exotica::AbstractDDPSolver']]],
   ['u_5ftry_5f',['U_try_',['../classexotica_1_1AbstractDDPSolver.html#ac61d17afe97d1437be344b72945b690c',1,'exotica::AbstractDDPSolver']]],

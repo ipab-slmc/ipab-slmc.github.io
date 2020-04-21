@@ -13,5 +13,6 @@ var searchData=
   ['epsfcn_5f',['epsfcn_',['../classEigen_1_1FiniteDiffChainHessian.html#a53a28c27d37269466a09c44e275d5a48',1,'Eigen::FiniteDiffChainHessian::epsfcn_()'],['../classEigen_1_1FiniteDiffChainJacobian.html#ac19e70a4b8c9cffc83c94efc4ef43769',1,'Eigen::FiniteDiffChainJacobian::epsfcn_()']]],
   ['equality',['equality',['../classexotica_1_1AbstractTimeIndexedProblem.html#afaf83b240e00f2d64294a3423ebc6ce8',1,'exotica::AbstractTimeIndexedProblem::equality()'],['../classexotica_1_1EndPoseProblem.html#a002ef24334f1ba5895417cb7bff4ec14',1,'exotica::EndPoseProblem::equality()'],['../classexotica_1_1SamplingProblem.html#a30a0488a681df4ec7f713e680a0b7fd1',1,'exotica::SamplingProblem::equality()'],['../classexotica_1_1TimeIndexedSamplingProblem.html#a2d72413a903545dc6941ebf3ae43b0e6',1,'exotica::TimeIndexedSamplingProblem::equality()']]],
   ['equality_5fphi',['equality_Phi',['../classexotica_1_1AbstractTimeIndexedProblem.html#aca3ae6496c7517b6644a502501cec1d7',1,'exotica::AbstractTimeIndexedProblem']]],
+  ['error_5f',['error_',['../classexotica_1_1IKSolver.html#ad354b119505ae4ef163e2b226ba20922',1,'exotica::IKSolver']]],
   ['expx',['expx',['../namespaceEigen.html#ab63002a89341ef7158fe60fa7570e88c',1,'Eigen']]]
 ];

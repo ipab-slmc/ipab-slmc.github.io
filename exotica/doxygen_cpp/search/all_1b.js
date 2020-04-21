@@ -11,7 +11,6 @@ var searchData=
   ['_7eefforientation',['~EffOrientation',['../classexotica_1_1EffOrientation.html#a1a10f287a314080d50286fe9c44fc338',1,'exotica::EffOrientation']]],
   ['_7eeffvelocity',['~EffVelocity',['../classexotica_1_1EffVelocity.html#add88565b3ec05de7507f8671f43f7afe',1,'exotica::EffVelocity']]],
   ['_7eendposeproblem',['~EndPoseProblem',['../classexotica_1_1EndPoseProblem.html#abf61af75523c84157948a4515f8ca23a',1,'exotica::EndPoseProblem']]],
-  ['_7eiksolver',['~IKSolver',['../classexotica_1_1IKSolver.html#a0f503f45884bd0e5943c83ec1122a7b6',1,'exotica::IKSolver']]],
   ['_7einteractionmesh',['~InteractionMesh',['../classexotica_1_1InteractionMesh.html#a374e9f6d3d0a9464735590ca5d2eb2b5',1,'exotica::InteractionMesh']]],
   ['_7ejointvelocitylimit',['~JointVelocityLimit',['../classexotica_1_1JointVelocityLimit.html#a0ec5a13cb3bcc7d9debc58a012773661',1,'exotica::JointVelocityLimit']]],
   ['_7ekinematicelement',['~KinematicElement',['../classexotica_1_1KinematicElement.html#adec7328f97e598713b3d645a9b8650b3',1,'exotica::KinematicElement']]],

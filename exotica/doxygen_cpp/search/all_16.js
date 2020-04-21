@@ -22,7 +22,7 @@ var searchData=
   ['visualization_5fmeshcat_2eh',['visualization_meshcat.h',['../visualization__meshcat_8h.html',1,'']]],
   ['visualization_5fmeshcat_5ftypes_2eh',['visualization_meshcat_types.h',['../visualization__meshcat__types_8h.html',1,'']]],
   ['visualization_5fmoveit_2eh',['visualization_moveit.h',['../visualization__moveit_8h.html',1,'']]],
-  ['visualizationmeshcat',['VisualizationMeshcat',['../classexotica_1_1VisualizationMeshcat.html',1,'exotica::VisualizationMeshcat'],['../classexotica_1_1VisualizationMeshcat.html#a2477d0d0c18a520db36044633ab54b45',1,'exotica::VisualizationMeshcat::VisualizationMeshcat()']]],
+  ['visualizationmeshcat',['VisualizationMeshcat',['../classexotica_1_1VisualizationMeshcat.html',1,'exotica::VisualizationMeshcat'],['../classexotica_1_1VisualizationMeshcat.html#a5cf12385f0c3927723b52ca16e104c45',1,'exotica::VisualizationMeshcat::VisualizationMeshcat()']]],
   ['visualizationmoveit',['VisualizationMoveIt',['../classexotica_1_1VisualizationMoveIt.html',1,'exotica::VisualizationMoveIt'],['../classexotica_1_1VisualizationMoveIt.html#a14d3681336f67162d239d663f91d2721',1,'exotica::VisualizationMoveIt::VisualizationMoveIt()']]],
   ['visualize_5f',['visualize_',['../classexotica_1_1PointToLine.html#a41e062196be1010d8912b9e1ce94dd20',1,'exotica::PointToLine']]],
   ['vk_5fgains_5f',['vk_gains_',['../classexotica_1_1ILQRSolver.html#acf4f81525e690b6f19e18adafbe9ddf5',1,'exotica::ILQRSolver']]],

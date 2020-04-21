@@ -80,14 +80,15 @@ Inheritance diagram for exotica::AbstractDynamicsSolver&lt; T, NX, NU &gt;:</div
 <div class="dyncontent">
 <div class="center"><img src="classexotica_1_1AbstractDynamicsSolver__inherit__graph.png" border="0" usemap="#exotica_1_1AbstractDynamicsSolver_3_01T_00_01NX_00_01NU_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="exotica_1_1AbstractDynamicsSolver_3_01T_00_01NX_00_01NU_01_4_inherit__map" id="exotica_1_1AbstractDynamicsSolver_3_01T_00_01NX_00_01NU_01_4_inherit__map">
-<area shape="rect" id="node5" href="classexotica_1_1CartpoleDynamicsSolver.html" title="{exotica::CartpoleDynamics\lSolver\n|&#45; M\l&#45; M_inv\l&#45; g_\l&#45; m_c_\l&#45; m_p_\l&#45; l_\l&#45; slider_length_\l&#45; max_x_\l&#45; max_y_\l|+ CartpoleDynamicsSolver()\l+ AssignScene()\l+ f()\l+ fx()\l+ fu()\l+ fxx()\l+ fxu()\l}" alt="" coords="5,784,192,1081"/>
-<area shape="rect" id="node6" href="classexotica_1_1DoubleIntegratorDynamicsSolver.html" title="{exotica::DoubleIntegrator\lDynamicsSolver\n|&#45; A_\l&#45; B_\l|+ DoubleIntegratorDynamics\lSolver()\l+ AssignScene()\l+ f()\l+ fx()\l+ fu()\l}" alt="" coords="216,843,405,1023"/>
-<area shape="rect" id="node7" href="classexotica_1_1PendulumDynamicsSolver.html" title="{exotica::PendulumDynamics\lSolver\n|&#45; g_\l&#45; m_\l&#45; l_\l&#45; b_\l|+ PendulumDynamicsSolver()\l+ AssignScene()\l+ f()\l+ fx()\l+ fu()\l}" alt="" coords="430,835,626,1030"/>
-<area shape="rect" id="node8" href="classexotica_1_1PinocchioDynamicsSolver.html" title="{exotica::PinocchioDynamics\lSolver\n|&#45; model_\l&#45; pinocchio_data_\l&#45; fx_analytic_\l&#45; fu_analytic_\l&#45; xdot_analytic_\l|+ AssignScene()\l+ f()\l+ fx()\l+ fu()\l+ InverseDynamics()\l}" alt="" coords="650,828,838,1037"/>
-<area shape="rect" id="node9" href="classexotica_1_1QuadrotorDynamicsSolver.html" title="Quadrotor dynamics with quaternion representation Based on D. Mellinger, N. Michael, and V. Kumar, &quot;Trajectory generation and control for precise aggressive maneuvers with quadrotors&quot;, Proceedings of the 12th International Symposium on Experimental Robotics (ISER 2010), 2010. Cf. https://journals.sagepub.com/doi/abs/10.1177/0278364911434236. " alt="" coords="863,813,1057,1052"/>
-<area shape="rect" id="node2" href="classexotica_1_1Object.html" title="{exotica::Object\n|+ ns_\l+ object_name_\l+ debug_\l|+ Object()\l+ ~Object()\l+ type()\l+ GetObjectName()\l+ InstantiateObject()\l+ Print()\l}" alt="" coords="292,5,433,185"/>
-<area shape="rect" id="node3" href="classexotica_1_1Uncopyable.html" title="{exotica::Uncopyable\n||+ Uncopyable()\l+ ~Uncopyable()\l&#45; Uncopyable()\l&#45; operator=()\l}" alt="" coords="457,35,599,156"/>
-<area shape="rect" id="node4" href="classexotica_1_1InstantiableBase.html" title="{exotica::InstantiableBase\n||+ GetInitializerTemplate()\l+ InstantiateInternal()\l+ InstantiateBase()\l+ GetAllTemplates()\l}" alt="" coords="623,35,793,156"/>
+<area shape="rect" id="node5" href="classexotica_1_1CartpoleDynamicsSolver.html" title="{exotica::CartpoleDynamics\lSolver\n|&#45; M\l&#45; M_inv\l&#45; g_\l&#45; m_c_\l&#45; m_p_\l&#45; l_\l&#45; slider_length_\l&#45; max_x_\l&#45; max_y_\l|+ CartpoleDynamicsSolver()\l+ AssignScene()\l+ f()\l+ fx()\l+ fu()\l+ fxx()\l+ fxu()\l}" alt="" coords="5,813,192,1111"/>
+<area shape="rect" id="node6" href="classexotica_1_1DoubleIntegratorDynamicsSolver.html" title="{exotica::DoubleIntegrator\lDynamicsSolver\n|&#45; A_\l&#45; B_\l|+ DoubleIntegratorDynamics\lSolver()\l+ AssignScene()\l+ f()\l+ ComputeDerivatives()\l+ fx()\l+ fu()\l}" alt="" coords="216,865,405,1059"/>
+<area shape="rect" id="node7" href="classexotica_1_1PendulumDynamicsSolver.html" title="{exotica::PendulumDynamics\lSolver\n|&#45; g_\l&#45; m_\l&#45; l_\l&#45; b_\l|+ PendulumDynamicsSolver()\l+ AssignScene()\l+ f()\l+ fx()\l+ fu()\l}" alt="" coords="430,865,626,1059"/>
+<area shape="rect" id="node8" href="classexotica_1_1PinocchioDynamicsSolver.html" title="{exotica::PinocchioDynamics\lSolver\n|&#45; model_\l&#45; pinocchio_data_\l&#45; xdot_analytic_\l|+ AssignScene()\l+ f()\l+ fx()\l+ fu()\l+ ComputeDerivatives()\l+ InverseDynamics()\l}" alt="" coords="650,865,838,1059"/>
+<area shape="rect" id="node9" href="classexotica_1_1PinocchioDynamicsSolverWithGravityCompensation.html" title="{exotica::PinocchioDynamics\lSolverWithGravityCompensation\n|&#45; model_\l&#45; pinocchio_data_\l&#45; xdot_analytic_\l&#45; u_nle_\l&#45; u_command_\l&#45; a_\l&#45; du_command_dq_\l&#45; du_nle_dq_\l|+ AssignScene()\l+ f()\l+ fx()\l+ fu()\l+ ComputeDerivatives()\l}" alt="" coords="862,835,1074,1089"/>
+<area shape="rect" id="node10" href="classexotica_1_1QuadrotorDynamicsSolver.html" title="Quadrotor dynamics with quaternion representation Based on D. Mellinger, N. Michael, and V. Kumar, &quot;Trajectory generation and control for precise aggressive maneuvers with quadrotors&quot;, Proceedings of the 12th International Symposium on Experimental Robotics (ISER 2010), 2010. Cf. https://journals.sagepub.com/doi/abs/10.1177/0278364911434236. " alt="" coords="1099,843,1293,1081"/>
+<area shape="rect" id="node2" href="classexotica_1_1Object.html" title="{exotica::Object\n|+ ns_\l+ object_name_\l+ debug_\l|+ Object()\l+ ~Object()\l+ type()\l+ GetObjectName()\l+ InstantiateObject()\l+ Print()\l}" alt="" coords="400,5,541,185"/>
+<area shape="rect" id="node3" href="classexotica_1_1Uncopyable.html" title="{exotica::Uncopyable\n||+ Uncopyable()\l+ ~Uncopyable()\l&#45; Uncopyable()\l&#45; operator=()\l}" alt="" coords="565,35,707,156"/>
+<area shape="rect" id="node4" href="classexotica_1_1InstantiableBase.html" title="{exotica::InstantiableBase\n||+ GetInitializerTemplate()\l+ InstantiateInternal()\l+ InstantiateBase()\l+ GetAllTemplates()\l}" alt="" coords="731,35,901,156"/>
 </map>
 </div>
 <div class="dynheader">
@@ -134,12 +135,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a66f55cd2d4e8d259069f6df3501906b3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a92db2720a30fe12c7e3710c16809c6d2">StateVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a66f55cd2d4e8d259069f6df3501906b3">f</a> (const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a92db2720a30fe12c7e3710c16809c6d2">StateVector</a> &amp;x, const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a1c946a65271a92fe07ccd0ce0fc01442">ControlVector</a> &amp;u)=0</td></tr>
 <tr class="memdesc:a66f55cd2d4e8d259069f6df3501906b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forward dynamics.  <a href="#a66f55cd2d4e8d259069f6df3501906b3">More...</a><br /></td></tr>
 <tr class="separator:a66f55cd2d4e8d259069f6df3501906b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a542544c89a38cac866d733c586c54980"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a542544c89a38cac866d733c586c54980">ComputeDerivatives</a> (const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a92db2720a30fe12c7e3710c16809c6d2">StateVector</a> &amp;x, const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a1c946a65271a92fe07ccd0ce0fc01442">ControlVector</a> &amp;u)</td></tr>
+<tr class="memdesc:a542544c89a38cac866d733c586c54980"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes derivatives fx, fu [single call for efficiency, derivatives can be retrieved with get_fx, get_fu].  <a href="#a542544c89a38cac866d733c586c54980">More...</a><br /></td></tr>
+<tr class="separator:a542544c89a38cac866d733c586c54980"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3f629110cc79d8d0c8f95316439a4a2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#aebaa1edce51cfefd9d00473710c0ccdb">StateDerivative</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#ad3f629110cc79d8d0c8f95316439a4a2">get_fx</a> () const</td></tr>
+<tr class="memdesc:ad3f629110cc79d8d0c8f95316439a4a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns derivative fx computed by ComputeDerivatives.  <a href="#ad3f629110cc79d8d0c8f95316439a4a2">More...</a><br /></td></tr>
+<tr class="separator:ad3f629110cc79d8d0c8f95316439a4a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b368fa4e3dcfe7be81da91d0778c46d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a6771f6929a631a4e13fc9d6aab910bac">ControlDerivative</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a5b368fa4e3dcfe7be81da91d0778c46d">get_fu</a> () const</td></tr>
+<tr class="memdesc:a5b368fa4e3dcfe7be81da91d0778c46d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns derivative fu computed by ComputeDerivatives.  <a href="#a5b368fa4e3dcfe7be81da91d0778c46d">More...</a><br /></td></tr>
+<tr class="separator:a5b368fa4e3dcfe7be81da91d0778c46d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0228aaa9b000312235afe6ce2dbdaa6d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#aebaa1edce51cfefd9d00473710c0ccdb">StateDerivative</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a0228aaa9b000312235afe6ce2dbdaa6d">fx</a> (const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a92db2720a30fe12c7e3710c16809c6d2">StateVector</a> &amp;x, const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a1c946a65271a92fe07ccd0ce0fc01442">ControlVector</a> &amp;u)</td></tr>
 <tr class="memdesc:a0228aaa9b000312235afe6ce2dbdaa6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derivative of the forward dynamics w.r.t. the state.  <a href="#a0228aaa9b000312235afe6ce2dbdaa6d">More...</a><br /></td></tr>
 <tr class="separator:a0228aaa9b000312235afe6ce2dbdaa6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a514be7a42dbd7195c4db063f0f0f1966"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a6771f6929a631a4e13fc9d6aab910bac">ControlDerivative</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a514be7a42dbd7195c4db063f0f0f1966">fu</a> (const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a92db2720a30fe12c7e3710c16809c6d2">StateVector</a> &amp;x, const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a1c946a65271a92fe07ccd0ce0fc01442">ControlVector</a> &amp;u)</td></tr>
 <tr class="memdesc:a514be7a42dbd7195c4db063f0f0f1966"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derivative of the forward dynamics w.r.t. the control.  <a href="#a514be7a42dbd7195c4db063f0f0f1966">More...</a><br /></td></tr>
 <tr class="separator:a514be7a42dbd7195c4db063f0f0f1966"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4c048c58ee7068463f3c52f498c6719"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#aebaa1edce51cfefd9d00473710c0ccdb">StateDerivative</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#aa4c048c58ee7068463f3c52f498c6719">fx_fd</a> (const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a92db2720a30fe12c7e3710c16809c6d2">StateVector</a> &amp;x, const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a1c946a65271a92fe07ccd0ce0fc01442">ControlVector</a> &amp;u)</td></tr>
+<tr class="memdesc:aa4c048c58ee7068463f3c52f498c6719"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derivative of the forward dynamics w.r.t. the state [finite differencing].  <a href="#aa4c048c58ee7068463f3c52f498c6719">More...</a><br /></td></tr>
+<tr class="separator:aa4c048c58ee7068463f3c52f498c6719"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a939b95e73b9c81cde20e67cd36be6a5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a6771f6929a631a4e13fc9d6aab910bac">ControlDerivative</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a939b95e73b9c81cde20e67cd36be6a5a">fu_fd</a> (const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a92db2720a30fe12c7e3710c16809c6d2">StateVector</a> &amp;x, const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a1c946a65271a92fe07ccd0ce0fc01442">ControlVector</a> &amp;u)</td></tr>
+<tr class="memdesc:a939b95e73b9c81cde20e67cd36be6a5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derivative of the forward dynamics w.r.t. the control [finite differencing].  <a href="#a939b95e73b9c81cde20e67cd36be6a5a">More...</a><br /></td></tr>
+<tr class="separator:a939b95e73b9c81cde20e67cd36be6a5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef399dca7011fe8db965efa602b5cb3e"><td class="memItemLeft" align="right" valign="top">virtual Eigen::Tensor&lt; T, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#aef399dca7011fe8db965efa602b5cb3e">fxx</a> (const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a92db2720a30fe12c7e3710c16809c6d2">StateVector</a> &amp;x, const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a1c946a65271a92fe07ccd0ce0fc01442">ControlVector</a> &amp;u)</td></tr>
 <tr class="separator:aef399dca7011fe8db965efa602b5cb3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2677823801983759eb0805dbe04a84a9"><td class="memItemLeft" align="right" valign="top">virtual Eigen::Tensor&lt; T, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a2677823801983759eb0805dbe04a84a9">fuu</a> (const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a92db2720a30fe12c7e3710c16809c6d2">StateVector</a> &amp;x, const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a1c946a65271a92fe07ccd0ce0fc01442">ControlVector</a> &amp;u)</td></tr>
@@ -257,6 +273,12 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a10e9f3d942dfa0053bf0b105f91be4c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62f73941d85283e4819737a5f68b03b8"><td class="memItemLeft" align="right" valign="top">Eigen::Tensor&lt; T, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a62f73941d85283e4819737a5f68b03b8">fxu_default_</a></td></tr>
 <tr class="separator:a62f73941d85283e4819737a5f68b03b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f2c26e496bc9cf8bcdf83a5ddf82dd9"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a0f2c26e496bc9cf8bcdf83a5ddf82dd9">fx_</a></td></tr>
+<tr class="memdesc:a0f2c26e496bc9cf8bcdf83a5ddf82dd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal storage of derivative fx computed by ComputeDerivatives.  <a href="#a0f2c26e496bc9cf8bcdf83a5ddf82dd9">More...</a><br /></td></tr>
+<tr class="separator:a0f2c26e496bc9cf8bcdf83a5ddf82dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66cc23799b0c414cd32a62cd96de82e0"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a66cc23799b0c414cd32a62cd96de82e0">fu_</a></td></tr>
+<tr class="memdesc:a66cc23799b0c414cd32a62cd96de82e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal storage of derivative fu computed by ComputeDerivatives.  <a href="#a66cc23799b0c414cd32a62cd96de82e0">More...</a><br /></td></tr>
+<tr class="separator:a66cc23799b0c414cd32a62cd96de82e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -434,6 +456,48 @@ template&lt;typename T , int NX, int NU&gt; </div>
 
 </div>
 </div>
+<a id="a542544c89a38cac866d733c586c54980"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a542544c89a38cac866d733c586c54980">&#9670;&nbsp;</a></span>ComputeDerivatives()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , int NX, int NU&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html">exotica::AbstractDynamicsSolver</a>&lt; T, NX, NU &gt;::ComputeDerivatives </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a92db2720a30fe12c7e3710c16809c6d2">StateVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a1c946a65271a92fe07ccd0ce0fc01442">ControlVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>u</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Computes derivatives fx, fu [single call for efficiency, derivatives can be retrieved with get_fx, get_fu]. </p>
+
+<p>Reimplemented in <a class="el" href="classexotica_1_1PinocchioDynamicsSolver.html#a7b4005e8b8191646da28c59ffd58a598">exotica::PinocchioDynamicsSolver</a>, <a class="el" href="classexotica_1_1PinocchioDynamicsSolverWithGravityCompensation.html#a80d749e856aede4be3b3c58eb590ebac">exotica::PinocchioDynamicsSolverWithGravityCompensation</a>, and <a class="el" href="classexotica_1_1DoubleIntegratorDynamicsSolver.html#a51a52dd6068e96bd0a21f0f86d775113">exotica::DoubleIntegratorDynamicsSolver</a>.</p>
+
+</div>
+</div>
 <a id="a66f55cd2d4e8d259069f6df3501906b3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a66f55cd2d4e8d259069f6df3501906b3">&#9670;&nbsp;</a></span>f()</h2>
 
@@ -472,7 +536,7 @@ template&lt;typename T , int NX, int NU&gt; </div>
 
 <p>Forward dynamics. </p>
 
-<p>Implemented in <a class="el" href="classexotica_1_1PinocchioDynamicsSolver.html#a4dddade619bed75c4fdced8c33b80e25">exotica::PinocchioDynamicsSolver</a>, <a class="el" href="classexotica_1_1QuadrotorDynamicsSolver.html#ac4b76a8f428985b43f8c94ea33ddabd9">exotica::QuadrotorDynamicsSolver</a>, <a class="el" href="classexotica_1_1CartpoleDynamicsSolver.html#a3c87d98a8874ff1914b86388ee5ccb0f">exotica::CartpoleDynamicsSolver</a>, <a class="el" href="classexotica_1_1PendulumDynamicsSolver.html#a279abfd5ba4de1bd7f190cb7c8b76569">exotica::PendulumDynamicsSolver</a>, and <a class="el" href="classexotica_1_1DoubleIntegratorDynamicsSolver.html#a82498e9c55f553817092fed5eafb1f1e">exotica::DoubleIntegratorDynamicsSolver</a>.</p>
+<p>Implemented in <a class="el" href="classexotica_1_1PinocchioDynamicsSolver.html#a4dddade619bed75c4fdced8c33b80e25">exotica::PinocchioDynamicsSolver</a>, <a class="el" href="classexotica_1_1PinocchioDynamicsSolverWithGravityCompensation.html#ad8cf94a20217d96e0e874bd8bc880510">exotica::PinocchioDynamicsSolverWithGravityCompensation</a>, <a class="el" href="classexotica_1_1QuadrotorDynamicsSolver.html#ac4b76a8f428985b43f8c94ea33ddabd9">exotica::QuadrotorDynamicsSolver</a>, <a class="el" href="classexotica_1_1CartpoleDynamicsSolver.html#a3c87d98a8874ff1914b86388ee5ccb0f">exotica::CartpoleDynamicsSolver</a>, <a class="el" href="classexotica_1_1PendulumDynamicsSolver.html#a279abfd5ba4de1bd7f190cb7c8b76569">exotica::PendulumDynamicsSolver</a>, and <a class="el" href="classexotica_1_1DoubleIntegratorDynamicsSolver.html#a82498e9c55f553817092fed5eafb1f1e">exotica::DoubleIntegratorDynamicsSolver</a>.</p>
 
 </div>
 </div>
@@ -514,7 +578,39 @@ template&lt;typename T , int NX, int NU&gt; </div>
 
 <p>Derivative of the forward dynamics w.r.t. the control. </p>
 
-<p>Reimplemented in <a class="el" href="classexotica_1_1PinocchioDynamicsSolver.html#abc33ddb2212db8ffec054294dc0d1687">exotica::PinocchioDynamicsSolver</a>, <a class="el" href="classexotica_1_1CartpoleDynamicsSolver.html#ad8a65aede2aa12650d5f00949dbbc6e7">exotica::CartpoleDynamicsSolver</a>, <a class="el" href="classexotica_1_1PendulumDynamicsSolver.html#a3b3e8153030cc77c75823a842f6c81b8">exotica::PendulumDynamicsSolver</a>, <a class="el" href="classexotica_1_1QuadrotorDynamicsSolver.html#ae282f7828156558721134e913deca9f0">exotica::QuadrotorDynamicsSolver</a>, and <a class="el" href="classexotica_1_1DoubleIntegratorDynamicsSolver.html#ae82d3cab6ec91b52bf443c6957f8416d">exotica::DoubleIntegratorDynamicsSolver</a>.</p>
+<p>Reimplemented in <a class="el" href="classexotica_1_1CartpoleDynamicsSolver.html#ad8a65aede2aa12650d5f00949dbbc6e7">exotica::CartpoleDynamicsSolver</a>, <a class="el" href="classexotica_1_1PendulumDynamicsSolver.html#a3b3e8153030cc77c75823a842f6c81b8">exotica::PendulumDynamicsSolver</a>, <a class="el" href="classexotica_1_1PinocchioDynamicsSolver.html#abc33ddb2212db8ffec054294dc0d1687">exotica::PinocchioDynamicsSolver</a>, <a class="el" href="classexotica_1_1PinocchioDynamicsSolverWithGravityCompensation.html#a8d5355c794e361462bbd890100e5b293">exotica::PinocchioDynamicsSolverWithGravityCompensation</a>, <a class="el" href="classexotica_1_1QuadrotorDynamicsSolver.html#ae282f7828156558721134e913deca9f0">exotica::QuadrotorDynamicsSolver</a>, and <a class="el" href="classexotica_1_1DoubleIntegratorDynamicsSolver.html#ae82d3cab6ec91b52bf443c6957f8416d">exotica::DoubleIntegratorDynamicsSolver</a>.</p>
+
+</div>
+</div>
+<a id="a939b95e73b9c81cde20e67cd36be6a5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a939b95e73b9c81cde20e67cd36be6a5a">&#9670;&nbsp;</a></span>fu_fd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , int NX, int NU&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a6771f6929a631a4e13fc9d6aab910bac">ControlDerivative</a> <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html">exotica::AbstractDynamicsSolver</a>&lt; T, NX, NU &gt;::fu_fd </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a92db2720a30fe12c7e3710c16809c6d2">StateVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a1c946a65271a92fe07ccd0ce0fc01442">ControlVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>u</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Derivative of the forward dynamics w.r.t. the control [finite differencing]. </p>
 
 </div>
 </div>
@@ -594,7 +690,39 @@ template&lt;typename T , int NX, int NU&gt; </div>
 
 <p>Derivative of the forward dynamics w.r.t. the state. </p>
 
-<p>Reimplemented in <a class="el" href="classexotica_1_1PinocchioDynamicsSolver.html#a00bdc597f85930ca660522e76ca17d75">exotica::PinocchioDynamicsSolver</a>, <a class="el" href="classexotica_1_1CartpoleDynamicsSolver.html#a8eeef9e46aed2ef697045403c6ca3c43">exotica::CartpoleDynamicsSolver</a>, <a class="el" href="classexotica_1_1PendulumDynamicsSolver.html#afc12a04cbfaddebd8d8f609f0dc9c907">exotica::PendulumDynamicsSolver</a>, <a class="el" href="classexotica_1_1QuadrotorDynamicsSolver.html#a7a821f99ab29ed6f1cec26fd71abce5b">exotica::QuadrotorDynamicsSolver</a>, and <a class="el" href="classexotica_1_1DoubleIntegratorDynamicsSolver.html#aee2d92cd0229fd242f515514999c4347">exotica::DoubleIntegratorDynamicsSolver</a>.</p>
+<p>Reimplemented in <a class="el" href="classexotica_1_1PinocchioDynamicsSolver.html#a00bdc597f85930ca660522e76ca17d75">exotica::PinocchioDynamicsSolver</a>, <a class="el" href="classexotica_1_1PinocchioDynamicsSolverWithGravityCompensation.html#ac06edc0353192dcc18e53e67255ea67e">exotica::PinocchioDynamicsSolverWithGravityCompensation</a>, <a class="el" href="classexotica_1_1CartpoleDynamicsSolver.html#a8eeef9e46aed2ef697045403c6ca3c43">exotica::CartpoleDynamicsSolver</a>, <a class="el" href="classexotica_1_1PendulumDynamicsSolver.html#afc12a04cbfaddebd8d8f609f0dc9c907">exotica::PendulumDynamicsSolver</a>, <a class="el" href="classexotica_1_1QuadrotorDynamicsSolver.html#a7a821f99ab29ed6f1cec26fd71abce5b">exotica::QuadrotorDynamicsSolver</a>, and <a class="el" href="classexotica_1_1DoubleIntegratorDynamicsSolver.html#aee2d92cd0229fd242f515514999c4347">exotica::DoubleIntegratorDynamicsSolver</a>.</p>
+
+</div>
+</div>
+<a id="aa4c048c58ee7068463f3c52f498c6719"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4c048c58ee7068463f3c52f498c6719">&#9670;&nbsp;</a></span>fx_fd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , int NX, int NU&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#aebaa1edce51cfefd9d00473710c0ccdb">StateDerivative</a> <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html">exotica::AbstractDynamicsSolver</a>&lt; T, NX, NU &gt;::fx_fd </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a92db2720a30fe12c7e3710c16809c6d2">StateVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a1c946a65271a92fe07ccd0ce0fc01442">ControlVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>u</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Derivative of the forward dynamics w.r.t. the state [finite differencing]. </p>
 
 </div>
 </div>
@@ -717,6 +845,48 @@ template&lt;typename T , int NX, int NU&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns integration timestep dt. </p>
+
+</div>
+</div>
+<a id="a5b368fa4e3dcfe7be81da91d0778c46d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b368fa4e3dcfe7be81da91d0778c46d">&#9670;&nbsp;</a></span>get_fu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , int NX, int NU&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a6771f6929a631a4e13fc9d6aab910bac">ControlDerivative</a>&amp; <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html">exotica::AbstractDynamicsSolver</a>&lt; T, NX, NU &gt;::get_fu </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns derivative fu computed by ComputeDerivatives. </p>
+
+</div>
+</div>
+<a id="ad3f629110cc79d8d0c8f95316439a4a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3f629110cc79d8d0c8f95316439a4a2">&#9670;&nbsp;</a></span>get_fx()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , int NX, int NU&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#aebaa1edce51cfefd9d00473710c0ccdb">StateDerivative</a>&amp; <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html">exotica::AbstractDynamicsSolver</a>&lt; T, NX, NU &gt;::get_fx </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns derivative fx computed by ComputeDerivatives. </p>
 
 </div>
 </div>
@@ -1317,6 +1487,32 @@ template&lt;typename T , int NX, int NU&gt; </div>
 
 </div>
 </div>
+<a id="a66cc23799b0c414cd32a62cd96de82e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66cc23799b0c414cd32a62cd96de82e0">&#9670;&nbsp;</a></span>fu_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , int NX, int NU&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::MatrixXd <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html">exotica::AbstractDynamicsSolver</a>&lt; T, NX, NU &gt;::fu_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Internal storage of derivative fu computed by ComputeDerivatives. </p>
+
+</div>
+</div>
 <a id="a10e9f3d942dfa0053bf0b105f91be4c2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a10e9f3d942dfa0053bf0b105f91be4c2">&#9670;&nbsp;</a></span>fuu_default_</h2>
 
@@ -1338,6 +1534,32 @@ template&lt;typename T , int NX, int NU&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0f2c26e496bc9cf8bcdf83a5ddf82dd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f2c26e496bc9cf8bcdf83a5ddf82dd9">&#9670;&nbsp;</a></span>fx_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , int NX, int NU&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::MatrixXd <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html">exotica::AbstractDynamicsSolver</a>&lt; T, NX, NU &gt;::fx_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Internal storage of derivative fx computed by ComputeDerivatives. </p>
 
 </div>
 </div>
@@ -1625,7 +1847,7 @@ template&lt;typename T , int NX, int NU&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Mar 10 2020 15:28:36 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Apr 21 2020 17:35:39 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

@@ -1,0 +1,306 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Visualisation &mdash; EXOTica 5.1.3 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Initializers" href="Initializers.html" />
+    <link rel="prev" title="Task space vector handling" href="advanced/task_space_vector.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> EXOTica
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                5.1.3
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installing EXOTica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="overview.html">EXOTica overview</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="quickstart_python.html">Quickstart: Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quickstart_cpp.html">Quickstart: C++</a></li>
+<li class="toctree-l1"><a class="reference internal" href="using_exotica_cpp.html">Solving planning problems in C++</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="own_robot.html">Creating a planner package for your own robot</a></li>
+<li class="toctree-l1"><a class="reference internal" href="initialization.html">Initialization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="manual_initialization.html">Manual Initialization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="XML.html">XML Initialization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="XML-Parsing.html">XML Parsing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Common-Initialization-Step.html">Common Initialization Step</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Setting-up-ROSlaunch.html">Setting up ROSlaunch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Setting-up-problems-and-solvers.html">Setting up Problems and Solvers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="advanced/task_space_vector.html">Task space vector handling</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Visualisation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#meshcat-visualiser">Meshcat Visualiser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#moveit-visualiser">MoveIt Visualiser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#debugging-using-rviz">Debugging using RViz</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Initializers.html">Initializers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Task_maps.html">Task Maps</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Code-Formatting.html">Code Formatting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Styleguide-and-Naming-Convention.html">Code Styleguide and Naming Convention</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Python-API.html">Python Bindings</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://ipab-slmc.github.io/exotica/doxygen_cpp/index.html">Doxygen C++</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Documentation.html">Documentation</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">EXOTica</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Visualisation</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="visualisation">
+<h1>Visualisation<a class="headerlink" href="#visualisation" title="Permalink to this headline">¶</a></h1>
+<p>You can visualise the robot states, trajectories, or even intermediate frames and debugging aids using EXOTica. We provide several ways how to achieve this.</p>
+<div class="section" id="meshcat-visualiser">
+<h2>Meshcat Visualiser<a class="headerlink" href="#meshcat-visualiser" title="Permalink to this headline">¶</a></h2>
+<p>Meshcat is a robot visualisation tool that uses a web browser and WebGL for rendering. The recommended way to use Meshcat with EXOTica is to use the <a class="reference external" href="https://github.com/rdeits/meshcat-python">meshcat-python</a> ZMQ server and the <a class="reference external" href="https://github.com/VladimirIvan/meshcat_ros_fileserver">meshcat-ros-fileserver</a> file server. Install both of these python packages from source (e.g. by running <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">setup.py</span> <span class="pre">install</span> <span class="pre">--user</span></code>)</p>
+<p>Then open two terminals and in the first one start the ZMQ server:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>meshcat-server
+</pre></div>
+</div>
+<p>In the secont terminal start the file server:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>meshcat-ros-fileserver -f /
+</pre></div>
+</div>
+<p>Once the servers are running, you can connect to it from exotica:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">vis</span> <span class="o">=</span> <span class="n">exo</span><span class="o">.</span><span class="n">VisualizationMeshcat</span><span class="p">(</span><span class="n">scene</span><span class="p">,</span> <span class="s1">&#39;tcp://127.0.0.1:6000&#39;</span><span class="p">)</span>
+<span class="n">vis</span><span class="o">.</span><span class="n">delete</span><span class="p">()</span> <span class="c1"># Clear existing scene</span>
+<span class="n">vis</span><span class="o">.</span><span class="n">display_scene</span><span class="p">()</span> <span class="c1"># Display this scene</span>
+</pre></div>
+</div>
+<p>You can now open a web browser at <code class="docutils literal notranslate"><span class="pre">http://127.0.0.1:7000/static/</span></code> (don’t forget the <code class="docutils literal notranslate"><span class="pre">/static/</span></code> at the end). You can get this URL by running <code class="docutils literal notranslate"><span class="pre">vis.get_web_url()</span></code>. Alternatively, if you are using jupyter, you can display the visualisation directly in your nodebook by running:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">exo</span><span class="o">.</span><span class="n">jupyter_meshcat</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">vis</span><span class="o">.</span><span class="n">get_web_url</span><span class="p">())</span>
+</pre></div>
+</div>
+<p>You can now display robot states, trajectories and change the scene settings:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Show state at time t</span>
+<span class="n">vis</span><span class="o">.</span><span class="n">display_state</span><span class="p">(</span><span class="n">state</span><span class="p">,</span> <span class="n">t</span><span class="p">)</span>
+<span class="c1"># Display a trajectory</span>
+<span class="n">vis</span><span class="o">.</span><span class="n">display_trajectory</span><span class="p">(</span><span class="n">trajectory</span><span class="p">,</span> <span class="n">dt</span><span class="p">)</span>
+
+<span class="c1"># Change scene settings</span>
+<span class="n">vis</span><span class="o">.</span><span class="n">set_property</span><span class="p">(</span><span class="s1">&#39;/Lights/DirectionalLight&#39;</span><span class="p">,</span><span class="s1">&#39;visible&#39;</span><span class="p">,</span> <span class="kc">False</span><span class="p">)</span>
+<span class="n">vis</span><span class="o">.</span><span class="n">set_property</span><span class="p">(</span><span class="s1">&#39;/Lights/FillLight&#39;</span><span class="p">,</span><span class="s1">&#39;visible&#39;</span><span class="p">,</span> <span class="kc">False</span><span class="p">)</span>
+<span class="n">vis</span><span class="o">.</span><span class="n">set_property</span><span class="p">(</span><span class="s1">&#39;/Lights/SpotLight&#39;</span><span class="p">,</span><span class="s1">&#39;visible&#39;</span><span class="p">,</span> <span class="kc">True</span><span class="p">)</span>
+<span class="n">vis</span><span class="o">.</span><span class="n">set_property</span><span class="p">(</span><span class="s1">&#39;/Lights/SpotLight/&lt;object&gt;&#39;</span><span class="p">,</span><span class="s1">&#39;castShadow&#39;</span><span class="p">,</span> <span class="kc">True</span><span class="p">)</span>
+<span class="n">vis</span><span class="o">.</span><span class="n">set_property</span><span class="p">(</span><span class="s1">&#39;/Grid&#39;</span><span class="p">,</span><span class="s1">&#39;visible&#39;</span><span class="p">,</span> <span class="kc">False</span><span class="p">)</span>
+<span class="n">vis</span><span class="o">.</span><span class="n">set_property</span><span class="p">(</span><span class="s1">&#39;/Axes&#39;</span><span class="p">,</span><span class="s1">&#39;visible&#39;</span><span class="p">,</span> <span class="kc">False</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>If you change the underlying scene the visualiser is using (e.g., by loading scene meshes using <code class="docutils literal notranslate"><span class="pre">scene.load_scene_file()</span></code>), you’ll have to refresh the visualiser by running:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">vis</span><span class="o">.</span><span class="n">display_scene</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="moveit-visualiser">
+<h2>MoveIt Visualiser<a class="headerlink" href="#moveit-visualiser" title="Permalink to this headline">¶</a></h2>
+<p>The MoveIt visualiser publishes a trajectory in the MoveIt trajectory message format for display in RViz.</p>
+<p>To set up the visualiser run:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">vis</span> <span class="o">=</span> <span class="n">exo</span><span class="o">.</span><span class="n">VisualizationMoveIt</span><span class="p">(</span><span class="n">scene</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>To visualise the trajectory run:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">vis</span> <span class="o">=</span> <span class="n">exo</span><span class="o">.</span><span class="n">VisualizationMoveIt</span><span class="p">(</span><span class="n">scene</span><span class="p">)</span>
+<span class="n">vis</span><span class="o">.</span><span class="n">display_trajectory</span><span class="p">(</span><span class="n">trajectory</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>The message will be published at <code class="docutils literal notranslate"><span class="pre">&lt;scene_name&gt;/Trajectory</span></code> and the trajectory can be visualised in RViz using the trajectory display plugin.</p>
+</div>
+<div class="section" id="debugging-using-rviz">
+<h2>Debugging using RViz<a class="headerlink" href="#debugging-using-rviz" title="Permalink to this headline">¶</a></h2>
+<p>You may sometimes need to display the state of the robot during planning iterations, collision shapes, debugging markers or just frames defined in exotica.
+The scene and task maps can be switched into debug mode in which they publish several useful visual aids to RViz. To enable the debug mode on the scene or on a task maps add the <code class="docutils literal notranslate"><span class="pre">Debug=&quot;1&quot;</span></code> argument to its tag.</p>
+<p>When in debug mode, the scene will automatically publish all defined frames as TF frames with the <code class="docutils literal notranslate"><span class="pre">exotica</span></code> prefix. This will happen every time the scene updates. You can use these in RViz to: display the robot model, visualise TFs, attch marker to exotica frames. All TF transforms are attached to the EXOTica wolrd frame (as defined/named in the SRDF). There is no hierarchy among the TFs to allow displaying the kinematics computed in EXOTica.</p>
+<p>Publishing all frames at at every update may slow down your solvers. Instead, you can publish the TFs manually by running:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">scene</span><span class="o">.</span><span class="n">get_kinematic_tree</span><span class="p">()</span><span class="o">.</span><span class="n">publish_frames</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>Some of the task maps also publish Marker and MarkerArray messages with useful visual aids for debugging. All of these attach the marker to a TF published by the scene (including the <code class="docutils literal notranslate"><span class="pre">exotica</span></code> prefix) and set the marker to update its position automatically when the TF moves. This means that the task map markers will also update only when the scene publishes the TF transforms. If the marker shape/type doesn’t need changing, the overhead of displaying it is on RViz, therefore the only overhead is the publishing of TFs by the scene.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="Initializers.html" class="btn btn-neutral float-right" title="Initializers" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="advanced/task_space_vector.html" class="btn btn-neutral float-left" title="Task space vector handling" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Vladimir Ivan, Wolfgang Merkt, Sethu Vijayakumar - and contributors
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
