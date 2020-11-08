@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['xmlloader',['XMLLoader',['../classexotica_1_1XMLLoader.html#ae753ef96f124e097b31afcb27fa54813',1,'exotica::XMLLoader']]]
+  ['what',['what',['../classexotica_1_1Exception.html#ac77a6adb2f9f448a9980eb02e76dc648',1,'exotica::Exception']]]
 ];

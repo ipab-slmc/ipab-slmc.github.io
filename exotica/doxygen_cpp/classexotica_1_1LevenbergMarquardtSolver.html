@@ -152,6 +152,33 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a8dd7436e6330087cafbe296876293910"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1LevenbergMarquardtSolver.html#a8dd7436e6330087cafbe296876293910">lambda_</a> = 0</td></tr>
 <tr class="memdesc:a8dd7436e6330087cafbe296876293910"><td class="mdescLeft">&#160;</td><td class="mdescRight">Damping factor.  <a href="#a8dd7436e6330087cafbe296876293910">More...</a><br /></td></tr>
 <tr class="separator:a8dd7436e6330087cafbe296876293910"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c2d120ef49f61926929ef7dedc57baf"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1LevenbergMarquardtSolver.html#a5c2d120ef49f61926929ef7dedc57baf">M_</a></td></tr>
+<tr class="memdesc:a5c2d120ef49f61926929ef7dedc57baf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scaling matrix, used for regularisation.  <a href="#a5c2d120ef49f61926929ef7dedc57baf">More...</a><br /></td></tr>
+<tr class="separator:a5c2d120ef49f61926929ef7dedc57baf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa755ad42208f6bbeee3b388e7a10c957"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1LevenbergMarquardtSolver.html#aa755ad42208f6bbeee3b388e7a10c957">JT_times_J_</a></td></tr>
+<tr class="memdesc:aa755ad42208f6bbeee3b388e7a10c957"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gauss-Newton Hessian approximation (J^T * J)  <a href="#aa755ad42208f6bbeee3b388e7a10c957">More...</a><br /></td></tr>
+<tr class="separator:aa755ad42208f6bbeee3b388e7a10c957"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3f89115d25d96b2d96e754da74619cf"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1LevenbergMarquardtSolver.html#ac3f89115d25d96b2d96e754da74619cf">q_</a></td></tr>
+<tr class="memdesc:ac3f89115d25d96b2d96e754da74619cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Joint configuration vector, used during optimisation.  <a href="#ac3f89115d25d96b2d96e754da74619cf">More...</a><br /></td></tr>
+<tr class="separator:ac3f89115d25d96b2d96e754da74619cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8535ed541e9d8276779cbfab80a253e"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1LevenbergMarquardtSolver.html#aa8535ed541e9d8276779cbfab80a253e">qd_</a></td></tr>
+<tr class="memdesc:aa8535ed541e9d8276779cbfab80a253e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change in joint configuration, used during optimisation.  <a href="#aa8535ed541e9d8276779cbfab80a253e">More...</a><br /></td></tr>
+<tr class="separator:aa8535ed541e9d8276779cbfab80a253e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0505d601fc2736d55359e391e7debec3"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1LevenbergMarquardtSolver.html#a0505d601fc2736d55359e391e7debec3">yd_</a></td></tr>
+<tr class="memdesc:a0505d601fc2736d55359e391e7debec3"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structexotica_1_1Task.html">Task</a> space difference/error, used during optimisation.  <a href="#a0505d601fc2736d55359e391e7debec3">More...</a><br /></td></tr>
+<tr class="separator:a0505d601fc2736d55359e391e7debec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae946720d6ade8618cfefdfa2cf10d57a"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1LevenbergMarquardtSolver.html#ae946720d6ade8618cfefdfa2cf10d57a">cost_jacobian_</a></td></tr>
+<tr class="memdesc:ae946720d6ade8618cfefdfa2cf10d57a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Jacobian, used during optimisation.  <a href="#ae946720d6ade8618cfefdfa2cf10d57a">More...</a><br /></td></tr>
+<tr class="separator:ae946720d6ade8618cfefdfa2cf10d57a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9bdb7fff38ec76f56fa9b9d3e94cb6b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1LevenbergMarquardtSolver.html#ae9bdb7fff38ec76f56fa9b9d3e94cb6b">error_</a></td></tr>
+<tr class="memdesc:ae9bdb7fff38ec76f56fa9b9d3e94cb6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error, used during optimisation.  <a href="#ae9bdb7fff38ec76f56fa9b9d3e94cb6b">More...</a><br /></td></tr>
+<tr class="separator:ae9bdb7fff38ec76f56fa9b9d3e94cb6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6db6898f0880a6c6326a7a7a39a1af75"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1LevenbergMarquardtSolver.html#a6db6898f0880a6c6326a7a7a39a1af75">error_prev_</a></td></tr>
+<tr class="memdesc:a6db6898f0880a6c6326a7a7a39a1af75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Previous iteration error, used during optimisation.  <a href="#a6db6898f0880a6c6326a7a7a39a1af75">More...</a><br /></td></tr>
+<tr class="separator:a6db6898f0880a6c6326a7a7a39a1af75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a023e6c332641b5b6d5e46f243142bddf"><td class="memItemLeft" align="right" valign="top">Eigen::LLT&lt; Eigen::MatrixXd &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1LevenbergMarquardtSolver.html#a023e6c332641b5b6d5e46f243142bddf">llt_</a></td></tr>
+<tr class="memdesc:a023e6c332641b5b6d5e46f243142bddf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cholesky decomposition for J^T*J.  <a href="#a023e6c332641b5b6d5e46f243142bddf">More...</a><br /></td></tr>
+<tr class="separator:a023e6c332641b5b6d5e46f243142bddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -231,6 +258,102 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ae946720d6ade8618cfefdfa2cf10d57a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae946720d6ade8618cfefdfa2cf10d57a">&#9670;&nbsp;</a></span>cost_jacobian_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::MatrixXd exotica::LevenbergMarquardtSolver::cost_jacobian_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Jacobian, used during optimisation. </p>
+
+</div>
+</div>
+<a id="ae9bdb7fff38ec76f56fa9b9d3e94cb6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9bdb7fff38ec76f56fa9b9d3e94cb6b">&#9670;&nbsp;</a></span>error_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double exotica::LevenbergMarquardtSolver::error_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Error, used during optimisation. </p>
+
+</div>
+</div>
+<a id="a6db6898f0880a6c6326a7a7a39a1af75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6db6898f0880a6c6326a7a7a39a1af75">&#9670;&nbsp;</a></span>error_prev_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double exotica::LevenbergMarquardtSolver::error_prev_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Previous iteration error, used during optimisation. </p>
+
+</div>
+</div>
+<a id="aa755ad42208f6bbeee3b388e7a10c957"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa755ad42208f6bbeee3b388e7a10c957">&#9670;&nbsp;</a></span>JT_times_J_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::MatrixXd exotica::LevenbergMarquardtSolver::JT_times_J_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gauss-Newton Hessian approximation (J^T * J) </p>
+
+</div>
+</div>
 <a id="a8dd7436e6330087cafbe296876293910"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8dd7436e6330087cafbe296876293910">&#9670;&nbsp;</a></span>lambda_</h2>
 
@@ -252,6 +375,54 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Damping factor. </p>
+
+</div>
+</div>
+<a id="a023e6c332641b5b6d5e46f243142bddf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a023e6c332641b5b6d5e46f243142bddf">&#9670;&nbsp;</a></span>llt_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::LLT&lt;Eigen::MatrixXd&gt; exotica::LevenbergMarquardtSolver::llt_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Cholesky decomposition for J^T*J. </p>
+
+</div>
+</div>
+<a id="a5c2d120ef49f61926929ef7dedc57baf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c2d120ef49f61926929ef7dedc57baf">&#9670;&nbsp;</a></span>M_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::MatrixXd exotica::LevenbergMarquardtSolver::M_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Scaling matrix, used for regularisation. </p>
 
 </div>
 </div>
@@ -279,13 +450,85 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="ac3f89115d25d96b2d96e754da74619cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3f89115d25d96b2d96e754da74619cf">&#9670;&nbsp;</a></span>q_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::VectorXd exotica::LevenbergMarquardtSolver::q_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Joint configuration vector, used during optimisation. </p>
+
+</div>
+</div>
+<a id="aa8535ed541e9d8276779cbfab80a253e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8535ed541e9d8276779cbfab80a253e">&#9670;&nbsp;</a></span>qd_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::VectorXd exotica::LevenbergMarquardtSolver::qd_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Change in joint configuration, used during optimisation. </p>
+
+</div>
+</div>
+<a id="a0505d601fc2736d55359e391e7debec3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0505d601fc2736d55359e391e7debec3">&#9670;&nbsp;</a></span>yd_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::VectorXd exotica::LevenbergMarquardtSolver::yd_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="structexotica_1_1Task.html">Task</a> space difference/error, used during optimisation. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>/home/wxm/tmp/exotica/exotations/solvers/exotica_levenberg_marquardt_solver/include/exotica_levenberg_marquardt_solver/<a class="el" href="levenberg__marquardt__solver_8h_source.html">levenberg_marquardt_solver.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 21 2020 17:35:39 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Nov 8 2020 16:33:50 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

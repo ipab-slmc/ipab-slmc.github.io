@@ -1,13 +1,13 @@
 <map id="/home/wxm/tmp/exotica/exotica_core/include/exotica_core/collision_scene.h" name="/home/wxm/tmp/exotica/exotica_core/include/exotica_core/collision_scene.h">
-<area shape="rect" id="node8" href="$factory_8h.html" title="exotica_core/factory.h" alt="" coords="604,124,755,151"/>
-<area shape="rect" id="node12" href="$object_8h.html" title="exotica_core/object.h" alt="" coords="343,206,490,233"/>
-<area shape="rect" id="node36" href="$kinematic__element_8h.html" title="exotica_core/kinematic\l_element.h" alt="" coords="1500,199,1656,240"/>
-<area shape="rect" id="node13" href="$tools_8h.html" title="exotica_core/tools.h" alt="" coords="863,295,1002,322"/>
-<area shape="rect" id="node32" href="$property_8h.html" title="exotica_core/property.h" alt="" coords="121,295,280,322"/>
-<area shape="rect" id="node15" href="$conversions_8h.html" title="exotica_core/tools\l/conversions.h" alt="" coords="666,377,794,419"/>
-<area shape="rect" id="node19" href="$exception_8h.html" title="exotica_core/tools\l/exception.h" alt="" coords="1146,467,1274,508"/>
-<area shape="rect" id="node21" href="$printable_8h.html" title="exotica_core/tools\l/printable.h" alt="" coords="943,467,1071,508"/>
-<area shape="rect" id="node25" href="$timer_8h.html" title="exotica_core/tools\l/timer.h" alt="" coords="970,377,1098,419"/>
-<area shape="rect" id="node28" href="$uncopyable_8h.html" title="exotica_core/tools\l/uncopyable.h" alt="" coords="1122,377,1250,419"/>
-<area shape="rect" id="node29" href="$version_8h.html" title="exotica_core/version.h" alt="" coords="1275,385,1428,411"/>
+<area shape="rect" id="node8" href="$factory_8h.html" title="exotica_core/factory.h" alt="" coords="509,124,659,151"/>
+<area shape="rect" id="node12" href="$object_8h.html" title="exotica_core/object.h" alt="" coords="277,206,424,233"/>
+<area shape="rect" id="node38" href="$kinematic__element_8h.html" title="exotica_core/kinematic\l_element.h" alt="" coords="1770,199,1926,240"/>
+<area shape="rect" id="node13" href="$tools_8h.html" title="exotica_core/tools.h" alt="" coords="875,295,1013,322"/>
+<area shape="rect" id="node34" href="$property_8h.html" title="exotica_core/property.h" alt="" coords="214,295,373,322"/>
+<area shape="rect" id="node15" href="$conversions_8h.html" title="exotica_core/tools\l/conversions.h" alt="" coords="525,377,653,419"/>
+<area shape="rect" id="node19" href="$exception_8h.html" title="exotica_core/tools\l/exception.h" alt="" coords="955,467,1083,508"/>
+<area shape="rect" id="node21" href="$printable_8h.html" title="exotica_core/tools\l/printable.h" alt="" coords="752,467,880,508"/>
+<area shape="rect" id="node25" href="$timer_8h.html" title="exotica_core/tools\l/timer.h" alt="" coords="1603,377,1731,419"/>
+<area shape="rect" id="node28" href="$uncopyable_8h.html" title="exotica_core/tools\l/uncopyable.h" alt="" coords="779,377,907,419"/>
+<area shape="rect" id="node29" href="$version_8h.html" title="exotica_core/version.h" alt="" coords="982,385,1135,411"/>
 </map>

@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['linenumber',['LineNumber',['../classexotica_1_1Exception.html#a77d23ddc9c67f1518ff33595cfebd074a574df4de21d6bbfa187bd253aaf7d06c',1,'exotica::Exception']]],
-  ['local_5fgauss_5fnewton',['LOCAL_GAUSS_NEWTON',['../classexotica_1_1AICOSolver.html#acf9c283571ec13211293b1c72cf429dca62569f3a0987bc8af7f72a19a711e766',1,'exotica::AICOSolver::LOCAL_GAUSS_NEWTON()'],['../classexotica_1_1BayesianIKSolver.html#a1e7a57dd0565982b7632bed7110ddb58a9cb32f2961f8a4f4c82406bfb0adda65',1,'exotica::BayesianIKSolver::LOCAL_GAUSS_NEWTON()']]],
-  ['local_5fgauss_5fnewton_5fdamped',['LOCAL_GAUSS_NEWTON_DAMPED',['../classexotica_1_1AICOSolver.html#acf9c283571ec13211293b1c72cf429dca861482c95cdb6c962ddeb4e0cf1297f6',1,'exotica::AICOSolver::LOCAL_GAUSS_NEWTON_DAMPED()'],['../classexotica_1_1BayesianIKSolver.html#a1e7a57dd0565982b7632bed7110ddb58aa922656b7116ddd73372468e44a9d422',1,'exotica::BayesianIKSolver::LOCAL_GAUSS_NEWTON_DAMPED()']]]
+  ['kin_5ffk',['KIN_FK',['../namespaceexotica.html#a8879608908229eff06df2b94c63f1a99a31d69c9fe03932e017a081e81ede78a9',1,'exotica']]],
+  ['kin_5ffk_5fvel',['KIN_FK_VEL',['../namespaceexotica.html#a8879608908229eff06df2b94c63f1a99af4c5c27896d87716a02228ba0f881641',1,'exotica']]],
+  ['kin_5fh',['KIN_H',['../namespaceexotica.html#a8879608908229eff06df2b94c63f1a99a9e93896fe98c5afb31cfdcc6504d16e2',1,'exotica']]],
+  ['kin_5fj',['KIN_J',['../namespaceexotica.html#a8879608908229eff06df2b94c63f1a99a172f46177773a38764743e95cfc0c858',1,'exotica']]]
 ];

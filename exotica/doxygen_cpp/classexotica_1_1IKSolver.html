@@ -200,6 +200,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ad354b119505ae4ef163e2b226ba20922"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#ad354b119505ae4ef163e2b226ba20922">error_</a></td></tr>
 <tr class="memdesc:ad354b119505ae4ef163e2b226ba20922"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error, used during optimisation.  <a href="#ad354b119505ae4ef163e2b226ba20922">More...</a><br /></td></tr>
 <tr class="separator:ad354b119505ae4ef163e2b226ba20922"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab671eec699ca8bd2e2afff85afd286be"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#ab671eec699ca8bd2e2afff85afd286be">error_prev_</a></td></tr>
+<tr class="memdesc:ab671eec699ca8bd2e2afff85afd286be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error at previous iteration, used during optimisation.  <a href="#ab671eec699ca8bd2e2afff85afd286be">More...</a><br /></td></tr>
+<tr class="separator:ab671eec699ca8bd2e2afff85afd286be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4065d659cbbca0b27f41fe7e6f6c9f0c"><td class="memItemLeft" align="right" valign="top">Eigen::LLT&lt; Eigen::MatrixXd &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#a4065d659cbbca0b27f41fe7e6f6c9f0c">J_decomposition_</a></td></tr>
 <tr class="memdesc:a4065d659cbbca0b27f41fe7e6f6c9f0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cholesky decomposition for the weighted pseudo-inverse.  <a href="#a4065d659cbbca0b27f41fe7e6f6c9f0c">More...</a><br /></td></tr>
 <tr class="separator:a4065d659cbbca0b27f41fe7e6f6c9f0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -221,7 +224,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a7cadc6ad10e5d7267b147025d87177d5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#a7cadc6ad10e5d7267b147025d87177d5">th_stepdec_</a> = 0.5</td></tr>
 <tr class="memdesc:a7cadc6ad10e5d7267b147025d87177d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Step-length threshold used to decrease regularization.  <a href="#a7cadc6ad10e5d7267b147025d87177d5">More...</a><br /></td></tr>
 <tr class="separator:a7cadc6ad10e5d7267b147025d87177d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d0c8a9d5eae3909c07d481b8cb83ce2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#a3d0c8a9d5eae3909c07d481b8cb83ce2">th_stepinc_</a> = 0.01</td></tr>
+<tr class="memitem:a3d0c8a9d5eae3909c07d481b8cb83ce2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1IKSolver.html#a3d0c8a9d5eae3909c07d481b8cb83ce2">th_stepinc_</a> = 0.1</td></tr>
 <tr class="memdesc:a3d0c8a9d5eae3909c07d481b8cb83ce2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Step-length threshold used to increase regularization.  <a href="#a3d0c8a9d5eae3909c07d481b8cb83ce2">More...</a><br /></td></tr>
 <tr class="separator:a3d0c8a9d5eae3909c07d481b8cb83ce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -478,6 +481,30 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Error, used during optimisation. </p>
+
+</div>
+</div>
+<a id="ab671eec699ca8bd2e2afff85afd286be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab671eec699ca8bd2e2afff85afd286be">&#9670;&nbsp;</a></span>error_prev_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double exotica::IKSolver::error_prev_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Error at previous iteration, used during optimisation. </p>
 
 </div>
 </div>
@@ -825,7 +852,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double exotica::IKSolver::th_stepinc_ = 0.01</td>
+          <td class="memname">double exotica::IKSolver::th_stepinc_ = 0.1</td>
         </tr>
       </table>
   </td>
@@ -917,7 +944,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 21 2020 17:35:39 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Nov 8 2020 16:33:50 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

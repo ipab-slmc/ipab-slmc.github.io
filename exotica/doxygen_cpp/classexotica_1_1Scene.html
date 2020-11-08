@@ -94,7 +94,7 @@ Collaboration diagram for exotica::Scene:</div>
 <map name="exotica_1_1Scene_coll__map" id="exotica_1_1Scene_coll__map">
 <area shape="rect" id="node2" href="classexotica_1_1Object.html" title="{exotica::Object\n|+ ns_\l+ object_name_\l+ debug_\l|+ Object()\l+ ~Object()\l+ type()\l+ GetObjectName()\l+ InstantiateObject()\l+ Print()\l}" alt="" coords="5,352,147,532"/>
 <area shape="rect" id="node3" href="classexotica_1_1Uncopyable.html" title="{exotica::Uncopyable\n||+ Uncopyable()\l+ ~Uncopyable()\l&#45; Uncopyable()\l&#45; operator=()\l}" alt="" coords="149,5,291,127"/>
-<area shape="rect" id="node8" href="classexotica_1_1KinematicTree.html" title="{exotica::KinematicTree\n|+ debug\l&#45; joint_limits_\l&#45; rd_\l&#45; generator_\l&#45; random_state_distributions_\l&#45; model_base_type_\l&#45; controlled_base_type_\l&#45; num_controlled_joints_\l&#45; num_joints_\l&#45; state_size_\l&#45; tree_state_\land 23 more...\l|+ Instantiate()\l+ GetRootFrameName()\l+ GetRootJointName()\l+ GetRobotModel()\l+ GetModelBaseType()\l+ GetControlledBaseType()\l+ RequestFrames()\l+ Update()\l+ ResetJointLimits()\l+ GetJointLimits()\land 48 more...\l&#45; BuildTree()\l&#45; AddElementFromSegmentMap\lIterator()\l&#45; UpdateTree()\l&#45; UpdateFK()\l&#45; UpdateJ()\l&#45; ComputeJ()\l&#45; ComputeJdot()\l&#45; UpdateJdot()\l&#45; UpdateJointLimits()\l}" alt="" coords="221,176,429,708"/>
+<area shape="rect" id="node8" href="classexotica_1_1KinematicTree.html" title="{exotica::KinematicTree\n|+ debug\l&#45; joint_limits_\l&#45; velocity_limits_\l&#45; acceleration_limits_\l&#45; has_acceleration_limit_\l&#45; rd_\l&#45; generator_\l&#45; random_state_distributions_\l&#45; model_base_type_\l&#45; controlled_base_type_\l&#45; num_controlled_joints_\land 27 more...\l|+ Instantiate()\l+ GetRootFrameName()\l+ GetRootJointName()\l+ GetRobotModel()\l+ GetModelBaseType()\l+ GetControlledBaseType()\l+ RequestFrames()\l+ Update()\l+ ResetJointLimits()\l+ GetJointLimits()\land 57 more...\l&#45; BuildTree()\l&#45; AddElementFromSegmentMap\lIterator()\l&#45; UpdateTree()\l&#45; UpdateFK()\l&#45; UpdateJ()\l&#45; ComputeJ()\l&#45; UpdateH()\l&#45; ComputeH()\l&#45; UpdateJointLimits()\l}" alt="" coords="221,176,429,708"/>
 <area shape="rect" id="node4" href="classexotica_1_1Instantiable.html" title="{exotica::Instantiable\l\&lt; SceneInitializer \&gt;\n|# parameters_\l|+ InstantiateInternal()\l+ GetInitializerTemplate()\l+ GetAllTemplates()\l+ Instantiate()\l+ GetParameters()\l}" alt="" coords="454,367,623,517"/>
 <area shape="rect" id="node5" href="classexotica_1_1InstantiableBase.html" title="{exotica::InstantiableBase\n||+ GetInitializerTemplate()\l+ InstantiateInternal()\l+ InstantiateBase()\l+ GetAllTemplates()\l}" alt="" coords="454,5,623,127"/>
 <area shape="rect" id="node7" href="structexotica_1_1KinematicsRequest.html" title="{exotica::KinematicsRequest\n|+ flags\l+ frames\l|+ KinematicsRequest()\l}" alt="" coords="816,396,1003,488"/>
@@ -147,8 +147,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5ec67f359f5a734ad956d1ba9d69cd59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b33984d2091dcb129b95f44e8837599"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1Scene.html#a2b33984d2091dcb129b95f44e8837599">SetModelState</a> (<a class="el" href="namespaceEigen.html#ad6c86a9df4dd2627a995a39eab0f9010">Eigen::VectorXdRefConst</a> x, double t=0, bool update_traj=true)</td></tr>
 <tr class="separator:a2b33984d2091dcb129b95f44e8837599"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2e1dd031220ef1fce40d81e3401c31e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1Scene.html#af2e1dd031220ef1fce40d81e3401c31e">SetModelState</a> (std::map&lt; std::string, double &gt; x, double t=0, bool update_traj=true)</td></tr>
-<tr class="separator:af2e1dd031220ef1fce40d81e3401c31e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a283e0845122b94b0ef2bf7b5cf8a9564"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1Scene.html#a283e0845122b94b0ef2bf7b5cf8a9564">SetModelState</a> (const std::map&lt; std::string, double &gt; &amp;x, double t=0, bool update_traj=true)</td></tr>
+<tr class="separator:a283e0845122b94b0ef2bf7b5cf8a9564"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae91650a37abb71460e9a3345fe1314e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1Scene.html#ae91650a37abb71460e9a3345fe1314e5">AddTrajectoryFromFile</a> (const std::string &amp;link, const std::string &amp;traj)</td></tr>
 <tr class="separator:ae91650a37abb71460e9a3345fe1314e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87c1a47d769f2c501b19bf8f7c632eff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1Scene.html#a87c1a47d769f2c501b19bf8f7c632eff">AddTrajectory</a> (const std::string &amp;link, const std::string &amp;traj)</td></tr>
@@ -229,6 +229,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a660d965781476595ab3e9ddc17e969f0"><td class="memItemLeft" align="right" valign="top">const std::set&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1Scene.html#a660d965781476595ab3e9ddc17e969f0">get_world_links_to_exclude_from_collision_scene</a> () const</td></tr>
 <tr class="memdesc:a660d965781476595ab3e9ddc17e969f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns world links that are to be excluded from collision checking.  <a href="#a660d965781476595ab3e9ddc17e969f0">More...</a><br /></td></tr>
 <tr class="separator:a660d965781476595ab3e9ddc17e969f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a706634b0850c6dc1d238cf47abd1b4c5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1Scene.html#a706634b0850c6dc1d238cf47abd1b4c5">get_num_positions</a> () const</td></tr>
+<tr class="separator:a706634b0850c6dc1d238cf47abd1b4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8059e2f922e9f3b8ae94cd8e10e845f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1Scene.html#ac8059e2f922e9f3b8ae94cd8e10e845f">get_num_velocities</a> () const</td></tr>
+<tr class="separator:ac8059e2f922e9f3b8ae94cd8e10e845f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accf0d5f5171c4ff00b5ee9076284e8e4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1Scene.html#accf0d5f5171c4ff00b5ee9076284e8e4">get_num_controls</a> () const</td></tr>
+<tr class="separator:accf0d5f5171c4ff00b5ee9076284e8e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f0c308d109997f2ca6ee3e4b2d99232"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1Scene.html#a7f0c308d109997f2ca6ee3e4b2d99232">get_num_state</a> () const</td></tr>
+<tr class="separator:a7f0c308d109997f2ca6ee3e4b2d99232"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8340a3c29e35429fbde6f1fc7bfc7077"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1Scene.html#a8340a3c29e35429fbde6f1fc7bfc7077">get_num_state_derivative</a> () const</td></tr>
+<tr class="separator:a8340a3c29e35429fbde6f1fc7bfc7077"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9aa4c56e4073cf33b48c04a93beb1798"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1Scene.html#a9aa4c56e4073cf33b48c04a93beb1798">get_has_quaternion_floating_base</a> () const</td></tr>
+<tr class="separator:a9aa4c56e4073cf33b48c04a93beb1798"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classexotica_1_1Object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classexotica_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classexotica_1_1Object.html">exotica::Object</a></td></tr>
 <tr class="memitem:aef47459dab7f2c4dcb140ed3308b6a23 inherit pub_methods_classexotica_1_1Object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1Object.html#aef47459dab7f2c4dcb140ed3308b6a23">Object</a> ()</td></tr>
 <tr class="separator:aef47459dab7f2c4dcb140ed3308b6a23 inherit pub_methods_classexotica_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -273,6 +285,9 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:a6d2050000e6b8bf16bf6bcc72869d221"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1Scene.html#a6d2050000e6b8bf16bf6bcc72869d221">has_quaternion_floating_base_</a> = false</td></tr>
+<tr class="memdesc:a6d2050000e6b8bf16bf6bcc72869d221"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the state includes a SE(3) floating base.  <a href="#a6d2050000e6b8bf16bf6bcc72869d221">More...</a><br /></td></tr>
+<tr class="separator:a6d2050000e6b8bf16bf6bcc72869d221"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad20516e13cdd941bbb46ea125ef478b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classexotica_1_1KinematicTree.html">exotica::KinematicTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1Scene.html#ad20516e13cdd941bbb46ea125ef478b0">kinematica_</a></td></tr>
 <tr class="memdesc:ad20516e13cdd941bbb46ea125ef478b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The kinematica tree.  <a href="#ad20516e13cdd941bbb46ea125ef478b0">More...</a><br /></td></tr>
 <tr class="separator:ad20516e13cdd941bbb46ea125ef478b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -282,6 +297,21 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ac1355745576be8b0619c88072a407fcb"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="namespaceexotica.html#a64f0d74b24c66002f8e378dfd2c6c340">DynamicsSolver</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1Scene.html#ac1355745576be8b0619c88072a407fcb">dynamics_solver_</a> = std::shared_ptr&lt;<a class="el" href="namespaceexotica.html#a64f0d74b24c66002f8e378dfd2c6c340">DynamicsSolver</a>&gt;(nullptr)</td></tr>
 <tr class="memdesc:ac1355745576be8b0619c88072a407fcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The dynamics solver.  <a href="#ac1355745576be8b0619c88072a407fcb">More...</a><br /></td></tr>
 <tr class="separator:ac1355745576be8b0619c88072a407fcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9232a94a2631e4a3bb8365a539ecad2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1Scene.html#ab9232a94a2631e4a3bb8365a539ecad2">num_positions_</a> = 0</td></tr>
+<tr class="memdesc:ab9232a94a2631e4a3bb8365a539ecad2"><td class="mdescLeft">&#160;</td><td class="mdescRight">"nq"  <a href="#ab9232a94a2631e4a3bb8365a539ecad2">More...</a><br /></td></tr>
+<tr class="separator:ab9232a94a2631e4a3bb8365a539ecad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab144f03bc52c465d2084cc6ed521e693"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1Scene.html#ab144f03bc52c465d2084cc6ed521e693">num_velocities_</a> = 0</td></tr>
+<tr class="memdesc:ab144f03bc52c465d2084cc6ed521e693"><td class="mdescLeft">&#160;</td><td class="mdescRight">"nv"  <a href="#ab144f03bc52c465d2084cc6ed521e693">More...</a><br /></td></tr>
+<tr class="separator:ab144f03bc52c465d2084cc6ed521e693"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c4241a07bd9367a45f9d378f6b89e38"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1Scene.html#a7c4241a07bd9367a45f9d378f6b89e38">num_controls_</a> = 0</td></tr>
+<tr class="memdesc:a7c4241a07bd9367a45f9d378f6b89e38"><td class="mdescLeft">&#160;</td><td class="mdescRight">"nu"  <a href="#a7c4241a07bd9367a45f9d378f6b89e38">More...</a><br /></td></tr>
+<tr class="separator:a7c4241a07bd9367a45f9d378f6b89e38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c3de41e42da3043f1f1341bad4ce14a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1Scene.html#a3c3de41e42da3043f1f1341bad4ce14a">num_state_</a> = 0</td></tr>
+<tr class="memdesc:a3c3de41e42da3043f1f1341bad4ce14a"><td class="mdescLeft">&#160;</td><td class="mdescRight">"nx"  <a href="#a3c3de41e42da3043f1f1341bad4ce14a">More...</a><br /></td></tr>
+<tr class="separator:a3c3de41e42da3043f1f1341bad4ce14a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea0cd0b360daf91f08b35be50741a1f4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1Scene.html#aea0cd0b360daf91f08b35be50741a1f4">num_state_derivative_</a> = 0</td></tr>
+<tr class="memdesc:aea0cd0b360daf91f08b35be50741a1f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">"ndx"  <a href="#aea0cd0b360daf91f08b35be50741a1f4">More...</a><br /></td></tr>
+<tr class="separator:aea0cd0b360daf91f08b35be50741a1f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb38e0e404b52c447016a7115cd22a31"><td class="memItemLeft" align="right" valign="top">planning_scene::PlanningScenePtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1Scene.html#aeb38e0e404b52c447016a7115cd22a31">ps_</a></td></tr>
 <tr class="memdesc:aeb38e0e404b52c447016a7115cd22a31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal MoveIt planning scene.  <a href="#aeb38e0e404b52c447016a7115cd22a31">More...</a><br /></td></tr>
 <tr class="separator:aeb38e0e404b52c447016a7115cd22a31"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -835,6 +865,108 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a9aa4c56e4073cf33b48c04a93beb1798"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9aa4c56e4073cf33b48c04a93beb1798">&#9670;&nbsp;</a></span>get_has_quaternion_floating_base()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool exotica::Scene::get_has_quaternion_floating_base </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="accf0d5f5171c4ff00b5ee9076284e8e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accf0d5f5171c4ff00b5ee9076284e8e4">&#9670;&nbsp;</a></span>get_num_controls()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int exotica::Scene::get_num_controls </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a706634b0850c6dc1d238cf47abd1b4c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a706634b0850c6dc1d238cf47abd1b4c5">&#9670;&nbsp;</a></span>get_num_positions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int exotica::Scene::get_num_positions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7f0c308d109997f2ca6ee3e4b2d99232"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f0c308d109997f2ca6ee3e4b2d99232">&#9670;&nbsp;</a></span>get_num_state()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int exotica::Scene::get_num_state </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8340a3c29e35429fbde6f1fc7bfc7077"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8340a3c29e35429fbde6f1fc7bfc7077">&#9670;&nbsp;</a></span>get_num_state_derivative()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int exotica::Scene::get_num_state_derivative </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac8059e2f922e9f3b8ae94cd8e10e845f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8059e2f922e9f3b8ae94cd8e10e845f">&#9670;&nbsp;</a></span>get_num_velocities()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int exotica::Scene::get_num_velocities </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1630,8 +1762,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="af2e1dd031220ef1fce40d81e3401c31e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2e1dd031220ef1fce40d81e3401c31e">&#9670;&nbsp;</a></span>SetModelState() <span class="overload">[2/2]</span></h2>
+<a id="a283e0845122b94b0ef2bf7b5cf8a9564"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a283e0845122b94b0ef2bf7b5cf8a9564">&#9670;&nbsp;</a></span>SetModelState() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1639,7 +1771,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void exotica::Scene::SetModelState </td>
           <td>(</td>
-          <td class="paramtype">std::map&lt; std::string, double &gt;&#160;</td>
+          <td class="paramtype">const std::map&lt; std::string, double &gt; &amp;&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
@@ -1994,6 +2126,30 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a6d2050000e6b8bf16bf6bcc72869d221"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d2050000e6b8bf16bf6bcc72869d221">&#9670;&nbsp;</a></span>has_quaternion_floating_base_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool exotica::Scene::has_quaternion_floating_base_ = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether the state includes a SE(3) floating base. </p>
+
+</div>
+</div>
 <a id="a946f7dbf990b9ff9b5259a0ab5d78c4e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a946f7dbf990b9ff9b5259a0ab5d78c4e">&#9670;&nbsp;</a></span>kinematic_request_</h2>
 
@@ -2127,6 +2283,126 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Mapping between model link names and collision links. </p>
+
+</div>
+</div>
+<a id="a7c4241a07bd9367a45f9d378f6b89e38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c4241a07bd9367a45f9d378f6b89e38">&#9670;&nbsp;</a></span>num_controls_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int exotica::Scene::num_controls_ = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>"nu" </p>
+
+</div>
+</div>
+<a id="ab9232a94a2631e4a3bb8365a539ecad2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9232a94a2631e4a3bb8365a539ecad2">&#9670;&nbsp;</a></span>num_positions_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int exotica::Scene::num_positions_ = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>"nq" </p>
+
+</div>
+</div>
+<a id="a3c3de41e42da3043f1f1341bad4ce14a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c3de41e42da3043f1f1341bad4ce14a">&#9670;&nbsp;</a></span>num_state_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int exotica::Scene::num_state_ = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>"nx" </p>
+
+</div>
+</div>
+<a id="aea0cd0b360daf91f08b35be50741a1f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea0cd0b360daf91f08b35be50741a1f4">&#9670;&nbsp;</a></span>num_state_derivative_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int exotica::Scene::num_state_derivative_ = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>"ndx" </p>
+
+</div>
+</div>
+<a id="ab144f03bc52c465d2084cc6ed521e693"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab144f03bc52c465d2084cc6ed521e693">&#9670;&nbsp;</a></span>num_velocities_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int exotica::Scene::num_velocities_ = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>"nv" </p>
 
 </div>
 </div>
@@ -2298,7 +2574,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 21 2020 17:35:39 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Nov 8 2020 16:33:51 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

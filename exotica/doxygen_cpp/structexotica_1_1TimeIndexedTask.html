@@ -95,6 +95,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab09fa16dd18c9f5078f60062a780f113"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34bba5c7afb4db67ae402577c5d9d3f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structexotica_1_1TimeIndexedTask.html#a34bba5c7afb4db67ae402577c5d9d3f4">UpdateS</a> ()</td></tr>
 <tr class="separator:a34bba5c7afb4db67ae402577c5d9d3f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adaf5dbbcbc72fa613fec4a42414f61c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structexotica_1_1TimeIndexedTask.html#adaf5dbbcbc72fa613fec4a42414f61c0">Update</a> (const <a class="el" href="structexotica_1_1TaskSpaceVector.html">TaskSpaceVector</a> &amp;big_Phi, <a class="el" href="namespaceEigen.html#af5a0065bf476ec39a4bc067ea6df6a33">Eigen::MatrixXdRefConst</a> big_dPhi_dx, <a class="el" href="namespaceEigen.html#af5a0065bf476ec39a4bc067ea6df6a33">Eigen::MatrixXdRefConst</a> big_dPhi_du, <a class="el" href="namespaceexotica.html#a84595939f8f69fcb71d389d6c4bcd421">HessianRefConst</a> big_ddPhi_ddx, <a class="el" href="namespaceexotica.html#a84595939f8f69fcb71d389d6c4bcd421">HessianRefConst</a> big_ddPhi_ddu, <a class="el" href="namespaceexotica.html#a84595939f8f69fcb71d389d6c4bcd421">HessianRefConst</a> big_ddPhi_dxdu, int t)</td></tr>
+<tr class="separator:adaf5dbbcbc72fa613fec4a42414f61c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5f8a7b27864767de7940fe6de3ddf9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structexotica_1_1TimeIndexedTask.html#af5f8a7b27864767de7940fe6de3ddf9d">Update</a> (const <a class="el" href="structexotica_1_1TaskSpaceVector.html">TaskSpaceVector</a> &amp;big_Phi, <a class="el" href="namespaceEigen.html#af5a0065bf476ec39a4bc067ea6df6a33">Eigen::MatrixXdRefConst</a> big_dPhi_dx, <a class="el" href="namespaceEigen.html#af5a0065bf476ec39a4bc067ea6df6a33">Eigen::MatrixXdRefConst</a> big_dPhi_du, int t)</td></tr>
+<tr class="separator:af5f8a7b27864767de7940fe6de3ddf9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05df2d327873e1cd20c8b679ee24bbf6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structexotica_1_1TimeIndexedTask.html#a05df2d327873e1cd20c8b679ee24bbf6">Update</a> (const <a class="el" href="structexotica_1_1TaskSpaceVector.html">TaskSpaceVector</a> &amp;big_Phi, <a class="el" href="namespaceEigen.html#af5a0065bf476ec39a4bc067ea6df6a33">Eigen::MatrixXdRefConst</a> big_jacobian, <a class="el" href="namespaceexotica.html#a84595939f8f69fcb71d389d6c4bcd421">HessianRefConst</a> big_hessian, int t)</td></tr>
 <tr class="separator:a05df2d327873e1cd20c8b679ee24bbf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf02c15d10da2855a8e7197a99d48d84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structexotica_1_1TimeIndexedTask.html#adf02c15d10da2855a8e7197a99d48d84">Update</a> (const <a class="el" href="structexotica_1_1TaskSpaceVector.html">TaskSpaceVector</a> &amp;big_Phi, <a class="el" href="namespaceEigen.html#af5a0065bf476ec39a4bc067ea6df6a33">Eigen::MatrixXdRefConst</a> big_jacobian, int t)</td></tr>
@@ -130,8 +134,18 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a99336a4e5d893634aeb322e0de880846"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab354f08f2da52c7ccecafc76541d2dc1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespaceexotica.html#a09d6aebee2e82adbe8c7d92f811d3950">Hessian</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structexotica_1_1TimeIndexedTask.html#ab354f08f2da52c7ccecafc76541d2dc1">hessian</a></td></tr>
 <tr class="separator:ab354f08f2da52c7ccecafc76541d2dc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a776a8e3d585a09f0d0f2576636959b5f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespaceexotica.html#a09d6aebee2e82adbe8c7d92f811d3950">Hessian</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structexotica_1_1TimeIndexedTask.html#a776a8e3d585a09f0d0f2576636959b5f">ddPhi_ddx</a></td></tr>
+<tr class="separator:a776a8e3d585a09f0d0f2576636959b5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaeb57bbe5c5b82c56222f631992c3a4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespaceexotica.html#a09d6aebee2e82adbe8c7d92f811d3950">Hessian</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structexotica_1_1TimeIndexedTask.html#acaeb57bbe5c5b82c56222f631992c3a4">ddPhi_ddu</a></td></tr>
+<tr class="separator:acaeb57bbe5c5b82c56222f631992c3a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7f9c789d8fa8b973f8b772c3e1a9643"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespaceexotica.html#a09d6aebee2e82adbe8c7d92f811d3950">Hessian</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structexotica_1_1TimeIndexedTask.html#ac7f9c789d8fa8b973f8b772c3e1a9643">ddPhi_dxdu</a></td></tr>
+<tr class="separator:ac7f9c789d8fa8b973f8b772c3e1a9643"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a666ebc95a14158df4e315a892b84987f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; Eigen::MatrixXd &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structexotica_1_1TimeIndexedTask.html#a666ebc95a14158df4e315a892b84987f">jacobian</a></td></tr>
 <tr class="separator:a666ebc95a14158df4e315a892b84987f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af502c6a43fc5e0c7868666ada848cb25"><td class="memItemLeft" align="right" valign="top">std::vector&lt; Eigen::MatrixXd &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structexotica_1_1TimeIndexedTask.html#af502c6a43fc5e0c7868666ada848cb25">dPhi_dx</a></td></tr>
+<tr class="separator:af502c6a43fc5e0c7868666ada848cb25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6040e5b3a9ad4affd54ecda55bb74415"><td class="memItemLeft" align="right" valign="top">std::vector&lt; Eigen::MatrixXd &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structexotica_1_1TimeIndexedTask.html#a6040e5b3a9ad4affd54ecda55bb74415">dPhi_du</a></td></tr>
+<tr class="separator:a6040e5b3a9ad4affd54ecda55bb74415"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a953ab021dfd32d80b1e144665e61dad6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; Eigen::MatrixXd &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structexotica_1_1TimeIndexedTask.html#a953ab021dfd32d80b1e144665e61dad6">S</a></td></tr>
 <tr class="separator:a953ab021dfd32d80b1e144665e61dad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa97daed6714647288ecaeb29022a428e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structexotica_1_1TimeIndexedTask.html#aa97daed6714647288ecaeb29022a428e">T</a></td></tr>
@@ -417,8 +431,106 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="adaf5dbbcbc72fa613fec4a42414f61c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adaf5dbbcbc72fa613fec4a42414f61c0">&#9670;&nbsp;</a></span>Update() <span class="overload">[1/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void exotica::TimeIndexedTask::Update </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structexotica_1_1TaskSpaceVector.html">TaskSpaceVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>big_Phi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceEigen.html#af5a0065bf476ec39a4bc067ea6df6a33">Eigen::MatrixXdRefConst</a>&#160;</td>
+          <td class="paramname"><em>big_dPhi_dx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceEigen.html#af5a0065bf476ec39a4bc067ea6df6a33">Eigen::MatrixXdRefConst</a>&#160;</td>
+          <td class="paramname"><em>big_dPhi_du</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceexotica.html#a84595939f8f69fcb71d389d6c4bcd421">HessianRefConst</a>&#160;</td>
+          <td class="paramname"><em>big_ddPhi_ddx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceexotica.html#a84595939f8f69fcb71d389d6c4bcd421">HessianRefConst</a>&#160;</td>
+          <td class="paramname"><em>big_ddPhi_ddu</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceexotica.html#a84595939f8f69fcb71d389d6c4bcd421">HessianRefConst</a>&#160;</td>
+          <td class="paramname"><em>big_ddPhi_dxdu</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af5f8a7b27864767de7940fe6de3ddf9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5f8a7b27864767de7940fe6de3ddf9d">&#9670;&nbsp;</a></span>Update() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void exotica::TimeIndexedTask::Update </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structexotica_1_1TaskSpaceVector.html">TaskSpaceVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>big_Phi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceEigen.html#af5a0065bf476ec39a4bc067ea6df6a33">Eigen::MatrixXdRefConst</a>&#160;</td>
+          <td class="paramname"><em>big_dPhi_dx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceEigen.html#af5a0065bf476ec39a4bc067ea6df6a33">Eigen::MatrixXdRefConst</a>&#160;</td>
+          <td class="paramname"><em>big_dPhi_du</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a05df2d327873e1cd20c8b679ee24bbf6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05df2d327873e1cd20c8b679ee24bbf6">&#9670;&nbsp;</a></span>Update() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a05df2d327873e1cd20c8b679ee24bbf6">&#9670;&nbsp;</a></span>Update() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -458,7 +570,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="adf02c15d10da2855a8e7197a99d48d84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf02c15d10da2855a8e7197a99d48d84">&#9670;&nbsp;</a></span>Update() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adf02c15d10da2855a8e7197a99d48d84">&#9670;&nbsp;</a></span>Update() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -492,7 +604,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a752b1ac58d8d49df534c3737126511f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a752b1ac58d8d49df534c3737126511f5">&#9670;&nbsp;</a></span>Update() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a752b1ac58d8d49df534c3737126511f5">&#9670;&nbsp;</a></span>Update() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -563,6 +675,76 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="acaeb57bbe5c5b82c56222f631992c3a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaeb57bbe5c5b82c56222f631992c3a4">&#9670;&nbsp;</a></span>ddPhi_ddu</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="namespaceexotica.html#a09d6aebee2e82adbe8c7d92f811d3950">Hessian</a>&gt; exotica::TimeIndexedTask::ddPhi_ddu</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a776a8e3d585a09f0d0f2576636959b5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a776a8e3d585a09f0d0f2576636959b5f">&#9670;&nbsp;</a></span>ddPhi_ddx</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="namespaceexotica.html#a09d6aebee2e82adbe8c7d92f811d3950">Hessian</a>&gt; exotica::TimeIndexedTask::ddPhi_ddx</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7f9c789d8fa8b973f8b772c3e1a9643"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7f9c789d8fa8b973f8b772c3e1a9643">&#9670;&nbsp;</a></span>ddPhi_dxdu</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="namespaceexotica.html#a09d6aebee2e82adbe8c7d92f811d3950">Hessian</a>&gt; exotica::TimeIndexedTask::ddPhi_dxdu</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6040e5b3a9ad4affd54ecda55bb74415"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6040e5b3a9ad4affd54ecda55bb74415">&#9670;&nbsp;</a></span>dPhi_du</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;Eigen::MatrixXd&gt; exotica::TimeIndexedTask::dPhi_du</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af502c6a43fc5e0c7868666ada848cb25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af502c6a43fc5e0c7868666ada848cb25">&#9670;&nbsp;</a></span>dPhi_dx</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;Eigen::MatrixXd&gt; exotica::TimeIndexedTask::dPhi_dx</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab354f08f2da52c7ccecafc76541d2dc1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab354f08f2da52c7ccecafc76541d2dc1">&#9670;&nbsp;</a></span>hessian</h2>
 
@@ -681,7 +863,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 21 2020 17:35:39 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Nov 8 2020 16:33:51 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

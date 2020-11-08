@@ -79,8 +79,7 @@ $(function() {
 , <a class="el" href="classexotica_1_1SumOfPenetrations.html#a3888c9cf2cfb7bf6b1760d722ba5624a">exotica::SumOfPenetrations</a>
 </li>
 <li>CheckCollision()
-: <a class="el" href="classexotica_1_1CollisionSceneFCL.html#a05bddb6f263419a84c5154ba2228ab38">exotica::CollisionSceneFCL</a>
-, <a class="el" href="classexotica_1_1CollisionSceneFCLLatest.html#a75d47bb44b48d3de04aecb43b51fdce9">exotica::CollisionSceneFCLLatest</a>
+: <a class="el" href="classexotica_1_1CollisionSceneFCLLatest.html#a75d47bb44b48d3de04aecb43b51fdce9">exotica::CollisionSceneFCLLatest</a>
 </li>
 <li>CheckStoppingCriteria()
 : <a class="el" href="classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#a9822548116f42add71e16dfa55fa4d87">exotica::AbstractFeasibilityDrivenDDPSolver</a>
@@ -96,6 +95,9 @@ $(function() {
 </li>
 <li>clamped_idx
 : <a class="el" href="structexotica_1_1BoxQPSolution.html#ac8a411eebd1f59efc0a45cc57b435e95">exotica::BoxQPSolution</a>
+</li>
+<li>ClampToStateLimits()
+: <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a02708d9b6bf944fb4510067745e34ff9">exotica::AbstractDynamicsSolver&lt; T, NX, NU &gt;</a>
 </li>
 <li>CleanScene()
 : <a class="el" href="classexotica_1_1Scene.html#a5305a7f7fd675e67076159bdba35dbc9">exotica::Scene</a>
@@ -141,15 +143,13 @@ $(function() {
 : <a class="el" href="classexotica_1_1KinematicTree.html#adbfbbd6c04750c37e3bdcac5c7a4043f">exotica::KinematicTree</a>
 </li>
 <li>CollisionCallback()
-: <a class="el" href="classexotica_1_1CollisionSceneFCL.html#a5372783a6600150aa72b95bd6e98abb8">exotica::CollisionSceneFCL</a>
-, <a class="el" href="classexotica_1_1CollisionSceneFCLLatest.html#ad0cdc65ff210aa0cfe0982c87340d958">exotica::CollisionSceneFCLLatest</a>
+: <a class="el" href="classexotica_1_1CollisionSceneFCLLatest.html#ad0cdc65ff210aa0cfe0982c87340d958">exotica::CollisionSceneFCLLatest</a>
 </li>
 <li>CollisionCallbackDistance()
 : <a class="el" href="classexotica_1_1CollisionSceneFCLLatest.html#ad4564538c173fd16b503a7f9759558e4">exotica::CollisionSceneFCLLatest</a>
 </li>
 <li>CollisionData()
-: <a class="el" href="structexotica_1_1CollisionSceneFCL_1_1CollisionData.html#aea591754908b4183f804fb9b0d587492">exotica::CollisionSceneFCL::CollisionData</a>
-, <a class="el" href="structexotica_1_1CollisionSceneFCLLatest_1_1CollisionData.html#a341dd1f7ef98487035bec8b69973984d">exotica::CollisionSceneFCLLatest::CollisionData</a>
+: <a class="el" href="structexotica_1_1CollisionSceneFCLLatest_1_1CollisionData.html#a341dd1f7ef98487035bec8b69973984d">exotica::CollisionSceneFCLLatest::CollisionData</a>
 </li>
 <li>CollisionProxy()
 : <a class="el" href="structexotica_1_1CollisionProxy.html#af54f32246c4efa4296fbf6f75682275f">exotica::CollisionProxy</a>
@@ -191,15 +191,16 @@ $(function() {
 </li>
 <li>ComputeGains()
 : <a class="el" href="classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#ac6ba39e56068dc8b1a20287640fbd904">exotica::AbstractFeasibilityDrivenDDPSolver</a>
+, <a class="el" href="classexotica_1_1ControlLimitedFeasibilityDrivenDDPSolver.html#a6976943b699989ef18eb6c7cfd31ccfa">exotica::ControlLimitedFeasibilityDrivenDDPSolver</a>
 </li>
 <li>ComputeGoalLaplace()
 : <a class="el" href="classexotica_1_1InteractionMesh.html#a54da3b4c05c277e199cab0ca2fc84160">exotica::InteractionMesh</a>
 </li>
+<li>ComputeH()
+: <a class="el" href="classexotica_1_1KinematicTree.html#ac30eeae5e522710f1072c80efa12a58a">exotica::KinematicTree</a>
+</li>
 <li>ComputeJ()
 : <a class="el" href="classexotica_1_1KinematicTree.html#a382b28f97d67df6af83e669b6e94fc8b">exotica::KinematicTree</a>
-</li>
-<li>ComputeJdot()
-: <a class="el" href="classexotica_1_1KinematicTree.html#a50714577e4f547e43dc66fb4e1156da0">exotica::KinematicTree</a>
 </li>
 <li>ComputeLaplace()
 : <a class="el" href="classexotica_1_1InteractionMesh.html#ab962a600f0f21c377bf35def7b465565">exotica::InteractionMesh</a>
@@ -214,8 +215,7 @@ $(function() {
 : <a class="el" href="classexotica_1_1TimeIndexedSamplingProblem.html#ad7c77853689a02e4eb384b6a93fe47f2">exotica::TimeIndexedSamplingProblem</a>
 </li>
 <li>ConstructFclCollisionObject()
-: <a class="el" href="classexotica_1_1CollisionSceneFCL.html#a6166abd8d2b9b2311829d1d25578bbf2">exotica::CollisionSceneFCL</a>
-, <a class="el" href="classexotica_1_1CollisionSceneFCLLatest.html#a466d0a07c96354ce349c14c5062f0339">exotica::CollisionSceneFCLLatest</a>
+: <a class="el" href="classexotica_1_1CollisionSceneFCLLatest.html#a466d0a07c96354ce349c14c5062f0339">exotica::CollisionSceneFCLLatest</a>
 </li>
 <li>ConstructFromData()
 : <a class="el" href="classexotica_1_1Trajectory.html#a53f0a69145d95269edf43c4912f4e7ef">exotica::Trajectory</a>
@@ -250,6 +250,24 @@ $(function() {
 </li>
 <li>ContinuousCollisionProxy()
 : <a class="el" href="structexotica_1_1ContinuousCollisionProxy.html#a5d5757057bc4a50e4cb644d2781ea174">exotica::ContinuousCollisionProxy</a>
+</li>
+<li>control_cost_
+: <a class="el" href="classexotica_1_1AbstractDDPSolver.html#a190f7c6e1fac19b6a468a3d4164e162a">exotica::AbstractDDPSolver</a>
+</li>
+<li>control_cost_evolution_
+: <a class="el" href="classexotica_1_1AbstractDDPSolver.html#a61e7917ed88bd8333d9db63c8f99fc30">exotica::AbstractDDPSolver</a>
+</li>
+<li>control_cost_hessian_
+: <a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a5d2dedd83c71d58a1dd8f3cb992d616e">exotica::DynamicTimeIndexedShootingProblem</a>
+</li>
+<li>control_cost_jacobian_
+: <a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a6afec58ef487fa33d540c702fb42418b">exotica::DynamicTimeIndexedShootingProblem</a>
+</li>
+<li>control_cost_try_
+: <a class="el" href="classexotica_1_1AbstractDDPSolver.html#a6c8828746c775714584059e0899b6672">exotica::AbstractDDPSolver</a>
+</li>
+<li>control_cost_weight_
+: <a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html#a53eae8c227a31b2ef50dbee8d3743db6">exotica::DynamicTimeIndexedShootingProblem</a>
 </li>
 <li>control_id
 : <a class="el" href="classexotica_1_1KinematicElement.html#a74f6d512a0c984bc0310e1d62920286c">exotica::KinematicElement</a>
@@ -321,6 +339,7 @@ $(function() {
 </li>
 <li>cost_jacobian_
 : <a class="el" href="classexotica_1_1IKSolver.html#a721a034346abf6ff583ae3f27e9e6429">exotica::IKSolver</a>
+, <a class="el" href="classexotica_1_1LevenbergMarquardtSolver.html#ae946720d6ade8618cfefdfa2cf10d57a">exotica::LevenbergMarquardtSolver</a>
 </li>
 <li>cost_old_
 : <a class="el" href="classexotica_1_1AICOSolver.html#aa09beaff57ea30b1a4e9877d1daccfc9">exotica::AICOSolver</a>
@@ -342,7 +361,7 @@ $(function() {
 : <a class="el" href="classexotica_1_1AICOSolver.html#a2a780963b2054a1b4db902174b837579">exotica::AICOSolver</a>
 </li>
 <li>cost_try_
-: <a class="el" href="classexotica_1_1AbstractFeasibilityDrivenDDPSolver.html#a2b0b7d9dbd4112b789b9700bc6475a0d">exotica::AbstractFeasibilityDrivenDDPSolver</a>
+: <a class="el" href="classexotica_1_1AbstractDDPSolver.html#a43c271b16397fd8071e133adb891510c">exotica::AbstractDDPSolver</a>
 </li>
 <li>cov()
 : <a class="el" href="classexotica_1_1SinglePassMeanCovariance.html#a1d3338359011f8b9e53b85f2eb153f4a">exotica::SinglePassMeanCovariance</a>
@@ -379,6 +398,7 @@ $(function() {
 , <a class="el" href="classexotica_1_1CollisionDistance.html#a00b7f7ed4eb2cf93e980be8c0a46aae4">exotica::CollisionDistance</a>
 , <a class="el" href="classexotica_1_1SmoothCollisionDistance.html#ac8fb2ff061a46ae0a1dae4ccee2ae879">exotica::SmoothCollisionDistance</a>
 , <a class="el" href="classexotica_1_1SumOfPenetrations.html#add92d54a4da9c15618d427792dca6b19">exotica::SumOfPenetrations</a>
+, <a class="el" href="classexotica_1_1VariableSizeCollisionDistance.html#a563987c4a62cb4bbffb3b9b157eced3a">exotica::VariableSizeCollisionDistance</a>
 </li>
 <li>ct
 : <a class="el" href="classexotica_1_1AbstractTimeIndexedProblem.html#acac2aaee9844237e67e303a62b6b9572">exotica::AbstractTimeIndexedProblem</a>
@@ -396,7 +416,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 21 2020 17:35:46 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Nov 8 2020 16:33:56 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['kinematicrequestflags',['KinematicRequestFlags',['../namespaceexotica.html#a8879608908229eff06df2b94c63f1a99',1,'exotica']]]
+  ['growstate',['GrowState',['../classexotica_1_1OMPLTimeIndexedRRTConnect.html#a7b8055def77df1120645c500c97c219b',1,'exotica::OMPLTimeIndexedRRTConnect']]]
 ];

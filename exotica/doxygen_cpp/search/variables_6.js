@@ -1,6 +1,8 @@
 var searchData=
 [
   ['g_5f',['g_',['../classexotica_1_1CartpoleDynamicsSolver.html#aba7718a834363794ac62b2ff4ef9553c',1,'exotica::CartpoleDynamicsSolver::g_()'],['../classexotica_1_1PendulumDynamicsSolver.html#a9ddfd8584685ba1a17824df25f0bfa4d',1,'exotica::PendulumDynamicsSolver::g_()'],['../classexotica_1_1QuadrotorDynamicsSolver.html#aad4d48bc416282dba9632f37e89d8d26',1,'exotica::QuadrotorDynamicsSolver::g_()']]],
+  ['general_5fcost_5fhessian_5f',['general_cost_hessian_',['../classexotica_1_1DynamicTimeIndexedShootingProblem.html#af3bba3502f96859019ca2621519dc54d',1,'exotica::DynamicTimeIndexedShootingProblem']]],
+  ['general_5fcost_5fjacobian_5f',['general_cost_jacobian_',['../classexotica_1_1DynamicTimeIndexedShootingProblem.html#a17596cb8ab688d35f1acefdfb854a0b0',1,'exotica::DynamicTimeIndexedShootingProblem']]],
   ['generated_5foffset',['generated_offset',['../classexotica_1_1KinematicElement.html#ae0d9e3539dfc361e66065275a8a7dd44',1,'exotica::KinematicElement']]],
   ['generator_5f',['generator_',['../classexotica_1_1KinematicTree.html#a22e699ca8cba0276f1aec508211a80b0',1,'exotica::KinematicTree::generator_()'],['../classexotica_1_1DynamicTimeIndexedShootingProblem.html#aba46c9718307c89d1e0fddcbbfc8b900',1,'exotica::DynamicTimeIndexedShootingProblem::generator_()']]],
   ['geometries',['geometries',['../structexotica_1_1visualization_1_1Object.html#a10c956c97860a50883d7269c478161e3',1,'exotica::visualization::Object::geometries()'],['../structexotica_1_1visualization_1_1MeshObject.html#a175cd65459baf0ec89a6f280c760f59c',1,'exotica::visualization::MeshObject::geometries()']]],

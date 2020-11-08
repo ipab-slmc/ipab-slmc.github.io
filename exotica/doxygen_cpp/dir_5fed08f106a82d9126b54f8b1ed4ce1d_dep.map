@@ -1,23 +1,23 @@
 <map id="/home/wxm/tmp/exotica/exotations/solvers" name="/home/wxm/tmp/exotica/exotations/solvers">
 <area shape="rect" id="node2" href="dir_0c11bdd861badf5744675fb7a30f1982.html" title="exotica_aico_solver" alt="" coords="1578,63,1715,111"/>
 <area shape="rect" id="node11" href="dir_e7cd96ddec0209abf00db64706d62448.html" title="exotica_core" alt="" coords="977,159,1073,207"/>
-<area shape="rect" id="edge2-headlabel" href="dir_000027_000054.html" title="4" alt="" coords="1088,181,1096,196"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000024_000051.html" title="4" alt="" coords="1088,181,1096,196"/>
 <area shape="rect" id="node3" href="dir_583f07ea5538eba0c63e561f4f0a9e68.html" title="exotica_ddp_solver" alt="" coords="1419,63,1554,111"/>
-<area shape="rect" id="edge9-headlabel" href="dir_000030_000054.html" title="5" alt="" coords="1088,178,1096,193"/>
+<area shape="rect" id="edge9-headlabel" href="dir_000027_000051.html" title="4" alt="" coords="1088,178,1096,193"/>
 <area shape="rect" id="node4" href="dir_7d14ed29a23b9bc3f4c9ceeee36055d0.html" title="exotica_ik_solver" alt="" coords="1272,63,1395,111"/>
-<area shape="rect" id="edge4-headlabel" href="dir_000033_000054.html" title="2" alt="" coords="1089,176,1097,190"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000030_000051.html" title="2" alt="" coords="1089,176,1097,190"/>
 <area shape="rect" id="node5" href="dir_690b3003b45eed189f847a96bc54979b.html" title="exotica_ilqg_solver" alt="" coords="1115,63,1248,111"/>
-<area shape="rect" id="edge7-headlabel" href="dir_000036_000054.html" title="3" alt="" coords="1081,149,1089,163"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000033_000051.html" title="3" alt="" coords="1081,149,1089,163"/>
 <area shape="rect" id="node6" href="dir_3f0da350bd6a22cfc4f43366fad649a1.html" title="exotica_ilqr_solver" alt="" coords="960,63,1091,111"/>
-<area shape="rect" id="edge5-headlabel" href="dir_000039_000054.html" title="3" alt="" coords="1030,133,1038,147"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000036_000051.html" title="3" alt="" coords="1030,133,1038,147"/>
 <area shape="rect" id="node7" href="dir_0e2f9df38935ed4894c6f64fd50a391a.html" title="exotica_levenberg_marquardt_solver" alt="" coords="701,63,936,111"/>
-<area shape="rect" id="edge1-headlabel" href="dir_000042_000054.html" title="2" alt="" coords="960,138,968,152"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000039_000051.html" title="2" alt="" coords="960,138,968,152"/>
 <area shape="rect" id="node8" href="dir_f3406fd1bcbdee71a3c61f6c18223ec6.html" title="exotica_ompl_control_solver" alt="" coords="491,63,677,111"/>
-<area shape="rect" id="edge8-headlabel" href="dir_000045_000054.html" title="2" alt="" coords="956,162,964,177"/>
+<area shape="rect" id="edge8-headlabel" href="dir_000042_000051.html" title="2" alt="" coords="956,162,964,177"/>
 <area shape="rect" id="node9" href="dir_086c47787b65b473b15cfba070e65a96.html" title="exotica_ompl_solver" alt="" coords="325,63,467,111"/>
-<area shape="rect" id="edge3-headlabel" href="dir_000048_000054.html" title="2" alt="" coords="955,164,963,179"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000045_000051.html" title="2" alt="" coords="955,164,963,179"/>
 <area shape="rect" id="node10" href="dir_ef25ac0cb9a01f2a2907ee5ac6daf2f2.html" title="exotica_time_indexed_rrt_connect_solver" alt="" coords="38,63,301,111"/>
-<area shape="rect" id="edge6-headlabel" href="dir_000051_000054.html" title="2" alt="" coords="955,164,963,179"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000048_000051.html" title="2" alt="" coords="955,164,963,179"/>
 <area shape="rect" id="clust2" href="dir_5fed08f106a82d9126b54f8b1ed4ce1d.html" alt="" coords="27,52,1823,121"/>
 <area shape="rect" id="clust1" href="dir_7780ea0be3979df8ab68f2903206afab.html" title="exotations" alt="" coords="16,16,1833,132"/>
 </map>

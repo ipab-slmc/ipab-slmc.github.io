@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['a_5f',['a_',['../classexotica_1_1PinocchioDynamicsSolverWithGravityCompensation.html#afbf62976583b94a81c996d18b81fc57e',1,'exotica::PinocchioDynamicsSolverWithGravityCompensation::a_()'],['../classexotica_1_1DoubleIntegratorDynamicsSolver.html#a32cc52c6f39b2cc601f5bb789f81fc04',1,'exotica::DoubleIntegratorDynamicsSolver::A_()']]],
+  ['a_5f',['A_',['../classexotica_1_1DoubleIntegratorDynamicsSolver.html#a32cc52c6f39b2cc601f5bb789f81fc04',1,'exotica::DoubleIntegratorDynamicsSolver::A_()'],['../classexotica_1_1PinocchioDynamicsSolverWithGravityCompensation.html#afbf62976583b94a81c996d18b81fc57e',1,'exotica::PinocchioDynamicsSolverWithGravityCompensation::a_()']]],
+  ['acceleration_5flimit',['acceleration_limit',['../classexotica_1_1KinematicElement.html#a393df2c1cdd24e7b33359c56669e8ddb',1,'exotica::KinematicElement']]],
+  ['acceleration_5flimits_5f',['acceleration_limits_',['../classexotica_1_1KinematicTree.html#a2fe79cc3f5a4c00a2986f88c0bed8f5c',1,'exotica::KinematicTree']]],
   ['acm_5f',['acm_',['../classexotica_1_1CollisionScene.html#ad0effd2303e6de9dcbaa9cf3f850f59e',1,'exotica::CollisionScene']]],
   ['active_5fnonlinear_5fequality_5fconstraints_5f',['active_nonlinear_equality_constraints_',['../classexotica_1_1AbstractTimeIndexedProblem.html#a3cbf3b88cae63e0ff2206a6a9efb4ce6',1,'exotica::AbstractTimeIndexedProblem']]],
   ['active_5fnonlinear_5fequality_5fconstraints_5fdimension_5f',['active_nonlinear_equality_constraints_dimension_',['../classexotica_1_1AbstractTimeIndexedProblem.html#aa57fe01b3b916301c9405a9a1eba5664',1,'exotica::AbstractTimeIndexedProblem']]],

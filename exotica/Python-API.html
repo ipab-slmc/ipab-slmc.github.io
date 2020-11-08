@@ -185,6 +185,48 @@
 </pre></div>
 </div>
 <span class="target" id="module-pyexotica"></span><dl class="class">
+<dt id="pyexotica.ArgumentPosition">
+<em class="property">class </em><code class="descclassname">pyexotica.</code><code class="descname">ArgumentPosition</code><a class="headerlink" href="#pyexotica.ArgumentPosition" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pybind11_builtins.pybind11_object</span></code></p>
+<p>Members:</p>
+<p>ARG0</p>
+<p>ARG1</p>
+<p>ARG2</p>
+<p>ARG3</p>
+<p>ARG4</p>
+<dl class="attribute">
+<dt id="pyexotica.ArgumentPosition.ARG0">
+<code class="descname">ARG0</code><em class="property"> = &lt;ArgumentPosition.ARG0: 0&gt;</em><a class="headerlink" href="#pyexotica.ArgumentPosition.ARG0" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyexotica.ArgumentPosition.ARG1">
+<code class="descname">ARG1</code><em class="property"> = &lt;ArgumentPosition.ARG1: 1&gt;</em><a class="headerlink" href="#pyexotica.ArgumentPosition.ARG1" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyexotica.ArgumentPosition.ARG2">
+<code class="descname">ARG2</code><em class="property"> = &lt;ArgumentPosition.ARG2: 2&gt;</em><a class="headerlink" href="#pyexotica.ArgumentPosition.ARG2" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyexotica.ArgumentPosition.ARG3">
+<code class="descname">ARG3</code><em class="property"> = &lt;ArgumentPosition.ARG3: 3&gt;</em><a class="headerlink" href="#pyexotica.ArgumentPosition.ARG3" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyexotica.ArgumentPosition.ARG4">
+<code class="descname">ARG4</code><em class="property"> = &lt;ArgumentPosition.ARG4: 4&gt;</em><a class="headerlink" href="#pyexotica.ArgumentPosition.ARG4" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyexotica.ArgumentPosition.name">
+<code class="descname">name</code><a class="headerlink" href="#pyexotica.ArgumentPosition.name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
 <dt id="pyexotica.BaseType">
 <em class="property">class </em><code class="descclassname">pyexotica.</code><code class="descname">BaseType</code><a class="headerlink" href="#pyexotica.BaseType" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pybind11_builtins.pybind11_object</span></code></p>
@@ -194,32 +236,23 @@
 <p>Planar</p>
 <dl class="attribute">
 <dt id="pyexotica.BaseType.Fixed">
-<code class="descname">Fixed</code><em class="property"> = BaseType.Fixed</em><a class="headerlink" href="#pyexotica.BaseType.Fixed" title="Permalink to this definition">¶</a></dt>
+<code class="descname">Fixed</code><em class="property"> = &lt;BaseType.Fixed: 0&gt;</em><a class="headerlink" href="#pyexotica.BaseType.Fixed" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
 <dt id="pyexotica.BaseType.Floating">
-<code class="descname">Floating</code><em class="property"> = BaseType.Floating</em><a class="headerlink" href="#pyexotica.BaseType.Floating" title="Permalink to this definition">¶</a></dt>
+<code class="descname">Floating</code><em class="property"> = &lt;BaseType.Floating: 10&gt;</em><a class="headerlink" href="#pyexotica.BaseType.Floating" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
 <dt id="pyexotica.BaseType.Planar">
-<code class="descname">Planar</code><em class="property"> = BaseType.Planar</em><a class="headerlink" href="#pyexotica.BaseType.Planar" title="Permalink to this definition">¶</a></dt>
+<code class="descname">Planar</code><em class="property"> = &lt;BaseType.Planar: 20&gt;</em><a class="headerlink" href="#pyexotica.BaseType.Planar" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
 <dt id="pyexotica.BaseType.name">
 <code class="descname">name</code><a class="headerlink" href="#pyexotica.BaseType.name" title="Permalink to this definition">¶</a></dt>
-<dd><p>handle) -&gt; str</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">(self</td>
-</tr>
-</tbody>
-</table>
-</dd></dl>
+<dd></dd></dl>
 
 </dd></dl>
 
@@ -335,6 +368,11 @@
 <code class="descname">get_robot_to_world_collision_distance</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.CollisionScene</em>, <em>arg0: float</em><span class="sig-paren">)</span> &#x2192; List[pyexotica._pyexotica.CollisionProxy]<a class="headerlink" href="#pyexotica.CollisionScene.get_robot_to_world_collision_distance" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
+<dl class="method">
+<dt id="pyexotica.CollisionScene.get_translation">
+<code class="descname">get_translation</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.CollisionScene</em>, <em>arg0: unicode</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[3, 1]]<a class="headerlink" href="#pyexotica.CollisionScene.get_translation" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 <dl class="attribute">
 <dt id="pyexotica.CollisionScene.replace_cylinders_with_capsules">
 <code class="descname">replace_cylinders_with_capsules</code><a class="headerlink" href="#pyexotica.CollisionScene.replace_cylinders_with_capsules" title="Permalink to this definition">¶</a></dt>
@@ -440,6 +478,48 @@
 </dd></dl>
 
 <dl class="class">
+<dt id="pyexotica.ControlCostLossTermType">
+<em class="property">class </em><code class="descclassname">pyexotica.</code><code class="descname">ControlCostLossTermType</code><a class="headerlink" href="#pyexotica.ControlCostLossTermType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pybind11_builtins.pybind11_object</span></code></p>
+<p>Members:</p>
+<p>Huber</p>
+<p>PseudoHuber</p>
+<p>L2</p>
+<p>Undefined</p>
+<p>SmoothL1</p>
+<dl class="attribute">
+<dt id="pyexotica.ControlCostLossTermType.Huber">
+<code class="descname">Huber</code><em class="property"> = &lt;ControlCostLossTermType.Huber: 2&gt;</em><a class="headerlink" href="#pyexotica.ControlCostLossTermType.Huber" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyexotica.ControlCostLossTermType.L2">
+<code class="descname">L2</code><em class="property"> = &lt;ControlCostLossTermType.L2: 0&gt;</em><a class="headerlink" href="#pyexotica.ControlCostLossTermType.L2" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyexotica.ControlCostLossTermType.PseudoHuber">
+<code class="descname">PseudoHuber</code><em class="property"> = &lt;ControlCostLossTermType.PseudoHuber: 3&gt;</em><a class="headerlink" href="#pyexotica.ControlCostLossTermType.PseudoHuber" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyexotica.ControlCostLossTermType.SmoothL1">
+<code class="descname">SmoothL1</code><em class="property"> = &lt;ControlCostLossTermType.SmoothL1: 1&gt;</em><a class="headerlink" href="#pyexotica.ControlCostLossTermType.SmoothL1" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyexotica.ControlCostLossTermType.Undefined">
+<code class="descname">Undefined</code><em class="property"> = &lt;ControlCostLossTermType.Undefined: -1&gt;</em><a class="headerlink" href="#pyexotica.ControlCostLossTermType.Undefined" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyexotica.ControlCostLossTermType.name">
+<code class="descname">name</code><a class="headerlink" href="#pyexotica.ControlCostLossTermType.name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
 <dt id="pyexotica.Cylinder">
 <em class="property">class </em><code class="descclassname">pyexotica.</code><code class="descname">Cylinder</code><a class="headerlink" href="#pyexotica.Cylinder" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pyexotica._pyexotica.Shape</span></code></p>
@@ -465,8 +545,13 @@
 <em class="property">class </em><code class="descclassname">pyexotica.</code><code class="descname">DynamicsSolver</code><a class="headerlink" href="#pyexotica.DynamicsSolver" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pyexotica._pyexotica.Object</span></code></p>
 <dl class="method">
+<dt id="pyexotica.DynamicsSolver.F">
+<code class="descname">F</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver, arg0: numpy.ndarray[numpy.float64[m, 1]], arg1: numpy.ndarray[numpy.float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, 1]]<a class="headerlink" href="#pyexotica.DynamicsSolver.F" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
 <dt id="pyexotica.DynamicsSolver.compute_derivatives">
-<code class="descname">compute_derivatives</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver, arg0: numpy.ndarray[float64[m, 1]], arg1: numpy.ndarray[float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#pyexotica.DynamicsSolver.compute_derivatives" title="Permalink to this definition">¶</a></dt>
+<code class="descname">compute_derivatives</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver, arg0: numpy.ndarray[numpy.float64[m, 1]], arg1: numpy.ndarray[numpy.float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#pyexotica.DynamicsSolver.compute_derivatives" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
@@ -476,47 +561,67 @@
 
 <dl class="method">
 <dt id="pyexotica.DynamicsSolver.f">
-<code class="descname">f</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver, arg0: numpy.ndarray[float64[m, 1]], arg1: numpy.ndarray[float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, 1]]<a class="headerlink" href="#pyexotica.DynamicsSolver.f" title="Permalink to this definition">¶</a></dt>
+<code class="descname">f</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver, arg0: numpy.ndarray[numpy.float64[m, 1]], arg1: numpy.ndarray[numpy.float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, 1]]<a class="headerlink" href="#pyexotica.DynamicsSolver.f" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
 <dt id="pyexotica.DynamicsSolver.fu">
-<code class="descname">fu</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver, arg0: numpy.ndarray[float64[m, 1]], arg1: numpy.ndarray[float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, n]]<a class="headerlink" href="#pyexotica.DynamicsSolver.fu" title="Permalink to this definition">¶</a></dt>
+<code class="descname">fu</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver, arg0: numpy.ndarray[numpy.float64[m, 1]], arg1: numpy.ndarray[numpy.float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, n]]<a class="headerlink" href="#pyexotica.DynamicsSolver.fu" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
 <dt id="pyexotica.DynamicsSolver.fu_fd">
-<code class="descname">fu_fd</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver, arg0: numpy.ndarray[float64[m, 1]], arg1: numpy.ndarray[float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, n]]<a class="headerlink" href="#pyexotica.DynamicsSolver.fu_fd" title="Permalink to this definition">¶</a></dt>
+<code class="descname">fu_fd</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver, arg0: numpy.ndarray[numpy.float64[m, 1]], arg1: numpy.ndarray[numpy.float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, n]]<a class="headerlink" href="#pyexotica.DynamicsSolver.fu_fd" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
 <dt id="pyexotica.DynamicsSolver.fx">
-<code class="descname">fx</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver, arg0: numpy.ndarray[float64[m, 1]], arg1: numpy.ndarray[float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, n]]<a class="headerlink" href="#pyexotica.DynamicsSolver.fx" title="Permalink to this definition">¶</a></dt>
+<code class="descname">fx</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver, arg0: numpy.ndarray[numpy.float64[m, 1]], arg1: numpy.ndarray[numpy.float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, n]]<a class="headerlink" href="#pyexotica.DynamicsSolver.fx" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
 <dt id="pyexotica.DynamicsSolver.fx_fd">
-<code class="descname">fx_fd</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver, arg0: numpy.ndarray[float64[m, 1]], arg1: numpy.ndarray[float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, n]]<a class="headerlink" href="#pyexotica.DynamicsSolver.fx_fd" title="Permalink to this definition">¶</a></dt>
+<code class="descname">fx_fd</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver, arg0: numpy.ndarray[numpy.float64[m, 1]], arg1: numpy.ndarray[numpy.float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, n]]<a class="headerlink" href="#pyexotica.DynamicsSolver.fx_fd" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="pyexotica.DynamicsSolver.get_Fu">
+<code class="descname">get_Fu</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, n]]<a class="headerlink" href="#pyexotica.DynamicsSolver.get_Fu" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="pyexotica.DynamicsSolver.get_Fx">
+<code class="descname">get_Fx</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, n]]<a class="headerlink" href="#pyexotica.DynamicsSolver.get_Fx" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
 <dt id="pyexotica.DynamicsSolver.get_fu">
-<code class="descname">get_fu</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, n]]<a class="headerlink" href="#pyexotica.DynamicsSolver.get_fu" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_fu</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, n]]<a class="headerlink" href="#pyexotica.DynamicsSolver.get_fu" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
 <dt id="pyexotica.DynamicsSolver.get_fx">
-<code class="descname">get_fx</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, n]]<a class="headerlink" href="#pyexotica.DynamicsSolver.get_fx" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_fx</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, n]]<a class="headerlink" href="#pyexotica.DynamicsSolver.get_fx" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
 <dt id="pyexotica.DynamicsSolver.get_position">
-<code class="descname">get_position</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver, arg0: numpy.ndarray[float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, 1]]<a class="headerlink" href="#pyexotica.DynamicsSolver.get_position" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_position</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver, arg0: numpy.ndarray[numpy.float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, 1]]<a class="headerlink" href="#pyexotica.DynamicsSolver.get_position" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyexotica.DynamicsSolver.has_second_order_derivatives">
+<code class="descname">has_second_order_derivatives</code><a class="headerlink" href="#pyexotica.DynamicsSolver.has_second_order_derivatives" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
 <dt id="pyexotica.DynamicsSolver.integrate">
-<code class="descname">integrate</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver, arg0: numpy.ndarray[float64[m, 1]], arg1: numpy.ndarray[float64[m, 1]], arg2: float</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, 1]]<a class="headerlink" href="#pyexotica.DynamicsSolver.integrate" title="Permalink to this definition">¶</a></dt>
+<code class="descname">integrate</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver, arg0: numpy.ndarray[numpy.float64[m, 1]], arg1: numpy.ndarray[numpy.float64[m, 1]], arg2: float</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, 1]]<a class="headerlink" href="#pyexotica.DynamicsSolver.integrate" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyexotica.DynamicsSolver.integrator">
+<code class="descname">integrator</code><a class="headerlink" href="#pyexotica.DynamicsSolver.integrator" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
@@ -546,12 +651,22 @@
 
 <dl class="method">
 <dt id="pyexotica.DynamicsSolver.simulate">
-<code class="descname">simulate</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver, arg0: numpy.ndarray[float64[m, 1]], arg1: numpy.ndarray[float64[m, 1]], arg2: float</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, 1]]<a class="headerlink" href="#pyexotica.DynamicsSolver.simulate" title="Permalink to this definition">¶</a></dt>
+<code class="descname">simulate</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver, arg0: numpy.ndarray[numpy.float64[m, 1]], arg1: numpy.ndarray[numpy.float64[m, 1]], arg2: float</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, 1]]<a class="headerlink" href="#pyexotica.DynamicsSolver.simulate" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
 <dt id="pyexotica.DynamicsSolver.state_delta">
-<code class="descname">state_delta</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver, arg0: numpy.ndarray[float64[m, 1]], arg1: numpy.ndarray[float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, 1]]<a class="headerlink" href="#pyexotica.DynamicsSolver.state_delta" title="Permalink to this definition">¶</a></dt>
+<code class="descname">state_delta</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver, arg0: numpy.ndarray[numpy.float64[m, 1]], arg1: numpy.ndarray[numpy.float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, 1]]<a class="headerlink" href="#pyexotica.DynamicsSolver.state_delta" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="pyexotica.DynamicsSolver.state_delta_derivative">
+<code class="descname">state_delta_derivative</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver, arg0: numpy.ndarray[numpy.float64[m, 1]], arg1: numpy.ndarray[numpy.float64[m, 1]], arg2: exotica::ArgumentPosition</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, n]]<a class="headerlink" href="#pyexotica.DynamicsSolver.state_delta_derivative" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="pyexotica.DynamicsSolver.state_delta_second_derivative">
+<code class="descname">state_delta_second_derivative</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.DynamicsSolver, arg0: numpy.ndarray[numpy.float64[m, 1]], arg1: numpy.ndarray[numpy.float64[m, 1]], arg2: exotica::ArgumentPosition</em><span class="sig-paren">)</span> &#x2192; Hessian<a class="headerlink" href="#pyexotica.DynamicsSolver.state_delta_second_derivative" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
@@ -572,7 +687,7 @@
 
 <dl class="method">
 <dt id="pyexotica.EndPoseTask.get_goal">
-<code class="descname">get_goal</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.EndPoseTask</em>, <em>arg0: unicode</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, 1]]<a class="headerlink" href="#pyexotica.EndPoseTask.get_goal" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_goal</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.EndPoseTask</em>, <em>arg0: unicode</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, 1]]<a class="headerlink" href="#pyexotica.EndPoseTask.get_goal" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
@@ -582,7 +697,7 @@
 
 <dl class="method">
 <dt id="pyexotica.EndPoseTask.get_task_error">
-<code class="descname">get_task_error</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.EndPoseTask</em>, <em>arg0: unicode</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, 1]]<a class="headerlink" href="#pyexotica.EndPoseTask.get_task_error" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_task_error</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.EndPoseTask</em>, <em>arg0: unicode</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, 1]]<a class="headerlink" href="#pyexotica.EndPoseTask.get_task_error" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
@@ -607,7 +722,7 @@
 
 <dl class="method">
 <dt id="pyexotica.EndPoseTask.set_goal">
-<code class="descname">set_goal</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.EndPoseTask, arg0: unicode, arg1: numpy.ndarray[float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#pyexotica.EndPoseTask.set_goal" title="Permalink to this definition">¶</a></dt>
+<code class="descname">set_goal</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.EndPoseTask, arg0: unicode, arg1: numpy.ndarray[numpy.float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#pyexotica.EndPoseTask.set_goal" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
@@ -643,7 +758,43 @@
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pyexotica._pyexotica.MotionSolver</span></code></p>
 <dl class="method">
 <dt id="pyexotica.FeedbackMotionSolver.get_feedback_control">
-<code class="descname">get_feedback_control</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.FeedbackMotionSolver, arg0: numpy.ndarray[float64[m, 1]], arg1: int</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, 1]]<a class="headerlink" href="#pyexotica.FeedbackMotionSolver.get_feedback_control" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_feedback_control</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.FeedbackMotionSolver, arg0: numpy.ndarray[numpy.float64[m, 1]], arg1: int</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, 1]]<a class="headerlink" href="#pyexotica.FeedbackMotionSolver.get_feedback_control" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="pyexotica.Integrator">
+<em class="property">class </em><code class="descclassname">pyexotica.</code><code class="descname">Integrator</code><a class="headerlink" href="#pyexotica.Integrator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pybind11_builtins.pybind11_object</span></code></p>
+<p>Members:</p>
+<p>RK4</p>
+<p>SymplecticEuler</p>
+<p>RK1</p>
+<p>RK2</p>
+<dl class="attribute">
+<dt id="pyexotica.Integrator.RK1">
+<code class="descname">RK1</code><em class="property"> = &lt;Integrator.RK1: 0&gt;</em><a class="headerlink" href="#pyexotica.Integrator.RK1" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyexotica.Integrator.RK2">
+<code class="descname">RK2</code><em class="property"> = &lt;Integrator.RK2: 2&gt;</em><a class="headerlink" href="#pyexotica.Integrator.RK2" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyexotica.Integrator.RK4">
+<code class="descname">RK4</code><em class="property"> = &lt;Integrator.RK4: 3&gt;</em><a class="headerlink" href="#pyexotica.Integrator.RK4" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyexotica.Integrator.SymplecticEuler">
+<code class="descname">SymplecticEuler</code><em class="property"> = &lt;Integrator.SymplecticEuler: 1&gt;</em><a class="headerlink" href="#pyexotica.Integrator.SymplecticEuler" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyexotica.Integrator.name">
+<code class="descname">name</code><a class="headerlink" href="#pyexotica.Integrator.name" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
@@ -690,67 +841,67 @@
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pybind11_builtins.pybind11_object</span></code></p>
 <dl class="staticmethod">
 <dt id="pyexotica.KDLFrame.diff">
-<em class="property">static </em><code class="descname">diff</code><span class="sig-paren">(</span><em>arg0: pyexotica._pyexotica.KDLFrame</em>, <em>arg1: pyexotica._pyexotica.KDLFrame</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, 1]]<a class="headerlink" href="#pyexotica.KDLFrame.diff" title="Permalink to this definition">¶</a></dt>
+<em class="property">static </em><code class="descname">diff</code><span class="sig-paren">(</span><em>arg0: pyexotica._pyexotica.KDLFrame</em>, <em>arg1: pyexotica._pyexotica.KDLFrame</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, 1]]<a class="headerlink" href="#pyexotica.KDLFrame.diff" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
 <dt id="pyexotica.KDLFrame.get_angle_axis">
-<code class="descname">get_angle_axis</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.KDLFrame</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, 1]]<a class="headerlink" href="#pyexotica.KDLFrame.get_angle_axis" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_angle_axis</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.KDLFrame</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, 1]]<a class="headerlink" href="#pyexotica.KDLFrame.get_angle_axis" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
 <dt id="pyexotica.KDLFrame.get_frame">
-<code class="descname">get_frame</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.KDLFrame</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, n]]<a class="headerlink" href="#pyexotica.KDLFrame.get_frame" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_frame</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.KDLFrame</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, n]]<a class="headerlink" href="#pyexotica.KDLFrame.get_frame" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
 <dt id="pyexotica.KDLFrame.get_quaternion">
-<code class="descname">get_quaternion</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.KDLFrame</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, 1]]<a class="headerlink" href="#pyexotica.KDLFrame.get_quaternion" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_quaternion</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.KDLFrame</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, 1]]<a class="headerlink" href="#pyexotica.KDLFrame.get_quaternion" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
 <dt id="pyexotica.KDLFrame.get_rpy">
-<code class="descname">get_rpy</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.KDLFrame</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, 1]]<a class="headerlink" href="#pyexotica.KDLFrame.get_rpy" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_rpy</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.KDLFrame</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, 1]]<a class="headerlink" href="#pyexotica.KDLFrame.get_rpy" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
 <dt id="pyexotica.KDLFrame.get_translation">
-<code class="descname">get_translation</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.KDLFrame</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[3, 1]]<a class="headerlink" href="#pyexotica.KDLFrame.get_translation" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_translation</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.KDLFrame</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[3, 1]]<a class="headerlink" href="#pyexotica.KDLFrame.get_translation" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
 <dt id="pyexotica.KDLFrame.get_translation_and_angle_axis">
-<code class="descname">get_translation_and_angle_axis</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.KDLFrame</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, 1]]<a class="headerlink" href="#pyexotica.KDLFrame.get_translation_and_angle_axis" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_translation_and_angle_axis</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.KDLFrame</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, 1]]<a class="headerlink" href="#pyexotica.KDLFrame.get_translation_and_angle_axis" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
 <dt id="pyexotica.KDLFrame.get_translation_and_quaternion">
-<code class="descname">get_translation_and_quaternion</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.KDLFrame</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, 1]]<a class="headerlink" href="#pyexotica.KDLFrame.get_translation_and_quaternion" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_translation_and_quaternion</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.KDLFrame</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, 1]]<a class="headerlink" href="#pyexotica.KDLFrame.get_translation_and_quaternion" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
 <dt id="pyexotica.KDLFrame.get_translation_and_rpy">
-<code class="descname">get_translation_and_rpy</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.KDLFrame</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, 1]]<a class="headerlink" href="#pyexotica.KDLFrame.get_translation_and_rpy" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_translation_and_rpy</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.KDLFrame</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, 1]]<a class="headerlink" href="#pyexotica.KDLFrame.get_translation_and_rpy" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
 <dt id="pyexotica.KDLFrame.get_translation_and_zyx">
-<code class="descname">get_translation_and_zyx</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.KDLFrame</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, 1]]<a class="headerlink" href="#pyexotica.KDLFrame.get_translation_and_zyx" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_translation_and_zyx</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.KDLFrame</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, 1]]<a class="headerlink" href="#pyexotica.KDLFrame.get_translation_and_zyx" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
 <dt id="pyexotica.KDLFrame.get_translation_and_zyz">
-<code class="descname">get_translation_and_zyz</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.KDLFrame</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, 1]]<a class="headerlink" href="#pyexotica.KDLFrame.get_translation_and_zyz" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_translation_and_zyz</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.KDLFrame</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, 1]]<a class="headerlink" href="#pyexotica.KDLFrame.get_translation_and_zyz" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
 <dt id="pyexotica.KDLFrame.get_zyx">
-<code class="descname">get_zyx</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.KDLFrame</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, 1]]<a class="headerlink" href="#pyexotica.KDLFrame.get_zyx" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_zyx</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.KDLFrame</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, 1]]<a class="headerlink" href="#pyexotica.KDLFrame.get_zyx" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
 <dt id="pyexotica.KDLFrame.get_zyz">
-<code class="descname">get_zyz</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.KDLFrame</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, 1]]<a class="headerlink" href="#pyexotica.KDLFrame.get_zyz" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_zyz</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.KDLFrame</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, 1]]<a class="headerlink" href="#pyexotica.KDLFrame.get_zyz" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="staticmethod">
@@ -870,7 +1021,7 @@
 
 <dl class="method">
 <dt id="pyexotica.MotionSolver.solve">
-<code class="descname">solve</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.MotionSolver</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, n]]<a class="headerlink" href="#pyexotica.MotionSolver.solve" title="Permalink to this definition">¶</a></dt>
+<code class="descname">solve</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.MotionSolver</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, n]]<a class="headerlink" href="#pyexotica.MotionSolver.solve" title="Permalink to this definition">¶</a></dt>
 <dd><p>Solve the problem</p>
 </dd></dl>
 
@@ -908,6 +1059,12 @@
 <dd><p>Object type</p>
 </dd></dl>
 
+</dd></dl>
+
+<dl class="class">
+<dt id="pyexotica.OcTree">
+<em class="property">class </em><code class="descclassname">pyexotica.</code><code class="descname">OcTree</code><a class="headerlink" href="#pyexotica.OcTree" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pyexotica._pyexotica.Shape</span></code></p>
 </dd></dl>
 
 <dl class="class">
@@ -957,7 +1114,7 @@
 
 <dl class="method">
 <dt id="pyexotica.PlanningProblem.apply_start_state">
-<code class="descname">apply_start_state</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.PlanningProblem</em>, <em>arg0: bool</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, 1]]<a class="headerlink" href="#pyexotica.PlanningProblem.apply_start_state" title="Permalink to this definition">¶</a></dt>
+<code class="descname">apply_start_state</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.PlanningProblem</em>, <em>arg0: bool</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, 1]]<a class="headerlink" href="#pyexotica.PlanningProblem.apply_start_state" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
@@ -1050,47 +1207,38 @@
 <p>ZYX</p>
 <dl class="attribute">
 <dt id="pyexotica.RotationType.AngleAxis">
-<code class="descname">AngleAxis</code><em class="property"> = RotationType.AngleAxis</em><a class="headerlink" href="#pyexotica.RotationType.AngleAxis" title="Permalink to this definition">¶</a></dt>
+<code class="descname">AngleAxis</code><em class="property"> = &lt;RotationType.AngleAxis: 4&gt;</em><a class="headerlink" href="#pyexotica.RotationType.AngleAxis" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
 <dt id="pyexotica.RotationType.Matrix">
-<code class="descname">Matrix</code><em class="property"> = RotationType.Matrix</em><a class="headerlink" href="#pyexotica.RotationType.Matrix" title="Permalink to this definition">¶</a></dt>
+<code class="descname">Matrix</code><em class="property"> = &lt;RotationType.Matrix: 5&gt;</em><a class="headerlink" href="#pyexotica.RotationType.Matrix" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
 <dt id="pyexotica.RotationType.Quaternion">
-<code class="descname">Quaternion</code><em class="property"> = RotationType.Quaternion</em><a class="headerlink" href="#pyexotica.RotationType.Quaternion" title="Permalink to this definition">¶</a></dt>
+<code class="descname">Quaternion</code><em class="property"> = &lt;RotationType.Quaternion: 0&gt;</em><a class="headerlink" href="#pyexotica.RotationType.Quaternion" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
 <dt id="pyexotica.RotationType.RPY">
-<code class="descname">RPY</code><em class="property"> = RotationType.RPY</em><a class="headerlink" href="#pyexotica.RotationType.RPY" title="Permalink to this definition">¶</a></dt>
+<code class="descname">RPY</code><em class="property"> = &lt;RotationType.RPY: 1&gt;</em><a class="headerlink" href="#pyexotica.RotationType.RPY" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
 <dt id="pyexotica.RotationType.ZYX">
-<code class="descname">ZYX</code><em class="property"> = RotationType.ZYX</em><a class="headerlink" href="#pyexotica.RotationType.ZYX" title="Permalink to this definition">¶</a></dt>
+<code class="descname">ZYX</code><em class="property"> = &lt;RotationType.ZYX: 2&gt;</em><a class="headerlink" href="#pyexotica.RotationType.ZYX" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
 <dt id="pyexotica.RotationType.ZYZ">
-<code class="descname">ZYZ</code><em class="property"> = RotationType.ZYZ</em><a class="headerlink" href="#pyexotica.RotationType.ZYZ" title="Permalink to this definition">¶</a></dt>
+<code class="descname">ZYZ</code><em class="property"> = &lt;RotationType.ZYZ: 3&gt;</em><a class="headerlink" href="#pyexotica.RotationType.ZYZ" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
 <dt id="pyexotica.RotationType.name">
 <code class="descname">name</code><a class="headerlink" href="#pyexotica.RotationType.name" title="Permalink to this definition">¶</a></dt>
-<dd><p>handle) -&gt; str</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">(self</td>
-</tr>
-</tbody>
-</table>
-</dd></dl>
+<dd></dd></dl>
 
 </dd></dl>
 
@@ -1110,7 +1258,7 @@
 
 <dl class="method">
 <dt id="pyexotica.SamplingTask.get_goal">
-<code class="descname">get_goal</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.SamplingTask</em>, <em>arg0: unicode</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, 1]]<a class="headerlink" href="#pyexotica.SamplingTask.get_goal" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_goal</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.SamplingTask</em>, <em>arg0: unicode</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, 1]]<a class="headerlink" href="#pyexotica.SamplingTask.get_goal" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
@@ -1135,7 +1283,7 @@
 
 <dl class="method">
 <dt id="pyexotica.SamplingTask.set_goal">
-<code class="descname">set_goal</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.SamplingTask, arg0: unicode, arg1: numpy.ndarray[float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#pyexotica.SamplingTask.set_goal" title="Permalink to this definition">¶</a></dt>
+<code class="descname">set_goal</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.SamplingTask, arg0: unicode, arg1: numpy.ndarray[numpy.float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#pyexotica.SamplingTask.set_goal" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
@@ -1174,14 +1322,14 @@
 <code class="descname">add_object</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pyexotica.Scene.add_object" title="Permalink to this definition">¶</a></dt>
 <dd><p>Overloaded function.</p>
 <ol class="arabic simple">
-<li>add_object(self: pyexotica._pyexotica.Scene, name: unicode, transform: pyexotica._pyexotica.KDLFrame = KDL::Frame ([0.000000 0.000000 0.000000] [0.000000 0.000000 0.000000 1.000000]), parent: unicode = u’’, shape_resource_path: unicode, scale: numpy.ndarray[float64[3, 1]] = array([1., 1., 1.]), color: numpy.ndarray[float64[4, 1]] = array([0.5, 0.5, 0.5, 1. ]), update_collision_scene: bool = True) -&gt; None</li>
-<li>add_object(self: pyexotica._pyexotica.Scene, name: unicode, transform: pyexotica._pyexotica.KDLFrame = KDL::Frame ([0.000000 0.000000 0.000000] [0.000000 0.000000 0.000000 1.000000]), parent: unicode = u’’, shape: shapes::Shape, inertia: pyexotica._pyexotica.KDLRigidBodyInertia = &lt;pyexotica._pyexotica.KDLRigidBodyInertia object at 0x7fc31d8b72f0&gt;, color: numpy.ndarray[float64[4, 1]] = array([0.5, 0.5, 0.5, 1. ]), update_collision_scene: bool = True) -&gt; None</li>
+<li>add_object(self: pyexotica._pyexotica.Scene, name: unicode, transform: pyexotica._pyexotica.KDLFrame = KDL::Frame ([0.000000 0.000000 0.000000] [0.000000 0.000000 0.000000 1.000000]), parent: unicode = u’’, shape_resource_path: unicode, scale: numpy.ndarray[numpy.float64[3, 1]] = array([1., 1., 1.]), color: numpy.ndarray[numpy.float64[4, 1]] = array([0.5, 0.5, 0.5, 1. ]), update_collision_scene: bool = True) -&gt; None</li>
+<li>add_object(self: pyexotica._pyexotica.Scene, name: unicode, transform: pyexotica._pyexotica.KDLFrame = KDL::Frame ([0.000000 0.000000 0.000000] [0.000000 0.000000 0.000000 1.000000]), parent: unicode = u’’, shape: shapes::Shape, inertia: pyexotica._pyexotica.KDLRigidBodyInertia = &lt;pyexotica._pyexotica.KDLRigidBodyInertia object at 0x7f8735dd8b30&gt;, color: numpy.ndarray[numpy.float64[4, 1]] = array([0.5, 0.5, 0.5, 1. ]), update_collision_scene: bool = True) -&gt; None</li>
 </ol>
 </dd></dl>
 
 <dl class="method">
 <dt id="pyexotica.Scene.add_object_to_environment">
-<code class="descname">add_object_to_environment</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.Scene</em>, <em>name: unicode</em>, <em>transform: pyexotica._pyexotica.KDLFrame = KDL::Frame ([0.000000 0.000000 0.000000] [0.000000 0.000000 0.000000 1.000000])</em>, <em>shape: shapes::Shape</em>, <em>color: numpy.ndarray[float64[4</em>, <em>1]] = array([0.5</em>, <em>0.5</em>, <em>0.5</em>, <em>1. ])</em>, <em>update_collision_scene: bool = True</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#pyexotica.Scene.add_object_to_environment" title="Permalink to this definition">¶</a></dt>
+<code class="descname">add_object_to_environment</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.Scene</em>, <em>name: unicode</em>, <em>transform: pyexotica._pyexotica.KDLFrame = KDL::Frame ([0.000000 0.000000 0.000000] [0.000000 0.000000 0.000000 1.000000])</em>, <em>shape: shapes::Shape</em>, <em>color: numpy.ndarray[numpy.float64[4</em>, <em>1]] = array([0.5</em>, <em>0.5</em>, <em>0.5</em>, <em>1. ])</em>, <em>update_collision_scene: bool = True</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#pyexotica.Scene.add_object_to_environment" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
@@ -1205,7 +1353,7 @@
 <dd><p>Overloaded function.</p>
 <ol class="arabic simple">
 <li>attach_object_local(self: pyexotica._pyexotica.Scene, arg0: unicode, arg1: unicode, arg2: pyexotica._pyexotica.KDLFrame) -&gt; None</li>
-<li>attach_object_local(self: pyexotica._pyexotica.Scene, arg0: unicode, arg1: unicode, arg2: numpy.ndarray[float64[m, 1]]) -&gt; None</li>
+<li>attach_object_local(self: pyexotica._pyexotica.Scene, arg0: unicode, arg1: unicode, arg2: numpy.ndarray[numpy.float64[m, 1]]) -&gt; None</li>
 </ol>
 </dd></dl>
 
@@ -1274,7 +1422,7 @@
 
 <dl class="method">
 <dt id="pyexotica.Scene.get_controlled_state">
-<code class="descname">get_controlled_state</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.Scene</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, 1]]<a class="headerlink" href="#pyexotica.Scene.get_controlled_state" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_controlled_state</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.Scene</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, 1]]<a class="headerlink" href="#pyexotica.Scene.get_controlled_state" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
@@ -1299,7 +1447,7 @@
 
 <dl class="method">
 <dt id="pyexotica.Scene.get_model_state">
-<code class="descname">get_model_state</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.Scene</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, 1]]<a class="headerlink" href="#pyexotica.Scene.get_model_state" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_model_state</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.Scene</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, 1]]<a class="headerlink" href="#pyexotica.Scene.get_model_state" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
@@ -1337,6 +1485,22 @@
 <code class="descname">has_attached_object</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.Scene</em>, <em>arg0: unicode</em><span class="sig-paren">)</span> &#x2192; bool<a class="headerlink" href="#pyexotica.Scene.has_attached_object" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
+<dl class="attribute">
+<dt id="pyexotica.Scene.has_quaternion_floating_base">
+<code class="descname">has_quaternion_floating_base</code><a class="headerlink" href="#pyexotica.Scene.has_quaternion_floating_base" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="pyexotica.Scene.hessian">
+<code class="descname">hessian</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pyexotica.Scene.hessian" title="Permalink to this definition">¶</a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li>hessian(self: pyexotica._pyexotica.Scene, arg0: unicode, arg1: pyexotica._pyexotica.KDLFrame, arg2: unicode, arg3: pyexotica._pyexotica.KDLFrame) -&gt; Hessian</li>
+<li>hessian(self: pyexotica._pyexotica.Scene, arg0: unicode, arg1: unicode) -&gt; Hessian</li>
+<li>hessian(self: pyexotica._pyexotica.Scene, arg0: unicode) -&gt; Hessian</li>
+</ol>
+</dd></dl>
+
 <dl class="method">
 <dt id="pyexotica.Scene.is_allowed_to_collide">
 <code class="descname">is_allowed_to_collide</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.Scene</em>, <em>object_1: unicode</em>, <em>object_2: unicode</em>, <em>check_self_collision: bool = True</em><span class="sig-paren">)</span> &#x2192; bool<a class="headerlink" href="#pyexotica.Scene.is_allowed_to_collide" title="Permalink to this definition">¶</a></dt>
@@ -1357,9 +1521,9 @@
 <code class="descname">jacobian</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pyexotica.Scene.jacobian" title="Permalink to this definition">¶</a></dt>
 <dd><p>Overloaded function.</p>
 <ol class="arabic simple">
-<li>jacobian(self: pyexotica._pyexotica.Scene, arg0: unicode, arg1: pyexotica._pyexotica.KDLFrame, arg2: unicode, arg3: pyexotica._pyexotica.KDLFrame) -&gt; numpy.ndarray[float64[m, n]]</li>
-<li>jacobian(self: pyexotica._pyexotica.Scene, arg0: unicode, arg1: unicode) -&gt; numpy.ndarray[float64[m, n]]</li>
-<li>jacobian(self: pyexotica._pyexotica.Scene, arg0: unicode) -&gt; numpy.ndarray[float64[m, n]]</li>
+<li>jacobian(self: pyexotica._pyexotica.Scene, arg0: unicode, arg1: pyexotica._pyexotica.KDLFrame, arg2: unicode, arg3: pyexotica._pyexotica.KDLFrame) -&gt; numpy.ndarray[numpy.float64[m, n]]</li>
+<li>jacobian(self: pyexotica._pyexotica.Scene, arg0: unicode, arg1: unicode) -&gt; numpy.ndarray[numpy.float64[m, n]]</li>
+<li>jacobian(self: pyexotica._pyexotica.Scene, arg0: unicode) -&gt; numpy.ndarray[numpy.float64[m, n]]</li>
 </ol>
 </dd></dl>
 
@@ -1376,6 +1540,31 @@
 <dl class="attribute">
 <dt id="pyexotica.Scene.model_link_to_collision_link_map">
 <code class="descname">model_link_to_collision_link_map</code><a class="headerlink" href="#pyexotica.Scene.model_link_to_collision_link_map" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyexotica.Scene.num_controls">
+<code class="descname">num_controls</code><a class="headerlink" href="#pyexotica.Scene.num_controls" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyexotica.Scene.num_positions">
+<code class="descname">num_positions</code><a class="headerlink" href="#pyexotica.Scene.num_positions" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyexotica.Scene.num_state">
+<code class="descname">num_state</code><a class="headerlink" href="#pyexotica.Scene.num_state" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyexotica.Scene.num_state_derivative">
+<code class="descname">num_state_derivative</code><a class="headerlink" href="#pyexotica.Scene.num_state_derivative" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyexotica.Scene.num_velocities">
+<code class="descname">num_velocities</code><a class="headerlink" href="#pyexotica.Scene.num_velocities" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
@@ -1400,7 +1589,7 @@
 
 <dl class="method">
 <dt id="pyexotica.Scene.set_model_state">
-<code class="descname">set_model_state</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.Scene, x: numpy.ndarray[float64[m, 1]], t: float = 0.0, update_trajectory: bool = False</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#pyexotica.Scene.set_model_state" title="Permalink to this definition">¶</a></dt>
+<code class="descname">set_model_state</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.Scene, x: numpy.ndarray[numpy.float64[m, 1]], t: float = 0.0, update_trajectory: bool = False</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#pyexotica.Scene.set_model_state" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
@@ -1410,7 +1599,7 @@
 
 <dl class="method">
 <dt id="pyexotica.Scene.update">
-<code class="descname">update</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.Scene, x: numpy.ndarray[float64[m, 1]], t: float = 0.0</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#pyexotica.Scene.update" title="Permalink to this definition">¶</a></dt>
+<code class="descname">update</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.Scene, x: numpy.ndarray[numpy.float64[m, 1]], t: float = 0.0</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#pyexotica.Scene.update" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
@@ -1584,57 +1773,48 @@
 <p>CONE</p>
 <dl class="attribute">
 <dt id="pyexotica.ShapeType.BOX">
-<code class="descname">BOX</code><em class="property"> = ShapeType.BOX</em><a class="headerlink" href="#pyexotica.ShapeType.BOX" title="Permalink to this definition">¶</a></dt>
+<code class="descname">BOX</code><em class="property"> = &lt;ShapeType.BOX: 4&gt;</em><a class="headerlink" href="#pyexotica.ShapeType.BOX" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
 <dt id="pyexotica.ShapeType.CONE">
-<code class="descname">CONE</code><em class="property"> = ShapeType.CONE</em><a class="headerlink" href="#pyexotica.ShapeType.CONE" title="Permalink to this definition">¶</a></dt>
+<code class="descname">CONE</code><em class="property"> = &lt;ShapeType.CONE: 3&gt;</em><a class="headerlink" href="#pyexotica.ShapeType.CONE" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
 <dt id="pyexotica.ShapeType.CYLINDER">
-<code class="descname">CYLINDER</code><em class="property"> = ShapeType.CYLINDER</em><a class="headerlink" href="#pyexotica.ShapeType.CYLINDER" title="Permalink to this definition">¶</a></dt>
+<code class="descname">CYLINDER</code><em class="property"> = &lt;ShapeType.CYLINDER: 2&gt;</em><a class="headerlink" href="#pyexotica.ShapeType.CYLINDER" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
 <dt id="pyexotica.ShapeType.MESH">
-<code class="descname">MESH</code><em class="property"> = ShapeType.MESH</em><a class="headerlink" href="#pyexotica.ShapeType.MESH" title="Permalink to this definition">¶</a></dt>
+<code class="descname">MESH</code><em class="property"> = &lt;ShapeType.MESH: 6&gt;</em><a class="headerlink" href="#pyexotica.ShapeType.MESH" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
 <dt id="pyexotica.ShapeType.OCTREE">
-<code class="descname">OCTREE</code><em class="property"> = ShapeType.OCTREE</em><a class="headerlink" href="#pyexotica.ShapeType.OCTREE" title="Permalink to this definition">¶</a></dt>
+<code class="descname">OCTREE</code><em class="property"> = &lt;ShapeType.OCTREE: 7&gt;</em><a class="headerlink" href="#pyexotica.ShapeType.OCTREE" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
 <dt id="pyexotica.ShapeType.PLANE">
-<code class="descname">PLANE</code><em class="property"> = ShapeType.PLANE</em><a class="headerlink" href="#pyexotica.ShapeType.PLANE" title="Permalink to this definition">¶</a></dt>
+<code class="descname">PLANE</code><em class="property"> = &lt;ShapeType.PLANE: 5&gt;</em><a class="headerlink" href="#pyexotica.ShapeType.PLANE" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
 <dt id="pyexotica.ShapeType.SPHERE">
-<code class="descname">SPHERE</code><em class="property"> = ShapeType.SPHERE</em><a class="headerlink" href="#pyexotica.ShapeType.SPHERE" title="Permalink to this definition">¶</a></dt>
+<code class="descname">SPHERE</code><em class="property"> = &lt;ShapeType.SPHERE: 1&gt;</em><a class="headerlink" href="#pyexotica.ShapeType.SPHERE" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
 <dt id="pyexotica.ShapeType.UNKNOWN_SHAPE">
-<code class="descname">UNKNOWN_SHAPE</code><em class="property"> = ShapeType.UNKNOWN_SHAPE</em><a class="headerlink" href="#pyexotica.ShapeType.UNKNOWN_SHAPE" title="Permalink to this definition">¶</a></dt>
+<code class="descname">UNKNOWN_SHAPE</code><em class="property"> = &lt;ShapeType.UNKNOWN_SHAPE: 0&gt;</em><a class="headerlink" href="#pyexotica.ShapeType.UNKNOWN_SHAPE" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
 <dt id="pyexotica.ShapeType.name">
 <code class="descname">name</code><a class="headerlink" href="#pyexotica.ShapeType.name" title="Permalink to this definition">¶</a></dt>
-<dd><p>handle) -&gt; str</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">(self</td>
-</tr>
-</tbody>
-</table>
-</dd></dl>
+<dd></dd></dl>
 
 </dd></dl>
 
@@ -1715,13 +1895,13 @@
 <dd></dd></dl>
 
 <dl class="method">
-<dt id="pyexotica.TaskMap.task_Space_jacobian_dim">
-<code class="descname">task_Space_jacobian_dim</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.TaskMap</em><span class="sig-paren">)</span> &#x2192; int<a class="headerlink" href="#pyexotica.TaskMap.task_Space_jacobian_dim" title="Permalink to this definition">¶</a></dt>
+<dt id="pyexotica.TaskMap.task_space_dim">
+<code class="descname">task_space_dim</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.TaskMap</em><span class="sig-paren">)</span> &#x2192; int<a class="headerlink" href="#pyexotica.TaskMap.task_space_dim" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
-<dt id="pyexotica.TaskMap.task_space_dim">
-<code class="descname">task_space_dim</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.TaskMap</em><span class="sig-paren">)</span> &#x2192; int<a class="headerlink" href="#pyexotica.TaskMap.task_space_dim" title="Permalink to this definition">¶</a></dt>
+<dt id="pyexotica.TaskMap.task_space_jacobian_dim">
+<code class="descname">task_space_jacobian_dim</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.TaskMap</em><span class="sig-paren">)</span> &#x2192; int<a class="headerlink" href="#pyexotica.TaskMap.task_space_jacobian_dim" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
@@ -1754,60 +1934,57 @@
 <p>BacktrackIterationLimit</p>
 <p>IterationLimit</p>
 <p>StepTolerance</p>
+<p>Convergence</p>
 <p>Divergence</p>
 <dl class="attribute">
 <dt id="pyexotica.TerminationCriterion.BacktrackIterationLimit">
-<code class="descname">BacktrackIterationLimit</code><em class="property"> = TerminationCriterion.BacktrackIterationLimit</em><a class="headerlink" href="#pyexotica.TerminationCriterion.BacktrackIterationLimit" title="Permalink to this definition">¶</a></dt>
+<code class="descname">BacktrackIterationLimit</code><em class="property"> = &lt;TerminationCriterion.BacktrackIterationLimit: 1&gt;</em><a class="headerlink" href="#pyexotica.TerminationCriterion.BacktrackIterationLimit" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyexotica.TerminationCriterion.Convergence">
+<code class="descname">Convergence</code><em class="property"> = &lt;TerminationCriterion.Convergence: 7&gt;</em><a class="headerlink" href="#pyexotica.TerminationCriterion.Convergence" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
 <dt id="pyexotica.TerminationCriterion.Divergence">
-<code class="descname">Divergence</code><em class="property"> = TerminationCriterion.Divergence</em><a class="headerlink" href="#pyexotica.TerminationCriterion.Divergence" title="Permalink to this definition">¶</a></dt>
+<code class="descname">Divergence</code><em class="property"> = &lt;TerminationCriterion.Divergence: 5&gt;</em><a class="headerlink" href="#pyexotica.TerminationCriterion.Divergence" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
 <dt id="pyexotica.TerminationCriterion.FunctionTolerance">
-<code class="descname">FunctionTolerance</code><em class="property"> = TerminationCriterion.FunctionTolerance</em><a class="headerlink" href="#pyexotica.TerminationCriterion.FunctionTolerance" title="Permalink to this definition">¶</a></dt>
+<code class="descname">FunctionTolerance</code><em class="property"> = &lt;TerminationCriterion.FunctionTolerance: 3&gt;</em><a class="headerlink" href="#pyexotica.TerminationCriterion.FunctionTolerance" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
 <dt id="pyexotica.TerminationCriterion.GradientTolerance">
-<code class="descname">GradientTolerance</code><em class="property"> = TerminationCriterion.GradientTolerance</em><a class="headerlink" href="#pyexotica.TerminationCriterion.GradientTolerance" title="Permalink to this definition">¶</a></dt>
+<code class="descname">GradientTolerance</code><em class="property"> = &lt;TerminationCriterion.GradientTolerance: 4&gt;</em><a class="headerlink" href="#pyexotica.TerminationCriterion.GradientTolerance" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
 <dt id="pyexotica.TerminationCriterion.IterationLimit">
-<code class="descname">IterationLimit</code><em class="property"> = TerminationCriterion.IterationLimit</em><a class="headerlink" href="#pyexotica.TerminationCriterion.IterationLimit" title="Permalink to this definition">¶</a></dt>
+<code class="descname">IterationLimit</code><em class="property"> = &lt;TerminationCriterion.IterationLimit: 0&gt;</em><a class="headerlink" href="#pyexotica.TerminationCriterion.IterationLimit" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
 <dt id="pyexotica.TerminationCriterion.NotStarted">
-<code class="descname">NotStarted</code><em class="property"> = TerminationCriterion.NotStarted</em><a class="headerlink" href="#pyexotica.TerminationCriterion.NotStarted" title="Permalink to this definition">¶</a></dt>
+<code class="descname">NotStarted</code><em class="property"> = &lt;TerminationCriterion.NotStarted: -1&gt;</em><a class="headerlink" href="#pyexotica.TerminationCriterion.NotStarted" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
 <dt id="pyexotica.TerminationCriterion.StepTolerance">
-<code class="descname">StepTolerance</code><em class="property"> = TerminationCriterion.StepTolerance</em><a class="headerlink" href="#pyexotica.TerminationCriterion.StepTolerance" title="Permalink to this definition">¶</a></dt>
+<code class="descname">StepTolerance</code><em class="property"> = &lt;TerminationCriterion.StepTolerance: 2&gt;</em><a class="headerlink" href="#pyexotica.TerminationCriterion.StepTolerance" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
 <dt id="pyexotica.TerminationCriterion.UserDefined">
-<code class="descname">UserDefined</code><em class="property"> = TerminationCriterion.UserDefined</em><a class="headerlink" href="#pyexotica.TerminationCriterion.UserDefined" title="Permalink to this definition">¶</a></dt>
+<code class="descname">UserDefined</code><em class="property"> = &lt;TerminationCriterion.UserDefined: 6&gt;</em><a class="headerlink" href="#pyexotica.TerminationCriterion.UserDefined" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
 <dt id="pyexotica.TerminationCriterion.name">
 <code class="descname">name</code><a class="headerlink" href="#pyexotica.TerminationCriterion.name" title="Permalink to this definition">¶</a></dt>
-<dd><p>handle) -&gt; str</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">(self</td>
-</tr>
-</tbody>
-</table>
-</dd></dl>
+<dd></dd></dl>
 
 </dd></dl>
 
@@ -1830,14 +2007,39 @@
 <code class="descname">T</code><a class="headerlink" href="#pyexotica.TimeIndexedTask.T" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
+<dl class="attribute">
+<dt id="pyexotica.TimeIndexedTask.dPhi_du">
+<code class="descname">dPhi_du</code><a class="headerlink" href="#pyexotica.TimeIndexedTask.dPhi_du" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyexotica.TimeIndexedTask.dPhi_dx">
+<code class="descname">dPhi_dx</code><a class="headerlink" href="#pyexotica.TimeIndexedTask.dPhi_dx" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyexotica.TimeIndexedTask.ddPhi_ddu">
+<code class="descname">ddPhi_ddu</code><a class="headerlink" href="#pyexotica.TimeIndexedTask.ddPhi_ddu" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyexotica.TimeIndexedTask.ddPhi_ddx">
+<code class="descname">ddPhi_ddx</code><a class="headerlink" href="#pyexotica.TimeIndexedTask.ddPhi_ddx" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyexotica.TimeIndexedTask.ddPhi_dxdu">
+<code class="descname">ddPhi_dxdu</code><a class="headerlink" href="#pyexotica.TimeIndexedTask.ddPhi_dxdu" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 <dl class="method">
 <dt id="pyexotica.TimeIndexedTask.get_S">
-<code class="descname">get_S</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.TimeIndexedTask</em>, <em>arg0: unicode</em>, <em>arg1: int</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, n]]<a class="headerlink" href="#pyexotica.TimeIndexedTask.get_S" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_S</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.TimeIndexedTask</em>, <em>arg0: unicode</em>, <em>arg1: int</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, n]]<a class="headerlink" href="#pyexotica.TimeIndexedTask.get_S" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
 <dt id="pyexotica.TimeIndexedTask.get_goal">
-<code class="descname">get_goal</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.TimeIndexedTask</em>, <em>arg0: unicode</em>, <em>arg1: int</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, 1]]<a class="headerlink" href="#pyexotica.TimeIndexedTask.get_goal" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_goal</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.TimeIndexedTask</em>, <em>arg0: unicode</em>, <em>arg1: int</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, 1]]<a class="headerlink" href="#pyexotica.TimeIndexedTask.get_goal" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
@@ -1847,7 +2049,12 @@
 
 <dl class="method">
 <dt id="pyexotica.TimeIndexedTask.get_task_error">
-<code class="descname">get_task_error</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.TimeIndexedTask</em>, <em>arg0: unicode</em>, <em>arg1: int</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, 1]]<a class="headerlink" href="#pyexotica.TimeIndexedTask.get_task_error" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_task_error</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.TimeIndexedTask</em>, <em>arg0: unicode</em>, <em>arg1: int</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, 1]]<a class="headerlink" href="#pyexotica.TimeIndexedTask.get_task_error" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyexotica.TimeIndexedTask.hessian">
+<code class="descname">hessian</code><a class="headerlink" href="#pyexotica.TimeIndexedTask.hessian" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
@@ -1882,7 +2089,7 @@
 
 <dl class="method">
 <dt id="pyexotica.TimeIndexedTask.set_goal">
-<code class="descname">set_goal</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.TimeIndexedTask, arg0: unicode, arg1: numpy.ndarray[float64[m, 1]], arg2: int</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#pyexotica.TimeIndexedTask.set_goal" title="Permalink to this definition">¶</a></dt>
+<code class="descname">set_goal</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.TimeIndexedTask, arg0: unicode, arg1: numpy.ndarray[numpy.float64[m, 1]], arg2: int</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#pyexotica.TimeIndexedTask.set_goal" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
@@ -1928,12 +2135,6 @@
 
 </dd></dl>
 
-<dl class="attribute">
-<dt id="pyexotica.Visualization">
-<code class="descclassname">pyexotica.</code><code class="descname">Visualization</code><a class="headerlink" href="#pyexotica.Visualization" title="Permalink to this definition">¶</a></dt>
-<dd><p>alias of <code class="xref py py-class docutils literal notranslate"><span class="pre">pyexotica._pyexotica.VisualizationMoveIt</span></code></p>
-</dd></dl>
-
 <dl class="class">
 <dt id="pyexotica.VisualizationMeshcat">
 <em class="property">class </em><code class="descclassname">pyexotica.</code><code class="descname">VisualizationMeshcat</code><a class="headerlink" href="#pyexotica.VisualizationMeshcat" title="Permalink to this definition">¶</a></dt>
@@ -1950,12 +2151,12 @@
 
 <dl class="method">
 <dt id="pyexotica.VisualizationMeshcat.display_state">
-<code class="descname">display_state</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.VisualizationMeshcat, state: numpy.ndarray[float64[m, 1]], t: float = 0.0</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#pyexotica.VisualizationMeshcat.display_state" title="Permalink to this definition">¶</a></dt>
+<code class="descname">display_state</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.VisualizationMeshcat, state: numpy.ndarray[numpy.float64[m, 1]], t: float = 0.0</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#pyexotica.VisualizationMeshcat.display_state" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
 <dt id="pyexotica.VisualizationMeshcat.display_trajectory">
-<code class="descname">display_trajectory</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.VisualizationMeshcat, trajectory: numpy.ndarray[float64[m, n], flags.f_contiguous], dt: float = 1.0</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#pyexotica.VisualizationMeshcat.display_trajectory" title="Permalink to this definition">¶</a></dt>
+<code class="descname">display_trajectory</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.VisualizationMeshcat, trajectory: numpy.ndarray[numpy.float64[m, n], flags.f_contiguous], dt: float = 1.0</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#pyexotica.VisualizationMeshcat.display_trajectory" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
@@ -1976,8 +2177,8 @@
 <li>set_property(self: pyexotica._pyexotica.VisualizationMeshcat, path: unicode, property: unicode, value: float) -&gt; None</li>
 <li>set_property(self: pyexotica._pyexotica.VisualizationMeshcat, path: unicode, property: unicode, value: unicode) -&gt; None</li>
 <li>set_property(self: pyexotica._pyexotica.VisualizationMeshcat, path: unicode, property: unicode, value: bool) -&gt; None</li>
-<li>set_property(self: pyexotica._pyexotica.VisualizationMeshcat, path: unicode, property: unicode, value: numpy.ndarray[float64[3, 1]]) -&gt; None</li>
-<li>set_property(self: pyexotica._pyexotica.VisualizationMeshcat, path: unicode, property: unicode, value: numpy.ndarray[float64[4, 1]]) -&gt; None</li>
+<li>set_property(self: pyexotica._pyexotica.VisualizationMeshcat, path: unicode, property: unicode, value: numpy.ndarray[numpy.float64[3, 1]]) -&gt; None</li>
+<li>set_property(self: pyexotica._pyexotica.VisualizationMeshcat, path: unicode, property: unicode, value: numpy.ndarray[numpy.float64[4, 1]]) -&gt; None</li>
 </ol>
 </dd></dl>
 
@@ -1989,19 +2190,24 @@
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pybind11_builtins.pybind11_object</span></code></p>
 <dl class="method">
 <dt id="pyexotica.VisualizationMoveIt.display_trajectory">
-<code class="descname">display_trajectory</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.VisualizationMoveIt, arg0: numpy.ndarray[float64[m, n], flags.f_contiguous]</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#pyexotica.VisualizationMoveIt.display_trajectory" title="Permalink to this definition">¶</a></dt>
+<code class="descname">display_trajectory</code><span class="sig-paren">(</span><em>self: pyexotica._pyexotica.VisualizationMoveIt, arg0: numpy.ndarray[numpy.float64[m, n], flags.f_contiguous]</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#pyexotica.VisualizationMoveIt.display_trajectory" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
 <dl class="function">
 <dt id="pyexotica.box_qp">
-<code class="descclassname">pyexotica.</code><code class="descname">box_qp</code><span class="sig-paren">(</span><em>arg0: numpy.ndarray[float64[m, n]], arg1: numpy.ndarray[float64[m, 1]], arg2: numpy.ndarray[float64[m, 1]], arg3: numpy.ndarray[float64[m, 1]], arg4: numpy.ndarray[float64[m, 1]], arg5: float, arg6: int, arg7: float, arg8: float</em><span class="sig-paren">)</span> &#x2192; pyexotica._pyexotica.BoxQPSolution<a class="headerlink" href="#pyexotica.box_qp" title="Permalink to this definition">¶</a></dt>
+<code class="descclassname">pyexotica.</code><code class="descname">box_qp</code><span class="sig-paren">(</span><em>H: numpy.ndarray[numpy.float64[m, n]], q: numpy.ndarray[numpy.float64[m, 1]], b_low: numpy.ndarray[numpy.float64[m, 1]], b_high: numpy.ndarray[numpy.float64[m, 1]], x_init: numpy.ndarray[numpy.float64[m, 1]], gamma: float, max_iterations: int, epsilon: float, lambda: float, use_polynomial_linesearch: bool = True, use_cholesky_factorization: bool = True</em><span class="sig-paren">)</span> &#x2192; pyexotica._pyexotica.BoxQPSolution<a class="headerlink" href="#pyexotica.box_qp" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="pyexotica.box_qp_old">
+<code class="descclassname">pyexotica.</code><code class="descname">box_qp_old</code><span class="sig-paren">(</span><em>H: numpy.ndarray[numpy.float64[m, n]], q: numpy.ndarray[numpy.float64[m, 1]], b_low: numpy.ndarray[numpy.float64[m, 1]], b_high: numpy.ndarray[numpy.float64[m, 1]], x_init: numpy.ndarray[numpy.float64[m, 1]], gamma: float, max_iterations: int, epsilon: float, lambda: float, use_polynomial_linesearch: bool = False, use_cholesky_factorization: bool = False</em><span class="sig-paren">)</span> &#x2192; pyexotica._pyexotica.BoxQPSolution<a class="headerlink" href="#pyexotica.box_qp_old" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="function">
 <dt id="pyexotica.check_dynamics_solver_derivatives">
-<code class="descclassname">pyexotica.</code><code class="descname">check_dynamics_solver_derivatives</code><span class="sig-paren">(</span><em>name</em>, <em>urdf=None</em>, <em>srdf=None</em>, <em>joint_group=None</em><span class="sig-paren">)</span><a class="headerlink" href="#pyexotica.check_dynamics_solver_derivatives" title="Permalink to this definition">¶</a></dt>
+<code class="descclassname">pyexotica.</code><code class="descname">check_dynamics_solver_derivatives</code><span class="sig-paren">(</span><em>name</em>, <em>urdf=None</em>, <em>srdf=None</em>, <em>joint_group=None</em>, <em>additional_args=None</em>, <em>do_test_integrators=True</em><span class="sig-paren">)</span><a class="headerlink" href="#pyexotica.check_dynamics_solver_derivatives" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="function">
@@ -2010,13 +2216,21 @@
 <dd></dd></dl>
 
 <dl class="function">
+<dt id="pyexotica.check_whether_trajectory_is_collision_free_by_subsampling">
+<code class="descclassname">pyexotica.</code><code class="descname">check_whether_trajectory_is_collision_free_by_subsampling</code><span class="sig-paren">(</span><em>scene</em>, <em>trajectory</em>, <em>num_subsamples=10</em>, <em>debug=False</em><span class="sig-paren">)</span><a class="headerlink" href="#pyexotica.check_whether_trajectory_is_collision_free_by_subsampling" title="Permalink to this definition">¶</a></dt>
+<dd><p>num_subsamples specifies how many steps are checked between two configurations.
+Returns True if trajectory is collision-free, and False otherwise.</p>
+<p>TODO: Support setting time for Scene update.</p>
+</dd></dl>
+
+<dl class="function">
 <dt id="pyexotica.get_colliding_links">
-<code class="descclassname">pyexotica.</code><code class="descname">get_colliding_links</code><span class="sig-paren">(</span><em>scene</em>, <em>margin=0.0</em>, <em>safe_distance=0.0</em>, <em>check_self_collision=True</em><span class="sig-paren">)</span><a class="headerlink" href="#pyexotica.get_colliding_links" title="Permalink to this definition">¶</a></dt>
+<code class="descclassname">pyexotica.</code><code class="descname">get_colliding_links</code><span class="sig-paren">(</span><em>scene</em>, <em>margin=0.0</em>, <em>safe_distance=0.0</em>, <em>check_self_collision=True</em>, <em>debug=False</em><span class="sig-paren">)</span><a class="headerlink" href="#pyexotica.get_colliding_links" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="function">
 <dt id="pyexotica.plot">
-<code class="descclassname">pyexotica.</code><code class="descname">plot</code><span class="sig-paren">(</span><em>solution</em>, <em>labels=None</em><span class="sig-paren">)</span><a class="headerlink" href="#pyexotica.plot" title="Permalink to this definition">¶</a></dt>
+<code class="descclassname">pyexotica.</code><code class="descname">plot</code><span class="sig-paren">(</span><em>solution</em>, <em>labels=None</em>, <em>yscale=None</em><span class="sig-paren">)</span><a class="headerlink" href="#pyexotica.plot" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="function">
@@ -2207,6 +2421,22 @@
 </dd></dl>
 
 <dl class="class">
+<dt id="exotica_core_task_maps_py.ControlRegularization">
+<em class="property">class </em><code class="descclassname">exotica_core_task_maps_py.</code><code class="descname">ControlRegularization</code><a class="headerlink" href="#exotica_core_task_maps_py.ControlRegularization" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pyexotica._pyexotica.TaskMap</span></code></p>
+<dl class="attribute">
+<dt id="exotica_core_task_maps_py.ControlRegularization.joint_map">
+<code class="descname">joint_map</code><a class="headerlink" href="#exotica_core_task_maps_py.ControlRegularization.joint_map" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="exotica_core_task_maps_py.ControlRegularization.joint_ref">
+<code class="descname">joint_ref</code><a class="headerlink" href="#exotica_core_task_maps_py.ControlRegularization.joint_ref" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
 <dt id="exotica_core_task_maps_py.Distance">
 <em class="property">class </em><code class="descclassname">exotica_core_task_maps_py.</code><code class="descname">Distance</code><a class="headerlink" href="#exotica_core_task_maps_py.Distance" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pyexotica._pyexotica.TaskMap</span></code></p>
@@ -2218,22 +2448,22 @@
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pyexotica._pyexotica.TaskMap</span></code></p>
 <dl class="method">
 <dt id="exotica_core_task_maps_py.EffAxisAlignment.get_axis">
-<code class="descname">get_axis</code><span class="sig-paren">(</span><em>self: exotica_core_task_maps_py.EffAxisAlignment</em>, <em>arg0: unicode</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[3, 1]]<a class="headerlink" href="#exotica_core_task_maps_py.EffAxisAlignment.get_axis" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_axis</code><span class="sig-paren">(</span><em>self: exotica_core_task_maps_py.EffAxisAlignment</em>, <em>arg0: unicode</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[3, 1]]<a class="headerlink" href="#exotica_core_task_maps_py.EffAxisAlignment.get_axis" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
 <dt id="exotica_core_task_maps_py.EffAxisAlignment.get_direction">
-<code class="descname">get_direction</code><span class="sig-paren">(</span><em>self: exotica_core_task_maps_py.EffAxisAlignment</em>, <em>arg0: unicode</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[3, 1]]<a class="headerlink" href="#exotica_core_task_maps_py.EffAxisAlignment.get_direction" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_direction</code><span class="sig-paren">(</span><em>self: exotica_core_task_maps_py.EffAxisAlignment</em>, <em>arg0: unicode</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[3, 1]]<a class="headerlink" href="#exotica_core_task_maps_py.EffAxisAlignment.get_direction" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
 <dt id="exotica_core_task_maps_py.EffAxisAlignment.set_axis">
-<code class="descname">set_axis</code><span class="sig-paren">(</span><em>self: exotica_core_task_maps_py.EffAxisAlignment, arg0: unicode, arg1: numpy.ndarray[float64[3, 1]]</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#exotica_core_task_maps_py.EffAxisAlignment.set_axis" title="Permalink to this definition">¶</a></dt>
+<code class="descname">set_axis</code><span class="sig-paren">(</span><em>self: exotica_core_task_maps_py.EffAxisAlignment, arg0: unicode, arg1: numpy.ndarray[numpy.float64[3, 1]]</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#exotica_core_task_maps_py.EffAxisAlignment.set_axis" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
 <dt id="exotica_core_task_maps_py.EffAxisAlignment.set_direction">
-<code class="descname">set_direction</code><span class="sig-paren">(</span><em>self: exotica_core_task_maps_py.EffAxisAlignment, arg0: unicode, arg1: numpy.ndarray[float64[3, 1]]</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#exotica_core_task_maps_py.EffAxisAlignment.set_direction" title="Permalink to this definition">¶</a></dt>
+<code class="descname">set_direction</code><span class="sig-paren">(</span><em>self: exotica_core_task_maps_py.EffAxisAlignment, arg0: unicode, arg1: numpy.ndarray[numpy.float64[3, 1]]</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#exotica_core_task_maps_py.EffAxisAlignment.set_direction" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
@@ -2244,12 +2474,12 @@
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pyexotica._pyexotica.TaskMap</span></code></p>
 <dl class="method">
 <dt id="exotica_core_task_maps_py.EffBox.get_lower_limit">
-<code class="descname">get_lower_limit</code><span class="sig-paren">(</span><em>self: exotica_core_task_maps_py.EffBox</em>, <em>arg0: int</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[3, 1]]<a class="headerlink" href="#exotica_core_task_maps_py.EffBox.get_lower_limit" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_lower_limit</code><span class="sig-paren">(</span><em>self: exotica_core_task_maps_py.EffBox</em>, <em>arg0: int</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[3, 1]]<a class="headerlink" href="#exotica_core_task_maps_py.EffBox.get_lower_limit" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
 <dt id="exotica_core_task_maps_py.EffBox.get_upper_limit">
-<code class="descname">get_upper_limit</code><span class="sig-paren">(</span><em>self: exotica_core_task_maps_py.EffBox</em>, <em>arg0: int</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[3, 1]]<a class="headerlink" href="#exotica_core_task_maps_py.EffBox.get_upper_limit" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get_upper_limit</code><span class="sig-paren">(</span><em>self: exotica_core_task_maps_py.EffBox</em>, <em>arg0: int</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[3, 1]]<a class="headerlink" href="#exotica_core_task_maps_py.EffBox.get_upper_limit" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
@@ -2293,12 +2523,12 @@
 
 <dl class="staticmethod">
 <dt id="exotica_core_task_maps_py.InteractionMesh.compute_goal_laplace">
-<em class="property">static </em><code class="descname">compute_goal_laplace</code><span class="sig-paren">(</span><em>arg0: List[pyexotica._pyexotica.KDLFrame], arg1: numpy.ndarray[float64[m, n], flags.f_contiguous]</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, 1]]<a class="headerlink" href="#exotica_core_task_maps_py.InteractionMesh.compute_goal_laplace" title="Permalink to this definition">¶</a></dt>
+<em class="property">static </em><code class="descname">compute_goal_laplace</code><span class="sig-paren">(</span><em>arg0: List[pyexotica._pyexotica.KDLFrame], arg1: numpy.ndarray[numpy.float64[m, n], flags.f_contiguous]</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, 1]]<a class="headerlink" href="#exotica_core_task_maps_py.InteractionMesh.compute_goal_laplace" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="staticmethod">
 <dt id="exotica_core_task_maps_py.InteractionMesh.compute_laplace">
-<em class="property">static </em><code class="descname">compute_laplace</code><span class="sig-paren">(</span><em>arg0: numpy.ndarray[float64[m, 1]], arg1: numpy.ndarray[float64[m, n], flags.f_contiguous]</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[float64[m, 1]]<a class="headerlink" href="#exotica_core_task_maps_py.InteractionMesh.compute_laplace" title="Permalink to this definition">¶</a></dt>
+<em class="property">static </em><code class="descname">compute_laplace</code><span class="sig-paren">(</span><em>arg0: numpy.ndarray[numpy.float64[m, 1]], arg1: numpy.ndarray[numpy.float64[m, n], flags.f_contiguous]</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray[numpy.float64[m, 1]]<a class="headerlink" href="#exotica_core_task_maps_py.InteractionMesh.compute_laplace" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
@@ -2314,7 +2544,7 @@
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pyexotica._pyexotica.TaskMap</span></code></p>
 <dl class="method">
 <dt id="exotica_core_task_maps_py.JointAccelerationBackwardDifference.set_previous_joint_state">
-<code class="descname">set_previous_joint_state</code><span class="sig-paren">(</span><em>self: exotica_core_task_maps_py.JointAccelerationBackwardDifference, arg0: numpy.ndarray[float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#exotica_core_task_maps_py.JointAccelerationBackwardDifference.set_previous_joint_state" title="Permalink to this definition">¶</a></dt>
+<code class="descname">set_previous_joint_state</code><span class="sig-paren">(</span><em>self: exotica_core_task_maps_py.JointAccelerationBackwardDifference, arg0: numpy.ndarray[numpy.float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#exotica_core_task_maps_py.JointAccelerationBackwardDifference.set_previous_joint_state" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
@@ -2325,7 +2555,7 @@
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pyexotica._pyexotica.TaskMap</span></code></p>
 <dl class="method">
 <dt id="exotica_core_task_maps_py.JointJerkBackwardDifference.set_previous_joint_state">
-<code class="descname">set_previous_joint_state</code><span class="sig-paren">(</span><em>self: exotica_core_task_maps_py.JointJerkBackwardDifference, arg0: numpy.ndarray[float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#exotica_core_task_maps_py.JointJerkBackwardDifference.set_previous_joint_state" title="Permalink to this definition">¶</a></dt>
+<code class="descname">set_previous_joint_state</code><span class="sig-paren">(</span><em>self: exotica_core_task_maps_py.JointJerkBackwardDifference, arg0: numpy.ndarray[numpy.float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#exotica_core_task_maps_py.JointJerkBackwardDifference.set_previous_joint_state" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
@@ -2369,7 +2599,7 @@
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pyexotica._pyexotica.TaskMap</span></code></p>
 <dl class="method">
 <dt id="exotica_core_task_maps_py.JointVelocityBackwardDifference.set_previous_joint_state">
-<code class="descname">set_previous_joint_state</code><span class="sig-paren">(</span><em>self: exotica_core_task_maps_py.JointVelocityBackwardDifference, arg0: numpy.ndarray[float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#exotica_core_task_maps_py.JointVelocityBackwardDifference.set_previous_joint_state" title="Permalink to this definition">¶</a></dt>
+<code class="descname">set_previous_joint_state</code><span class="sig-paren">(</span><em>self: exotica_core_task_maps_py.JointVelocityBackwardDifference, arg0: numpy.ndarray[numpy.float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#exotica_core_task_maps_py.JointVelocityBackwardDifference.set_previous_joint_state" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
@@ -2380,7 +2610,7 @@
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pyexotica._pyexotica.TaskMap</span></code></p>
 <dl class="method">
 <dt id="exotica_core_task_maps_py.JointVelocityLimitConstraint.set_previous_joint_state">
-<code class="descname">set_previous_joint_state</code><span class="sig-paren">(</span><em>self: exotica_core_task_maps_py.JointVelocityLimitConstraint, arg0: numpy.ndarray[float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#exotica_core_task_maps_py.JointVelocityLimitConstraint.set_previous_joint_state" title="Permalink to this definition">¶</a></dt>
+<code class="descname">set_previous_joint_state</code><span class="sig-paren">(</span><em>self: exotica_core_task_maps_py.JointVelocityLimitConstraint, arg0: numpy.ndarray[numpy.float64[m, 1]]</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#exotica_core_task_maps_py.JointVelocityLimitConstraint.set_previous_joint_state" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
@@ -2411,21 +2641,128 @@
 
 <span class="target" id="module-exotica_ddp_solver_py"></span><p>Exotica DDP Solver</p>
 <dl class="class">
+<dt id="exotica_ddp_solver_py.AbstractDDPSolver">
+<em class="property">class </em><code class="descclassname">exotica_ddp_solver_py.</code><code class="descname">AbstractDDPSolver</code><a class="headerlink" href="#exotica_ddp_solver_py.AbstractDDPSolver" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pyexotica._pyexotica.FeedbackMotionSolver</span></code></p>
+<dl class="attribute">
+<dt id="exotica_ddp_solver_py.AbstractDDPSolver.K">
+<code class="descname">K</code><a class="headerlink" href="#exotica_ddp_solver_py.AbstractDDPSolver.K" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="exotica_ddp_solver_py.AbstractDDPSolver.Qu">
+<code class="descname">Qu</code><a class="headerlink" href="#exotica_ddp_solver_py.AbstractDDPSolver.Qu" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="exotica_ddp_solver_py.AbstractDDPSolver.Quu">
+<code class="descname">Quu</code><a class="headerlink" href="#exotica_ddp_solver_py.AbstractDDPSolver.Quu" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="exotica_ddp_solver_py.AbstractDDPSolver.Quu_inv">
+<code class="descname">Quu_inv</code><a class="headerlink" href="#exotica_ddp_solver_py.AbstractDDPSolver.Quu_inv" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="exotica_ddp_solver_py.AbstractDDPSolver.Qux">
+<code class="descname">Qux</code><a class="headerlink" href="#exotica_ddp_solver_py.AbstractDDPSolver.Qux" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="exotica_ddp_solver_py.AbstractDDPSolver.Qx">
+<code class="descname">Qx</code><a class="headerlink" href="#exotica_ddp_solver_py.AbstractDDPSolver.Qx" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="exotica_ddp_solver_py.AbstractDDPSolver.Qxx">
+<code class="descname">Qxx</code><a class="headerlink" href="#exotica_ddp_solver_py.AbstractDDPSolver.Qxx" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="exotica_ddp_solver_py.AbstractDDPSolver.U_ref">
+<code class="descname">U_ref</code><a class="headerlink" href="#exotica_ddp_solver_py.AbstractDDPSolver.U_ref" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="exotica_ddp_solver_py.AbstractDDPSolver.U_try">
+<code class="descname">U_try</code><a class="headerlink" href="#exotica_ddp_solver_py.AbstractDDPSolver.U_try" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="exotica_ddp_solver_py.AbstractDDPSolver.Vx">
+<code class="descname">Vx</code><a class="headerlink" href="#exotica_ddp_solver_py.AbstractDDPSolver.Vx" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="exotica_ddp_solver_py.AbstractDDPSolver.Vxx">
+<code class="descname">Vxx</code><a class="headerlink" href="#exotica_ddp_solver_py.AbstractDDPSolver.Vxx" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="exotica_ddp_solver_py.AbstractDDPSolver.X_ref">
+<code class="descname">X_ref</code><a class="headerlink" href="#exotica_ddp_solver_py.AbstractDDPSolver.X_ref" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="exotica_ddp_solver_py.AbstractDDPSolver.X_try">
+<code class="descname">X_try</code><a class="headerlink" href="#exotica_ddp_solver_py.AbstractDDPSolver.X_try" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="exotica_ddp_solver_py.AbstractDDPSolver.control_cost_evolution">
+<code class="descname">control_cost_evolution</code><a class="headerlink" href="#exotica_ddp_solver_py.AbstractDDPSolver.control_cost_evolution" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="exotica_ddp_solver_py.AbstractDDPSolver.fu">
+<code class="descname">fu</code><a class="headerlink" href="#exotica_ddp_solver_py.AbstractDDPSolver.fu" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="exotica_ddp_solver_py.AbstractDDPSolver.fx">
+<code class="descname">fx</code><a class="headerlink" href="#exotica_ddp_solver_py.AbstractDDPSolver.fx" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="exotica_ddp_solver_py.AbstractDDPSolver.k">
+<code class="descname">k</code><a class="headerlink" href="#exotica_ddp_solver_py.AbstractDDPSolver.k" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="exotica_ddp_solver_py.AbstractDDPSolver.regularization_evolution">
+<code class="descname">regularization_evolution</code><a class="headerlink" href="#exotica_ddp_solver_py.AbstractDDPSolver.regularization_evolution" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="exotica_ddp_solver_py.AbstractDDPSolver.steplength_evolution">
+<code class="descname">steplength_evolution</code><a class="headerlink" href="#exotica_ddp_solver_py.AbstractDDPSolver.steplength_evolution" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
 <dt id="exotica_ddp_solver_py.AnalyticDDPSolver">
 <em class="property">class </em><code class="descclassname">exotica_ddp_solver_py.</code><code class="descname">AnalyticDDPSolver</code><a class="headerlink" href="#exotica_ddp_solver_py.AnalyticDDPSolver" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pyexotica._pyexotica.FeedbackMotionSolver</span></code></p>
+<dd><p>Bases: <a class="reference internal" href="#exotica_ddp_solver_py.AbstractDDPSolver" title="exotica_ddp_solver_py.AbstractDDPSolver"><code class="xref py py-class docutils literal notranslate"><span class="pre">exotica_ddp_solver_py.AbstractDDPSolver</span></code></a></p>
 </dd></dl>
 
 <dl class="class">
 <dt id="exotica_ddp_solver_py.ControlLimitedDDPSolver">
 <em class="property">class </em><code class="descclassname">exotica_ddp_solver_py.</code><code class="descname">ControlLimitedDDPSolver</code><a class="headerlink" href="#exotica_ddp_solver_py.ControlLimitedDDPSolver" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pyexotica._pyexotica.FeedbackMotionSolver</span></code></p>
+<dd><p>Bases: <a class="reference internal" href="#exotica_ddp_solver_py.AbstractDDPSolver" title="exotica_ddp_solver_py.AbstractDDPSolver"><code class="xref py py-class docutils literal notranslate"><span class="pre">exotica_ddp_solver_py.AbstractDDPSolver</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="exotica_ddp_solver_py.ControlLimitedFeasibilityDrivenDDPSolver">
+<em class="property">class </em><code class="descclassname">exotica_ddp_solver_py.</code><code class="descname">ControlLimitedFeasibilityDrivenDDPSolver</code><a class="headerlink" href="#exotica_ddp_solver_py.ControlLimitedFeasibilityDrivenDDPSolver" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#exotica_ddp_solver_py.AbstractDDPSolver" title="exotica_ddp_solver_py.AbstractDDPSolver"><code class="xref py py-class docutils literal notranslate"><span class="pre">exotica_ddp_solver_py.AbstractDDPSolver</span></code></a></p>
 </dd></dl>
 
 <dl class="class">
 <dt id="exotica_ddp_solver_py.FeasibilityDrivenDDPSolver">
 <em class="property">class </em><code class="descclassname">exotica_ddp_solver_py.</code><code class="descname">FeasibilityDrivenDDPSolver</code><a class="headerlink" href="#exotica_ddp_solver_py.FeasibilityDrivenDDPSolver" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pyexotica._pyexotica.FeedbackMotionSolver</span></code></p>
+<dd><p>Bases: <a class="reference internal" href="#exotica_ddp_solver_py.AbstractDDPSolver" title="exotica_ddp_solver_py.AbstractDDPSolver"><code class="xref py py-class docutils literal notranslate"><span class="pre">exotica_ddp_solver_py.AbstractDDPSolver</span></code></a></p>
 <dl class="attribute">
 <dt id="exotica_ddp_solver_py.FeasibilityDrivenDDPSolver.fs">
 <code class="descname">fs</code><a class="headerlink" href="#exotica_ddp_solver_py.FeasibilityDrivenDDPSolver.fs" title="Permalink to this definition">¶</a></dt>

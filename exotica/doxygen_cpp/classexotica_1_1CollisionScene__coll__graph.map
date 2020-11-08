@@ -1,4 +1,6 @@
 <map id="exotica::CollisionScene" name="exotica::CollisionScene">
-<area shape="rect" id="node2" href="$classexotica_1_1Uncopyable.html" title="{exotica::Uncopyable\n||+ Uncopyable()\l+ ~Uncopyable()\l&#45; Uncopyable()\l&#45; operator=()\l}" alt="" coords="5,42,147,163"/>
-<area shape="rect" id="node3" href="$classexotica_1_1AllowedCollisionMatrix.html" title="{exotica::AllowedCollision\lMatrix\n|&#45; entries_\l|+ AllowedCollisionMatrix()\l+ AllowedCollisionMatrix()\l+ clear()\l+ hasEntry()\l+ setEntry()\l+ getAllEntryNames()\l+ getNumberOfEntries()\l+ getAllowedCollision()\l}" alt="" coords="171,5,346,200"/>
+<area shape="rect" id="node2" href="$classexotica_1_1Object.html" title="{exotica::Object\n|+ ns_\l+ object_name_\l+ debug_\l|+ Object()\l+ ~Object()\l+ type()\l+ GetObjectName()\l+ InstantiateObject()\l+ Print()\l}" alt="" coords="5,27,147,207"/>
+<area shape="rect" id="node3" href="$classexotica_1_1Uncopyable.html" title="{exotica::Uncopyable\n||+ Uncopyable()\l+ ~Uncopyable()\l&#45; Uncopyable()\l&#45; operator=()\l}" alt="" coords="171,57,312,178"/>
+<area shape="rect" id="node4" href="$classexotica_1_1InstantiableBase.html" title="{exotica::InstantiableBase\n||+ GetInitializerTemplate()\l+ InstantiateInternal()\l+ InstantiateBase()\l+ GetAllTemplates()\l}" alt="" coords="337,57,506,178"/>
+<area shape="rect" id="node5" href="$classexotica_1_1AllowedCollisionMatrix.html" title="{exotica::AllowedCollision\lMatrix\n|&#45; entries_\l|+ AllowedCollisionMatrix()\l+ ~AllowedCollisionMatrix()\l+ AllowedCollisionMatrix()\l+ operator=()\l+ clear()\l+ hasEntry()\l+ setEntry()\l+ getAllEntryNames()\l+ getNumberOfEntries()\l+ getAllowedCollision()\l}" alt="" coords="530,5,713,229"/>
 </map>

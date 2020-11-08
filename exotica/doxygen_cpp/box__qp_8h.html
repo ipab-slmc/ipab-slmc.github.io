@@ -71,13 +71,15 @@ $(function() {
 <div class="title">box_qp.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;Eigen/Dense&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="exception_8h_source.html">exotica_core/tools/exception.h</a>&gt;</code><br />
+<code>#include &lt;Eigen/Dense&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for box_qp.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="box__qp_8h__incl.png" border="0" usemap="#_2home_2wxm_2tmp_2exotica_2exotica__core_2include_2exotica__core_2tools_2box__qp_8h" alt=""/></div>
 <map name="_2home_2wxm_2tmp_2exotica_2exotica__core_2include_2exotica__core_2tools_2box__qp_8h" id="_2home_2wxm_2tmp_2exotica_2exotica__core_2include_2exotica__core_2tools_2box__qp_8h">
+<area shape="rect" id="node2" href="exception_8h.html" title="exotica_core/tools\l/exception.h" alt="" coords="30,109,158,151"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -85,7 +87,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="box__qp_8h__dep__incl.png" border="0" usemap="#_2home_2wxm_2tmp_2exotica_2exotica__core_2include_2exotica__core_2tools_2box__qp_8hdep" alt=""/></div>
 <map name="_2home_2wxm_2tmp_2exotica_2exotica__core_2include_2exotica__core_2tools_2box__qp_8hdep" id="_2home_2wxm_2tmp_2exotica_2exotica__core_2include_2exotica__core_2tools_2box__qp_8hdep">
-<area shape="rect" id="node2" href="control__limited__ddp__solver_8h.html" title="/home/wxm/tmp/exotica\l/exotations/solvers/exotica\l_ddp_solver/include/exotica\l_ddp_solver/control_limited\l_ddp_solver.h" alt="" coords="9,109,191,195"/>
+<area shape="rect" id="node2" href="box__qp__old_8h.html" title="/home/wxm/tmp/exotica\l/exotica_core/include\l/exotica_core/tools/box\l_qp_old.h" alt="" coords="19,109,181,180"/>
 </map>
 </div>
 </div>
@@ -108,15 +110,15 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0bbcbf0e9491bc24ff70796ead46ba81"><td class="memItemLeft" align="right" valign="top">BoxQPSolution&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceexotica.html#a0bbcbf0e9491bc24ff70796ead46ba81">exotica::BoxQP</a> (const Eigen::MatrixXd &amp;H, const Eigen::VectorXd &amp;q, const Eigen::VectorXd &amp;b_low, const Eigen::VectorXd &amp;b_high, const Eigen::VectorXd &amp;x_init, const double gamma, const int max_iterations, const double epsilon, const double lambda)</td></tr>
-<tr class="separator:a0bbcbf0e9491bc24ff70796ead46ba81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafa534896dbe1dda860ef56b8209d62a"><td class="memItemLeft" align="right" valign="top">BoxQPSolution&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceexotica.html#aafa534896dbe1dda860ef56b8209d62a">exotica::BoxQP</a> (const Eigen::MatrixXd &amp;H, const Eigen::VectorXd &amp;q, const Eigen::VectorXd &amp;b_low, const Eigen::VectorXd &amp;b_high, const Eigen::VectorXd &amp;x_init, const double th_acceptstep, const int max_iterations, const double th_gradient_tolerance, const double lambda, bool use_polynomial_linesearch=true, bool use_cholesky_factorization=true)</td></tr>
+<tr class="separator:aafa534896dbe1dda860ef56b8209d62a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40965c5a9633b1823f43127749166531"><td class="memItemLeft" align="right" valign="top">BoxQPSolution&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceexotica.html#a40965c5a9633b1823f43127749166531">exotica::BoxQP</a> (const Eigen::MatrixXd &amp;H, const Eigen::VectorXd &amp;q, const Eigen::VectorXd &amp;b_low, const Eigen::VectorXd &amp;b_high, const Eigen::VectorXd &amp;x_init)</td></tr>
 <tr class="separator:a40965c5a9633b1823f43127749166531"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Apr 21 2020 17:35:39 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Nov 8 2020 16:33:50 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

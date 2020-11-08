@@ -8,5 +8,5 @@ var searchData=
   ['pointtoplane',['PointToPlane',['../classexotica_1_1PointToPlane.html',1,'exotica']]],
   ['printable',['Printable',['../classexotica_1_1Printable.html',1,'exotica']]],
   ['prmsolver',['PRMSolver',['../classexotica_1_1PRMSolver.html',1,'exotica']]],
-  ['property',['Property',['../structexotica_1_1visualization_1_1Property.html',1,'exotica::visualization::Property&lt; T &gt;'],['../classexotica_1_1Property.html',1,'exotica::Property']]]
+  ['property',['Property',['../classexotica_1_1Property.html',1,'exotica::Property'],['../structexotica_1_1visualization_1_1Property.html',1,'exotica::visualization::Property&lt; T &gt;']]]
 ];

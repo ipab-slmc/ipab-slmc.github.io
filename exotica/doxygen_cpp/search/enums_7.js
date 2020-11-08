@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['terminationcriterion',['TerminationCriterion',['../namespaceexotica.html#a1d6f0f26eae0a485ee377655fc2aafd2',1,'exotica']]]
+  ['numericaldiffmode',['NumericalDiffMode',['../namespaceEigen.html#a53f19342e6b4ecd38ae002d470299add',1,'Eigen']]]
 ];

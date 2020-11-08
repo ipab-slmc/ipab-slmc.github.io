@@ -14,6 +14,8 @@ var searchData=
   ['best_5fsweep_5f',['best_sweep_',['../classexotica_1_1AICOSolver.html#adfc29eec77c1cb71b193391c3c817443',1,'exotica::AICOSolver::best_sweep_()'],['../classexotica_1_1BayesianIKSolver.html#aa56b577ba9687d508290c3a676429db2',1,'exotica::BayesianIKSolver::best_sweep_()']]],
   ['best_5fsweep_5fold_5f',['best_sweep_old_',['../classexotica_1_1AICOSolver.html#a427b6dc73999ea940feb7f084c7e6840',1,'exotica::AICOSolver::best_sweep_old_()'],['../classexotica_1_1BayesianIKSolver.html#afd218546f8685933c119c88873e9f754',1,'exotica::BayesianIKSolver::best_sweep_old_()']]],
   ['big_5fstride_5f',['big_stride_',['../classexotica_1_1EffFrame.html#ad30dcfd55be5c4f56df4ac8ea0d0b9c5',1,'exotica::EffFrame']]],
+  ['bimodal_5fhuber_5fmode1_5f',['bimodal_huber_mode1_',['../classexotica_1_1DynamicTimeIndexedShootingProblem.html#a685d4babdaa7a09c28da7039a639312e',1,'exotica::DynamicTimeIndexedShootingProblem']]],
+  ['bimodal_5fhuber_5fmode2_5f',['bimodal_huber_mode2_',['../classexotica_1_1DynamicTimeIndexedShootingProblem.html#a79dce02c450cea7453422125af9895e1',1,'exotica::DynamicTimeIndexedShootingProblem']]],
   ['binv',['Binv',['../classexotica_1_1AICOSolver.html#a0b93e4a27f5931a7fad768c96e578789',1,'exotica::AICOSolver::Binv()'],['../classexotica_1_1BayesianIKSolver.html#a14765aa953715a0c560d9b8cbd2a26aa',1,'exotica::BayesianIKSolver::Binv()']]],
   ['binv_5fold',['Binv_old',['../classexotica_1_1AICOSolver.html#afb3acb2866e28cb829971609a9cdbae2',1,'exotica::AICOSolver::Binv_old()'],['../classexotica_1_1BayesianIKSolver.html#ad16bc4a7662c52e8f4fc8b7c2bc54386',1,'exotica::BayesianIKSolver::Binv_old()']]],
   ['bounds_5f',['bounds_',['../classexotica_1_1OMPLSolver.html#abbd38ebb68eae44095e46881493c18be',1,'exotica::OMPLSolver']]],

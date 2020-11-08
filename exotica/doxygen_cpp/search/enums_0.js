@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['basetype',['BaseType',['../namespaceexotica.html#a5ca690cccfbbfdb24827333304ee338f',1,'exotica']]]
+  ['argumentposition',['ArgumentPosition',['../namespaceexotica.html#a2f2dd5de8edc626599b393aae8529350',1,'exotica']]]
 ];

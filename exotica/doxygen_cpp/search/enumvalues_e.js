@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['quaternion',['QUATERNION',['../namespaceexotica.html#af9af5a7f278bef923dcaed27ce2ebca0a44d211265e86d6d510e6e3d94557e821',1,'exotica']]]
+  ['planar',['PLANAR',['../namespaceexotica.html#a5ca690cccfbbfdb24827333304ee338fa997d5dd36b61cdafeabf856ab83593e8',1,'exotica']]],
+  ['pseudohuber',['PseudoHuber',['../namespaceexotica.html#aeaa7ab36dae8418de85dbd74ac49280aa4587ec26dd32f21b4eadbdceade880a2',1,'exotica']]]
 ];

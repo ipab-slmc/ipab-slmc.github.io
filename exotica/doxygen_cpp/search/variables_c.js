@@ -1,10 +1,8 @@
 var searchData=
 [
-  ['m',['M',['../classexotica_1_1CartpoleDynamicsSolver.html#ae35c2c101d3d3a55d8d7748e9de7cea2',1,'exotica::CartpoleDynamicsSolver']]],
-  ['m_5f',['m_',['../classexotica_1_1PendulumDynamicsSolver.html#ad9ea60094432c09f907162d9614bdbff',1,'exotica::PendulumDynamicsSolver']]],
+  ['m_5f',['m_',['../classexotica_1_1PendulumDynamicsSolver.html#ad9ea60094432c09f907162d9614bdbff',1,'exotica::PendulumDynamicsSolver::m_()'],['../classexotica_1_1LevenbergMarquardtSolver.html#a5c2d120ef49f61926929ef7dedc57baf',1,'exotica::LevenbergMarquardtSolver::M_()']]],
   ['m_5fc_5f',['m_c_',['../classexotica_1_1CartpoleDynamicsSolver.html#a7ca94bf9e8a759bc06179a94f89c648c',1,'exotica::CartpoleDynamicsSolver']]],
   ['m_5fderivatives',['m_derivatives',['../classEigen_1_1AutoDiffScalar.html#aa76f86fcb362af42944a13e6f2bb3a37',1,'Eigen::AutoDiffScalar']]],
-  ['m_5finv',['M_inv',['../classexotica_1_1CartpoleDynamicsSolver.html#aa6af1c540d00751d8f42e9c9d5f2e8f7',1,'exotica::CartpoleDynamicsSolver']]],
   ['m_5fp_5f',['m_p_',['../classexotica_1_1CartpoleDynamicsSolver.html#ab35324c803cadfe939a9c69e58bb4256',1,'exotica::CartpoleDynamicsSolver']]],
   ['m_5fvalue',['m_value',['../classEigen_1_1AutoDiffScalar.html#ae7a12e09b363116102be944b9ca30dae',1,'Eigen::AutoDiffScalar']]],
   ['map',['map',['../structexotica_1_1TaskSpaceVector.html#a2ac9708f48c5372b02ed164eaf7bccac',1,'exotica::TaskSpaceVector']]],
@@ -16,8 +14,6 @@ var searchData=
   ['matrix',['matrix',['../structexotica_1_1visualization_1_1ObjectData.html#aabd46c35502fbc16e21e998a49975921',1,'exotica::visualization::ObjectData::matrix()'],['../structexotica_1_1visualization_1_1GeometryMesh.html#a0eb69f980d7adff669ddb8b6588da9d0',1,'exotica::visualization::GeometryMesh::matrix()'],['../structexotica_1_1visualization_1_1GeometryMeshBuffer.html#a5f619b87ecb755c744bc50562da3499b',1,'exotica::visualization::GeometryMeshBuffer::matrix()'],['../structexotica_1_1visualization_1_1SetTransform.html#a15da2878fa740099a7b638f39804ae6c',1,'exotica::visualization::SetTransform::matrix()']]],
   ['max_5fbacktrack_5fiterations_5f',['max_backtrack_iterations_',['../classexotica_1_1AICOSolver.html#a776034644194bf60792cf0edd641af2b',1,'exotica::AICOSolver::max_backtrack_iterations_()'],['../classexotica_1_1BayesianIKSolver.html#af4206fc9bfc9ff404276a03bdbd0c60b',1,'exotica::BayesianIKSolver::max_backtrack_iterations_()']]],
   ['max_5fiterations_5f',['max_iterations_',['../classexotica_1_1MotionSolver.html#a2f3026fc9ddf59e47abe4caf74864aeb',1,'exotica::MotionSolver']]],
-  ['max_5fx_5f',['max_x_',['../classexotica_1_1CartpoleDynamicsSolver.html#a44f2a9eff694c8828fb7dbf59c9ef20e',1,'exotica::CartpoleDynamicsSolver']]],
-  ['max_5fy_5f',['max_y_',['../classexotica_1_1CartpoleDynamicsSolver.html#a47803ff60f857e03f5fab3600822bffb',1,'exotica::CartpoleDynamicsSolver']]],
   ['maxdistance_5f',['maxDistance_',['../classexotica_1_1OMPLTimeIndexedRRTConnect.html#a0029d23db566b836678b19bb273787a5',1,'exotica::OMPLTimeIndexedRRTConnect']]],
   ['metadata',['metadata',['../structexotica_1_1visualization_1_1Object.html#a1c09df1b83263ece91ea945f4b0d598f',1,'exotica::visualization::Object::metadata()'],['../structexotica_1_1visualization_1_1MeshObject.html#ad5c9cc0ed6616523bb956ac7fde85a3f',1,'exotica::visualization::MeshObject::metadata()']]],
   ['minimum_5fstep_5ftolerance_5f',['minimum_step_tolerance_',['../classexotica_1_1AICOSolver.html#a59b8f6fc3d12142d46d1fa384d63f449',1,'exotica::AICOSolver::minimum_step_tolerance_()'],['../classexotica_1_1BayesianIKSolver.html#abb62fb3f77f0a48556b0f3792e15a436',1,'exotica::BayesianIKSolver::minimum_step_tolerance_()']]],

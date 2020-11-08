@@ -3,6 +3,7 @@ var searchData=
   ['object',['Object',['../classexotica_1_1Object.html',1,'exotica::Object'],['../structexotica_1_1visualization_1_1Object.html',1,'exotica::visualization::Object&lt; T &gt;']]],
   ['objectdata',['ObjectData',['../structexotica_1_1visualization_1_1ObjectData.html',1,'exotica::visualization']]],
   ['omplcontrolsolver',['OMPLControlSolver',['../classexotica_1_1OMPLControlSolver.html',1,'exotica']]],
+  ['ompldubinsrnstatespace',['OMPLDubinsRNStateSpace',['../classexotica_1_1OMPLDubinsRNStateSpace.html',1,'exotica']]],
   ['omplrnprojection',['OMPLRNProjection',['../classexotica_1_1OMPLRNProjection.html',1,'exotica']]],
   ['omplrnstatespace',['OMPLRNStateSpace',['../classexotica_1_1OMPLRNStateSpace.html',1,'exotica']]],
   ['omplse2rnprojection',['OMPLSE2RNProjection',['../classexotica_1_1OMPLSE2RNProjection.html',1,'exotica']]],

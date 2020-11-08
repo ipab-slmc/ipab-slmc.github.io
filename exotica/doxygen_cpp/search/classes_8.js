@@ -17,9 +17,12 @@ var searchData=
   ['instantiable_3c_20centerofmassinitializer_20_3e',['Instantiable&lt; CenterOfMassInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],
   ['instantiable_3c_20collisioncheckinitializer_20_3e',['Instantiable&lt; CollisionCheckInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],
   ['instantiable_3c_20collisiondistanceinitializer_20_3e',['Instantiable&lt; CollisionDistanceInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],
+  ['instantiable_3c_20collisionscenefcllatestinitializer_20_3e',['Instantiable&lt; CollisionSceneFCLLatestInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],
   ['instantiable_3c_20continuousjointposeinitializer_20_3e',['Instantiable&lt; ContinuousJointPoseInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],
   ['instantiable_3c_20controlkpiecesolverinitializer_20_3e',['Instantiable&lt; ControlKPIECESolverInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],
   ['instantiable_3c_20controllimitedddpsolverinitializer_20_3e',['Instantiable&lt; ControlLimitedDDPSolverInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],
+  ['instantiable_3c_20controllimitedfeasibilitydrivenddpsolverinitializer_20_3e',['Instantiable&lt; ControlLimitedFeasibilityDrivenDDPSolverInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],
+  ['instantiable_3c_20controlregularizationinitializer_20_3e',['Instantiable&lt; ControlRegularizationInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],
   ['instantiable_3c_20controlrrtsolverinitializer_20_3e',['Instantiable&lt; ControlRRTSolverInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],
   ['instantiable_3c_20distanceinitializer_20_3e',['Instantiable&lt; DistanceInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],
   ['instantiable_3c_20doubleintegratordynamicssolverinitializer_20_3e',['Instantiable&lt; DoubleIntegratorDynamicsSolverInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],
@@ -74,6 +77,7 @@ var searchData=
   ['instantiable_3c_20timeindexedsamplingprobleminitializer_20_3e',['Instantiable&lt; TimeIndexedSamplingProblemInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],
   ['instantiable_3c_20unconstrainedendposeprobleminitializer_20_3e',['Instantiable&lt; UnconstrainedEndPoseProblemInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],
   ['instantiable_3c_20unconstrainedtimeindexedprobleminitializer_20_3e',['Instantiable&lt; UnconstrainedTimeIndexedProblemInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],
+  ['instantiable_3c_20variablesizecollisiondistanceinitializer_20_3e',['Instantiable&lt; VariableSizeCollisionDistanceInitializer &gt;',['../classexotica_1_1Instantiable.html',1,'exotica']]],
   ['instantiablebase',['InstantiableBase',['../classexotica_1_1InstantiableBase.html',1,'exotica']]],
   ['interactionmesh',['InteractionMesh',['../classexotica_1_1InteractionMesh.html',1,'exotica']]]
 ];
