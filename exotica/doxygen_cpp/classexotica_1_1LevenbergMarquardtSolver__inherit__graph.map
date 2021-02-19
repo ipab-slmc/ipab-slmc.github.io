@@ -1,7 +1,8 @@
 <map id="exotica::LevenbergMarquardtSolver" name="exotica::LevenbergMarquardtSolver">
-<area shape="rect" id="node2" href="$classexotica_1_1MotionSolver.html" title="{exotica::MotionSolver\n|# problem_\l# planning_time_\l# max_iterations_\l|+ MotionSolver()\l+ ~MotionSolver()\l+ InstantiateBase()\l+ SpecifyProblem()\l+ Solve()\l+ GetProblem()\l+ Print()\l+ SetNumberOfMaxIterations()\l+ GetNumberOfMaxIterations()\l+ GetPlanningTime()\l}" alt="" coords="121,233,324,472"/>
-<area shape="rect" id="node3" href="$classexotica_1_1Object.html" title="{exotica::Object\n|+ ns_\l+ object_name_\l+ debug_\l|+ Object()\l+ ~Object()\l+ type()\l+ GetObjectName()\l+ InstantiateObject()\l+ Print()\l}" alt="" coords="5,5,147,185"/>
-<area shape="rect" id="node4" href="$classexotica_1_1Uncopyable.html" title="{exotica::Uncopyable\n||+ Uncopyable()\l+ ~Uncopyable()\l&#45; Uncopyable()\l&#45; operator=()\l}" alt="" coords="171,35,312,156"/>
-<area shape="rect" id="node5" href="$classexotica_1_1InstantiableBase.html" title="{exotica::InstantiableBase\n||+ GetInitializerTemplate()\l+ InstantiateInternal()\l+ InstantiateBase()\l+ GetAllTemplates()\l}" alt="" coords="373,35,542,156"/>
-<area shape="rect" id="node6" href="$classexotica_1_1Instantiable.html" title="{exotica::Instantiable\l\&lt; LevenbergMarquardtSolverInitializer \&gt;\n|# parameters_\l|+ InstantiateInternal()\l+ GetInitializerTemplate()\l+ GetAllTemplates()\l+ Instantiate()\l+ GetParameters()\l}" alt="" coords="348,277,601,428"/>
+<area shape="rect" id="node1" title=" " alt="" coords="253,520,443,773"/>
+<area shape="rect" id="node2" href="$classexotica_1_1MotionSolver.html" title=" " alt="" coords="121,233,324,472"/>
+<area shape="rect" id="node3" href="$classexotica_1_1Object.html" title=" " alt="" coords="5,5,147,185"/>
+<area shape="rect" id="node4" href="$classexotica_1_1Uncopyable.html" title=" " alt="" coords="171,35,312,156"/>
+<area shape="rect" id="node5" href="$classexotica_1_1InstantiableBase.html" title=" " alt="" coords="373,20,542,171"/>
+<area shape="rect" id="node6" href="$classexotica_1_1Instantiable.html" title=" " alt="" coords="348,277,601,428"/>
 </map>

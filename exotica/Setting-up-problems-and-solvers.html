@@ -1,39 +1,42 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
   
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Setting up Problems and Solvers &mdash; EXOTica 6.0.0 documentation</title>
+  <title>Setting up Problems and Solvers &mdash; EXOTica 6.0.2 documentation</title>
   
-
-  
-  
-  
-  
-
-  
-  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
-  
-    
-      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-        <script type="text/javascript" src="_static/jquery.js"></script>
-        <script type="text/javascript" src="_static/underscore.js"></script>
-        <script type="text/javascript" src="_static/doctools.js"></script>
-        <script type="text/javascript" src="_static/language_data.js"></script>
-        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    
-    <script type="text/javascript" src="_static/js/theme.js"></script>
-
-    
 
   
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Task space vector handling" href="advanced/task_space_vector.html" />
@@ -61,7 +64,7 @@
             
             
               <div class="version">
-                6.0.0
+                6.0.2
               </div>
             
           
@@ -78,6 +81,7 @@
           
         </div>
 
+        
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
             
@@ -129,6 +133,7 @@
             
           
         </div>
+        
       </div>
     </nav>
 
@@ -163,18 +168,20 @@
 
 
 
+
+
 <div role="navigation" aria-label="breadcrumbs navigation">
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="index.html">Docs</a> &raquo;</li>
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
         
       <li>Setting up Problems and Solvers</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
-            
+          
         
       </li>
     
@@ -212,7 +219,7 @@ example file as a guide. The code is displayed below.</p>
     <span class="n">SceneInitializer</span> <span class="n">scene</span><span class="p">(</span><span class="s">&quot;MyScene&quot;</span><span class="p">,</span> <span class="s">&quot;arm&quot;</span><span class="p">,</span> <span class="nb">false</span><span class="p">,</span> <span class="s">&quot;&quot;</span><span class="p">,</span> <span class="s">&quot;{exotica_examples}/resources/robots/lwr_simplified.urdf&quot;</span><span class="p">,</span> <span class="s">&quot;{exotica_examples}/resources/robots/lwr_simplified.srdf&quot;</span><span class="p">);</span>
     <span class="c1">// End-effector task map with two position frames</span>
     <span class="n">EffFrameInitializer</span> <span class="n">map</span><span class="p">(</span><span class="s">&quot;Position&quot;</span><span class="p">,</span> <span class="nb">false</span><span class="p">,</span>
-                            <span class="p">{</span><span class="n">FrameInitializer</span><span class="p">(</span><span class="s">&quot;lwr_arm_6_link&quot;</span><span class="p">,</span> <span class="n">Eigen</span><span class="o">::</span><span class="n">VectorTransform</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">0.7071067811865476</span><span class="p">,</span> <span class="o">-</span><span class="mf">4.3297802811774664e-17</span><span class="p">,</span> <span class="mf">0.7071067811865475</span><span class="p">,</span> <span class="mf">4.3297802811774664e-17</span><span class="p">))});</span>
+                            <span class="p">{</span><span class="n">FrameInitializer</span><span class="p">(</span><span class="s">&quot;lwr_arm_6_link&quot;</span><span class="p">,</span> <span class="n">Eigen</span><span class="o">::</span><span class="n">VectorTransform</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">0.7071067811865476</span><span class="p">,</span> <span class="mf">-4.3297802811774664e-17</span><span class="p">,</span> <span class="mf">0.7071067811865475</span><span class="p">,</span> <span class="mf">4.3297802811774664e-17</span><span class="p">))});</span>
     <span class="c1">// Create a task using the map above (goal will be specified later)</span>
     <span class="n">Eigen</span><span class="o">::</span><span class="n">VectorXd</span> <span class="n">W</span><span class="p">(</span><span class="mi">7</span><span class="p">);</span>
     <span class="n">W</span> <span class="o">&lt;&lt;</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">;</span>
@@ -252,7 +259,7 @@ example file as a guide. The code is displayed below.</p>
         <span class="c1">// e.g. figure eight</span>
         <span class="n">t</span> <span class="o">=</span> <span class="n">ros</span><span class="o">::</span><span class="n">Duration</span><span class="p">((</span><span class="n">ros</span><span class="o">::</span><span class="n">WallTime</span><span class="o">::</span><span class="n">now</span><span class="p">()</span> <span class="o">-</span> <span class="n">init_time</span><span class="p">).</span><span class="n">toSec</span><span class="p">()).</span><span class="n">toSec</span><span class="p">();</span>
         <span class="n">my_problem</span><span class="o">-&gt;</span><span class="n">y</span> <span class="o">=</span> <span class="p">{</span><span class="mf">0.6</span><span class="p">,</span>
-                        <span class="o">-</span><span class="mf">0.1</span> <span class="o">+</span> <span class="n">sin</span><span class="p">(</span><span class="n">t</span> <span class="o">*</span> <span class="mf">2.0</span> <span class="o">*</span> <span class="n">M_PI</span> <span class="o">*</span> <span class="mf">0.5</span><span class="p">)</span> <span class="o">*</span> <span class="mf">0.1</span><span class="p">,</span>
+                        <span class="mf">-0.1</span> <span class="o">+</span> <span class="n">sin</span><span class="p">(</span><span class="n">t</span> <span class="o">*</span> <span class="mf">2.0</span> <span class="o">*</span> <span class="n">M_PI</span> <span class="o">*</span> <span class="mf">0.5</span><span class="p">)</span> <span class="o">*</span> <span class="mf">0.1</span><span class="p">,</span>
                         <span class="mf">0.5</span> <span class="o">+</span> <span class="n">sin</span><span class="p">(</span><span class="n">t</span> <span class="o">*</span> <span class="n">M_PI</span> <span class="o">*</span> <span class="mf">0.5</span><span class="p">)</span> <span class="o">*</span> <span class="mf">0.2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">};</span>
 
         <span class="c1">// Solve the problem using the IK solver</span>
@@ -335,18 +342,17 @@ using the EffPositionInitializer, the orientation of the end effector using the
 EffOrientationInitializer or both, using the EffFrameInitializer. Let’s try the
 EffFrame map, where specify a goal for both the position and orientation of the
 end effector</p>
-<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="n">EffFrameInitializer</span> <span class="nf">map</span><span class="p">(</span><span class="s">&quot;Position&quot;</span><span class="p">,</span> <span class="nb">false</span><span class="p">,</span> <span class="p">{</span><span class="n">FrameInitializer</span><span class="p">(</span><span class="s">&quot;lwr_arm_6_link&quot;</span><span class="p">,</span> <span class="n">Eigen</span><span class="o">::</span><span class="n">VectorTransform</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">0.7071067811865476</span><span class="p">,</span> <span class="o">-</span><span class="mf">4.3297802811774664e-17</span><span class="p">,</span> <span class="mf">0.7071067811865475</span><span class="p">,</span> <span class="mf">4.3297802811774664e-17</span><span class="p">))});</span>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="n">EffFrameInitializer</span> <span class="nf">map</span><span class="p">(</span><span class="s">&quot;Position&quot;</span><span class="p">,</span> <span class="nb">false</span><span class="p">,</span> <span class="p">{</span><span class="n">FrameInitializer</span><span class="p">(</span><span class="s">&quot;lwr_arm_6_link&quot;</span><span class="p">,</span> <span class="n">Eigen</span><span class="o">::</span><span class="n">VectorTransform</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">0.7071067811865476</span><span class="p">,</span> <span class="mf">-4.3297802811774664e-17</span><span class="p">,</span> <span class="mf">0.7071067811865475</span><span class="p">,</span> <span class="mf">4.3297802811774664e-17</span><span class="p">))});</span>
 </pre></div>
 </div>
 <p>Where we pass in:</p>
 <ul class="simple">
-<li>Name of the task map ( here we use “Position”)</li>
-<li>Debug argument</li>
-<li><dl class="first docutils">
-<dt>FrameInitializer</dt>
-<dd><ul class="first last">
-<li>Name of the end effector link (here we use “lwr_arm_6_link” for the lwr_simplified arm)</li>
-<li>Optional offset from that link</li>
+<li><p>Name of the task map ( here we use “Position”)</p></li>
+<li><p>Debug argument</p></li>
+<li><dl class="simple">
+<dt>FrameInitializer</dt><dd><ul>
+<li><p>Name of the end effector link (here we use “lwr_arm_6_link” for the lwr_simplified arm)</p></li>
+<li><p>Optional offset from that link</p></li>
 </ul>
 </dd>
 </dl>
@@ -415,29 +421,29 @@ at in the next tutorial.</p>
            
           </div>
           <footer>
-  
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="advanced/task_space_vector.html" class="btn btn-neutral float-right" title="Task space vector handling" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="Setting-up-ROSlaunch.html" class="btn btn-neutral float-left" title="Setting up ROSlaunch" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
+        <a href="advanced/task_space_vector.html" class="btn btn-neutral float-right" title="Task space vector handling" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="Setting-up-ROSlaunch.html" class="btn btn-neutral float-left" title="Setting up ROSlaunch" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
-  
 
   <hr/>
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2020, Vladimir Ivan, Wolfgang Merkt, Sethu Vijayakumar - and contributors
+        &#169; Copyright 2020, Vladimir Ivan, Wolfgang Merkt, Sethu Vijayakumar - and contributors.
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
-
         </div>
       </div>
 
@@ -445,7 +451,6 @@ at in the next tutorial.</p>
 
   </div>
   
-
 
   <script type="text/javascript">
       jQuery(function () {

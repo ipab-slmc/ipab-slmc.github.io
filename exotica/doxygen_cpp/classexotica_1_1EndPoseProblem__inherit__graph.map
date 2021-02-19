@@ -1,7 +1,9 @@
 <map id="exotica::EndPoseProblem" name="exotica::EndPoseProblem">
-<area shape="rect" id="node2" href="$classexotica_1_1PlanningProblem.html" title="{exotica::PlanningProblem\n|+ t_start\l+ termination_criterion\l+ N\l# scene_\l# task_maps_\l# tasks_\l# flags_\l# start_state_\l# number_of_problem_updates_\l# cost_evolution_\l|+ PlanningProblem()\l+ ~PlanningProblem()\l+ InstantiateBase()\l+ GetTaskMaps()\l+ GetTasks()\l+ GetScene()\l+ Print()\l+ SetStartState()\l+ GetStartState()\l+ ApplyStartState()\land 15 more...\l# UpdateTaskKinematics()\l# UpdateMultipleTaskKinematics()\l}" alt="" coords="305,233,527,619"/>
-<area shape="rect" id="node3" href="$classexotica_1_1Object.html" title="{exotica::Object\n|+ ns_\l+ object_name_\l+ debug_\l|+ Object()\l+ ~Object()\l+ type()\l+ GetObjectName()\l+ InstantiateObject()\l+ Print()\l}" alt="" coords="5,5,147,185"/>
-<area shape="rect" id="node4" href="$classexotica_1_1Uncopyable.html" title="{exotica::Uncopyable\n||+ Uncopyable()\l+ ~Uncopyable()\l&#45; Uncopyable()\l&#45; operator=()\l}" alt="" coords="171,35,312,156"/>
-<area shape="rect" id="node5" href="$classexotica_1_1InstantiableBase.html" title="{exotica::InstantiableBase\n||+ GetInitializerTemplate()\l+ InstantiateInternal()\l+ InstantiateBase()\l+ GetAllTemplates()\l}" alt="" coords="566,35,735,156"/>
-<area shape="rect" id="node7" href="$classexotica_1_1Instantiable.html" title="{exotica::Instantiable\l\&lt; EndPoseProblemInitializer \&gt;\n|# parameters_\l|+ InstantiateInternal()\l+ GetInitializerTemplate()\l+ GetAllTemplates()\l+ Instantiate()\l+ GetParameters()\l}" alt="" coords="551,351,750,501"/>
+<area shape="rect" id="node1" title="Arbitrarily constrained end&#45;pose problem implementation." alt="" coords="447,667,620,1037"/>
+<area shape="rect" id="node2" href="$classexotica_1_1PlanningProblem.html" title=" " alt="" coords="305,233,527,619"/>
+<area shape="rect" id="node3" href="$classexotica_1_1Object.html" title=" " alt="" coords="5,5,147,185"/>
+<area shape="rect" id="node4" href="$classexotica_1_1Uncopyable.html" title=" " alt="" coords="171,35,312,156"/>
+<area shape="rect" id="node5" href="$classexotica_1_1InstantiableBase.html" title=" " alt="" coords="566,20,735,171"/>
+<area shape="rect" id="node7" href="$classexotica_1_1Instantiable.html" title=" " alt="" coords="551,351,750,501"/>
+<area shape="rect" id="node6" title=" " alt="" coords="336,49,541,141"/>
 </map>

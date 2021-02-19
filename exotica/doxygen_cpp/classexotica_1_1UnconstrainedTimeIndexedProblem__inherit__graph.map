@@ -1,8 +1,10 @@
 <map id="exotica::UnconstrainedTimeIndexedProblem" name="exotica::UnconstrainedTimeIndexedProblem">
-<area shape="rect" id="node2" href="$classexotica_1_1AbstractTimeIndexedProblem.html" title="{exotica::AbstractTimeIndexed\lProblem\n|+ cost\l+ inequality\l+ equality\l+ W\l+ Phi\l+ jacobian\l+ hessian\l+ length_Phi\l+ length_jacobian\l+ num_tasks\l+ use_bounds\l# T_\l# tau_\l# x\l# xdiff\l# w_scale_\l# cost_Phi\l# inequality_Phi\l# equality_Phi\l# initial_trajectory_\l# kinematic_solutions_\land 9 more...\l|+ AbstractTimeIndexedProblem()\l+ ~AbstractTimeIndexedProblem()\l+ Update()\l+ Update()\l+ GetDuration()\l+ GetInitialTrajectory()\l+ SetInitialTrajectory()\l+ PreUpdate()\l+ SetGoal()\l+ GetGoal()\land 40 more...\l# ReinitializeVariables()\l# ValidateTimeIndex()\l}" alt="" coords="283,667,506,1243"/>
-<area shape="rect" id="node3" href="$classexotica_1_1PlanningProblem.html" title="{exotica::PlanningProblem\n|+ t_start\l+ termination_criterion\l+ N\l# scene_\l# task_maps_\l# tasks_\l# flags_\l# start_state_\l# number_of_problem_updates_\l# cost_evolution_\l|+ PlanningProblem()\l+ ~PlanningProblem()\l+ InstantiateBase()\l+ GetTaskMaps()\l+ GetTasks()\l+ GetScene()\l+ Print()\l+ SetStartState()\l+ GetStartState()\l+ ApplyStartState()\land 15 more...\l# UpdateTaskKinematics()\l# UpdateMultipleTaskKinematics()\l}" alt="" coords="283,233,506,619"/>
-<area shape="rect" id="node4" href="$classexotica_1_1Object.html" title="{exotica::Object\n|+ ns_\l+ object_name_\l+ debug_\l|+ Object()\l+ ~Object()\l+ type()\l+ GetObjectName()\l+ InstantiateObject()\l+ Print()\l}" alt="" coords="5,5,147,185"/>
-<area shape="rect" id="node5" href="$classexotica_1_1Uncopyable.html" title="{exotica::Uncopyable\n||+ Uncopyable()\l+ ~Uncopyable()\l&#45; Uncopyable()\l&#45; operator=()\l}" alt="" coords="171,35,312,156"/>
-<area shape="rect" id="node6" href="$classexotica_1_1InstantiableBase.html" title="{exotica::InstantiableBase\n||+ GetInitializerTemplate()\l+ InstantiateInternal()\l+ InstantiateBase()\l+ GetAllTemplates()\l}" alt="" coords="566,35,735,156"/>
-<area shape="rect" id="node8" href="$classexotica_1_1Instantiable.html" title="{exotica::Instantiable\l\&lt; UnconstrainedTimeIndexedProblem\lInitializer \&gt;\n|# parameters_\l|+ InstantiateInternal()\l+ GetInitializerTemplate()\l+ GetAllTemplates()\l+ Instantiate()\l+ GetParameters()\l}" alt="" coords="530,872,771,1037"/>
+<area shape="rect" id="node1" title="Unconstrained time&#45;indexed problem." alt="" coords="422,1291,623,1573"/>
+<area shape="rect" id="node2" href="$classexotica_1_1AbstractTimeIndexedProblem.html" title=" " alt="" coords="283,667,506,1243"/>
+<area shape="rect" id="node3" href="$classexotica_1_1PlanningProblem.html" title=" " alt="" coords="284,233,505,619"/>
+<area shape="rect" id="node4" href="$classexotica_1_1Object.html" title=" " alt="" coords="5,5,147,185"/>
+<area shape="rect" id="node5" href="$classexotica_1_1Uncopyable.html" title=" " alt="" coords="171,35,312,156"/>
+<area shape="rect" id="node6" href="$classexotica_1_1InstantiableBase.html" title=" " alt="" coords="566,20,735,171"/>
+<area shape="rect" id="node8" href="$classexotica_1_1Instantiable.html" title=" " alt="" coords="530,872,771,1037"/>
+<area shape="rect" id="node7" title=" " alt="" coords="336,49,541,141"/>
 </map>

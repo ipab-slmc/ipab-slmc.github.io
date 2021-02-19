@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['quadrotordynamicssolver',['QuadrotorDynamicsSolver',['../classexotica_1_1QuadrotorDynamicsSolver.html',1,'exotica']]],
-  ['quasistatic',['QuasiStatic',['../classexotica_1_1QuasiStatic.html',1,'exotica']]]
+  ['quadrotordynamicssolver_2032',['QuadrotorDynamicsSolver',['../classexotica_1_1QuadrotorDynamicsSolver.html',1,'exotica']]],
+  ['quasistatic_2033',['QuasiStatic',['../classexotica_1_1QuasiStatic.html',1,'exotica']]]
 ];

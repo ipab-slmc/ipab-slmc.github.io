@@ -1,5 +1,6 @@
 <map id="exotica::visualization::GeometryMeshBuffer" name="exotica::visualization::GeometryMeshBuffer">
-<area shape="rect" id="node2" href="$structexotica_1_1visualization_1_1Geometry.html" title="{exotica::visualization\l::Geometry\n|+ uuid\l+ type\l|+ Geometry()\l+ Geometry()\l}" alt="" coords="5,219,149,340"/>
-<area shape="rect" id="node3" href="$structexotica_1_1visualization_1_1GeometryMeshBufferData.html" title="{exotica::visualization\l::GeometryMeshBufferData\n|+ attributes\l|+ GeometryMeshBufferData()\l+ GeometryMeshBufferData()\l}" alt="" coords="173,226,368,333"/>
-<area shape="rect" id="node4" href="$structexotica_1_1visualization_1_1ArrayInt.html" title="{exotica::visualization\l::ArrayInt\n|+ itemSize\l+ type\l+ normalized\l+ array\l|+ ArrayInt()\l+ ArrayInt()\l}" alt="" coords="199,5,343,156"/>
+<area shape="rect" id="node1" title=" " alt="" coords="53,403,219,509"/>
+<area shape="rect" id="node2" href="$structexotica_1_1visualization_1_1Geometry.html" title=" " alt="" coords="5,219,149,340"/>
+<area shape="rect" id="node3" href="$structexotica_1_1visualization_1_1GeometryMeshBufferData.html" title=" " alt="" coords="173,226,368,333"/>
+<area shape="rect" id="node4" href="$structexotica_1_1visualization_1_1ArrayInt.html" title=" " alt="" coords="199,5,343,156"/>
 </map>

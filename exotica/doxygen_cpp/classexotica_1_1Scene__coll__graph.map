@@ -1,8 +1,10 @@
 <map id="exotica::Scene" name="exotica::Scene">
-<area shape="rect" id="node2" href="$classexotica_1_1Object.html" title="{exotica::Object\n|+ ns_\l+ object_name_\l+ debug_\l|+ Object()\l+ ~Object()\l+ type()\l+ GetObjectName()\l+ InstantiateObject()\l+ Print()\l}" alt="" coords="5,352,147,532"/>
-<area shape="rect" id="node3" href="$classexotica_1_1Uncopyable.html" title="{exotica::Uncopyable\n||+ Uncopyable()\l+ ~Uncopyable()\l&#45; Uncopyable()\l&#45; operator=()\l}" alt="" coords="149,5,291,127"/>
-<area shape="rect" id="node8" href="$classexotica_1_1KinematicTree.html" title="{exotica::KinematicTree\n|+ debug\l&#45; joint_limits_\l&#45; velocity_limits_\l&#45; acceleration_limits_\l&#45; has_acceleration_limit_\l&#45; rd_\l&#45; generator_\l&#45; random_state_distributions_\l&#45; model_base_type_\l&#45; controlled_base_type_\l&#45; num_controlled_joints_\land 27 more...\l|+ Instantiate()\l+ GetRootFrameName()\l+ GetRootJointName()\l+ GetRobotModel()\l+ GetModelBaseType()\l+ GetControlledBaseType()\l+ RequestFrames()\l+ Update()\l+ ResetJointLimits()\l+ GetJointLimits()\land 57 more...\l&#45; BuildTree()\l&#45; AddElementFromSegmentMap\lIterator()\l&#45; UpdateTree()\l&#45; UpdateFK()\l&#45; UpdateJ()\l&#45; ComputeJ()\l&#45; UpdateH()\l&#45; ComputeH()\l&#45; UpdateJointLimits()\l}" alt="" coords="221,176,429,708"/>
-<area shape="rect" id="node4" href="$classexotica_1_1Instantiable.html" title="{exotica::Instantiable\l\&lt; SceneInitializer \&gt;\n|# parameters_\l|+ InstantiateInternal()\l+ GetInitializerTemplate()\l+ GetAllTemplates()\l+ Instantiate()\l+ GetParameters()\l}" alt="" coords="454,367,623,517"/>
-<area shape="rect" id="node5" href="$classexotica_1_1InstantiableBase.html" title="{exotica::InstantiableBase\n||+ GetInitializerTemplate()\l+ InstantiateInternal()\l+ InstantiateBase()\l+ GetAllTemplates()\l}" alt="" coords="454,5,623,127"/>
-<area shape="rect" id="node7" href="$structexotica_1_1KinematicsRequest.html" title="{exotica::KinematicsRequest\n|+ flags\l+ frames\l|+ KinematicsRequest()\l}" alt="" coords="816,396,1003,488"/>
+<area shape="rect" id="node1" title="The class of EXOTica Scene." alt="" coords="326,800,535,1229"/>
+<area shape="rect" id="node2" href="$classexotica_1_1Object.html" title=" " alt="" coords="5,381,147,561"/>
+<area shape="rect" id="node3" href="$classexotica_1_1Uncopyable.html" title=" " alt="" coords="149,20,291,141"/>
+<area shape="rect" id="node8" href="$classexotica_1_1KinematicTree.html" title=" " alt="" coords="222,205,429,737"/>
+<area shape="rect" id="node4" href="$classexotica_1_1Instantiable.html" title=" " alt="" coords="453,396,621,547"/>
+<area shape="rect" id="node5" href="$classexotica_1_1InstantiableBase.html" title=" " alt="" coords="453,5,622,156"/>
+<area shape="rect" id="node6" title=" " alt="" coords="645,425,789,517"/>
+<area shape="rect" id="node7" href="$structexotica_1_1KinematicsRequest.html" title=" " alt="" coords="813,425,1000,517"/>
 </map>

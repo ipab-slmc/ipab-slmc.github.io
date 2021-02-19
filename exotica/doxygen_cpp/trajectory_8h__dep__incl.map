@@ -1,51 +1,52 @@
-<map id="/home/wxm/tmp/exotica/exotica_core/include/exotica_core/trajectory.h" name="/home/wxm/tmp/exotica/exotica_core/include/exotica_core/trajectory.h">
-<area shape="rect" id="node2" href="$scene_8h.html" title="/home/wxm/tmp/exotica\l/exotica_core/include\l/exotica_core/scene.h" alt="" coords="3099,109,3262,165"/>
-<area shape="rect" id="node3" href="$cartpole__dynamics__solver_8h.html" title="/home/wxm/tmp/exotica\l/exotations/dynamics\l_solvers/exotica_cartpole\l_dynamics_solver/include\l/exotica_cartpole_dynamics\l_solver/cartpole_dynamics_solver.h" alt="" coords="1743,221,1973,321"/>
-<area shape="rect" id="node4" href="$double__integrator__dynamics__solver_8h.html" title="/home/wxm/tmp/exotica\l/exotations/dynamics\l_solvers/exotica_double\l_integrator_dynamics_solver\l/include/exotica_double_integrator\l_dynamics_solver/double_integrator\l_dynamics_solver.h" alt="" coords="1997,213,2228,328"/>
-<area shape="rect" id="node5" href="$pendulum__dynamics__solver_8h.html" title="/home/wxm/tmp/exotica\l/exotations/dynamics\l_solvers/exotica_pendulum\l_dynamics_solver/include\l/exotica_pendulum_dynamics\l_solver/pendulum_dynamics_solver.h" alt="" coords="2253,221,2493,321"/>
-<area shape="rect" id="node6" href="$pinocchio__dynamics__solver_8h.html" title="/home/wxm/tmp/exotica\l/exotations/dynamics\l_solvers/exotica_pinocchio\l_dynamics_solver/include\l/exotica_pinocchio_dynamics\l_solver/pinocchio_dynamics_solver.h" alt="" coords="2517,221,2756,321"/>
-<area shape="rect" id="node7" href="$pinocchio__gravity__compensation__dynamics__solver_8h.html" title="/home/wxm/tmp/exotica\l/exotations/dynamics\l_solvers/exotica_pinocchio\l_dynamics_solver/include\l/exotica_pinocchio_dynamics\l_solver/pinocchio_gravity_compensation\l_dynamics_solver.h" alt="" coords="2780,213,3037,328"/>
-<area shape="rect" id="node8" href="$quadrotor__dynamics__solver_8h.html" title="/home/wxm/tmp/exotica\l/exotations/dynamics\l_solvers/exotica_quadrotor\l_dynamics_solver/include\l/exotica_quadrotor_dynamics\l_solver/quadrotor_dynamics_solver.h" alt="" coords="3061,221,3300,321"/>
-<area shape="rect" id="node9" href="$planning__problem_8h.html" title="/home/wxm/tmp/exotica\l/exotica_core/include\l/exotica_core/planning\l_problem.h" alt="" coords="689,383,851,454"/>
-<area shape="rect" id="node23" href="$task__map_8h.html" title="/home/wxm/tmp/exotica\l/exotica_core/include\l/exotica_core/task_map.h" alt="" coords="3376,243,3548,299"/>
-<area shape="rect" id="node48" href="$visualization__meshcat_8h.html" title="/home/wxm/tmp/exotica\l/exotica_core/include\l/exotica_core/visualization\l_meshcat.h" alt="" coords="3573,235,3749,306"/>
-<area shape="rect" id="node49" href="$visualization__meshcat__types_8h.html" title="/home/wxm/tmp/exotica\l/exotica_core/include\l/exotica_core/visualization\l_meshcat_types.h" alt="" coords="3773,235,3949,306"/>
-<area shape="rect" id="node50" href="$visualization__moveit_8h.html" title="/home/wxm/tmp/exotica\l/exotica_core/include\l/exotica_core/visualization\l_moveit.h" alt="" coords="3973,235,4149,306"/>
-<area shape="rect" id="node10" href="$exotica__core_8h.html" title="/home/wxm/tmp/exotica\l/exotica_core/include\l/exotica_core/exotica\l_core.h" alt="" coords="689,880,851,951"/>
-<area shape="rect" id="node11" href="$xml__loader_8h.html" title="/home/wxm/tmp/exotica\l/exotica_core/include\l/exotica_core/loaders\l/xml_loader.h" alt="" coords="75,754,238,825"/>
-<area shape="rect" id="node12" href="$motion__solver_8h.html" title="/home/wxm/tmp/exotica\l/exotica_core/include\l/exotica_core/motion_solver.h" alt="" coords="148,509,344,565"/>
-<area shape="rect" id="node13" href="$setup_8h.html" title="/home/wxm/tmp/exotica\l/exotica_core/include\l/exotica_core/setup.h" alt="" coords="245,628,407,684"/>
-<area shape="rect" id="node14" href="$abstract__time__indexed__problem_8h.html" title="/home/wxm/tmp/exotica\l/exotica_core/include\l/exotica_core/problems\l/abstract_time_indexed\l_problem.h" alt="" coords="482,613,645,699"/>
-<area shape="rect" id="node15" href="$unconstrained__time__indexed__problem_8h.html" title="/home/wxm/tmp/exotica\l/exotica_core/include\l/exotica_core/problems\l/unconstrained_time_indexed\l_problem.h" alt="" coords="504,747,695,832"/>
-<area shape="rect" id="node16" href="$bounded__end__pose__problem_8h.html" title="/home/wxm/tmp/exotica\l/exotica_core/include\l/exotica_core/problems\l/bounded_end_pose_problem.h" alt="" coords="669,621,871,691"/>
-<area shape="rect" id="node17" href="$dynamic__time__indexed__shooting__problem_8h.html" title="/home/wxm/tmp/exotica\l/exotica_core/include\l/exotica_core/problems\l/dynamic_time_indexed_shooting\l_problem.h" alt="" coords="896,613,1111,699"/>
-<area shape="rect" id="node18" href="$end__pose__problem_8h.html" title="/home/wxm/tmp/exotica\l/exotica_core/include\l/exotica_core/problems\l/end_pose_problem.h" alt="" coords="1186,621,1349,691"/>
-<area shape="rect" id="node19" href="$sampling__problem_8h.html" title="/home/wxm/tmp/exotica\l/exotica_core/include\l/exotica_core/problems\l/sampling_problem.h" alt="" coords="1373,621,1535,691"/>
-<area shape="rect" id="node20" href="$time__indexed__sampling__problem_8h.html" title="/home/wxm/tmp/exotica\l/exotica_core/include\l/exotica_core/problems\l/time_indexed_sampling\l_problem.h" alt="" coords="1559,613,1722,699"/>
-<area shape="rect" id="node21" href="$unconstrained__end__pose__problem_8h.html" title="/home/wxm/tmp/exotica\l/exotica_core/include\l/exotica_core/problems\l/unconstrained_end_pose\l_problem.h" alt="" coords="1746,613,1917,699"/>
-<area shape="rect" id="node22" href="$tasks_8h.html" title="/home/wxm/tmp/exotica\l/exotica_core/include\l/exotica_core/tasks.h" alt="" coords="1067,509,1230,565"/>
-<area shape="rect" id="node24" href="$avoid__look__at__sphere_8h.html" title="/home/wxm/tmp/exotica\l/exotations/exotica_core\l_task_maps/include/exotica\l_core_task_maps/avoid_look\l_at_sphere.h" alt="" coords="5859,376,6049,461"/>
-<area shape="rect" id="node25" href="$center__of__mass_8h.html" title="/home/wxm/tmp/exotica\l/exotations/exotica_core\l_task_maps/include/exotica\l_core_task_maps/center_of_mass.h" alt="" coords="6073,383,6307,454"/>
-<area shape="rect" id="node26" href="$collision__check_8h.html" title="/home/wxm/tmp/exotica\l/exotations/exotica_core\l_task_maps/include/exotica\l_core_task_maps/collision_check.h" alt="" coords="6331,383,6561,454"/>
-<area shape="rect" id="node27" href="$collision__distance_8h.html" title="/home/wxm/tmp/exotica\l/exotations/exotica_core\l_task_maps/include/exotica\l_core_task_maps/collision\l_distance.h" alt="" coords="875,376,1059,461"/>
-<area shape="rect" id="node28" href="$continuous__joint__pose_8h.html" title="/home/wxm/tmp/exotica\l/exotations/exotica_core\l_task_maps/include/exotica\l_core_task_maps/continuous\l_joint_pose.h" alt="" coords="1083,376,1275,461"/>
-<area shape="rect" id="node29" href="$control__regularization_8h.html" title="/home/wxm/tmp/exotica\l/exotations/exotica_core\l_task_maps/include/exotica\l_core_task_maps/control_regularization.h" alt="" coords="1300,383,1563,454"/>
-<area shape="rect" id="node30" href="$distance_8h.html" title="/home/wxm/tmp/exotica\l/exotations/exotica_core\l_task_maps/include/exotica\l_core_task_maps/distance.h" alt="" coords="1587,383,1777,454"/>
-<area shape="rect" id="node31" href="$eff__axis__alignment_8h.html" title="/home/wxm/tmp/exotica\l/exotations/exotica_core\l_task_maps/include/exotica\l_core_task_maps/eff_axis_alignment.h" alt="" coords="1801,383,2051,454"/>
-<area shape="rect" id="node32" href="$eff__box_8h.html" title="/home/wxm/tmp/exotica\l/exotations/exotica_core\l_task_maps/include/exotica\l_core_task_maps/eff_box.h" alt="" coords="2075,383,2259,454"/>
-<area shape="rect" id="node33" href="$eff__frame_8h.html" title="/home/wxm/tmp/exotica\l/exotations/exotica_core\l_task_maps/include/exotica\l_core_task_maps/eff_frame.h" alt="" coords="2283,383,2478,454"/>
-<area shape="rect" id="node34" href="$eff__orientation_8h.html" title="/home/wxm/tmp/exotica\l/exotations/exotica_core\l_task_maps/include/exotica\l_core_task_maps/eff_orientation.h" alt="" coords="2503,383,2725,454"/>
-<area shape="rect" id="node35" href="$eff__position_8h.html" title="/home/wxm/tmp/exotica\l/exotations/exotica_core\l_task_maps/include/exotica\l_core_task_maps/eff_position.h" alt="" coords="2749,383,2956,454"/>
-<area shape="rect" id="node36" href="$eff__position__xy_8h.html" title="/home/wxm/tmp/exotica\l/exotations/exotica_core\l_task_maps/include/exotica\l_core_task_maps/eff_position_xy.h" alt="" coords="2980,383,3208,454"/>
-<area shape="rect" id="node37" href="$eff__velocity_8h.html" title="/home/wxm/tmp/exotica\l/exotations/exotica_core\l_task_maps/include/exotica\l_core_task_maps/eff_velocity.h" alt="" coords="3232,383,3439,454"/>
-<area shape="rect" id="node38" href="$gaze__at__constraint_8h.html" title="/home/wxm/tmp/exotica\l/exotations/exotica_core\l_task_maps/include/exotica\l_core_task_maps/gaze_at_constraint.h" alt="" coords="3463,383,3714,454"/>
-<area shape="rect" id="node39" href="$interaction__mesh_8h.html" title="/home/wxm/tmp/exotica\l/exotations/exotica_core\l_task_maps/include/exotica\l_core_task_maps/interaction_mesh.h" alt="" coords="3739,383,3977,454"/>
-<area shape="rect" id="node40" href="$joint__acceleration__backward__difference_8h.html" title="/home/wxm/tmp/exotica\l/exotations/exotica_core\l_task_maps/include/exotica\l_core_task_maps/joint_acceleration\l_backward_difference.h" alt="" coords="4001,376,4232,461"/>
-<area shape="rect" id="node41" href="$joint__jerk__backward__difference_8h.html" title="/home/wxm/tmp/exotica\l/exotations/exotica_core\l_task_maps/include/exotica\l_core_task_maps/joint_jerk\l_backward_difference.h" alt="" coords="4257,376,4441,461"/>
-<area shape="rect" id="node42" href="$joint__limit_8h.html" title="/home/wxm/tmp/exotica\l/exotations/exotica_core\l_task_maps/include/exotica\l_core_task_maps/joint_limit.h" alt="" coords="4465,383,4659,454"/>
-<area shape="rect" id="node43" href="$joint__pose_8h.html" title="/home/wxm/tmp/exotica\l/exotations/exotica_core\l_task_maps/include/exotica\l_core_task_maps/joint_pose.h" alt="" coords="4684,383,4883,454"/>
-<area shape="rect" id="node44" href="$joint__torque__minimization__proxy_8h.html" title="/home/wxm/tmp/exotica\l/exotations/exotica_core\l_task_maps/include/exotica\l_core_task_maps/joint_torque\l_minimization_proxy.h" alt="" coords="4907,376,5103,461"/>
-<area shape="rect" id="node45" href="$joint__velocity__backward__difference_8h.html" title="/home/wxm/tmp/exotica\l/exotations/exotica_core\l_task_maps/include/exotica\l_core_task_maps/joint_velocity\l_backward_difference.h" alt="" coords="5127,376,5333,461"/>
-<area shape="rect" id="node46" href="$joint__velocity__limit_8h.html" title="/home/wxm/tmp/exotica\l/exotations/exotica_core\l_task_maps/include/exotica\l_core_task_maps/joint_velocity_limit.h" alt="" coords="5357,383,5604,454"/>
-<area shape="rect" id="node47" href="$joint__velocity__limit__constraint_8h.html" title="/home/wxm/tmp/exotica\l/exotations/exotica_core\l_task_maps/include/exotica\l_core_task_maps/joint_velocity\l_limit_constraint.h" alt="" coords="5629,376,5834,461"/>
+<map id="/tmp/exotica/exotica_core/include/exotica_core/trajectory.h" name="/tmp/exotica/exotica_core/include/exotica_core/trajectory.h">
+<area shape="rect" id="node1" title=" " alt="" coords="3472,5,3649,76"/>
+<area shape="rect" id="node2" href="$scene_8h.html" title=" " alt="" coords="3472,124,3649,195"/>
+<area shape="rect" id="node3" href="$cartpole__dynamics__solver_8h.html" title=" " alt="" coords="2135,250,2364,350"/>
+<area shape="rect" id="node4" href="$double__integrator__dynamics__solver_8h.html" title=" " alt="" coords="2389,243,2620,357"/>
+<area shape="rect" id="node5" href="$pendulum__dynamics__solver_8h.html" title=" " alt="" coords="2644,250,2882,350"/>
+<area shape="rect" id="node6" href="$pinocchio__dynamics__solver_8h.html" title=" " alt="" coords="2906,243,3156,357"/>
+<area shape="rect" id="node7" href="$pinocchio__gravity__compensation__dynamics__solver_8h.html" title=" " alt="" coords="3180,243,3412,357"/>
+<area shape="rect" id="node8" href="$quadrotor__dynamics__solver_8h.html" title=" " alt="" coords="3436,243,3684,357"/>
+<area shape="rect" id="node9" href="$planning__problem_8h.html" title=" " alt="" coords="754,413,932,483"/>
+<area shape="rect" id="node23" href="$task__map_8h.html" title=" " alt="" coords="3760,265,3937,335"/>
+<area shape="rect" id="node48" href="$visualization__meshcat_8h.html" title=" " alt="" coords="3961,265,4138,335"/>
+<area shape="rect" id="node49" href="$visualization__meshcat__types_8h.html" title=" " alt="" coords="4163,265,4368,335"/>
+<area shape="rect" id="node50" href="$visualization__moveit_8h.html" title=" " alt="" coords="4393,265,4570,335"/>
+<area shape="rect" id="node10" href="$exotica__core_8h.html" title=" " alt="" coords="754,924,932,995"/>
+<area shape="rect" id="node11" href="$xml__loader_8h.html" title=" " alt="" coords="76,798,253,869"/>
+<area shape="rect" id="node12" href="$motion__solver_8h.html" title=" " alt="" coords="165,539,342,609"/>
+<area shape="rect" id="node13" href="$setup_8h.html" title=" " alt="" coords="253,665,430,735"/>
+<area shape="rect" id="node14" href="$abstract__time__indexed__problem_8h.html" title=" " alt="" coords="506,657,721,743"/>
+<area shape="rect" id="node15" href="$unconstrained__time__indexed__problem_8h.html" title=" " alt="" coords="562,791,758,876"/>
+<area shape="rect" id="node16" href="$bounded__end__pose__problem_8h.html" title=" " alt="" coords="746,657,940,743"/>
+<area shape="rect" id="node17" href="$dynamic__time__indexed__shooting__problem_8h.html" title=" " alt="" coords="964,657,1180,743"/>
+<area shape="rect" id="node18" href="$end__pose__problem_8h.html" title=" " alt="" coords="1255,665,1458,735"/>
+<area shape="rect" id="node19" href="$sampling__problem_8h.html" title=" " alt="" coords="1482,665,1681,735"/>
+<area shape="rect" id="node20" href="$time__indexed__sampling__problem_8h.html" title=" " alt="" coords="1706,657,1924,743"/>
+<area shape="rect" id="node21" href="$unconstrained__end__pose__problem_8h.html" title=" " alt="" coords="1948,657,2140,743"/>
+<area shape="rect" id="node22" href="$tasks_8h.html" title=" " alt="" coords="1129,539,1306,609"/>
+<area shape="rect" id="node24" href="$avoid__look__at__sphere_8h.html" title=" " alt="" coords="6416,405,6632,491"/>
+<area shape="rect" id="node25" href="$center__of__mass_8h.html" title=" " alt="" coords="6656,405,6872,491"/>
+<area shape="rect" id="node26" href="$collision__check_8h.html" title=" " alt="" coords="6896,413,7171,483"/>
+<area shape="rect" id="node27" href="$collision__distance_8h.html" title=" " alt="" coords="956,405,1178,491"/>
+<area shape="rect" id="node28" href="$continuous__joint__pose_8h.html" title=" " alt="" coords="1202,405,1441,491"/>
+<area shape="rect" id="node29" href="$control__regularization_8h.html" title=" " alt="" coords="1466,405,1682,491"/>
+<area shape="rect" id="node30" href="$distance_8h.html" title=" " alt="" coords="1706,413,1940,483"/>
+<area shape="rect" id="node31" href="$eff__axis__alignment_8h.html" title=" " alt="" coords="1964,405,2186,491"/>
+<area shape="rect" id="node32" href="$eff__box_8h.html" title=" " alt="" coords="2210,413,2439,483"/>
+<area shape="rect" id="node33" href="$eff__frame_8h.html" title=" " alt="" coords="2464,413,2705,483"/>
+<area shape="rect" id="node34" href="$eff__orientation_8h.html" title=" " alt="" coords="2729,413,2997,483"/>
+<area shape="rect" id="node35" href="$eff__position_8h.html" title=" " alt="" coords="3022,413,3275,483"/>
+<area shape="rect" id="node36" href="$eff__position__xy_8h.html" title=" " alt="" coords="3299,413,3571,483"/>
+<area shape="rect" id="node37" href="$eff__velocity_8h.html" title=" " alt="" coords="3595,413,3846,483"/>
+<area shape="rect" id="node38" href="$gaze__at__constraint_8h.html" title=" " alt="" coords="3870,405,4086,491"/>
+<area shape="rect" id="node39" href="$interaction__mesh_8h.html" title=" " alt="" coords="4110,413,4395,483"/>
+<area shape="rect" id="node40" href="$joint__acceleration__backward__difference_8h.html" title=" " alt="" coords="4419,405,4656,491"/>
+<area shape="rect" id="node41" href="$joint__jerk__backward__difference_8h.html" title=" " alt="" coords="4680,405,4896,491"/>
+<area shape="rect" id="node42" href="$joint__limit_8h.html" title=" " alt="" coords="4921,413,5162,483"/>
+<area shape="rect" id="node43" href="$joint__pose_8h.html" title=" " alt="" coords="5187,413,5432,483"/>
+<area shape="rect" id="node44" href="$joint__torque__minimization__proxy_8h.html" title=" " alt="" coords="5456,405,5672,491"/>
+<area shape="rect" id="node45" href="$joint__velocity__backward__difference_8h.html" title=" " alt="" coords="5696,405,5912,491"/>
+<area shape="rect" id="node46" href="$joint__velocity__limit_8h.html" title=" " alt="" coords="5936,405,6152,491"/>
+<area shape="rect" id="node47" href="$joint__velocity__limit__constraint_8h.html" title=" " alt="" coords="6176,405,6392,491"/>
 </map>

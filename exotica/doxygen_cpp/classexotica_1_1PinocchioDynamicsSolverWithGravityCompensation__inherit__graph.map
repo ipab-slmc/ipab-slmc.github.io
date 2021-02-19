@@ -1,7 +1,8 @@
 <map id="exotica::PinocchioDynamicsSolverWithGravityCompensation" name="exotica::PinocchioDynamicsSolverWithGravityCompensation">
-<area shape="rect" id="node2" href="$classexotica_1_1AbstractDynamicsSolver.html" title="{DynamicsSolver\n|# num_controls_\l# num_positions_\l# num_velocities_\l# num_state_\l# num_state_derivative_\l# has_second_order_derivatives_\l# second_order_derivatives\l_initialized_\l# has_state_limits_\l# state_limits_lower_\l# state_limits_upper_\land 10 more...\l&#45; control_limits_initialized_\l&#45; raw_control_limits_low_\l&#45; raw_control_limits\l_high_\l|+ AbstractDynamicsSolver()\l+ ~AbstractDynamicsSolver()\l+ InstantiateBase()\l+ AssignScene()\l+ SetDt()\l+ f()\l+ F()\l+ ComputeDerivatives()\l+ get_Fx()\l+ get_Fu()\land 30 more...\l# SimulateOneStep()\l# InitializeSecondOrderDerivatives()\l}" alt="" coords="109,233,339,707"/>
-<area shape="rect" id="node3" href="$classexotica_1_1Object.html" title="{exotica::Object\n|+ ns_\l+ object_name_\l+ debug_\l|+ Object()\l+ ~Object()\l+ type()\l+ GetObjectName()\l+ InstantiateObject()\l+ Print()\l}" alt="" coords="5,5,147,185"/>
-<area shape="rect" id="node4" href="$classexotica_1_1Uncopyable.html" title="{exotica::Uncopyable\n||+ Uncopyable()\l+ ~Uncopyable()\l&#45; Uncopyable()\l&#45; operator=()\l}" alt="" coords="171,35,312,156"/>
-<area shape="rect" id="node5" href="$classexotica_1_1InstantiableBase.html" title="{exotica::InstantiableBase\n||+ GetInitializerTemplate()\l+ InstantiateInternal()\l+ InstantiateBase()\l+ GetAllTemplates()\l}" alt="" coords="370,35,539,156"/>
-<area shape="rect" id="node6" href="$classexotica_1_1Instantiable.html" title="{exotica::Instantiable\l\&lt; PinocchioDynamicsSolverWith\lGravityCompensationInitializer \&gt;\n|# parameters_\l|+ InstantiateInternal()\l+ GetInitializerTemplate()\l+ GetAllTemplates()\l+ Instantiate()\l+ GetParameters()\l}" alt="" coords="363,387,578,553"/>
+<area shape="rect" id="node1" title=" " alt="" coords="241,755,453,1052"/>
+<area shape="rect" id="node2" href="$classexotica_1_1AbstractDynamicsSolver.html" title=" " alt="" coords="109,233,339,707"/>
+<area shape="rect" id="node3" href="$classexotica_1_1Object.html" title=" " alt="" coords="5,5,147,185"/>
+<area shape="rect" id="node4" href="$classexotica_1_1Uncopyable.html" title=" " alt="" coords="171,35,312,156"/>
+<area shape="rect" id="node5" href="$classexotica_1_1InstantiableBase.html" title=" " alt="" coords="370,20,539,171"/>
+<area shape="rect" id="node6" href="$classexotica_1_1Instantiable.html" title=" " alt="" coords="363,387,578,553"/>
 </map>

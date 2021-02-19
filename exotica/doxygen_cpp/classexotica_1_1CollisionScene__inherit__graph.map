@@ -1,6 +1,7 @@
 <map id="exotica::CollisionScene" name="exotica::CollisionScene">
-<area shape="rect" id="node5" href="$classexotica_1_1CollisionSceneFCLLatest.html" title="{exotica::CollisionSceneFCLLatest\n|&#45; broad_phase_collision\l_manager_\l&#45; fcl_objects_\l&#45; fcl_cache_\l&#45; kinematic_elements_\l&#45; kinematic_elements_map_\l&#45; fcl_objects_map_\l&#45; fcl_robot_objects_map_\l&#45; fcl_world_objects_map_\l|+ Setup()\l+ IsAllowedToCollide()\l+ IsStateValid()\l+ IsCollisionFree()\l+ GetCollisionDistance()\l+ GetCollisionDistance()\l+ GetCollisionDistance()\l+ GetCollisionDistance()\l+ GetCollisionDistance()\l+ GetRobotToRobotCollision\lDistance()\land 7 more...\l+ IsAllowedToCollide()\l+ CollisionCallback()\l+ CollisionCallbackDistance()\l&#45; ConstructFclCollisionObject()\l&#45; GetKinematicElementFromMap\lByName()\l&#45; GetRobotCollisionObjects\lFromMapByName()\l&#45; GetWorldCollisionObjects\lFromMapByName()\l&#45; GetCollisionObjectsFromMap\lByName()\l&#45; CheckCollision()\l&#45; ComputeDistance()\l}" alt="" coords="131,740,351,1301"/>
-<area shape="rect" id="node2" href="$classexotica_1_1Object.html" title="{exotica::Object\n|+ ns_\l+ object_name_\l+ debug_\l|+ Object()\l+ ~Object()\l+ type()\l+ GetObjectName()\l+ InstantiateObject()\l+ Print()\l}" alt="" coords="5,5,147,185"/>
-<area shape="rect" id="node3" href="$classexotica_1_1Uncopyable.html" title="{exotica::Uncopyable\n||+ Uncopyable()\l+ ~Uncopyable()\l&#45; Uncopyable()\l&#45; operator=()\l}" alt="" coords="171,35,312,156"/>
-<area shape="rect" id="node4" href="$classexotica_1_1InstantiableBase.html" title="{exotica::InstantiableBase\n||+ GetInitializerTemplate()\l+ InstantiateInternal()\l+ InstantiateBase()\l+ GetAllTemplates()\l}" alt="" coords="337,35,506,156"/>
+<area shape="rect" id="node1" title="The class of collision scene." alt="" coords="146,233,337,692"/>
+<area shape="rect" id="node5" href="$classexotica_1_1CollisionSceneFCLLatest.html" title=" " alt="" coords="131,740,351,1301"/>
+<area shape="rect" id="node2" href="$classexotica_1_1Object.html" title=" " alt="" coords="5,5,147,185"/>
+<area shape="rect" id="node3" href="$classexotica_1_1Uncopyable.html" title=" " alt="" coords="171,35,312,156"/>
+<area shape="rect" id="node4" href="$classexotica_1_1InstantiableBase.html" title=" " alt="" coords="337,20,506,171"/>
 </map>

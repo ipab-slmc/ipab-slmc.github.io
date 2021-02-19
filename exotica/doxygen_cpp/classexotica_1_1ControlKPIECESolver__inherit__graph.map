@@ -1,8 +1,9 @@
 <map id="exotica::ControlKPIECESolver" name="exotica::ControlKPIECESolver">
-<area shape="rect" id="node2" href="$classexotica_1_1OMPLControlSolver.html" title="{exotica::OMPLControlSolver\n|# prob_\l# dynamics_solver_\l# init_\l# setup_\l# algorithm_\l# planner_allocator_\l|+ Solve()\l+ SpecifyProblem()\l# Setup()\l# isStateValid()\l# AllocatePlanner()\l}" alt="" coords="109,520,297,729"/>
-<area shape="rect" id="node3" href="$classexotica_1_1MotionSolver.html" title="{exotica::MotionSolver\n|# problem_\l# planning_time_\l# max_iterations_\l|+ MotionSolver()\l+ ~MotionSolver()\l+ InstantiateBase()\l+ SpecifyProblem()\l+ Solve()\l+ GetProblem()\l+ Print()\l+ SetNumberOfMaxIterations()\l+ GetNumberOfMaxIterations()\l+ GetPlanningTime()\l}" alt="" coords="127,233,329,472"/>
-<area shape="rect" id="node4" href="$classexotica_1_1Object.html" title="{exotica::Object\n|+ ns_\l+ object_name_\l+ debug_\l|+ Object()\l+ ~Object()\l+ type()\l+ GetObjectName()\l+ InstantiateObject()\l+ Print()\l}" alt="" coords="5,5,147,185"/>
-<area shape="rect" id="node5" href="$classexotica_1_1Uncopyable.html" title="{exotica::Uncopyable\n||+ Uncopyable()\l+ ~Uncopyable()\l&#45; Uncopyable()\l&#45; operator=()\l}" alt="" coords="171,35,312,156"/>
-<area shape="rect" id="node6" href="$classexotica_1_1InstantiableBase.html" title="{exotica::InstantiableBase\n||+ GetInitializerTemplate()\l+ InstantiateInternal()\l+ InstantiateBase()\l+ GetAllTemplates()\l}" alt="" coords="343,35,513,156"/>
-<area shape="rect" id="node7" href="$classexotica_1_1Instantiable.html" title="{exotica::Instantiable\l\&lt; ControlKPIECESolverInitializer \&gt;\n|# parameters_\l|+ InstantiateInternal()\l+ GetInitializerTemplate()\l+ GetAllTemplates()\l+ Instantiate()\l+ GetParameters()\l}" alt="" coords="321,549,548,700"/>
+<area shape="rect" id="node1" title=" " alt="" coords="218,777,419,869"/>
+<area shape="rect" id="node2" href="$classexotica_1_1OMPLControlSolver.html" title=" " alt="" coords="109,520,297,729"/>
+<area shape="rect" id="node3" href="$classexotica_1_1MotionSolver.html" title=" " alt="" coords="127,233,329,472"/>
+<area shape="rect" id="node4" href="$classexotica_1_1Object.html" title=" " alt="" coords="5,5,147,185"/>
+<area shape="rect" id="node5" href="$classexotica_1_1Uncopyable.html" title=" " alt="" coords="171,35,312,156"/>
+<area shape="rect" id="node6" href="$classexotica_1_1InstantiableBase.html" title=" " alt="" coords="343,20,513,171"/>
+<area shape="rect" id="node7" href="$classexotica_1_1Instantiable.html" title=" " alt="" coords="321,549,548,700"/>
 </map>

@@ -1,10 +1,12 @@
 <map id="exotica::SamplingProblem" name="exotica::SamplingProblem">
-<area shape="rect" id="node2" href="$classexotica_1_1PlanningProblem.html" title="{exotica::PlanningProblem\n|+ t_start\l+ termination_criterion\l+ N\l# scene_\l# task_maps_\l# tasks_\l# flags_\l# start_state_\l# number_of_problem_updates_\l# cost_evolution_\l|+ PlanningProblem()\l+ ~PlanningProblem()\l+ InstantiateBase()\l+ GetTaskMaps()\l+ GetTasks()\l+ GetScene()\l+ Print()\l+ SetStartState()\l+ GetStartState()\l+ ApplyStartState()\land 15 more...\l# UpdateTaskKinematics()\l# UpdateMultipleTaskKinematics()\l}" alt="" coords="319,263,542,648"/>
-<area shape="rect" id="node3" href="$classexotica_1_1Object.html" title="{exotica::Object\n|+ ns_\l+ object_name_\l+ debug_\l|+ Object()\l+ ~Object()\l+ type()\l+ GetObjectName()\l+ InstantiateObject()\l+ Print()\l}" alt="" coords="400,5,541,185"/>
-<area shape="rect" id="node4" href="$classexotica_1_1Uncopyable.html" title="{exotica::Uncopyable\n||+ Uncopyable()\l+ ~Uncopyable()\l&#45; Uncopyable()\l&#45; operator=()\l}" alt="" coords="235,35,376,156"/>
-<area shape="rect" id="node5" href="$classexotica_1_1InstantiableBase.html" title="{exotica::InstantiableBase\n||+ GetInitializerTemplate()\l+ InstantiateInternal()\l+ InstantiateBase()\l+ GetAllTemplates()\l}" alt="" coords="566,35,735,156"/>
-<area shape="rect" id="node7" href="$classexotica_1_1Instantiable.html" title="{exotica::Instantiable\l\&lt; SamplingProblemInitializer \&gt;\n|# parameters_\l|+ InstantiateInternal()\l+ GetInitializerTemplate()\l+ GetAllTemplates()\l+ Instantiate()\l+ GetParameters()\l}" alt="" coords="565,380,765,531"/>
-<area shape="rect" id="node8" href="$structexotica_1_1SamplingTask.html" title="{exotica::SamplingTask\n|+ rho\l+ ydiff\l+ S\l|+ Initialize()\l+ UpdateS()\l+ Update()\l+ SetGoal()\l+ GetGoal()\l+ SetRho()\l+ GetRho()\l}" alt="" coords="789,358,944,553"/>
-<area shape="rect" id="node9" href="$structexotica_1_1Task.html" title="{exotica::Task\n|+ task_maps\l+ tasks\l+ indexing\l+ length_Phi\l+ length_jacobian\l+ num_tasks\l+ tolerance\l# task_initializers_\l|+ Initialize()\l}" alt="" coords="760,5,891,185"/>
-<area shape="rect" id="node10" href="$structexotica_1_1TaskSpaceVector.html" title="{exotica::TaskSpaceVector\n|+ data\l+ map\l|+ TaskSpaceVector()\l+ ~TaskSpaceVector()\l+ operator=()\l+ operator&#45;()\l+ SetZero()\l}" alt="" coords="915,20,1091,171"/>
+<area shape="rect" id="node1" title=" " alt="" coords="670,755,845,1037"/>
+<area shape="rect" id="node2" href="$classexotica_1_1PlanningProblem.html" title=" " alt="" coords="320,292,541,677"/>
+<area shape="rect" id="node3" href="$classexotica_1_1Object.html" title=" " alt="" coords="400,20,541,200"/>
+<area shape="rect" id="node4" href="$classexotica_1_1Uncopyable.html" title=" " alt="" coords="235,49,376,171"/>
+<area shape="rect" id="node5" href="$classexotica_1_1InstantiableBase.html" title=" " alt="" coords="566,35,735,185"/>
+<area shape="rect" id="node7" href="$classexotica_1_1Instantiable.html" title=" " alt="" coords="565,409,765,560"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,64,211,156"/>
+<area shape="rect" id="node8" href="$structexotica_1_1SamplingTask.html" title=" " alt="" coords="789,373,944,597"/>
+<area shape="rect" id="node9" href="$structexotica_1_1Task.html" title=" " alt="" coords="760,5,891,215"/>
+<area shape="rect" id="node10" href="$structexotica_1_1TaskSpaceVector.html" title=" " alt="" coords="915,35,1090,185"/>
 </map>

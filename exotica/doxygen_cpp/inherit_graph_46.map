@@ -1,6 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structexotica_1_1Task.html" title="exotica::Task" alt="" coords="5,56,107,83"/>
-<area shape="rect" id="node2" href="$structexotica_1_1EndPoseTask.html" title="exotica::EndPoseTask" alt="" coords="165,5,320,32"/>
-<area shape="rect" id="node3" href="$structexotica_1_1SamplingTask.html" title="exotica::SamplingTask" alt="" coords="165,56,320,83"/>
-<area shape="rect" id="node4" href="$structexotica_1_1TimeIndexedTask.html" title="exotica::TimeIndexedTask" alt="" coords="155,107,331,133"/>
+<area shape="rect" id="node1" href="$structexotica_1_1Task.html" title=" " alt="" coords="5,56,105,83"/>
+<area shape="rect" id="node2" href="$structexotica_1_1EndPoseTask.html" title=" " alt="" coords="164,5,317,32"/>
+<area shape="rect" id="node3" href="$structexotica_1_1SamplingTask.html" title=" " alt="" coords="163,56,318,83"/>
+<area shape="rect" id="node4" href="$structexotica_1_1TimeIndexedTask.html" title=" " alt="" coords="153,107,328,133"/>
 </map>

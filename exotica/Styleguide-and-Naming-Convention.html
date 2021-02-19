@@ -1,39 +1,42 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
   
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Code Styleguide and Naming Convention &mdash; EXOTica 6.0.0 documentation</title>
+  <title>Code Styleguide and Naming Convention &mdash; EXOTica 6.0.2 documentation</title>
   
-
-  
-  
-  
-  
-
-  
-  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
-  
-    
-      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-        <script type="text/javascript" src="_static/jquery.js"></script>
-        <script type="text/javascript" src="_static/underscore.js"></script>
-        <script type="text/javascript" src="_static/doctools.js"></script>
-        <script type="text/javascript" src="_static/language_data.js"></script>
-        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    
-    <script type="text/javascript" src="_static/js/theme.js"></script>
-
-    
 
   
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Python Bindings" href="Python-API.html" />
@@ -61,7 +64,7 @@
             
             
               <div class="version">
-                6.0.0
+                6.0.2
               </div>
             
           
@@ -78,6 +81,7 @@
           
         </div>
 
+        
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
             
@@ -129,6 +133,7 @@
             
           
         </div>
+        
       </div>
     </nav>
 
@@ -163,18 +168,20 @@
 
 
 
+
+
 <div role="navigation" aria-label="breadcrumbs navigation">
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="index.html">Docs</a> &raquo;</li>
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
         
       <li>Code Styleguide and Naming Convention</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
-            
+          
         
       </li>
     
@@ -191,7 +198,7 @@
 <div class="section" id="packages-files-and-directories">
 <h2>Packages, files and directories<a class="headerlink" href="#packages-files-and-directories" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>Package names in lower case with underscores and exotica prefix:</li>
+<li><p>Package names in lower case with underscores and exotica prefix:</p></li>
 </ul>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">exotica</span>
@@ -206,13 +213,10 @@
 </div>
 </div></blockquote>
 <ul>
-<li><p class="first">All solver packages with <code class="docutils literal notranslate"><span class="pre">_solver</span></code> suffix.</p>
-</li>
-<li><p class="first">All task map packages with <code class="docutils literal notranslate"><span class="pre">_taskmaps</span></code> suffix (or <code class="docutils literal notranslate"><span class="pre">_taskmap</span></code> if it contains only a single task map).</p>
-</li>
-<li><p class="first">File names: <code class="docutils literal notranslate"><span class="pre">with_underscores.cpp</span></code>, <code class="docutils literal notranslate"><span class="pre">with_underscores.h</span></code>, <code class="docutils literal notranslate"><span class="pre">with_underscores.py</span></code> (do not use *.cc, *.hpp, … file types)</p>
-</li>
-<li><p class="first">Directory structure:</p>
+<li><p>All solver packages with <code class="docutils literal notranslate"><span class="pre">_solver</span></code> suffix.</p></li>
+<li><p>All task map packages with <code class="docutils literal notranslate"><span class="pre">_taskmaps</span></code> suffix (or <code class="docutils literal notranslate"><span class="pre">_taskmap</span></code> if it contains only a single task map).</p></li>
+<li><p>File names: <code class="docutils literal notranslate"><span class="pre">with_underscores.cpp</span></code>, <code class="docutils literal notranslate"><span class="pre">with_underscores.h</span></code>, <code class="docutils literal notranslate"><span class="pre">with_underscores.py</span></code> (do not use *.cc, *.hpp, … file types)</p></li>
+<li><p>Directory structure:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">package_name</span>\
 <span class="n">package_name</span>\<span class="n">launch</span>\ <span class="p">(</span><span class="o">*.</span><span class="n">launch</span><span class="p">)</span>
 <span class="n">package_name</span>\<span class="n">src</span>\ <span class="p">(</span><span class="o">*.</span><span class="n">cpp</span><span class="p">)</span>
@@ -230,9 +234,9 @@
 </ul>
 <p>For files in <code class="docutils literal notranslate"><span class="pre">scripts/</span></code>, if they are Python file:</p>
 <ul class="simple">
-<li>Make the script executable (<code class="docutils literal notranslate"><span class="pre">chmod</span> <span class="pre">+x</span> <span class="pre">filename</span></code>).</li>
-<li>Add an appropriate shebang.</li>
-<li>Do not include the file ending.</li>
+<li><p>Make the script executable (<code class="docutils literal notranslate"><span class="pre">chmod</span> <span class="pre">+x</span> <span class="pre">filename</span></code>).</p></li>
+<li><p>Add an appropriate shebang.</p></li>
+<li><p>Do not include the file ending.</p></li>
 </ul>
 </div>
 <div class="section" id="c">
@@ -240,49 +244,49 @@
 <p>We follow the <a class="reference external" href="https://google.github.io/styleguide/cppguide.html#Naming">Google C++ style guide</a> with minor amendments (cf. file naming above). A good reference on notation terminology is the <a class="reference external" href="https://drake.mit.edu/doxygen_cxx/group__multibody__notation.html">Drake style guide</a>.</p>
 <p>Where the Google style guide leaves multiple options, here are our choices:</p>
 <ul class="simple">
-<li>Use <code class="docutils literal notranslate"><span class="pre">override</span></code> instead of <code class="docutils literal notranslate"><span class="pre">virtual</span></code> when overriding a function in a child class.</li>
-<li>Order output parameters after inputs if returning values via arguments.</li>
-<li>Avoid boost.</li>
-<li>Always use C++11.</li>
-<li>Type names: <code class="docutils literal notranslate"><span class="pre">CamelCasedWithFirstCapitalLetter</span></code></li>
-<li>Variable names: <code class="docutils literal notranslate"><span class="pre">with_underscores</span></code></li>
-<li>Member variables: <code class="docutils literal notranslate"><span class="pre">with_underscores_and_trailing_underscore_</span></code></li>
-<li>Struct data members: <code class="docutils literal notranslate"><span class="pre">with_underscores</span></code></li>
-<li>Constants: <code class="docutils literal notranslate"><span class="pre">kCamelCasedWithPrefix</span></code></li>
-<li>Function names: <code class="docutils literal notranslate"><span class="pre">CamelCasedWithFirstCapitalLetter</span></code></li>
-<li>Namespace names (always single word): <code class="docutils literal notranslate"><span class="pre">lowercase</span></code></li>
-<li>Enum names: <code class="docutils literal notranslate"><span class="pre">CamelCasedWithFirstCapitalLetter</span></code></li>
-<li>Enum data members: <code class="docutils literal notranslate"><span class="pre">ALL_CAPS</span></code></li>
-<li>Macro names: <code class="docutils literal notranslate"><span class="pre">ALL_CAPS</span></code></li>
-<li>Comments: <code class="docutils literal notranslate"><span class="pre">//</span> <span class="pre">always</span> <span class="pre">use</span> <span class="pre">double</span> <span class="pre">slash</span></code></li>
-<li>File comments - include author, copyright, and license</li>
-<li>File/class/function/variable comments: <code class="docutils literal notranslate"><span class="pre">///</span> <span class="pre">always</span> <span class="pre">use</span> <span class="pre">doxygen</span> <span class="pre">documentation</span> <span class="pre">style</span> <span class="pre">comments</span></code></li>
-<li>Implementation comments: <code class="docutils literal notranslate"><span class="pre">//</span> <span class="pre">always</span> <span class="pre">use</span> <span class="pre">regular</span> <span class="pre">double</span> <span class="pre">slash</span> <span class="pre">comments</span> <span class="pre">on</span> <span class="pre">a</span> <span class="pre">separate</span> <span class="pre">line</span></code></li>
-<li>TODO: <code class="docutils literal notranslate"><span class="pre">//</span> <span class="pre">TODO(githubusername</span> <span class="pre">or</span> <span class="pre">email)</span> <span class="pre">use</span> <span class="pre">comments</span> <span class="pre">with</span> <span class="pre">enough</span> <span class="pre">detail</span> <span class="pre">-</span> <span class="pre">the</span> <span class="pre">name</span> <span class="pre">references</span> <span class="pre">who</span> <span class="pre">added</span> <span class="pre">it</span> <span class="pre">or</span> <span class="pre">who</span> <span class="pre">is</span> <span class="pre">responsible</span> <span class="pre">for</span> <span class="pre">fixing</span> <span class="pre">it</span></code></li>
+<li><p>Use <code class="docutils literal notranslate"><span class="pre">override</span></code> instead of <code class="docutils literal notranslate"><span class="pre">virtual</span></code> when overriding a function in a child class.</p></li>
+<li><p>Order output parameters after inputs if returning values via arguments.</p></li>
+<li><p>Avoid boost.</p></li>
+<li><p>Always use C++11.</p></li>
+<li><p>Type names: <code class="docutils literal notranslate"><span class="pre">CamelCasedWithFirstCapitalLetter</span></code></p></li>
+<li><p>Variable names: <code class="docutils literal notranslate"><span class="pre">with_underscores</span></code></p></li>
+<li><p>Member variables: <code class="docutils literal notranslate"><span class="pre">with_underscores_and_trailing_underscore_</span></code></p></li>
+<li><p>Struct data members: <code class="docutils literal notranslate"><span class="pre">with_underscores</span></code></p></li>
+<li><p>Constants: <code class="docutils literal notranslate"><span class="pre">kCamelCasedWithPrefix</span></code></p></li>
+<li><p>Function names: <code class="docutils literal notranslate"><span class="pre">CamelCasedWithFirstCapitalLetter</span></code></p></li>
+<li><p>Namespace names (always single word): <code class="docutils literal notranslate"><span class="pre">lowercase</span></code></p></li>
+<li><p>Enum names: <code class="docutils literal notranslate"><span class="pre">CamelCasedWithFirstCapitalLetter</span></code></p></li>
+<li><p>Enum data members: <code class="docutils literal notranslate"><span class="pre">ALL_CAPS</span></code></p></li>
+<li><p>Macro names: <code class="docutils literal notranslate"><span class="pre">ALL_CAPS</span></code></p></li>
+<li><p>Comments: <code class="docutils literal notranslate"><span class="pre">//</span> <span class="pre">always</span> <span class="pre">use</span> <span class="pre">double</span> <span class="pre">slash</span></code></p></li>
+<li><p>File comments - include author, copyright, and license</p></li>
+<li><p>File/class/function/variable comments: <code class="docutils literal notranslate"><span class="pre">///</span> <span class="pre">always</span> <span class="pre">use</span> <span class="pre">doxygen</span> <span class="pre">documentation</span> <span class="pre">style</span> <span class="pre">comments</span></code></p></li>
+<li><p>Implementation comments: <code class="docutils literal notranslate"><span class="pre">//</span> <span class="pre">always</span> <span class="pre">use</span> <span class="pre">regular</span> <span class="pre">double</span> <span class="pre">slash</span> <span class="pre">comments</span> <span class="pre">on</span> <span class="pre">a</span> <span class="pre">separate</span> <span class="pre">line</span></code></p></li>
+<li><p>TODO: <code class="docutils literal notranslate"><span class="pre">//</span> <span class="pre">TODO(githubusername</span> <span class="pre">or</span> <span class="pre">email)</span> <span class="pre">use</span> <span class="pre">comments</span> <span class="pre">with</span> <span class="pre">enough</span> <span class="pre">detail</span> <span class="pre">-</span> <span class="pre">the</span> <span class="pre">name</span> <span class="pre">references</span> <span class="pre">who</span> <span class="pre">added</span> <span class="pre">it</span> <span class="pre">or</span> <span class="pre">who</span> <span class="pre">is</span> <span class="pre">responsible</span> <span class="pre">for</span> <span class="pre">fixing</span> <span class="pre">it</span></code></p></li>
 </ul>
 <div class="section" id="formatting">
 <h3>Formatting<a class="headerlink" href="#formatting" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li>No line length limit (use your own judgment for readability).</li>
-<li>Use the provided clang-format – cf. <a class="reference internal" href="Code-Formatting.html#code-formatting"><span class="std std-ref">Code Formatting</span></a>.</li>
-<li>Use UTF-8 encoding.</li>
-<li>Use 4 spaces instead of tabs.</li>
-<li>Opening <code class="docutils literal notranslate"><span class="pre">{</span></code> on a new line on the same level as the conditional/function/loop and the closing brace.</li>
-<li>Use vertical white space to separate code blocks/declarations.</li>
+<li><p>No line length limit (use your own judgment for readability).</p></li>
+<li><p>Use the provided clang-format – cf. <a class="reference internal" href="Code-Formatting.html#code-formatting"><span class="std std-ref">Code Formatting</span></a>.</p></li>
+<li><p>Use UTF-8 encoding.</p></li>
+<li><p>Use 4 spaces instead of tabs.</p></li>
+<li><p>Opening <code class="docutils literal notranslate"><span class="pre">{</span></code> on a new line on the same level as the conditional/function/loop and the closing brace.</p></li>
+<li><p>Use vertical white space to separate code blocks/declarations.</p></li>
 </ul>
 </div>
 </div>
 <div class="section" id="python">
 <h2>Python<a class="headerlink" href="#python" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>Packages/Modules: Short lower case (avoid underscores), e.g., <code class="docutils literal notranslate"><span class="pre">pyexotica</span></code></li>
-<li>Class names: <code class="docutils literal notranslate"><span class="pre">CamelCased</span></code></li>
-<li>Function and variable names: <code class="docutils literal notranslate"><span class="pre">lower_case_with_underscores</span></code></li>
-<li>Non-public members: <code class="docutils literal notranslate"><span class="pre">_lower_case_with_leading_underscore</span></code></li>
-<li>Constants: <code class="docutils literal notranslate"><span class="pre">ALL_CAPS</span></code></li>
-<li>Getters/setters: always replace with attributes</li>
-<li>Always include explicit exports (<code class="docutils literal notranslate"><span class="pre">__all__</span></code>)</li>
-<li>Apply <a class="reference external" href="https://www.python.org/dev/peps/pep-0008/#naming-conventions">PEP8</a> formatting</li>
+<li><p>Packages/Modules: Short lower case (avoid underscores), e.g., <code class="docutils literal notranslate"><span class="pre">pyexotica</span></code></p></li>
+<li><p>Class names: <code class="docutils literal notranslate"><span class="pre">CamelCased</span></code></p></li>
+<li><p>Function and variable names: <code class="docutils literal notranslate"><span class="pre">lower_case_with_underscores</span></code></p></li>
+<li><p>Non-public members: <code class="docutils literal notranslate"><span class="pre">_lower_case_with_leading_underscore</span></code></p></li>
+<li><p>Constants: <code class="docutils literal notranslate"><span class="pre">ALL_CAPS</span></code></p></li>
+<li><p>Getters/setters: always replace with attributes</p></li>
+<li><p>Always include explicit exports (<code class="docutils literal notranslate"><span class="pre">__all__</span></code>)</p></li>
+<li><p>Apply <a class="reference external" href="https://www.python.org/dev/peps/pep-0008/#naming-conventions">PEP8</a> formatting</p></li>
 </ul>
 </div>
 </div>
@@ -292,29 +296,29 @@
            
           </div>
           <footer>
-  
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="Python-API.html" class="btn btn-neutral float-right" title="Python Bindings" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="Code-Formatting.html" class="btn btn-neutral float-left" title="Code Formatting" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
+        <a href="Python-API.html" class="btn btn-neutral float-right" title="Python Bindings" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="Code-Formatting.html" class="btn btn-neutral float-left" title="Code Formatting" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
-  
 
   <hr/>
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2020, Vladimir Ivan, Wolfgang Merkt, Sethu Vijayakumar - and contributors
+        &#169; Copyright 2020, Vladimir Ivan, Wolfgang Merkt, Sethu Vijayakumar - and contributors.
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
-
         </div>
       </div>
 
@@ -322,7 +326,6 @@
 
   </div>
   
-
 
   <script type="text/javascript">
       jQuery(function () {

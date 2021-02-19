@@ -1,2 +1,3 @@
 <map id="exotica::KinematicResponse" name="exotica::KinematicResponse">
+<area shape="rect" id="node1" title="The KinematicResponse is the container to keep kinematic update data. The corresponding KinematicSolu..." alt="" coords="5,5,195,185"/>
 </map>

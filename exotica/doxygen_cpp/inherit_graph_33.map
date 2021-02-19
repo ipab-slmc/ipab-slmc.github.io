@@ -1,7 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$classexotica_1_1OMPLDubinsRNStateSpace_1_1StateType.html" title="exotica::OMPLDubinsRNState\lSpace::StateType" alt="" coords="147,5,348,47"/>
-<area shape="rect" id="node3" href="$classexotica_1_1OMPLRNStateSpace_1_1StateType.html" title="exotica::OMPLRNStateSpace\l::StateType" alt="" coords="149,71,346,112"/>
-<area shape="rect" id="node4" href="$classexotica_1_1OMPLSE2RNStateSpace_1_1StateType.html" title="exotica::OMPLSE2RNStateSpace\l::StateType" alt="" coords="136,136,359,177"/>
-<area shape="rect" id="node5" href="$classexotica_1_1OMPLSE3RNStateSpace_1_1StateType.html" title="exotica::OMPLSE3RNStateSpace\l::StateType" alt="" coords="136,201,359,243"/>
-<area shape="rect" id="node6" href="$classexotica_1_1OMPLTimeIndexedRNStateSpace_1_1StateType.html" title="exotica::OMPLTimeIndexed\lRNStateSpace::StateType" alt="" coords="155,267,339,308"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,143,87,170"/>
+<area shape="rect" id="node2" href="$classexotica_1_1OMPLDubinsRNStateSpace_1_1StateType.html" title=" " alt="" coords="145,5,347,47"/>
+<area shape="rect" id="node3" href="$classexotica_1_1OMPLRNStateSpace_1_1StateType.html" title=" " alt="" coords="147,71,345,112"/>
+<area shape="rect" id="node4" href="$classexotica_1_1OMPLSE2RNStateSpace_1_1StateType.html" title=" " alt="" coords="135,136,357,177"/>
+<area shape="rect" id="node5" href="$classexotica_1_1OMPLSE3RNStateSpace_1_1StateType.html" title=" " alt="" coords="135,201,357,243"/>
+<area shape="rect" id="node6" href="$classexotica_1_1OMPLTimeIndexedRNStateSpace_1_1StateType.html" title=" " alt="" coords="155,267,337,308"/>
 </map>

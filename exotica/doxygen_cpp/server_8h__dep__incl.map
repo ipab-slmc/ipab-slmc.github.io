@@ -1,10 +1,11 @@
-<map id="/home/wxm/tmp/exotica/exotica_core/include/exotica_core/server.h" name="/home/wxm/tmp/exotica/exotica_core/include/exotica_core/server.h">
-<area shape="rect" id="node2" href="$abstract__ddp__solver_8h.html" title="/home/wxm/tmp/exotica\l/exotations/solvers/exotica\l_ddp_solver/include/exotica\l_ddp_solver/abstract_ddp_solver.h" alt="" coords="231,109,455,180"/>
-<area shape="rect" id="node7" href="$ilqg__solver_8h.html" title="/home/wxm/tmp/exotica\l/exotations/solvers/exotica\l_ilqg_solver/include/exotica\l_ilqg_solver/ilqg_solver.h" alt="" coords="480,109,663,180"/>
-<area shape="rect" id="node8" href="$ilqr__solver_8h.html" title="/home/wxm/tmp/exotica\l/exotations/solvers/exotica\l_ilqr_solver/include/exotica\l_ilqr_solver/ilqr_solver.h" alt="" coords="687,109,866,180"/>
-<area shape="rect" id="node9" href="$exotica__core_8h.html" title="/home/wxm/tmp/exotica\l/exotica_core/include\l/exotica_core/exotica\l_core.h" alt="" coords="890,109,1053,180"/>
-<area shape="rect" id="node3" href="$analytic__ddp__solver_8h.html" title="/home/wxm/tmp/exotica\l/exotations/solvers/exotica\l_ddp_solver/include/exotica\l_ddp_solver/analytic_ddp_solver.h" alt="" coords="5,235,228,306"/>
-<area shape="rect" id="node4" href="$control__limited__ddp__solver_8h.html" title="/home/wxm/tmp/exotica\l/exotations/solvers/exotica\l_ddp_solver/include/exotica\l_ddp_solver/control_limited\l_ddp_solver.h" alt="" coords="252,228,435,313"/>
-<area shape="rect" id="node5" href="$feasibility__driven__ddp__solver_8h.html" title="/home/wxm/tmp/exotica\l/exotations/solvers/exotica\l_ddp_solver/include/exotica\l_ddp_solver/feasibility_driven\l_ddp_solver.h" alt="" coords="459,228,652,313"/>
-<area shape="rect" id="node6" href="$control__limited__feasibility__driven__ddp__solver_8h.html" title="/home/wxm/tmp/exotica\l/exotations/solvers/exotica\l_ddp_solver/include/exotica\l_ddp_solver/control_limited\l_feasibility_driven_ddp_solver.h" alt="" coords="452,361,659,447"/>
+<map id="/tmp/exotica/exotica_core/include/exotica_core/server.h" name="/tmp/exotica/exotica_core/include/exotica_core/server.h">
+<area shape="rect" id="node1" title=" " alt="" coords="531,5,709,76"/>
+<area shape="rect" id="node2" href="$abstract__ddp__solver_8h.html" title=" " alt="" coords="217,124,401,209"/>
+<area shape="rect" id="node7" href="$ilqg__solver_8h.html" title=" " alt="" coords="426,124,609,209"/>
+<area shape="rect" id="node8" href="$ilqr__solver_8h.html" title=" " alt="" coords="633,124,813,209"/>
+<area shape="rect" id="node9" href="$exotica__core_8h.html" title=" " alt="" coords="837,131,1014,202"/>
+<area shape="rect" id="node3" href="$analytic__ddp__solver_8h.html" title=" " alt="" coords="5,257,189,343"/>
+<area shape="rect" id="node4" href="$control__limited__ddp__solver_8h.html" title=" " alt="" coords="214,257,405,343"/>
+<area shape="rect" id="node5" href="$feasibility__driven__ddp__solver_8h.html" title=" " alt="" coords="429,257,632,343"/>
+<area shape="rect" id="node6" href="$control__limited__feasibility__driven__ddp__solver_8h.html" title=" " alt="" coords="439,391,623,491"/>
 </map>
