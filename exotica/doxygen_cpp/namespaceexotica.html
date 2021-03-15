@@ -144,6 +144,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1Distance.html">Distance</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DistanceToLine2D.html">DistanceToLine2D</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DoubleIntegratorDynamicsSolver.html">DoubleIntegratorDynamicsSolver</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1DynamicTimeIndexedShootingProblem.html">DynamicTimeIndexedShootingProblem</a></td></tr>
@@ -538,6 +540,12 @@ Functions</h2></td></tr>
 <tr class="separator:a9d6b2fd38b40818598c0b4c19976bd75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca1852a001a9e5d5ccf003de4a7b674a"><td class="memItemLeft" align="right" valign="top">std::list&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceexotica.html#aca1852a001a9e5d5ccf003de4a7b674a">ConvexHull2D</a> (<a class="el" href="namespaceEigen.html#abdb7afac18dad8f2f1379a067bc2982b">Eigen::MatrixXdRefConst</a> points)</td></tr>
 <tr class="separator:aca1852a001a9e5d5ccf003de4a7b674a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fd8f9ec5b24a014436ab16d66dfcb86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceexotica.html#a3fd8f9ec5b24a014436ab16d66dfcb86">PointToLineDistance</a> (const Eigen::Vector2d &amp;P1, const Eigen::Vector2d &amp;P2, const Eigen::Vector2d &amp;P3, double &amp;d)</td></tr>
+<tr class="memdesc:a3fd8f9ec5b24a014436ab16d66dfcb86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the signed distance between a point and a line defined by two points in 2D.  <a href="namespaceexotica.html#a3fd8f9ec5b24a014436ab16d66dfcb86">More...</a><br /></td></tr>
+<tr class="separator:a3fd8f9ec5b24a014436ab16d66dfcb86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa695b29bf7f02fa61446c563cfe66b6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceexotica.html#aa695b29bf7f02fa61446c563cfe66b6c">PointToLineDistanceDerivative</a> (const Eigen::Vector2d &amp;P1, const Eigen::Vector2d &amp;P2, const Eigen::Vector2d &amp;P3, const Eigen::MatrixXd &amp;dP1_dq, const Eigen::MatrixXd &amp;dP2_dq, const Eigen::MatrixXd &amp;dP3_dq, Eigen::Ref&lt; Eigen::MatrixXd &gt; &amp;derivative)</td></tr>
+<tr class="memdesc:aa695b29bf7f02fa61446c563cfe66b6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derivative of signed distance between a point and a line defined by two points in 2D.  <a href="namespaceexotica.html#aa695b29bf7f02fa61446c563cfe66b6c">More...</a><br /></td></tr>
+<tr class="separator:aa695b29bf7f02fa61446c563cfe66b6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d6450eb517e0ced37a0a83741cc4d9a"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 &gt; </td></tr>
 <tr class="memitem:a2d6450eb517e0ced37a0a83741cc4d9a"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceexotica.html#a2d6450eb517e0ced37a0a83741cc4d9a">inverseSymPosDef</a> (T1 &amp;Ainv, const T2 &amp;A)</td></tr>
 <tr class="memdesc:a2d6450eb517e0ced37a0a83741cc4d9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes an inverse of a symmetric positive definite matrix.  <a href="namespaceexotica.html#a2d6450eb517e0ced37a0a83741cc4d9a">More...</a><br /></td></tr>
@@ -2995,6 +3003,117 @@ template&lt;typename T , const int S&gt; </div>
 
 </div>
 </div>
+<a id="a3fd8f9ec5b24a014436ab16d66dfcb86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fd8f9ec5b24a014436ab16d66dfcb86">&#9670;&nbsp;</a></span>PointToLineDistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void exotica::PointToLineDistance </td>
+          <td>(</td>
+          <td class="paramtype">const Eigen::Vector2d &amp;&#160;</td>
+          <td class="paramname"><em>P1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::Vector2d &amp;&#160;</td>
+          <td class="paramname"><em>P2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::Vector2d &amp;&#160;</td>
+          <td class="paramname"><em>P3</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>d</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Computes the signed distance between a point and a line defined by two points in 2D. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">P1</td><td>First point defining the line </td></tr>
+    <tr><td class="paramname">P2</td><td>Second point defining the line </td></tr>
+    <tr><td class="paramname">P3</td><td>Query point </td></tr>
+    <tr><td class="paramname">d</td><td>Signed distance </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa695b29bf7f02fa61446c563cfe66b6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa695b29bf7f02fa61446c563cfe66b6c">&#9670;&nbsp;</a></span>PointToLineDistanceDerivative()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void exotica::PointToLineDistanceDerivative </td>
+          <td>(</td>
+          <td class="paramtype">const Eigen::Vector2d &amp;&#160;</td>
+          <td class="paramname"><em>P1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::Vector2d &amp;&#160;</td>
+          <td class="paramname"><em>P2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::Vector2d &amp;&#160;</td>
+          <td class="paramname"><em>P3</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::MatrixXd &amp;&#160;</td>
+          <td class="paramname"><em>dP1_dq</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::MatrixXd &amp;&#160;</td>
+          <td class="paramname"><em>dP2_dq</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Eigen::MatrixXd &amp;&#160;</td>
+          <td class="paramname"><em>dP3_dq</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Eigen::Ref&lt; Eigen::MatrixXd &gt; &amp;&#160;</td>
+          <td class="paramname"><em>derivative</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Derivative of signed distance between a point and a line defined by two points in 2D. </p>
+
+</div>
+</div>
 <a id="a6cff448b2832cfa0764bc232d6936f28"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6cff448b2832cfa0764bc232d6936f28">&#9670;&nbsp;</a></span>PrintDimensions()</h2>
 
@@ -3719,7 +3838,7 @@ template&lt;&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Feb 19 2021 14:33:06 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Mar 15 2021 18:04:53 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>

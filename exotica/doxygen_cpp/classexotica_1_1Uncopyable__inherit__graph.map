@@ -41,11 +41,11 @@
 <area shape="rect" id="node38" href="$classexotica_1_1ContinuousJointPose.html" title=" " alt="" coords="6110,997,6306,1162"/>
 <area shape="rect" id="node39" href="$classexotica_1_1ControlRegularization.html" title=" " alt="" coords="6331,953,6528,1206"/>
 <area shape="rect" id="node40" href="$classexotica_1_1Distance.html" title=" " alt="" coords="6552,1019,6683,1140"/>
-<area shape="rect" id="node41" href="$classexotica_1_1EffAxisAlignment.html" title=" " alt="" coords="6707,923,6880,1235"/>
-<area shape="rect" id="node42" href="$classexotica_1_1EffBox.html" title="Limits every given end&#45;effector motion to a box in some reference frame." alt="" coords="6905,967,7122,1191"/>
-<area shape="rect" id="node43" href="$classexotica_1_1EffFrame.html" title=" " alt="" coords="7146,975,7329,1184"/>
-<area shape="rect" id="node44" href="$classexotica_1_1EffOrientation.html" title=" " alt="" coords="7353,982,7535,1177"/>
-<area shape="rect" id="node45" href="$classexotica_1_1EffPosition.html" title=" " alt="" coords="7560,1019,7696,1140"/>
-<area shape="rect" id="node46" href="$classexotica_1_1EffPositionXY.html" title=" " alt="" coords="7720,1019,7875,1140"/>
-<area shape="rect" id="node47" href="$classexotica_1_1EffVelocity.html" title=" " alt="" coords="7899,1011,8035,1147"/>
+<area shape="rect" id="node41" href="$classexotica_1_1DistanceToLine2D.html" title=" " alt="" coords="6707,1004,6893,1155"/>
+<area shape="rect" id="node42" href="$classexotica_1_1EffAxisAlignment.html" title=" " alt="" coords="6917,923,7091,1235"/>
+<area shape="rect" id="node43" href="$classexotica_1_1EffBox.html" title="Limits every given end&#45;effector motion to a box in some reference frame." alt="" coords="7115,967,7333,1191"/>
+<area shape="rect" id="node44" href="$classexotica_1_1EffFrame.html" title=" " alt="" coords="7357,975,7539,1184"/>
+<area shape="rect" id="node45" href="$classexotica_1_1EffOrientation.html" title=" " alt="" coords="7563,982,7746,1177"/>
+<area shape="rect" id="node46" href="$classexotica_1_1EffPosition.html" title=" " alt="" coords="7771,1019,7907,1140"/>
+<area shape="rect" id="node47" href="$classexotica_1_1EffPositionXY.html" title=" " alt="" coords="7931,1019,8085,1140"/>
 </map>

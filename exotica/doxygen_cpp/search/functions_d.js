@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['normalizequaternioninconfigurationvector_2666',['NormalizeQuaternionInConfigurationVector',['../namespaceexotica.html#a34f5d20dd52a0dca08d5f5ed6471a425',1,'exotica']]]
+  ['normalizequaternioninconfigurationvector_2675',['NormalizeQuaternionInConfigurationVector',['../namespaceexotica.html#a34f5d20dd52a0dca08d5f5ed6471a425',1,'exotica']]]
 ];

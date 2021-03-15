@@ -7,8 +7,8 @@
 <area shape="rect" id="node22" href="$classexotica_1_1PlanningProblem.html" title=" " alt="" coords="4147,285,4368,670"/>
 <area shape="rect" id="node30" href="$classexotica_1_1Scene.html" title="The class of EXOTica Scene." alt="" coords="4393,263,4602,692"/>
 <area shape="rect" id="node31" href="$classexotica_1_1Setup.html" title=" " alt="" coords="4626,285,4803,670"/>
-<area shape="rect" id="node32" href="$classexotica_1_1TaskMap.html" title=" " alt="" coords="6614,292,6797,663"/>
-<area shape="rect" id="node49" href="$classexotica_1_1Factory.html" title=" " alt="" coords="6821,395,7000,560"/>
+<area shape="rect" id="node32" href="$classexotica_1_1TaskMap.html" title=" " alt="" coords="6617,292,6799,663"/>
+<area shape="rect" id="node49" href="$classexotica_1_1Factory.html" title=" " alt="" coords="6824,395,7003,560"/>
 <area shape="rect" id="node3" href="$classexotica_1_1CartpoleDynamicsSolver.html" title=" " alt="" coords="5,982,192,1206"/>
 <area shape="rect" id="node4" href="$classexotica_1_1DoubleIntegratorDynamicsSolver.html" title=" " alt="" coords="216,1004,384,1184"/>
 <area shape="rect" id="node5" href="$classexotica_1_1PendulumDynamicsSolver.html" title=" " alt="" coords="409,997,605,1191"/>
@@ -39,13 +39,13 @@
 <area shape="rect" id="node37" href="$classexotica_1_1ContinuousJointPose.html" title=" " alt="" coords="6110,1011,6306,1177"/>
 <area shape="rect" id="node38" href="$classexotica_1_1ControlRegularization.html" title=" " alt="" coords="6331,967,6528,1221"/>
 <area shape="rect" id="node39" href="$classexotica_1_1Distance.html" title=" " alt="" coords="6552,1033,6683,1155"/>
-<area shape="rect" id="node40" href="$classexotica_1_1EffAxisAlignment.html" title=" " alt="" coords="6707,938,6880,1250"/>
-<area shape="rect" id="node41" href="$classexotica_1_1EffBox.html" title="Limits every given end&#45;effector motion to a box in some reference frame." alt="" coords="6905,982,7122,1206"/>
-<area shape="rect" id="node42" href="$classexotica_1_1EffFrame.html" title=" " alt="" coords="7146,989,7329,1199"/>
-<area shape="rect" id="node43" href="$classexotica_1_1EffOrientation.html" title=" " alt="" coords="7353,997,7535,1191"/>
-<area shape="rect" id="node44" href="$classexotica_1_1EffPosition.html" title=" " alt="" coords="7560,1033,7696,1155"/>
-<area shape="rect" id="node45" href="$classexotica_1_1EffPositionXY.html" title=" " alt="" coords="7720,1033,7875,1155"/>
-<area shape="rect" id="node46" href="$classexotica_1_1EffVelocity.html" title=" " alt="" coords="7899,1026,8035,1162"/>
-<area shape="rect" id="node47" href="$classexotica_1_1GazeAtConstraint.html" title="Keeps a given point within field of view of the end&#45;effector." alt="" coords="8059,1033,8235,1155"/>
-<area shape="rect" id="node48" href="$classexotica_1_1InteractionMesh.html" title=" " alt="" coords="8259,923,8426,1265"/>
+<area shape="rect" id="node40" href="$classexotica_1_1DistanceToLine2D.html" title=" " alt="" coords="6707,1019,6893,1169"/>
+<area shape="rect" id="node41" href="$classexotica_1_1EffAxisAlignment.html" title=" " alt="" coords="6917,938,7091,1250"/>
+<area shape="rect" id="node42" href="$classexotica_1_1EffBox.html" title="Limits every given end&#45;effector motion to a box in some reference frame." alt="" coords="7115,982,7333,1206"/>
+<area shape="rect" id="node43" href="$classexotica_1_1EffFrame.html" title=" " alt="" coords="7357,989,7539,1199"/>
+<area shape="rect" id="node44" href="$classexotica_1_1EffOrientation.html" title=" " alt="" coords="7563,997,7746,1191"/>
+<area shape="rect" id="node45" href="$classexotica_1_1EffPosition.html" title=" " alt="" coords="7771,1033,7907,1155"/>
+<area shape="rect" id="node46" href="$classexotica_1_1EffPositionXY.html" title=" " alt="" coords="7931,1033,8085,1155"/>
+<area shape="rect" id="node47" href="$classexotica_1_1EffVelocity.html" title=" " alt="" coords="8109,1026,8245,1162"/>
+<area shape="rect" id="node48" href="$classexotica_1_1GazeAtConstraint.html" title="Keeps a given point within field of view of the end&#45;effector." alt="" coords="8269,1033,8445,1155"/>
 </map>
