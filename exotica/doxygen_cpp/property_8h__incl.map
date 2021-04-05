@@ -1,21 +1,21 @@
 <map id="/tmp/exotica/exotica_core/include/exotica_core/property.h" name="/tmp/exotica/exotica_core/include/exotica_core/property.h">
-<area shape="rect" id="node1" title=" " alt="" coords="401,5,579,76"/>
-<area shape="rect" id="node2" title=" " alt="" coords="76,303,123,329"/>
-<area shape="rect" id="node3" title=" " alt="" coords="25,221,94,247"/>
-<area shape="rect" id="node4" title=" " alt="" coords="521,131,576,158"/>
-<area shape="rect" id="node5" title=" " alt="" coords="600,131,703,158"/>
-<area shape="rect" id="node6" title=" " alt="" coords="727,131,824,158"/>
-<area shape="rect" id="node7" href="$conversions_8h.html" title=" " alt="" coords="369,124,497,165"/>
-<area shape="rect" id="node8" title=" " alt="" coords="475,303,534,329"/>
-<area shape="rect" id="node9" title=" " alt="" coords="559,303,667,329"/>
-<area shape="rect" id="node10" title=" " alt="" coords="775,221,891,247"/>
-<area shape="rect" id="node11" title=" " alt="" coords="915,221,1012,247"/>
-<area shape="rect" id="node12" title=" " alt="" coords="118,213,294,255"/>
-<area shape="rect" id="node13" href="$exception_8h.html" title=" " alt="" coords="622,213,750,255"/>
-<area shape="rect" id="node16" href="$printable_8h.html" title=" " alt="" coords="369,213,497,255"/>
-<area shape="rect" id="node14" title=" " alt="" coords="785,303,864,329"/>
-<area shape="rect" id="node15" title=" " alt="" coords="691,303,761,329"/>
-<area shape="rect" id="node17" title=" " alt="" coords="147,303,214,329"/>
-<area shape="rect" id="node18" title=" " alt="" coords="238,303,310,329"/>
-<area shape="rect" id="node19" title=" " alt="" coords="335,303,451,329"/>
+<area shape="rect" id="node1" title=" " alt="" coords="409,5,571,61"/>
+<area shape="rect" id="node2" title=" " alt="" coords="76,288,123,315"/>
+<area shape="rect" id="node3" title=" " alt="" coords="25,206,94,233"/>
+<area shape="rect" id="node4" title=" " alt="" coords="521,117,576,143"/>
+<area shape="rect" id="node5" title=" " alt="" coords="600,117,703,143"/>
+<area shape="rect" id="node6" title=" " alt="" coords="727,117,824,143"/>
+<area shape="rect" id="node7" href="$conversions_8h.html" title=" " alt="" coords="369,109,497,151"/>
+<area shape="rect" id="node8" title=" " alt="" coords="475,288,534,315"/>
+<area shape="rect" id="node9" title=" " alt="" coords="559,288,667,315"/>
+<area shape="rect" id="node10" title=" " alt="" coords="775,206,891,233"/>
+<area shape="rect" id="node11" title=" " alt="" coords="915,206,1012,233"/>
+<area shape="rect" id="node12" title=" " alt="" coords="118,199,294,240"/>
+<area shape="rect" id="node13" href="$exception_8h.html" title=" " alt="" coords="622,199,750,240"/>
+<area shape="rect" id="node16" href="$printable_8h.html" title=" " alt="" coords="369,199,497,240"/>
+<area shape="rect" id="node14" title=" " alt="" coords="785,288,864,315"/>
+<area shape="rect" id="node15" title=" " alt="" coords="691,288,761,315"/>
+<area shape="rect" id="node17" title=" " alt="" coords="147,288,214,315"/>
+<area shape="rect" id="node18" title=" " alt="" coords="238,288,310,315"/>
+<area shape="rect" id="node19" title=" " alt="" coords="335,288,451,315"/>
 </map>

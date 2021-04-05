@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Python Bindings &mdash; EXOTica 6.0.2 documentation</title>
+  <title>Python Bindings &mdash; EXOTica 6.1.1 documentation</title>
   
 
   
@@ -64,7 +64,7 @@
             
             
               <div class="version">
-                6.0.2
+                6.1.1
               </div>
             
           
@@ -690,6 +690,11 @@
 <dl class="py method">
 <dt id="pyexotica.EndPoseTask.S">
 <em class="property">property </em><code class="sig-name descname">S</code><a class="headerlink" href="#pyexotica.EndPoseTask.S" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="pyexotica.EndPoseTask.get_S">
+<code class="sig-name descname">get_S</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span><span class="p">:</span> <span class="n">pyexotica._pyexotica.EndPoseTask</span></em>, <em class="sig-param"><span class="n">arg0</span><span class="p">:</span> <span class="n">str</span></em><span class="sig-paren">)</span> &#x2192; numpy.ndarray<span class="p">[</span>numpy.float64<span class="p">[</span>m<span class="p">, </span>n<span class="p">]</span><span class="p">]</span><a class="headerlink" href="#pyexotica.EndPoseTask.get_S" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
@@ -1330,7 +1335,7 @@
 <dd><p>Overloaded function.</p>
 <ol class="arabic simple">
 <li><p>add_object(self: pyexotica._pyexotica.Scene, name: str, transform: pyexotica._pyexotica.KDLFrame = KDL::Frame ([0.000000 0.000000 0.000000] [0.000000 0.000000 0.000000 1.000000]), parent: str = ‘’, shape_resource_path: str, scale: numpy.ndarray[numpy.float64[3, 1]] = array([1., 1., 1.]), color: numpy.ndarray[numpy.float64[4, 1]] = array([0.5, 0.5, 0.5, 1. ]), update_collision_scene: bool = True) -&gt; None</p></li>
-<li><p>add_object(self: pyexotica._pyexotica.Scene, name: str, transform: pyexotica._pyexotica.KDLFrame = KDL::Frame ([0.000000 0.000000 0.000000] [0.000000 0.000000 0.000000 1.000000]), parent: str = ‘’, shape: shapes::Shape, inertia: pyexotica._pyexotica.KDLRigidBodyInertia = &lt;pyexotica._pyexotica.KDLRigidBodyInertia object at 0x7f5031280930&gt;, color: numpy.ndarray[numpy.float64[4, 1]] = array([0.5, 0.5, 0.5, 1. ]), update_collision_scene: bool = True) -&gt; None</p></li>
+<li><p>add_object(self: pyexotica._pyexotica.Scene, name: str, transform: pyexotica._pyexotica.KDLFrame = KDL::Frame ([0.000000 0.000000 0.000000] [0.000000 0.000000 0.000000 1.000000]), parent: str = ‘’, shape: shapes::Shape, inertia: pyexotica._pyexotica.KDLRigidBodyInertia = &lt;pyexotica._pyexotica.KDLRigidBodyInertia object at 0x7f5040f7bab0&gt;, color: numpy.ndarray[numpy.float64[4, 1]] = array([0.5, 0.5, 0.5, 1. ]), update_collision_scene: bool = True) -&gt; None</p></li>
 </ol>
 </dd></dl>
 
@@ -2225,8 +2230,7 @@
 <dl class="py function">
 <dt id="pyexotica.check_whether_trajectory_is_collision_free_by_subsampling">
 <code class="sig-prename descclassname">pyexotica.</code><code class="sig-name descname">check_whether_trajectory_is_collision_free_by_subsampling</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">scene</span></em>, <em class="sig-param"><span class="n">trajectory</span></em>, <em class="sig-param"><span class="n">num_subsamples</span><span class="o">=</span><span class="default_value">10</span></em>, <em class="sig-param"><span class="n">debug</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyexotica.check_whether_trajectory_is_collision_free_by_subsampling" title="Permalink to this definition">¶</a></dt>
-<dd><p>num_subsamples specifies how many steps are checked between two configurations.
-Returns True if trajectory is collision-free, and False otherwise.</p>
+<dd><p>num_subsamples specifies how many steps are checked between two configurations. Returns True if trajectory is collision-free, and False otherwise.</p>
 <p>TODO: Support setting time for Scene update.</p>
 </dd></dl>
 
@@ -2239,6 +2243,12 @@ Returns True if trajectory is collision-free, and False otherwise.</p>
 <dt id="pyexotica.plot">
 <code class="sig-prename descclassname">pyexotica.</code><code class="sig-name descname">plot</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">solution</span></em>, <em class="sig-param"><span class="n">labels</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">yscale</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyexotica.plot" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
+
+<dl class="py function">
+<dt id="pyexotica.plot_task_cost_over_time">
+<code class="sig-prename descclassname">pyexotica.</code><code class="sig-name descname">plot_task_cost_over_time</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">problem</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pyexotica.plot_task_cost_over_time" title="Permalink to this definition">¶</a></dt>
+<dd><p>Plots the task cost (task maps) over time given a problem.</p>
+</dd></dl>
 
 <dl class="py function">
 <dt id="pyexotica.publish_pose">
@@ -2810,7 +2820,7 @@ Returns True if trajectory is collision-free, and False otherwise.</p>
 
   <div role="contentinfo">
     <p>
-        &#169; Copyright 2020, Vladimir Ivan, Wolfgang Merkt, Sethu Vijayakumar - and contributors.
+        &#169; Copyright 2021, Vladimir Ivan, Wolfgang Merkt, Sethu Vijayakumar - and contributors.
 
     </p>
   </div>

@@ -1,11 +1,11 @@
 <map id="/tmp/exotica/exotica_core/include/exotica_core/feedback_motion_solver.h" name="/tmp/exotica/exotica_core/include/exotica_core/feedback_motion_solver.h">
-<area shape="rect" id="node1" title=" " alt="" coords="531,5,709,76"/>
-<area shape="rect" id="node2" href="$abstract__ddp__solver_8h.html" title=" " alt="" coords="217,124,401,209"/>
-<area shape="rect" id="node7" href="$ilqg__solver_8h.html" title=" " alt="" coords="426,124,609,209"/>
-<area shape="rect" id="node8" href="$ilqr__solver_8h.html" title=" " alt="" coords="633,124,813,209"/>
-<area shape="rect" id="node9" href="$exotica__core_8h.html" title=" " alt="" coords="837,131,1014,202"/>
-<area shape="rect" id="node3" href="$analytic__ddp__solver_8h.html" title=" " alt="" coords="5,257,189,343"/>
-<area shape="rect" id="node4" href="$control__limited__ddp__solver_8h.html" title=" " alt="" coords="214,257,405,343"/>
-<area shape="rect" id="node5" href="$feasibility__driven__ddp__solver_8h.html" title=" " alt="" coords="429,257,632,343"/>
-<area shape="rect" id="node6" href="$control__limited__feasibility__driven__ddp__solver_8h.html" title=" " alt="" coords="439,391,623,491"/>
+<area shape="rect" id="node1" title=" " alt="" coords="591,5,753,76"/>
+<area shape="rect" id="node2" href="$abstract__ddp__solver_8h.html" title=" " alt="" coords="231,124,454,195"/>
+<area shape="rect" id="node7" href="$ilqg__solver_8h.html" title=" " alt="" coords="478,124,661,195"/>
+<area shape="rect" id="node8" href="$ilqr__solver_8h.html" title=" " alt="" coords="685,124,864,195"/>
+<area shape="rect" id="node9" href="$exotica__core_8h.html" title=" " alt="" coords="888,124,1051,195"/>
+<area shape="rect" id="node3" href="$analytic__ddp__solver_8h.html" title=" " alt="" coords="5,250,227,321"/>
+<area shape="rect" id="node4" href="$control__limited__ddp__solver_8h.html" title=" " alt="" coords="251,243,434,328"/>
+<area shape="rect" id="node5" href="$feasibility__driven__ddp__solver_8h.html" title=" " alt="" coords="458,243,651,328"/>
+<area shape="rect" id="node6" href="$control__limited__feasibility__driven__ddp__solver_8h.html" title=" " alt="" coords="451,376,658,461"/>
 </map>

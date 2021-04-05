@@ -1,6 +1,6 @@
 <map id="exotica::Task" name="exotica::Task">
 <area shape="rect" id="node1" title=" " alt="" coords="195,5,326,215"/>
-<area shape="rect" id="node2" href="$structexotica_1_1EndPoseTask.html" title=" " alt="" coords="5,299,159,626"/>
+<area shape="rect" id="node2" href="$structexotica_1_1EndPoseTask.html" title=" " alt="" coords="5,292,159,633"/>
 <area shape="rect" id="node3" href="$structexotica_1_1SamplingTask.html" title=" " alt="" coords="183,336,338,589"/>
 <area shape="rect" id="node4" href="$structexotica_1_1TimeIndexedTask.html" title=" " alt="" coords="363,263,537,663"/>
 </map>

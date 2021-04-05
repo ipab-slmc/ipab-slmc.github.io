@@ -1,7 +1,7 @@
 <map id="/tmp/exotica/exotations/solvers/exotica_ddp_solver/include/exotica_ddp_solver/abstract_ddp_solver.h" name="/tmp/exotica/exotations/solvers/exotica_ddp_solver/include/exotica_ddp_solver/abstract_ddp_solver.h">
-<area shape="rect" id="node1" title=" " alt="" coords="217,5,401,91"/>
-<area shape="rect" id="node2" href="$analytic__ddp__solver_8h.html" title=" " alt="" coords="5,139,189,224"/>
-<area shape="rect" id="node3" href="$control__limited__ddp__solver_8h.html" title=" " alt="" coords="214,139,405,224"/>
-<area shape="rect" id="node4" href="$feasibility__driven__ddp__solver_8h.html" title=" " alt="" coords="429,139,632,224"/>
-<area shape="rect" id="node5" href="$control__limited__feasibility__driven__ddp__solver_8h.html" title=" " alt="" coords="439,272,623,372"/>
+<area shape="rect" id="node1" title=" " alt="" coords="231,5,454,76"/>
+<area shape="rect" id="node2" href="$analytic__ddp__solver_8h.html" title=" " alt="" coords="5,131,227,202"/>
+<area shape="rect" id="node3" href="$control__limited__ddp__solver_8h.html" title=" " alt="" coords="251,124,434,209"/>
+<area shape="rect" id="node4" href="$feasibility__driven__ddp__solver_8h.html" title=" " alt="" coords="458,124,651,209"/>
+<area shape="rect" id="node5" href="$control__limited__feasibility__driven__ddp__solver_8h.html" title=" " alt="" coords="451,257,658,343"/>
 </map>
