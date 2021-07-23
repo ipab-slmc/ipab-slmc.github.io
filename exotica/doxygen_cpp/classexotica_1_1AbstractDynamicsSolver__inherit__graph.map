@@ -1,11 +1,11 @@
 <map id="exotica::AbstractDynamicsSolver&lt; T, NX, NU &gt;" name="exotica::AbstractDynamicsSolver&lt; T, NX, NU &gt;">
-<area shape="rect" id="node1" title=" " alt="" coords="499,233,730,721"/>
-<area shape="rect" id="node5" href="$classexotica_1_1CartpoleDynamicsSolver.html" title=" " alt="" coords="5,806,192,1030"/>
-<area shape="rect" id="node6" href="$classexotica_1_1DoubleIntegratorDynamicsSolver.html" title=" " alt="" coords="216,828,384,1008"/>
-<area shape="rect" id="node7" href="$classexotica_1_1PendulumDynamicsSolver.html" title=" " alt="" coords="409,821,605,1015"/>
-<area shape="rect" id="node8" href="$classexotica_1_1PinocchioDynamicsSolver.html" title=" " alt="" coords="629,799,817,1037"/>
-<area shape="rect" id="node9" href="$classexotica_1_1PinocchioDynamicsSolverWithGravityCompensation.html" title=" " alt="" coords="841,769,1053,1067"/>
-<area shape="rect" id="node10" href="$classexotica_1_1QuadrotorDynamicsSolver.html" title="Quadrotor dynamics with quaternion representation Based on D. Mellinger, N. Michael,..." alt="" coords="1077,799,1272,1037"/>
+<area shape="rect" id="node1" title=" " alt="" coords="499,233,730,751"/>
+<area shape="rect" id="node5" href="$classexotica_1_1CartpoleDynamicsSolver.html" title=" " alt="" coords="5,835,192,1059"/>
+<area shape="rect" id="node6" href="$classexotica_1_1DoubleIntegratorDynamicsSolver.html" title=" " alt="" coords="216,857,384,1037"/>
+<area shape="rect" id="node7" href="$classexotica_1_1PendulumDynamicsSolver.html" title=" " alt="" coords="409,850,605,1045"/>
+<area shape="rect" id="node8" href="$classexotica_1_1PinocchioDynamicsSolver.html" title=" " alt="" coords="629,828,817,1067"/>
+<area shape="rect" id="node9" href="$classexotica_1_1PinocchioDynamicsSolverWithGravityCompensation.html" title=" " alt="" coords="841,799,1053,1096"/>
+<area shape="rect" id="node10" href="$classexotica_1_1QuadrotorDynamicsSolver.html" title="Quadrotor dynamics with quaternion representation Based on D. Mellinger, N. Michael,..." alt="" coords="1077,828,1272,1067"/>
 <area shape="rect" id="node2" href="$classexotica_1_1Object.html" title=" " alt="" coords="379,5,520,185"/>
 <area shape="rect" id="node3" href="$classexotica_1_1Uncopyable.html" title=" " alt="" coords="544,35,685,156"/>
 <area shape="rect" id="node4" href="$classexotica_1_1InstantiableBase.html" title=" " alt="" coords="710,20,879,171"/>

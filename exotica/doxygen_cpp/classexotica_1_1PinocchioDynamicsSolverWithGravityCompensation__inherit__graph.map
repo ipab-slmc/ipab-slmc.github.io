@@ -1,8 +1,8 @@
 <map id="exotica::PinocchioDynamicsSolverWithGravityCompensation" name="exotica::PinocchioDynamicsSolverWithGravityCompensation">
-<area shape="rect" id="node1" title=" " alt="" coords="241,755,453,1052"/>
-<area shape="rect" id="node2" href="$classexotica_1_1AbstractDynamicsSolver.html" title=" " alt="" coords="109,233,339,707"/>
+<area shape="rect" id="node1" title=" " alt="" coords="241,784,453,1081"/>
+<area shape="rect" id="node2" href="$classexotica_1_1AbstractDynamicsSolver.html" title=" " alt="" coords="109,233,339,736"/>
 <area shape="rect" id="node3" href="$classexotica_1_1Object.html" title=" " alt="" coords="5,5,147,185"/>
 <area shape="rect" id="node4" href="$classexotica_1_1Uncopyable.html" title=" " alt="" coords="171,35,312,156"/>
 <area shape="rect" id="node5" href="$classexotica_1_1InstantiableBase.html" title=" " alt="" coords="370,20,539,171"/>
-<area shape="rect" id="node6" href="$classexotica_1_1Instantiable.html" title=" " alt="" coords="363,387,578,553"/>
+<area shape="rect" id="node6" href="$classexotica_1_1Instantiable.html" title=" " alt="" coords="363,402,578,567"/>
 </map>

@@ -1,8 +1,8 @@
 <map id="/tmp/exotica/exotica_core/include/exotica_core/problems/abstract_time_indexed_problem.h" name="/tmp/exotica/exotica_core/include/exotica_core/problems/abstract_time_indexed_problem.h">
-<area shape="rect" id="node1" title=" " alt="" coords="254,5,417,91"/>
-<area shape="rect" id="node2" href="$bounded__time__indexed__problem_8h.html" title=" " alt="" coords="5,146,228,217"/>
-<area shape="rect" id="node4" href="$time__indexed__problem_8h.html" title=" " alt="" coords="252,146,419,217"/>
-<area shape="rect" id="node5" href="$unconstrained__time__indexed__problem_8h.html" title=" " alt="" coords="443,139,633,224"/>
-<area shape="rect" id="node3" href="$exotica__core_8h.html" title=" " alt="" coords="254,272,417,343"/>
-<area shape="rect" id="node6" href="$aico__solver_8h.html" title="Approximate Inference Control." alt="" coords="445,272,631,343"/>
+<area shape="rect" id="node1" title=" " alt="" coords="211,5,381,76"/>
+<area shape="rect" id="node2" href="$bounded__time__indexed__problem_8h.html" title=" " alt="" coords="5,124,176,195"/>
+<area shape="rect" id="node4" href="$time__indexed__problem_8h.html" title=" " alt="" coords="200,124,392,195"/>
+<area shape="rect" id="node5" href="$unconstrained__time__indexed__problem_8h.html" title=" " alt="" coords="417,124,613,195"/>
+<area shape="rect" id="node3" href="$exotica__core_8h.html" title=" " alt="" coords="223,250,369,306"/>
+<area shape="rect" id="node6" href="$aico__solver_8h.html" title="Approximate Inference Control." alt="" coords="427,243,602,313"/>
 </map>

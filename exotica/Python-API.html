@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Python Bindings &mdash; EXOTica 6.1.1 documentation</title>
+  <title>Python Bindings &mdash; EXOTica 6.2.0 documentation</title>
   
 
   
@@ -64,7 +64,7 @@
             
             
               <div class="version">
-                6.1.1
+                6.2.0
               </div>
             
           
@@ -187,7 +187,7 @@
             
   <div class="section" id="python-bindings">
 <h1>Python Bindings<a class="headerlink" href="#python-bindings" title="Permalink to this headline">¶</a></h1>
-<p>By default, the Python bindings will be compiled for 2.7. In order to build for different versions of Python you can specify <code class="docutils literal notranslate"><span class="pre">PYBIND_PYTHON_EXECUTABLE</span></code> in the additional CMake arguments of your catkin workspace:</p>
+<p>By default, the Python bindings will be built for the default Python version for the corresponding ROS distribution (<code class="docutils literal notranslate"><span class="pre">$ROS_PYTHON_VERSION</span></code>). In order to build for different versions of Python you can specify <code class="docutils literal notranslate"><span class="pre">PYBIND_PYTHON_EXECUTABLE</span></code> in the additional CMake arguments of your catkin workspace:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>catkin config --cmake-args -DPYBIND_PYTHON_EXECUTABLE<span class="o">=</span>/usr/bin/python3
 </pre></div>
 </div>
@@ -710,6 +710,11 @@
 <dl class="py method">
 <dt id="pyexotica.EndPoseTask.get_task_error">
 <code class="sig-name descname">get_task_error</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span><span class="p">:</span> <span class="n">pyexotica._pyexotica.EndPoseTask</span></em>, <em class="sig-param"><span class="n">arg0</span><span class="p">:</span> <span class="n">str</span></em><span class="sig-paren">)</span> &#x2192; numpy.ndarray<span class="p">[</span>numpy.float64<span class="p">[</span>m<span class="p">, </span>1<span class="p">]</span><span class="p">]</span><a class="headerlink" href="#pyexotica.EndPoseTask.get_task_error" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="pyexotica.EndPoseTask.get_task_jacobian">
+<code class="sig-name descname">get_task_jacobian</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span><span class="p">:</span> <span class="n">pyexotica._pyexotica.EndPoseTask</span></em>, <em class="sig-param"><span class="n">arg0</span><span class="p">:</span> <span class="n">str</span></em><span class="sig-paren">)</span> &#x2192; numpy.ndarray<span class="p">[</span>numpy.float64<span class="p">[</span>m<span class="p">, </span>n<span class="p">]</span><span class="p">]</span><a class="headerlink" href="#pyexotica.EndPoseTask.get_task_jacobian" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
@@ -1335,7 +1340,7 @@
 <dd><p>Overloaded function.</p>
 <ol class="arabic simple">
 <li><p>add_object(self: pyexotica._pyexotica.Scene, name: str, transform: pyexotica._pyexotica.KDLFrame = KDL::Frame ([0.000000 0.000000 0.000000] [0.000000 0.000000 0.000000 1.000000]), parent: str = ‘’, shape_resource_path: str, scale: numpy.ndarray[numpy.float64[3, 1]] = array([1., 1., 1.]), color: numpy.ndarray[numpy.float64[4, 1]] = array([0.5, 0.5, 0.5, 1. ]), update_collision_scene: bool = True) -&gt; None</p></li>
-<li><p>add_object(self: pyexotica._pyexotica.Scene, name: str, transform: pyexotica._pyexotica.KDLFrame = KDL::Frame ([0.000000 0.000000 0.000000] [0.000000 0.000000 0.000000 1.000000]), parent: str = ‘’, shape: shapes::Shape, inertia: pyexotica._pyexotica.KDLRigidBodyInertia = &lt;pyexotica._pyexotica.KDLRigidBodyInertia object at 0x7f5040f7bab0&gt;, color: numpy.ndarray[numpy.float64[4, 1]] = array([0.5, 0.5, 0.5, 1. ]), update_collision_scene: bool = True) -&gt; None</p></li>
+<li><p>add_object(self: pyexotica._pyexotica.Scene, name: str, transform: pyexotica._pyexotica.KDLFrame = KDL::Frame ([0.000000 0.000000 0.000000] [0.000000 0.000000 0.000000 1.000000]), parent: str = ‘’, shape: shapes::Shape, inertia: pyexotica._pyexotica.KDLRigidBodyInertia = &lt;pyexotica._pyexotica.KDLRigidBodyInertia object at 0x7fe4180c32f0&gt;, color: numpy.ndarray[numpy.float64[4, 1]] = array([0.5, 0.5, 0.5, 1. ]), update_collision_scene: bool = True) -&gt; None</p></li>
 </ol>
 </dd></dl>
 
@@ -1347,6 +1352,11 @@
 <dl class="py method">
 <dt id="pyexotica.Scene.add_trajectory">
 <code class="sig-name descname">add_trajectory</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span><span class="p">:</span> <span class="n">pyexotica._pyexotica.Scene</span></em>, <em class="sig-param"><span class="n">arg0</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">arg1</span><span class="p">:</span> <span class="n">str</span></em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#pyexotica.Scene.add_trajectory" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="pyexotica.Scene.add_trajectory_from_array">
+<code class="sig-name descname">add_trajectory_from_array</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span><span class="p">:</span> <span class="n">pyexotica._pyexotica.Scene</span></em>, <em class="sig-param"><span class="n">link</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">data</span><span class="p">:</span> <span class="n">numpy.ndarray<span class="p">[</span>numpy.float64<span class="p">[</span>m<span class="p">, </span>n<span class="p">]</span><span class="p">]</span></span></em>, <em class="sig-param"><span class="n">radius</span><span class="p">:</span> <span class="n">float</span></em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#pyexotica.Scene.add_trajectory_from_array" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py method">

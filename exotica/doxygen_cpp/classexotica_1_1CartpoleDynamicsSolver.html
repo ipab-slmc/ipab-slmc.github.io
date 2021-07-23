@@ -80,12 +80,12 @@ Inheritance diagram for exotica::CartpoleDynamicsSolver:</div>
 <div class="dyncontent">
 <div class="center"><img src="classexotica_1_1CartpoleDynamicsSolver__inherit__graph.png" border="0" usemap="#exotica_1_1CartpoleDynamicsSolver_inherit__map" alt="Inheritance graph"/></div>
 <map name="exotica_1_1CartpoleDynamicsSolver_inherit__map" id="exotica_1_1CartpoleDynamicsSolver_inherit__map">
-<area shape="rect" title=" " alt="" coords="257,755,444,979"/>
-<area shape="rect" href="classexotica_1_1AbstractDynamicsSolver.html" title=" " alt="" coords="105,233,335,707"/>
+<area shape="rect" title=" " alt="" coords="257,784,444,1008"/>
+<area shape="rect" href="classexotica_1_1AbstractDynamicsSolver.html" title=" " alt="" coords="105,233,335,736"/>
 <area shape="rect" href="classexotica_1_1Object.html" title=" " alt="" coords="5,5,147,185"/>
 <area shape="rect" href="classexotica_1_1Uncopyable.html" title=" " alt="" coords="171,35,312,156"/>
 <area shape="rect" href="classexotica_1_1InstantiableBase.html" title=" " alt="" coords="377,20,546,171"/>
-<area shape="rect" href="classexotica_1_1Instantiable.html" title=" " alt="" coords="360,395,603,545"/>
+<area shape="rect" href="classexotica_1_1Instantiable.html" title=" " alt="" coords="360,409,603,560"/>
 </map>
 </div>
 <div class="dynheader">
@@ -93,12 +93,12 @@ Collaboration diagram for exotica::CartpoleDynamicsSolver:</div>
 <div class="dyncontent">
 <div class="center"><img src="classexotica_1_1CartpoleDynamicsSolver__coll__graph.png" border="0" usemap="#exotica_1_1CartpoleDynamicsSolver_coll__map" alt="Collaboration graph"/></div>
 <map name="exotica_1_1CartpoleDynamicsSolver_coll__map" id="exotica_1_1CartpoleDynamicsSolver_coll__map">
-<area shape="rect" title=" " alt="" coords="257,755,444,979"/>
-<area shape="rect" href="classexotica_1_1AbstractDynamicsSolver.html" title=" " alt="" coords="105,233,335,707"/>
+<area shape="rect" title=" " alt="" coords="257,784,444,1008"/>
+<area shape="rect" href="classexotica_1_1AbstractDynamicsSolver.html" title=" " alt="" coords="105,233,335,736"/>
 <area shape="rect" href="classexotica_1_1Object.html" title=" " alt="" coords="5,5,147,185"/>
 <area shape="rect" href="classexotica_1_1Uncopyable.html" title=" " alt="" coords="171,35,312,156"/>
 <area shape="rect" href="classexotica_1_1InstantiableBase.html" title=" " alt="" coords="377,20,546,171"/>
-<area shape="rect" href="classexotica_1_1Instantiable.html" title=" " alt="" coords="360,395,603,545"/>
+<area shape="rect" href="classexotica_1_1Instantiable.html" title=" " alt="" coords="360,409,603,560"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -170,12 +170,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af5fc74b6d10e3dbb8bd73a762c3ad709 inherit pub_methods_classexotica_1_1AbstractDynamicsSolver"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a92db2720a30fe12c7e3710c16809c6d2">StateVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#af5fc74b6d10e3dbb8bd73a762c3ad709">StateDelta</a> (const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a92db2720a30fe12c7e3710c16809c6d2">StateVector</a> &amp;x_1, const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a92db2720a30fe12c7e3710c16809c6d2">StateVector</a> &amp;x_2)</td></tr>
 <tr class="memdesc:af5fc74b6d10e3dbb8bd73a762c3ad709 inherit pub_methods_classexotica_1_1AbstractDynamicsSolver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the difference of two state vectors. Used when e.g. angle differences need to be wrapped from [-pi; pi] Returns x_1-x_2.  <a href="classexotica_1_1AbstractDynamicsSolver.html#af5fc74b6d10e3dbb8bd73a762c3ad709">More...</a><br /></td></tr>
 <tr class="separator:af5fc74b6d10e3dbb8bd73a762c3ad709 inherit pub_methods_classexotica_1_1AbstractDynamicsSolver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1c4b8153fe78c3f27667ebea751d1a1 inherit pub_methods_classexotica_1_1AbstractDynamicsSolver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#ad1c4b8153fe78c3f27667ebea751d1a1">StateDelta</a> (const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a92db2720a30fe12c7e3710c16809c6d2">StateVector</a> &amp;x_1, const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a92db2720a30fe12c7e3710c16809c6d2">StateVector</a> &amp;x_2, <a class="el" href="namespaceEigen.html#a83c243f5aa1ace263c19e205a740e8cf">Eigen::VectorXdRef</a> xout)</td></tr>
+<tr class="separator:ad1c4b8153fe78c3f27667ebea751d1a1 inherit pub_methods_classexotica_1_1AbstractDynamicsSolver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf40911c03ba7089f96171660ee7609b inherit pub_methods_classexotica_1_1AbstractDynamicsSolver"><td class="memItemLeft" align="right" valign="top">virtual Eigen::Matrix&lt; T, Eigen::Dynamic, Eigen::Dynamic &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#abf40911c03ba7089f96171660ee7609b">dStateDelta</a> (const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a92db2720a30fe12c7e3710c16809c6d2">StateVector</a> &amp;x_1, const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a92db2720a30fe12c7e3710c16809c6d2">StateVector</a> &amp;x_2, const <a class="el" href="namespaceexotica.html#a2f2dd5de8edc626599b393aae8529350">ArgumentPosition</a> first_or_second)</td></tr>
 <tr class="memdesc:abf40911c03ba7089f96171660ee7609b inherit pub_methods_classexotica_1_1AbstractDynamicsSolver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the difference of the StateDelta operation between two state vectors. The ArgumentPosition argument can be used to select whether to take derivative w.r.t. x_1 or x_2.  <a href="classexotica_1_1AbstractDynamicsSolver.html#abf40911c03ba7089f96171660ee7609b">More...</a><br /></td></tr>
 <tr class="separator:abf40911c03ba7089f96171660ee7609b inherit pub_methods_classexotica_1_1AbstractDynamicsSolver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac07f382d94d58c952661c5ec5f9984c inherit pub_methods_classexotica_1_1AbstractDynamicsSolver"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceexotica.html#a09d6aebee2e82adbe8c7d92f811d3950">Hessian</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#aac07f382d94d58c952661c5ec5f9984c">ddStateDelta</a> (const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a92db2720a30fe12c7e3710c16809c6d2">StateVector</a> &amp;x_1, const <a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a92db2720a30fe12c7e3710c16809c6d2">StateVector</a> &amp;x_2, const <a class="el" href="namespaceexotica.html#a2f2dd5de8edc626599b393aae8529350">ArgumentPosition</a> first_or_second)</td></tr>
 <tr class="separator:aac07f382d94d58c952661c5ec5f9984c inherit pub_methods_classexotica_1_1AbstractDynamicsSolver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d48bfd0657920a60e0376d5422617ff inherit pub_methods_classexotica_1_1AbstractDynamicsSolver"><td class="memItemLeft" align="right" valign="top">virtual Eigen::Matrix&lt; T, Eigen::Dynamic, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a6d48bfd0657920a60e0376d5422617ff">GetPosition</a> (<a class="el" href="namespaceEigen.html#aab3d3681f73b1a811a69b9a06b08af6d">Eigen::VectorXdRefConst</a> x_in)</td></tr>
+<tr class="memitem:a6d48bfd0657920a60e0376d5422617ff inherit pub_methods_classexotica_1_1AbstractDynamicsSolver"><td class="memItemLeft" align="right" valign="top">virtual Eigen::Matrix&lt; T, Eigen::Dynamic, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a6d48bfd0657920a60e0376d5422617ff">GetPosition</a> (<a class="el" href="namespaceEigen.html#a2005118cd959136d40bb0a1ffcab449d">Eigen::VectorXdRefConst</a> x_in)</td></tr>
 <tr class="memdesc:a6d48bfd0657920a60e0376d5422617ff inherit pub_methods_classexotica_1_1AbstractDynamicsSolver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the position-part of the state vector to update the scene. For types including SE(3) and rotation, convert to the appropriate representation here by overriding this method.  <a href="classexotica_1_1AbstractDynamicsSolver.html#a6d48bfd0657920a60e0376d5422617ff">More...</a><br /></td></tr>
 <tr class="separator:a6d48bfd0657920a60e0376d5422617ff inherit pub_methods_classexotica_1_1AbstractDynamicsSolver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad994d012b5b481f9a7e04edb46e3b66b inherit pub_methods_classexotica_1_1AbstractDynamicsSolver"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#ad994d012b5b481f9a7e04edb46e3b66b">get_num_controls</a> () const</td></tr>
@@ -208,7 +210,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a82370542135582bb357793e7369e3abd inherit pub_methods_classexotica_1_1AbstractDynamicsSolver"><td class="memItemLeft" align="right" valign="top">const Eigen::MatrixXd &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a82370542135582bb357793e7369e3abd">get_control_limits</a> ()</td></tr>
 <tr class="memdesc:a82370542135582bb357793e7369e3abd inherit pub_methods_classexotica_1_1AbstractDynamicsSolver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the control limits vector.  <a href="classexotica_1_1AbstractDynamicsSolver.html#a82370542135582bb357793e7369e3abd">More...</a><br /></td></tr>
 <tr class="separator:a82370542135582bb357793e7369e3abd inherit pub_methods_classexotica_1_1AbstractDynamicsSolver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6cc9050f78cb9590820d65ee7a5ef970 inherit pub_methods_classexotica_1_1AbstractDynamicsSolver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a6cc9050f78cb9590820d65ee7a5ef970">set_control_limits</a> (<a class="el" href="namespaceEigen.html#aab3d3681f73b1a811a69b9a06b08af6d">Eigen::VectorXdRefConst</a> control_limits_low, <a class="el" href="namespaceEigen.html#aab3d3681f73b1a811a69b9a06b08af6d">Eigen::VectorXdRefConst</a> control_limits_high)</td></tr>
+<tr class="memitem:a6cc9050f78cb9590820d65ee7a5ef970 inherit pub_methods_classexotica_1_1AbstractDynamicsSolver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#a6cc9050f78cb9590820d65ee7a5ef970">set_control_limits</a> (<a class="el" href="namespaceEigen.html#a2005118cd959136d40bb0a1ffcab449d">Eigen::VectorXdRefConst</a> control_limits_low, <a class="el" href="namespaceEigen.html#a2005118cd959136d40bb0a1ffcab449d">Eigen::VectorXdRefConst</a> control_limits_high)</td></tr>
 <tr class="memdesc:a6cc9050f78cb9590820d65ee7a5ef970 inherit pub_methods_classexotica_1_1AbstractDynamicsSolver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the control limits.  <a href="classexotica_1_1AbstractDynamicsSolver.html#a6cc9050f78cb9590820d65ee7a5ef970">More...</a><br /></td></tr>
 <tr class="separator:a6cc9050f78cb9590820d65ee7a5ef970 inherit pub_methods_classexotica_1_1AbstractDynamicsSolver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0476da15c3e681437703df7542b54eb inherit pub_methods_classexotica_1_1AbstractDynamicsSolver"><td class="memItemLeft" align="right" valign="top">const bool &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1AbstractDynamicsSolver.html#ab0476da15c3e681437703df7542b54eb">get_has_state_limits</a> () const</td></tr>
@@ -728,7 +730,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Apr 5 2021 17:41:08 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jul 23 2021 12:11:41 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>

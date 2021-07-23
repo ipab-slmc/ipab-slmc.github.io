@@ -113,7 +113,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a86c51dd393e1404f7b003640e61f1bc6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1ILQGSolver.html#a86c51dd393e1404f7b003640e61f1bc6">SpecifyProblem</a> (<a class="el" href="namespaceexotica.html#a4f3b927ad74a50193d0fb7bd2824f836">PlanningProblemPtr</a> pointer) override</td></tr>
 <tr class="memdesc:a86c51dd393e1404f7b003640e61f1bc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binds the solver to a specific problem which must be pre-initalised.  <a href="classexotica_1_1ILQGSolver.html#a86c51dd393e1404f7b003640e61f1bc6">More...</a><br /></td></tr>
 <tr class="separator:a86c51dd393e1404f7b003640e61f1bc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8eb02ea4f447e05d7a71109d0f61a54"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1ILQGSolver.html#ae8eb02ea4f447e05d7a71109d0f61a54">GetFeedbackControl</a> (<a class="el" href="namespaceEigen.html#aab3d3681f73b1a811a69b9a06b08af6d">Eigen::VectorXdRefConst</a> x, int t) const override</td></tr>
+<tr class="memitem:ae8eb02ea4f447e05d7a71109d0f61a54"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1ILQGSolver.html#ae8eb02ea4f447e05d7a71109d0f61a54">GetFeedbackControl</a> (<a class="el" href="namespaceEigen.html#a2005118cd959136d40bb0a1ffcab449d">Eigen::VectorXdRefConst</a> x, int t) const override</td></tr>
 <tr class="separator:ae8eb02ea4f447e05d7a71109d0f61a54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classexotica_1_1MotionSolver"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classexotica_1_1MotionSolver')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classexotica_1_1MotionSolver.html">exotica::MotionSolver</a></td></tr>
 <tr class="memitem:ab73612f6106a3c2e321dbeb1cf3e28c1 inherit pub_methods_classexotica_1_1MotionSolver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1MotionSolver.html#ab73612f6106a3c2e321dbeb1cf3e28c1">MotionSolver</a> ()=default</td></tr>
@@ -168,7 +168,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:ab1b7fc2b0ab81c4f9fb77550b6937c84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1ILQGSolver.html#ab1b7fc2b0ab81c4f9fb77550b6937c84">BackwardPass</a> ()</td></tr>
 <tr class="memdesc:ab1b7fc2b0ab81c4f9fb77550b6937c84"><td class="mdescLeft">&#160;</td><td class="mdescRight">!&lt; Reference trajectory for feedback control.  <a href="classexotica_1_1ILQGSolver.html#ab1b7fc2b0ab81c4f9fb77550b6937c84">More...</a><br /></td></tr>
 <tr class="separator:ab1b7fc2b0ab81c4f9fb77550b6937c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa65ff3817c4fdef540145dbe07fd933d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1ILQGSolver.html#aa65ff3817c4fdef540145dbe07fd933d">ForwardPass</a> (const double alpha, <a class="el" href="namespaceEigen.html#abdb7afac18dad8f2f1379a067bc2982b">Eigen::MatrixXdRefConst</a> ref_x, <a class="el" href="namespaceEigen.html#abdb7afac18dad8f2f1379a067bc2982b">Eigen::MatrixXdRefConst</a> ref_u)</td></tr>
+<tr class="memitem:aa65ff3817c4fdef540145dbe07fd933d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexotica_1_1ILQGSolver.html#aa65ff3817c4fdef540145dbe07fd933d">ForwardPass</a> (const double alpha, <a class="el" href="namespaceEigen.html#a66103159e4393ad31f04e15e1790fae1">Eigen::MatrixXdRefConst</a> ref_x, <a class="el" href="namespaceEigen.html#a66103159e4393ad31f04e15e1790fae1">Eigen::MatrixXdRefConst</a> ref_u)</td></tr>
 <tr class="memdesc:aa65ff3817c4fdef540145dbe07fd933d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forward simulates the dynamics using the gains computed in the last BackwardPass;.  <a href="classexotica_1_1ILQGSolver.html#aa65ff3817c4fdef540145dbe07fd933d">More...</a><br /></td></tr>
 <tr class="separator:aa65ff3817c4fdef540145dbe07fd933d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -257,13 +257,13 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceEigen.html#abdb7afac18dad8f2f1379a067bc2982b">Eigen::MatrixXdRefConst</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceEigen.html#a66103159e4393ad31f04e15e1790fae1">Eigen::MatrixXdRefConst</a>&#160;</td>
           <td class="paramname"><em>ref_x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceEigen.html#abdb7afac18dad8f2f1379a067bc2982b">Eigen::MatrixXdRefConst</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceEigen.html#a66103159e4393ad31f04e15e1790fae1">Eigen::MatrixXdRefConst</a>&#160;</td>
           <td class="paramname"><em>ref_u</em>&#160;</td>
         </tr>
         <tr>
@@ -303,7 +303,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">Eigen::VectorXd exotica::ILQGSolver::GetFeedbackControl </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceEigen.html#aab3d3681f73b1a811a69b9a06b08af6d">Eigen::VectorXdRefConst</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceEigen.html#a2005118cd959136d40bb0a1ffcab449d">Eigen::VectorXdRefConst</a>&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
@@ -547,7 +547,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Apr 5 2021 17:41:08 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jul 23 2021 12:11:41 for Exotica by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>

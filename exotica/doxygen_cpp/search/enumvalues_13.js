@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['undefined_3750',['Undefined',['../namespaceexotica.html#aeaa7ab36dae8418de85dbd74ac49280aa7bbf9200af606d246139c77db8d4017d',1,'exotica']]],
-  ['userdefined_3751',['UserDefined',['../namespaceexotica.html#a1d6f0f26eae0a485ee377655fc2aafd2ac90d702da275c4b81b75a6a0163bc2bf',1,'exotica']]]
+  ['undefined_3756',['Undefined',['../namespaceexotica.html#aeaa7ab36dae8418de85dbd74ac49280aa7bbf9200af606d246139c77db8d4017d',1,'exotica']]],
+  ['userdefined_3757',['UserDefined',['../namespaceexotica.html#a1d6f0f26eae0a485ee377655fc2aafd2ac90d702da275c4b81b75a6a0163bc2bf',1,'exotica']]]
 ];

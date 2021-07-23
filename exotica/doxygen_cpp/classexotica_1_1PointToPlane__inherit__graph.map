@@ -1,5 +1,5 @@
 <map id="exotica::PointToPlane" name="exotica::PointToPlane">
-<area shape="rect" id="node1" title=" " alt="" coords="261,652,411,803"/>
+<area shape="rect" id="node1" title="PointToPlane TaskMap: Penalises the z&#45;distance between two frames &#45; or the distance of a point (repre..." alt="" coords="261,652,411,803"/>
 <area shape="rect" id="node2" href="$classexotica_1_1TaskMap.html" title=" " alt="" coords="143,233,326,604"/>
 <area shape="rect" id="node3" href="$classexotica_1_1Object.html" title=" " alt="" coords="5,5,147,185"/>
 <area shape="rect" id="node4" href="$classexotica_1_1Uncopyable.html" title=" " alt="" coords="171,35,312,156"/>

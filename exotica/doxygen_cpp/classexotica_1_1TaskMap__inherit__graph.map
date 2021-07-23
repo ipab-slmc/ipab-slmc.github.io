@@ -28,7 +28,7 @@
 <area shape="rect" id="node30" href="$classexotica_1_1LookAt.html" title="Points end&#45;effector to look at a given target by aligning end&#45;effector z&#45;axis with the target...." alt="" coords="4981,769,5111,876"/>
 <area shape="rect" id="node31" href="$classexotica_1_1Manipulability.html" title="Manipulability measure. The manipulability measure for a robot at a given joint configuration indicat..." alt="" coords="5136,762,5287,883"/>
 <area shape="rect" id="node32" href="$classexotica_1_1PointToLine.html" title=" " alt="" coords="5311,667,5451,979"/>
-<area shape="rect" id="node33" href="$classexotica_1_1PointToPlane.html" title=" " alt="" coords="5475,747,5625,898"/>
+<area shape="rect" id="node33" href="$classexotica_1_1PointToPlane.html" title="PointToPlane TaskMap: Penalises the z&#45;distance between two frames &#45; or the distance of a point (repre..." alt="" coords="5475,747,5625,898"/>
 <area shape="rect" id="node34" href="$classexotica_1_1QuasiStatic.html" title=" " alt="" coords="5649,733,5789,913"/>
 <area shape="rect" id="node35" href="$classexotica_1_1SmoothCollisionDistance.html" title=" " alt="" coords="5813,703,5980,942"/>
 <area shape="rect" id="node36" href="$classexotica_1_1SphereCollision.html" title=" " alt="" coords="6005,711,6167,935"/>

@@ -154,7 +154,7 @@
 <area shape="rect" id="node80" href="$classexotica_1_1LookAt.html" title="Points end&#45;effector to look at a given target by aligning end&#45;effector z&#45;axis with the target...." alt="" coords="581,4513,694,4540"/>
 <area shape="rect" id="node81" href="$classexotica_1_1Manipulability.html" title="Manipulability measure. The manipulability measure for a robot at a given joint configuration indicat..." alt="" coords="562,4564,713,4591"/>
 <area shape="rect" id="node82" href="$classexotica_1_1PointToLine.html" title=" " alt="" coords="567,4616,707,4643"/>
-<area shape="rect" id="node83" href="$classexotica_1_1PointToPlane.html" title=" " alt="" coords="563,2512,712,2539"/>
+<area shape="rect" id="node83" href="$classexotica_1_1PointToPlane.html" title="PointToPlane TaskMap: Penalises the z&#45;distance between two frames &#45; or the distance of a point (repre..." alt="" coords="563,2512,712,2539"/>
 <area shape="rect" id="node84" href="$classexotica_1_1QuasiStatic.html" title=" " alt="" coords="567,2579,707,2605"/>
 <area shape="rect" id="node85" href="$classexotica_1_1SmoothCollisionDistance.html" title=" " alt="" coords="554,2639,721,2681"/>
 <area shape="rect" id="node86" href="$classexotica_1_1SphereCollision.html" title=" " alt="" coords="556,2716,719,2743"/>
